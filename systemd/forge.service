@@ -1,0 +1,22 @@
+# forge.service — המנוע-הריבוני עולה ב-boot, קם אחרי קריסה.
+# התקנה (על-המכשיר): cp systemd/forge.service /etc/systemd/system/ && sudo systemctl daemon-reload
+#                     sudo systemctl enable --now forge
+[Unit]
+Description=Sovereign Forge — the estate execution organ (device-side, zero GitHub minutes)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=%i
+WorkingDirectory=/opt/sovereign/forge
+Environment=NODE_ENV=production
+Environment=DATABASE_URL=file:/opt/sovereign/forge/db/forge.db
+ExecStart=/usr/bin/env bun /opt/sovereign/forge/node_modules/.bin/next start -p 3100
+Restart=always
+RestartSec=5
+StandardOutput=append:/opt/sovereign/logs/forge.log
+StandardError=append:/opt/sovereign/logs/forge.err.log
+
+[Install]
+WantedBy=multi-user.target
