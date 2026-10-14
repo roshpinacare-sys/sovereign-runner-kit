@@ -1,5 +1,10 @@
 # sovereign-runner-kit — הריבונות רצה על המכשיר שלנו
 
+[![SAOS office](https://roshpinacare-sys.github.io/Domain/badge/office.svg)](https://roshpinacare-sys.github.io/Domain/office3d/)
+[![SAOS fleet](https://roshpinacare-sys.github.io/Domain/badge/fleet.svg)](https://roshpinacare-sys.github.io/Domain/status/)
+[![steem-edge](https://roshpinacare-sys.github.io/Domain/badge/edge.svg)](https://roshpinacare-sys.github.io/Domain/money.html)
+
+
 **תפקיד:** שכבת-הביצוע הריבונית של האחוזה. המכשיר של הבעלים = המנוע. GitHub = ספר-פנקס בלבד (לדגר/להציג), לא מחשב.
 
 ## למה זה קיים (ההוראה, במילים של הבעלים)
