@@ -63,6 +63,15 @@
 | 8-b | Domain | agents/moment-watch.mjs, versus.html, net.html, agents/registry.json | DONE | 173ffde (worktree swarm/6-b merged) — dynamic /users/ enumeration (org endpoint 404: account is a User), versus.html zero hardcoded counts; registry regeneration deferred to CI (anonymous rate-limit, honest stop); verify TRUTH-OK |
 | 8-c | sovereign-runner-kit | NETRUN.md, netrun.sh, tasks.example.tsv, AGENT-COORDINATION.md | DONE | 488dd47 — netrun executor contract published; collision-lock proven (2nd claim rejected); verify NETRUN-OK |
 
+### netrun wave-9 claims (exclusive scopes)
+
+| Task | Repo | Scope (files) | Status | Note |
+|---|---|---|---|---|
+| 9-a | Console | dex/watch.mjs, deposits.html, dex/watch.json, dex/deposits.json | DONE | 9b58f43 — wave-8 deposits fix ported to the CI-canonical repo (Domain mirrors FROM here): watch.mjs byte-identical to Domain's fixed version (sha256 match measured), honest zero re-proven live; mirror-clobber risk closed; verify CONSOLE-TRX-OK |
+| 9-b | Domain | wallet.html | DONE | 2d0b5ee — earn-tab #e-addrs fed live from dex/watch.json depositAddresses (cfg.addrs fallback, honest empty state, zero fabricated addresses); verify WALLET-LIVE-ADDRS-OK |
+| 9-c | Console | agents/watch.mjs | DONE | 9915faf (worktree swarm/9-c merged) — dynamic /users/ enumeration (account is a User; /orgs/ 404 measured), data-derived fallback, provenance block; two anonymous runs proved wider census live, honest rate-limit stops; verify DYN-16-FIXED |
+| 9-d | sovereign-runner-kit | queue2netrun.mjs, NETRUN.md | DONE | 2b1e2bc — QUEUE.json→netrun converter (7 mapped / 1 owner-decision skipped with reason; verify=PENDING-DEFINITION proven to fail honestly); error paths exit 2; verify Q2N-OK |
+
 ## Phase 0 checklist (secret-triage + breakage stop)
 
 - [x] PAT validity verified (HTTP 200, login roshpinacare-sys)
