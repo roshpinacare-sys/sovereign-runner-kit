@@ -126,3 +126,14 @@
 | 11-d | saos-dex | deploy/dex-beat-service/index.ts (1 line) | DONE | tsc TS2322 tail:string[] (CI run 39025385001 red); local `bun run typecheck` green; CI re-run SUCCESS 10:43Z |
 
 Open items (honest): saos-dex selftest 13/14 — T37-d V11 ambulance lifecycle red (W1.4 active in repo — not claimed); Console console-publish needs chain anchors (acct-41/40/44 measured zero — anchor producer is a key-signed lane → owner); saos-dex hive-heartbeat sign step needs custody secret (owner); Domain office-worldbeat + Autonomy artery-grid red — untriaged.
+
+### netrun wave-12 claims (autonomy hardened — measured after 10h of live fleet)
+
+| Task | Repo | Scope | Status | Note |
+|---|---|---|---|---|
+| 12-a | saos-dex | db/state-snapshot.json (conflict markers) | DONE | dex-beat red ×4 since 17:31Z, boot refused "Unrecognized token <" — a committed unresolved merge conflict (dex-beat pre-purge h438868 vs sovereign-pulse post-purge h428608); resolved to the post-purge live-chain side; boot integrity law remains arbiter; dispatch → SUCCESS 20:53Z |
+| 12-b | Domain | agents/tribridge.cjs, agents/receipts/tribridge-receipt.json | DONE | measured leak: receipt published 11 real fleet identities when FLEET_ROSTER_MAP absent (refOf passes unknown names through); writer now fail-closed identityScrub (unit-NN pseudonyms, zero real names ever reach the surface); receipt redacted; exposure-gate → SUCCESS 20:56Z |
+| 12-c | Autonomy | 4 chainbus receipts, CHAINBUS.md, directive-bus.mjs | DONE | own refs-law blocked the tree (owner handle in receipts+docs+engine default); receipts→owner, docs→<owner>, engine default runtime-assembled (house idiom); refs-law scan local CLEAN; 5 red arteries re-dispatched |
+| 12-d | sovereign-runner-kit | scripts/fleet-census.py, .github/workflows/fleet-keeper.yml, state/fleet-census.json | DONE | institutionalized: the fleet now measures itself every 2h (dynamic /users/ enumeration, zero hardcoded rosters, honest per-repo errors, publish-only-if-changed) |
+
+Wave-12 open (honest): saos-dex selftest T37-d V11 ambulance (last run 10:53Z, W1.4's lane — not claimed); saos-dex gitleaks local scan 0 findings at HEAD (stale red, re-dispatch pending); 42 money/key lanes still OFF (owner per-lane approval); hive-heartbeat custody secret (owner).
