@@ -1,0 +1,79 @@
+#
+# netrun-loop — הלולאה-המתוזמנת: תור-הרשת (ops-intake QUEUE.json) זורם ללוח-netrun אוטומטית.
+# כנות / honesty: הלולאה הזאת *מפרסמת* את-לוח-התביעות (state/netrun-tasks.tsv) בספירות-אמת.
+# היא אינה מבצעת משימות. ביצוע = claim → work → proof לפי NETRUN.md.
+# שורות verify=PENDING-DEFINITION נכשלות-netrun.sh-verify בכוונה עד שמוגדרת-אימות אמיתית (חוק-אמת: אין verify מומצא).
+#
+name: netrun-loop
+
+on:
+  schedule:
+    # cadenceMin=30 (נמדד מ-QUEUE.json האמיתי). :07/:37 — 7 דק אחרי-הזנת-intake ב-:00/:30,
+    # כדי-לצרוך-תור-טרי. GitHub schedule הוא best-effort.
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: netrun-loop
+  cancel-in-progress: false
+
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout (persist-credentials default — push uses the built-in GITHUB_TOKEN)
+        uses: actions/checkout@v5
+
+      - name: Node 22
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      - name: Fetch the queue — raw keyless first (proven), authenticated contents-API fallback (honest)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if curl -fsS --max-time 30 https://raw.githubusercontent.com/roshpinacare-sys/ops-intake/main/ops/QUEUE.json -o /tmp/QUEUE.json; then
+            echo "SOURCE=raw" >> "$GITHUB_ENV"
+          else
+            echo "raw fetch failed — falling back to the authenticated contents API (GITHUB_TOKEN)"
+            gh api /repos/roshpinacare-sys/ops-intake/contents/ops/QUEUE.json --jq '.content' | tr -d '\n' | base64 -d > /tmp/QUEUE.json
+            echo "SOURCE=api" >> "$GITHUB_ENV"
+          fi
+
+      - name: Map the queue → netrun board (queue2netrun; parse its summary — real counts only)
+        run: |
+          set -euo pipefail
+          mkdir -p state
+          SUMMARY="$(node queue2netrun.mjs /tmp/QUEUE.json --out state/netrun-tasks.tsv 2>&1 >/dev/null)"
+          printf '%s\n' "$SUMMARY"
+          MAPPED="$(printf '%s' "$SUMMARY" | grep -oE 'mapped=[0-9]+' | head -1 | cut -d= -f2)"
+          SKIPPED="$(printf '%s' "$SUMMARY" | grep -oE 'skipped=[0-9]+' | head -1 | cut -d= -f2)"
+          [ -n "$MAPPED" ] && [ -n "$SKIPPED" ] || { echo "summary unparsable — honest failure"; exit 1; }
+          ROWS=$(( $(wc -l < state/netrun-tasks.tsv) - 1 ))
+          [ "$ROWS" -eq "$MAPPED" ] || { echo "TSV rows ($ROWS) != mapped ($MAPPED) — honest failure"; exit 1; }
+          node -e 'require("fs").writeFileSync("state/netrun-last-run.json", JSON.stringify({capturedAt:process.argv[1],mapped:Number(process.argv[2]),skipped:Number(process.argv[3]),source:process.argv[4]},null,2)+"\n")' "$(date -u +%FT%TZ)" "$MAPPED" "$SKIPPED" "${SOURCE:-none}"
+          echo "MAPPED=$MAPPED" >> "$GITHUB_ENV"
+          echo "SKIPPED=$SKIPPED" >> "$GITHUB_ENV"
+
+      - name: Publish state/ only if changed (network twin-idiom — commit + rebase-retry push)
+        run: |
+          git config user.name "roshpinacare-sys"
+          git config user.email "326012154+roshpinacare-sys@users.noreply.github.com"
+          git add state/netrun-tasks.tsv state/netrun-last-run.json
+          if git diff --cached --quiet; then
+            echo "board unchanged — nothing to publish"
+            exit 0
+          fi
+          git commit -m "netrun-loop: board refresh mapped=${MAPPED:-?} skipped=${SKIPPED:-?} [skip ci]"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then exit 0; fi
+            echo "push race, retry ${i}"; sleep 8
+          done
+          echo "could not publish the board after 3 attempts"
+          exit 1
