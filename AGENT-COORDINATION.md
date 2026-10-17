@@ -54,3 +54,18 @@
   and wrap self-registration requires explicit VAULT_ALLOW_WRAP_SELFREGISTER=1 (opt-in flags, documented in-file).
 - vault login fallback branch parses again (was a hard parse error).
 - Everything verified via GitHub API round-trips; no local-disk dependency (sandbox overlay is volatile).
+
+## Owner directive 2026-10-17 (binding, all agents)
+
+- VAULT/SECRET WORK PAUSED BY OWNER: no PAT rotation, no vault modifications, no history
+  rewrite until the owner explicitly approves in this registry. The security runbook stays
+  where it is; do not execute it.
+- CURRENT PRIORITY: make the fleet COME UP AND WORK (user-facing loops live and proved).
+  Prove with tests and live verification, then push. No simulations presented as real.
+
+## Claims registry (user-loop closure, phase L)
+
+| Repo | Agent | Scope | Status |
+|---|---|---|---|
+| saos-dex | [phase0-zai] | user-loop closure: src/lib/dex/envelope.ts (new, pure translator) + cloud-beat.ts envelope handling (dex.offer/dex.order/dex.cancel/token.transfer/wallet.create → kernel ops) | IN-PROGRESS |
+| Domain | [phase0-zai] | wallet.html only: read the live kernel book dex/state.json (balances u:-keyed, real orders, real cancel ids, buy side). No other Domain files. | IN-PROGRESS |
