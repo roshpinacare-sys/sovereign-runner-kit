@@ -2,7 +2,7 @@
 # fleet-census — measured state of every workflow in the fleet (truth law: numbers with source).
 # Dynamic repo enumeration (no hardcoded rosters — /users/ primary, honest error on failure).
 # CI mode: FLEET_TOKEN (or GITHUB_TOKEN) env. Local mode: /home/z/my-project/upload/pat.env fallback.
-import json, urllib.request, os
+import json, re, urllib.request, os
 
 def token():
     for k in ('FLEET_TOKEN', 'GITHUB_TOKEN'):
