@@ -59,9 +59,9 @@
 
 | Task | Repo | Scope (files) | Status | Note |
 |---|---|---|---|---|
-| 8-a | Domain | dex/watch.mjs, deposits.html, dex/watch.json, dex/deposits.json | IN PROGRESS | — |
-| 8-b | Domain | agents/moment-watch.mjs, versus.html, net.html, agents/registry.json | IN PROGRESS | via worktree swarm/6-b |
-| 8-c | sovereign-runner-kit | NETRUN.md, netrun.sh, tasks.example.tsv, AGENT-COORDINATION.md | IN PROGRESS | this commit — netrun executor contract |
+| 8-a | Domain | dex/watch.mjs, deposits.html, dex/watch.json, dex/deposits.json | DONE | 3e157ff — scanner 8 real bugs fixed (TRX field-names proved 0/50→49/50), fail-honest statuses, depositAddresses published; honest zero PROVEN per-chain; verify PARSE-OK |
+| 8-b | Domain | agents/moment-watch.mjs, versus.html, net.html, agents/registry.json | DONE | 173ffde (worktree swarm/6-b merged) — dynamic /users/ enumeration (org endpoint 404: account is a User), versus.html zero hardcoded counts; registry regeneration deferred to CI (anonymous rate-limit, honest stop); verify TRUTH-OK |
+| 8-c | sovereign-runner-kit | NETRUN.md, netrun.sh, tasks.example.tsv, AGENT-COORDINATION.md | DONE | 488dd47 — netrun executor contract published; collision-lock proven (2nd claim rejected); verify NETRUN-OK |
 
 ## Phase 0 checklist (secret-triage + breakage stop)
 
