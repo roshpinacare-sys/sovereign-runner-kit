@@ -149,3 +149,10 @@ Wave-12 open (honest): saos-dex selftest T37-d V11 ambulance (last run 10:53Z, W
 | 13-e | fleet + sovereign-runner-kit | census refresh, office-worldbeat triage | DONE | fresh census 23:22Z: 15 repos · 232 workflows · 190 active (rearm held, +2); office-worldbeat triaged FALSE-POSITIVE (run 39078144250 SUCCESS — was mid-run at wave-11 snapshot); census snapshot committed to state/fleet-census.json |
 
 Wave-13 open (honest): saos-dex selftest T37-d V11 ambulance — W1.4's lane, untouched; hive-heartbeat custody secret + 42 money/key lanes — owner per-lane approval, untouched; verification of re-dispatched runs pending (watch: artery-fleet, office-ci, exposure-gate, 4 Autonomy arteries).
+
+### wave-13 verification addendum (post-push, measured)
+
+- v1 scrub commit 99cf073 was LOST to a push race (rebase conflict + `git push` exit-0 "Everything up-to-date" masked it — HEAD printed was a CI commit). Lesson institutionalized: a push is only real after `merge-base --is-ancestor HEAD origin/main`.
+- v2 landed race-safe with post-push ancestry verification: Autonomy fe38510 (3 files — engine write sites + 2 receipts; snapshot resolution yielded to agent-9's t10 sanitized rewrite, complementary not conflicting).
+- Coordination note: agent-9 t10 (b0d4f84) documented a chainbus audit EXCEPTION (tolerating 2 receipt hits); wave-13's write-site fix removes the leak at the source — origin/main now audits CLEAN with zero literals, so the exception is no longer needed.
+- FINAL RESULTS (23:37–23:41Z): Autonomy all-green — artery-participation SUCCESS, artery-decision-truth SUCCESS ×2, fleet-yield SUCCESS, value-scan SUCCESS ×2, artery-fleet SUCCESS ×2, directive-bus SUCCESS; FleetHQ office-ci SUCCESS (typecheck fix verified); Domain exposure-gate SUCCESS ×3 (deep redaction verified), office-worldbeat SUCCESS (false-positive confirmed retired); netrun-loop continuous (5+ scheduled greens). Zero active red lanes remain, except the two honest out-of-scope lanes: saos-dex hive-heartbeat (custody secret — owner) and selftest T37-d (W1.4's lane).
