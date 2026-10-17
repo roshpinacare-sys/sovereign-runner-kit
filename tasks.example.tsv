@@ -1,0 +1,4 @@
+id	repo	title	verify
+ex-1	Domain	dex-mirror workflow green: root-cause fix + manual run + API-verified green (QUEUE-20261017-09 shape)	cd ../Domain && ! grep -Rq "branches: ain]" .github/workflows && echo WF-CLEAN
+ex-2	Domain	version stamp visible on published page: build id + build date in main index (QUEUE-20261014-02 shape)	cd ../Domain && grep -qiE "version|build" index.html && echo VERSION-STAMP-OK
+ex-3	Sandbox	minutes-wall owner-decision brief queued to OWNER-CHANNEL inbox, role agent only (QUEUE-20261016-03 shape)	test -s ../Sandbox/ops/sovereign/OWNER-CHANNEL/inbox.jsonl && echo OWNER-CHANNEL-QUEUED

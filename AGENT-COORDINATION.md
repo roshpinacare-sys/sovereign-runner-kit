@@ -55,7 +55,25 @@
 - vault login fallback branch parses again (was a hard parse error).
 - Everything verified via GitHub API round-trips; no local-disk dependency (sandbox overlay is volatile).
 
-## Owner directive 2026-10-17 (binding, all agents)
+### netrun wave-8 claims (exclusive scopes)
+
+| Task | Repo | Scope (files) | Status | Note |
+|---|---|---|---|---|
+| 8-a | Domain | dex/watch.mjs, deposits.html, dex/watch.json, dex/deposits.json | IN PROGRESS | — |
+| 8-b | Domain | agents/moment-watch.mjs, versus.html, net.html, agents/registry.json | IN PROGRESS | via worktree swarm/6-b |
+| 8-c | sovereign-runner-kit | NETRUN.md, netrun.sh, tasks.example.tsv, AGENT-COORDINATION.md | IN PROGRESS | this commit — netrun executor contract |
+
+## Phase 0 checklist (secret-triage + breakage stop)
+
+- [x] PAT validity verified (HTTP 200, login roshpinacare-sys)
+- [x] offline base58check validation of WIF-shaped string — false positive, evidence intact
+- [x] vault-backup.enc tracking myth — disproven, not tracked
+- [x] CI YAML `branches: ain]` — display-artifact ghost; workflows healthy, evidence receipts produced (worklog.md:398)
+- [x] saos-control-center login/route.ts fixed — real bug: stuck parens before match.role, commit 2026-10-17T02:12:18Z (worklog.md:402)
+- [x] Saosmartwallet db/custom.db untracked from main via Contents API; GET re-check = 404 (worklog.md:401)
+- [x] vault-home discover_credentials + vault_register_credential gated fail-closed, opt-in env only (worklog.md:403)
+- [x] SECURITY-INCIDENT-2026-10.md published — exposures E1-E5, runbook R1-R5 (worklog.md:404)
+- [ ] post-push verification from fresh fetches
 
 - VAULT/SECRET WORK PAUSED BY OWNER: no PAT rotation, no vault modifications, no history
   rewrite until the owner explicitly approves in this registry. The security runbook stays
