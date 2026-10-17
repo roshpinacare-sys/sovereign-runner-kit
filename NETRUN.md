@@ -19,8 +19,8 @@ bash netrun.sh done <id> [note]  # רישום-סיום; ההוכחה היא proo
 ## פורמט משימה / Task format (TSV, 4 שדות)
 
 ```
-id	repo	title	verify
-ex-1	Domain	dex-mirror workflow green: ...	cd ../Domain && ! grep -Rq "ain]" .github/workflows && echo WF-CLEAN
+id      repo    title   verify
+ex-1    Domain  dex-mirror workflow green: ...  cd ../Domain && ! grep -Rq "ain]" .github/workflows && echo WF-CLEAN
 ```
 
 - **id** — מזהה קצר ויחיד; מול ה-QUEUE: מזהה-סדר-העבודה עצמו.
@@ -56,3 +56,37 @@ ex-1	Domain	dex-mirror workflow green: ...	cd ../Domain && ! grep -Rq "ain]" .gi
   proof) ו-ops-forge.
 - **כנות:** הקומיט הזה *מקים* את החוזה; צריכה-חיה אוטומטית של ה-QUEUE היא הגל
   הבא — אינה מובטחת כאן. עד אז מייצרים שורות ידנית מה-QUEUE — ללא mock.
+
+## הזנת-QUEUE / QUEUE feed (ops-intake → netrun) — wave 9-d
+
+הממיר: `queue2netrun.mjs` (node טהור, אפס תלות-חוץ) — קורא את `ops-intake/ops/QUEUE.json`
+האמיתי ומפיק שורות-משימות netrun. קריאה:
+
+```bash
+node queue2netrun.mjs /home/z/audit/ops-intake/ops/QUEUE.json --dry-run   # תצוגה, כתיבה אסורה
+node queue2netrun.mjs QUEUE.json --out tasks.tsv                          # פלט: כותרת + שורות, מוכן-ל-netrun
+```
+
+כללי-מיפוי (סדר-עבודה ניתן-לביצוע אחד → שורה אחת):
+
+- **id** — `q-<order.id>` מנוקה ל-`[a-z0-9-]`; כפילות-מזהה מדולגת עם-סיבה.
+- **repo** — `order.repo`; חייב להיראות כשם-ריפו (מתחיל אלפאנומרי, `A-Za-z0-9._-`, בלי `/`) —
+  חסר/חריג (כולל ניסיון כמו `../evil`) → דילוג עם-סיבה `bad-repo`.
+- **title** — `[<severity>] <order.title>`; severity חסר → `[?]` (סימון-כנה, לא המצאה).
+- **verify** — מחרוזת מילולית `PENDING-DEFINITION` בלבד.
+- **status** שאינו `OPEN` → דילוג עם-סיבה; `resolved[]` של ה-QUEUE אינו ממופה כלל.
+
+חוק-הכנות של `verify` / PENDING-DEFINITION honesty rule:
+פקודת-אימות אמיתית **לא ניתנת להמצאה** מתוך סדר-עבודה. כל שורה ממופה נושאת את
+המחרוזת המילולית `PENDING-DEFINITION` — ולכן `netrun.sh verify` עליה **נכשל** (יציאה≠0)
+עד שאדם/סוכן מחליף אותה בפקודה אמיתית שמוכיחה סיום. זה מכוון: משימה בלי verify
+אמיתי לא יכולה לעבור אימות, והעובדה הזאת נשארת גלויה — לא ירוק מדומה.
+
+חוק דילוג owner-decision / owner-decision skip rule:
+סדר-עבודה מסוג `owner-decision` (למשל חומת-דקות ה-Actions בריפו פרטיים, P0) אינו
+ניתן-לביצוע-סוכן ולעולם אינו הופך שורה; הממיר מדלג עליו במפורש ל-stderr:
+`SKIP <order.id> owner-decision: <title>` — דילוג עם-סיבה מוצהרת, לא שקט.
+
+שורת-סיכום (stderr): `mapped=N skipped=M (reason=…)` — אפס ממופה הוא תוצאה-כנה
+ויוצאת 0; תור לא-קריא/לא-תקין יוצא 2 עם שגיאה ברורה. **כנות-היקף:** גל-זה מספק את
+הממיר בלבד — חיווטו ללולאה מתוזמנת (צריכה-QUEUE חיה קבועה) הוא עבודה עתידית.
