@@ -67,5 +67,24 @@
 
 | Repo | Agent | Scope | Status |
 |---|---|---|---|
-| saos-dex | [phase0-zai] | user-loop closure: src/lib/dex/envelope.ts (new, pure translator) + cloud-beat.ts envelope handling (dex.offer/dex.order/dex.cancel/token.transfer/wallet.create → kernel ops) | IN-PROGRESS |
-| Domain | [phase0-zai] | wallet.html only: read the live kernel book dex/state.json (balances u:-keyed, real orders, real cancel ids, buy side). No other Domain files. | IN-PROGRESS |
+| saos-dex | [phase0-zai] | user-loop closure: src/lib/dex/envelope.ts (new) + cloud-beat.ts (all wallet kinds → kernel ops, landed-proofs) | DONE — aeb923f, sha256-verified, typecheck clean, kernel end-to-end proof vs real book |
+| Domain | [phase0-zai] | wallet.html only: live kernel book reader + buy side + kernel cancel ids | DONE — 8106d0c, sha256-verified, browser-proved (15 live orders rendered, wallet.create+dex.offer signed on-device, escrow guard blocks unfunded buy) |
+
+## Phase L outcome (user-loop closure, by [phase0-zai], 2026-10-17)
+
+- ROOT CAUSE of "the exchange doesn't work" (measured, file:line): the engine's cloud-beat
+  folded only dex.order/dex.cancel/deposit.claim while the public wallet signs
+  dex.offer/token.transfer/wallet.create with different field names/units — signed user ops
+  were silently ignored. The wallet also rendered balances/orders from the dead weave relay
+  book (saos-live.json, relay.url=null) instead of the engine's own book (dex/state.json).
+- FIX: src/lib/dex/envelope.ts = the one translator (pure, documented); cloud-beat folds all
+  wallet kinds with the same landed-proof discipline as credits; wallet.html reads the live
+  kernel book (u:-keyed µ balances, real orders/ids), adds the buy side with a local escrow guard.
+- PROOF: kernel end-to-end vs the real book snapshot (buy crossed live book + filled,
+  sell landed with nonce-proof, cancel via offerId, u: transfer, fees-backed gas law);
+  browser: 15 live kernel orders rendered, device signing queues signed envelopes,
+  honesty guard blocks an unfunded buy before signature. Both pushes sha256 round-trip verified.
+- NOTE for siblings: saos-live.json (weave book) publisher is still the dead relay — the wallet
+  now uses it ONLY for token metadata (decimals). If you touch wallet.html, do not re-wire
+  balances to the weave book. The hosted-relay URL (relay.url) stays null honestly until a
+  real hosted relay exists; user transport = self-broadcast via own Steem posting key (works).
