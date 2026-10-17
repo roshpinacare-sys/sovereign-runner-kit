@@ -1,0 +1,2120 @@
+{
+ "capturedAt": "2026-10-17T10:33:23.738912Z",
+ "repos": {
+  "saos-runtime": {
+   "total": 19,
+   "disabled": 6,
+   "active": 13,
+   "moneyLanes": 8,
+   "workflows": [
+    {
+     "wf": "army-ladder.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T21:24:06Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "blurt-revival.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T13:16:29Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "custody-recover.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "dex-beat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "running",
+      "at": "2026-10-17T10:31:31Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "directive-now.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T04:32:50Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "escrow-payroll.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "fee-engine.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T07:36:57Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "fleet-rotation-a.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "gen2-rotation.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "grid-watchdog.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T10:04:52Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "hive-custody-revival.yml",
+     "state": "active",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T06:16:39Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "operator-triage.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T13:47:09Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "owner-key-adopt.yml",
+     "state": "active",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "self-memory.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-evolution.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T11:54:00Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-pulse.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T10:28:28Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-runtime.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "running",
+      "at": "2026-10-17T10:31:31Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "system-map.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "treasury-ladder.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T23:18:27Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "FleetHQ": {
+   "total": 20,
+   "disabled": 2,
+   "active": 18,
+   "moneyLanes": 2,
+   "workflows": [
+    {
+     "wf": "claims-triage.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:58:00Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "fresh-oracle.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "identity-guard.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T02:17:10Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "identity-patrol.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:58:04Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "office-3d.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:39:32Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "office-ci.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T08:31:06Z"
+     },
+     "redStreak": 16
+    },
+    {
+     "wf": "office-heartbeat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "office-retro.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "office-window.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "opens-closer.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T02:00:01Z"
+     },
+     "redStreak": 1
+    },
+    {
+     "wf": "runtime-pacemaker.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:58:46Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "self-book.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:58:03Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "silence-watchdog.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T06:18:37Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-decider.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:25:26Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-harness.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T06:15:49Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-identity.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T09:43:17Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-policy-gate.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T09:13:43Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-selfscan.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:35:12Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "value-scan.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:30:23Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "pages-build-deployment",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:40:58Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "Autonomy": {
+   "total": 43,
+   "disabled": 9,
+   "active": 34,
+   "moneyLanes": 10,
+   "workflows": [
+    {
+     "wf": "artery-catchup.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:40:51Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "artery-decision-truth.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:09:59Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "artery-defi.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:39:35Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "artery-desk.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:44:34Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "artery-fleet.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:35:46Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "artery-flow.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:39:36Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "artery-grid.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T01:13:14Z"
+     },
+     "redStreak": 3
+    },
+    {
+     "wf": "artery-integrity.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:39:18Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "artery-participation.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:57:55Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "artery-scribe.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:53:43Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "artery-wallet.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:30:53Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "artery-watch.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:40:58Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "claims-intake.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "compute-rearm.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:39:34Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "contract-check.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T09:31:11Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "directive-bus.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T10:31:18Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "estate-relay.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "estate-vault.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "evo-windows-staleness.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "executor.yml",
+     "state": "active",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T03:11:41Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "federation.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:41:02Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "fleet-heal.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:07:52Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "fleet-yield.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:25:09Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "floating-builds.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T06:53:51Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "fresh-oracle.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "hive-probe.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "identity-guard.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T06:54:41Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "key-proof.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "network-awareness.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:40:32Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "network-self-awareness.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "office-growth.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T04:55:34Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "operator-routing.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:36:13Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "profit-oracle.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "research-lane.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "retro.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "run-score.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T23:50:26Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "selfhood.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "cancelled",
+      "at": "2026-10-17T08:40:33Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-decider.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:25:16Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-state.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:59:56Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:40:58Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "token-watchdog.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T09:37:49Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "value-scan.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T23:56:22Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "verifier.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:51:11Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "giant": {
+   "total": 2,
+   "disabled": 0,
+   "active": 2,
+   "moneyLanes": 0,
+   "workflows": [
+    {
+     "wf": "ext-audit.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "trust-heartbeat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T08:09:01Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "Console": {
+   "total": 22,
+   "disabled": 4,
+   "active": 18,
+   "moneyLanes": 4,
+   "workflows": [
+    {
+     "wf": "agent-verify.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T23:11:40Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "agents-watch.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:44:34Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "chain-vitals.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:54:03Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "console-publish.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T06:09:33Z"
+     },
+     "redStreak": 4
+    },
+    {
+     "wf": "dex-watch.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T07:04:19Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "estate-scrub.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:34:10Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "fee-law.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "giants-beat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T23:31:25Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "gitleaks.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "grid-pulse.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T22:04:45Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "identity-guard.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T04:57:10Z"
+     },
+     "redStreak": 1
+    },
+    {
+     "wf": "key-verify.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "line-agreement.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:34:27Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "money-watch.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:41:28Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "pnl-desk.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "rea-desk.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "runtime-pacemaker.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:34:24Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "trigger-mesh.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T23:52:26Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "truth-gate.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T04:20:49Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "weave-census.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:17:37Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "workflow-yaml-guard.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "pages-build-deployment",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T07:04:28Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "saos-dex": {
+   "total": 12,
+   "disabled": 2,
+   "active": 10,
+   "moneyLanes": 2,
+   "workflows": [
+    {
+     "wf": "arb-scan.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "ci.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T10:28:53Z"
+     },
+     "redStreak": 3
+    },
+    {
+     "wf": "dex-beat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "running",
+      "at": "2026-10-15T01:11:46Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "dex-grid.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "gitleaks.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-13T11:44:05Z"
+     },
+     "redStreak": 9
+    },
+    {
+     "wf": "grid-trigger.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "hive-heartbeat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T05:35:58Z"
+     },
+     "redStreak": 5
+    },
+    {
+     "wf": "identity-guard.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-13T21:51:04Z"
+     },
+     "redStreak": 7
+    },
+    {
+     "wf": "llm-bridge.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "mm-supremacy.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "selftest.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T10:28:53Z"
+     },
+     "redStreak": 3
+    },
+    {
+     "wf": "workflow-yaml-guard.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-13T11:44:05Z"
+     },
+     "redStreak": 10
+    }
+   ]
+  },
+  "Domain": {
+   "total": 96,
+   "disabled": 17,
+   "active": 79,
+   "moneyLanes": 17,
+   "workflows": [
+    {
+     "wf": "adsmarket-panel.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "agent-verify.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "anchor-execute.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "arb-mesh-cron.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T01:58:10Z"
+     },
+     "redStreak": 2
+    },
+    {
+     "wf": "artery-integrity-twin.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "audience-analyst.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "blurt-connect.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "book-audit.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "bootstrap-pages.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "canary.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "cloud-heart.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "cloud-pulse.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "cognition-beat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:39:37Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "content-campaign.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "content-gate.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "content-reviewer.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:55:21Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "content-truth-wave.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "daily-claim.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "daily-digest.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "dex-activation.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:58:07Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "dex-beat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:32:01Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "dex-core-cron.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:19:29Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "dex-grid.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "dex-mirror.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T01:32:54Z"
+     },
+     "redStreak": 2
+    },
+    {
+     "wf": "dex-router-cron.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:25:23Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "dex-watchdog.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:23:07Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "dex-xc-cron.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:25:24Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "earn-audit-cron.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:55:22Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "econ-desk.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "econ-engine.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "economy-engine.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "estate-scrub.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "evo-windows.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "exposure-gate.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T01:55:23Z"
+     },
+     "redStreak": 1
+    },
+    {
+     "wf": "fill-ledger-cron.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:25:25Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "fleet-census-cron.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:53:45Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "fleet-heartbeat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:31:39Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "foundry-mesh-tests.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "gitleaks.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "grid-doctor.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:20:24Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "grid-sentinel.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:52:43Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "grid-trigger-twin.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "human-cadence.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:53:46Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "identity-guard.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "key-verify.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "ladder-refresh.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "market-grid-cron.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:25:28Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "mirror-from-console.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:33:40Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "mm-supremacy.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "moment-watch.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:32:19Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "network-census.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T02:02:22Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "office-artery.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:39:39Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "office-feed.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "office-orders-twin.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:53:39Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "office-pulse-twin.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:39:40Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "office-pulse.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:49:15Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "office-worldbeat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "failure",
+      "at": "2026-10-17T02:02:06Z"
+     },
+     "redStreak": 1
+    },
+    {
+     "wf": "operator-console.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "org-gitleaks.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "org-selftests.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "pf-artery-keeper.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:53:47Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "press-bake.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "proof-pipeline.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "public-loops-bake.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "public-pulse.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "published-ledger.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "recruit.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "sandbox-arteries.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "saos-act.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "seal-adopt.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "self-audience.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "site-link-audit.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "social-audit.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "soldiers-curate.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-decider-twin.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-pulse.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-selftests.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-tick-cron.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "steem-posting-repair.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "tick-keeper.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:22:26Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "token-forge.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "treasury-arm.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "treasury-route.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "tri-bridge.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "twin-audit.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "vault-transfer.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "voice-artery.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:15:41Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "watchdog.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "weave-anchor-lines.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:21:56Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "weave-anchor-ping.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "weave-ecosystem.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "weave-heart.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "weave-mirror.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "web-publish.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "workflow-yaml-guard.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    },
+    {
+     "wf": "pages-build-deployment",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T05:39:58Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "sovereign-runner-kit": {
+   "total": 1,
+   "disabled": 0,
+   "active": 1,
+   "moneyLanes": 0,
+   "workflows": [
+    {
+     "wf": "netrun-loop.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T10:27:13Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "GridWatch": {
+   "total": 4,
+   "disabled": 0,
+   "active": 4,
+   "moneyLanes": 0,
+   "workflows": [
+    {
+     "wf": "flow-map.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T23:52:26Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "grid-watch.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T02:27:10Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "identity-guard.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T02:28:39Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "pages-build-deployment",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T02:28:39Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "Pulse": {
+   "total": 4,
+   "disabled": 1,
+   "active": 3,
+   "moneyLanes": 1,
+   "workflows": [
+    {
+     "wf": "heartbeat.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T02:00:02Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "identity-guard.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-16T17:21:40Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "sovereign-voice.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:54:48Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "pages-build-deployment",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T02:00:37Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "sovereign-lighthouse": {
+   "total": 3,
+   "disabled": 1,
+   "active": 2,
+   "moneyLanes": 1,
+   "workflows": [
+    {
+     "wf": "estate-redboard.yml",
+     "state": "disabled_manually",
+     "moneyLane": true,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:31:24Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "lighthouse-pulse.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:30:21Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "pages-build-deployment",
+     "state": "active",
+     "moneyLane": false,
+     "last": null,
+     "redStreak": 0
+    }
+   ]
+  },
+  "sovereign-beacon": {
+   "total": 2,
+   "disabled": 0,
+   "active": 2,
+   "moneyLanes": 0,
+   "workflows": [
+    {
+     "wf": "beacon-pulse.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T01:30:20Z"
+     },
+     "redStreak": 0
+    },
+    {
+     "wf": "pages-build-deployment",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-12T11:06:29Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "ops-forge": {
+   "total": 1,
+   "disabled": 0,
+   "active": 1,
+   "moneyLanes": 0,
+   "workflows": [
+    {
+     "wf": "forge.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:16:11Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  },
+  "ops-intake": {
+   "total": 1,
+   "disabled": 0,
+   "active": 1,
+   "moneyLanes": 0,
+   "workflows": [
+    {
+     "wf": "intake.yml",
+     "state": "active",
+     "moneyLane": false,
+     "last": {
+      "conclusion": "success",
+      "at": "2026-10-17T00:10:18Z"
+     },
+     "redStreak": 0
+    }
+   ]
+  }
+ }
+}

@@ -115,3 +115,14 @@
   now uses it ONLY for token metadata (decimals). If you touch wallet.html, do not re-wire
   balances to the weave book. The hosted-relay URL (relay.url) stays null honestly until a
   real hosted relay exists; user transport = self-broadcast via own Steem posting key (works).
+
+### netrun wave-11 claims (the great re-arm — owner directive: activate, not close)
+
+| Task | Repo | Scope | Status | Note |
+|---|---|---|---|---|
+| 11-a | sovereign-runner-kit | repo Actions setting (API), state/netrun-last-run.json | DONE | Actions was disabled at repo level (measured `enabled:false`) — the brain never ran; enabled + dispatched: run #1 SUCCESS 2026-10-17T10:27Z, board commit 7672842 (mapped=7 skipped=1 source=raw) |
+| 11-b | 8 repos | workflow enablement via API only (zero file changes) | DONE | 133 non-money lanes re-armed (state/rearm-ledger.json has every row + 42 kept-off rows); fleet active 53→188; 42 money/key/execution lanes stay OFF pending per-lane owner approval |
+| 11-c | Domain | LIQUIDITY-PLAN-20261016.md (deleted), agents/arb-mesh.json/.md (handle redacted) | DONE | exposure-gate caught real public-surface exposures (owner handle, key-file path, master-password narrative, host path) created when the repo went public; remediated at HEAD per disclosure law; re-dispatch: SUCCESS 10:43Z; history rewrite = owner-only |
+| 11-d | saos-dex | deploy/dex-beat-service/index.ts (1 line) | DONE | tsc TS2322 tail:string[] (CI run 39025385001 red); local `bun run typecheck` green; CI re-run SUCCESS 10:43Z |
+
+Open items (honest): saos-dex selftest 13/14 — T37-d V11 ambulance lifecycle red (W1.4 active in repo — not claimed); Console console-publish needs chain anchors (acct-41/40/44 measured zero — anchor producer is a key-signed lane → owner); saos-dex hive-heartbeat sign step needs custody secret (owner); Domain office-worldbeat + Autonomy artery-grid red — untriaged.
