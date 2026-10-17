@@ -1,5 +1,5 @@
 {
- "capturedAt": "2026-10-17T21:01:42.300988+00:00",
+ "capturedAt": "2026-10-17T21:02:24.770489+00:00",
  "totals": {
   "repos": 15,
   "workflows": 232,
@@ -1391,7 +1391,7 @@
      "state": "active",
      "moneyLane": false,
      "last": {
-      "conclusion": "running",
+      "conclusion": "success",
       "at": "2026-10-17T21:00:47Z"
      },
      "redStreak": 0
@@ -1500,8 +1500,8 @@
      "state": "active",
      "moneyLane": false,
      "last": {
-      "conclusion": "running",
-      "at": "2026-10-17T21:00:59Z"
+      "conclusion": "success",
+      "at": "2026-10-17T21:01:15Z"
      },
      "redStreak": 0
     },
@@ -1510,7 +1510,7 @@
      "state": "active",
      "moneyLane": false,
      "last": {
-      "conclusion": "running",
+      "conclusion": "success",
       "at": "2026-10-17T21:00:32Z"
      },
      "redStreak": 0
@@ -2132,7 +2132,10 @@
      "wf": "fleet-keeper.yml",
      "state": "active",
      "moneyLane": false,
-     "last": null,
+     "last": {
+      "conclusion": "running",
+      "at": "2026-10-17T21:01:46Z"
+     },
      "redStreak": 0
     },
     {
