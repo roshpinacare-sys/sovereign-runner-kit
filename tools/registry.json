@@ -1,6 +1,6 @@
 {
   "schema": "saos.tooling-registry/1",
-  "updated": "2026-10-18T15:20:49Z",
+  "updated": "2026-10-18T22:38:26Z",
   "note": "רישום-הכלים של הרשת (wave-19.4, הנחיית הבעלים trace 1a14ec60f8b59e49: 'וודא שהאוטונומיה יודעת להשתמש בכלים שעשית והכל ולחזק עוד'). base+extension pattern (STUDY-001): הוספת כלי = עריכת נתונים, לא קוד. ה-autonomy מגלה ומפעיל כלים דרך הקובץ הזה + docs/TOOLING-REGISTRY.md. registry-verify.yml מוכיח מול המציאות מדי יום (fail-closed): drift = אדום, פרטי-בלתי-נראה = INVISIBLE-PRIVATE כנה. גל-19.6: interval-gate + chain-link (חוק-הרציפות — הפעימה מחזרת את עצמה) ו-beat-keepalive (הגרלת-משבצות חוצת-ריפו) נרשמו.",
   "kindEnum": [
     "read-only",
@@ -161,6 +161,16 @@
       "purpose": "חוק-הרציפות (wave-19.6): כל פעימה מוצלחת משגרת את החוליה הבאה של עצמה — הפעימה מחזרת את עצמה ואינה בת-ערוב של מתזמן GitHub. לוח-הזמנים ורשת-ה-keep-alive נשארים מישורי-גיבוי עצמאיים.",
       "safety": "משרשר רק אחרי הצלחה (ריצה אדומה שוברת את השרשרת בקול רם); fail-closed עם clean() (הוכח: bogus token → 403 נקי, exit 1); קצב נאכף על-ידי ה-interval-gate הגלובלי (>=55 דק').",
       "wave": "19.6"
+    },
+    {
+      "id": "fleet-actions-guard",
+      "repo": "roshpinacare-sys/sovereign-executor",
+      "path": "scripts/fleet_actions_guard.py",
+      "kind": "owner-gated",
+      "invoke": "python3 scripts/fleet_actions_guard.py  (env: SOVEREIGN_PAT; קובץ-אישור: state/fleet-actions-guard-approval.json — טקסט הבעלים מילה-במילה, trace 1a1512554a26f66d)",
+      "purpose": "משמר-המתגים השעתי (wave-19.8): 18 מתגי-Actions ברמת-הריפו נמצאו כבויים בידי שחקן בלתי-ניתן-להוכחה (פורנזיקה: מצבי-workflow פעילים, ריצות תקועות-בתור, audit-log 404). הפעימה מאמתת מדי שעה את הקבוצה המאושרת ומחזירה כל מתג שנמצא כבוי — הצי מחלים-עצמית תוך שעה במקום למות בשקט.",
+      "safety": "היקף-מוגבל: רק הקבוצה המאושרת (saos-dex + 17 פסבדונימים); כיבוי-חדש מחוץ-לקבוצה נמדד ומדווח, לעולם לא מוחזר אוטומטית (החלטת-בעלים עתידית לא תילחם בבוט); אימות-GET אחרי כל PUT עם ניסיון-חוזה על עיכוב-הפצה (נמדד); נוגע רק ב-actions/permissions; קבלות פסבדונימיות.",
+      "wave": "19.8"
     }
   ]
 }
