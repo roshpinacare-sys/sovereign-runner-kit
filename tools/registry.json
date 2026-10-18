@@ -1,7 +1,7 @@
 {
   "schema": "saos.tooling-registry/1",
-  "updated": "2026-10-18T12:55:00Z",
-  "note": "רישום-הכלים של הרשת (wave-19.4, הנחיית הבעלים trace 1a14ec60f8b59e49: 'וודא שהאוטונומיה יודעת להשתמש בכלים שעשית והכל ולחזק עוד'). base+extension pattern (STUDY-001): הוספת כלי = עריכת נתונים, לא קוד. ה-autonomy מגלה ומפעיל כלים דרך הקובץ הזה + docs/TOOLING-REGISTRY.md. registry-verify.yml מוכיח מול המציאות מדי יום (fail-closed): drift = אדום, פרטי-בלתי-נראה = INVISIBLE-PRIVATE כנה.",
+  "updated": "2026-10-18T15:20:49Z",
+  "note": "רישום-הכלים של הרשת (wave-19.4, הנחיית הבעלים trace 1a14ec60f8b59e49: 'וודא שהאוטונומיה יודעת להשתמש בכלים שעשית והכל ולחזק עוד'). base+extension pattern (STUDY-001): הוספת כלי = עריכת נתונים, לא קוד. ה-autonomy מגלה ומפעיל כלים דרך הקובץ הזה + docs/TOOLING-REGISTRY.md. registry-verify.yml מוכיח מול המציאות מדי יום (fail-closed): drift = אדום, פרטי-בלתי-נראה = INVISIBLE-PRIVATE כנה. גל-19.6: interval-gate + chain-link (חוק-הרציפות — הפעימה מחזרת את עצמה) ו-beat-keepalive (הגרלת-משבצות חוצת-ריפו) נרשמו.",
   "kindEnum": [
     "read-only",
     "audit",
@@ -131,6 +131,36 @@
       "purpose": "מנוע-הספר הכלכלי עצמו (מקור: agent-2) — הלב שנושם: heartbeat יחיד-כותב, adoption git-first, RACE-LOST fail-closed. אנחנו לעולם לא עורכים אותו — השורש-המשפחתי שלו קדוש.",
       "safety": "ריבונות agent-2: אפס שינויים מאיתנו, לעולם; השימוש שלנו בו הוא קריאה+הרצה תחת החוזה-העצמי שלו בלבד.",
       "wave": "19.2"
+    },
+    {
+      "id": "beat-keepalive",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "path": "scripts/beat-keepalive.py",
+      "kind": "infra",
+      "invoke": "python3 scripts/beat-keepalive.py  (env: SOVEREIGN_PAT; KEEPALIVE_STALE_MIN=55 ברירת-מחדל) — lane: keepalive.yml (*/15), וגם ב-sovereign-beacon (*/20 מפוזר)",
+      "purpose": "הגרלת-המשבצות חוצת-הריפו (wave-19.5, מדידה: GitHub הפיל 6/6 משבצות */15 אחרי 1/7 בשעתי): כל משבצת קוראת את גיל הפעימה האחרונה במבצע ומעירה אותה רק אם ישנה (>=55 דק') — משבצות-יתר ישנות ביושר.",
+      "safety": "fail-closed (שגיאת API מאדימה, לעולם לא שתיקה); clean() על כל מחרוזת מודפסת (חוק-הדליפה); חוק-משטח-סודות: schedule+dispatch בלבד; שתי קריאות API מקסימום בנתיב הרענן.",
+      "wave": "19.5"
+    },
+    {
+      "id": "interval-gate",
+      "repo": "roshpinacare-sys/sovereign-executor",
+      "path": "scripts/interval_gate.py",
+      "kind": "law",
+      "invoke": "python3 scripts/interval_gate.py  (GITHUB_OUTPUT נדרש ב-CI; GATE_THRESHOLD_MIN=55 ברירת-מחדל)",
+      "purpose": "המטרונום של הפעימה (wave-19.6, מדידה: 17/18 משבצות מתוזמנות נפלו בשלושה ריפואים בצהריים אחד): משבצת רעננה לא יוצאת — היא ישנה עד המועד, בודקת מחדש (מישור אחר הפעים = דילוג כן), ומריצה. קצב הפעימה חי כאן, לא במתזמן של GitHub.",
+      "safety": "fail-open לעבודה-אמיתית על קבלה לא-קריאה (לעולם לא fail-open לשתיקה); ללא כתיבה פרט ל-GITHUB_OUTPUT; הוכח בשלושה ענפים מקומית (ללא-קבלה, שינה-עד-מועד, דילוג-ביושר בשינה).",
+      "wave": "19.6"
+    },
+    {
+      "id": "chain-link",
+      "repo": "roshpinacare-sys/sovereign-executor",
+      "path": "scripts/chain_link.py",
+      "kind": "infra",
+      "invoke": "python3 scripts/chain_link.py  (env: SOVEREIGN_PAT) — צעד Chain ב-fleet-beat.yml, רץ רק אחרי הצלחה מלאה",
+      "purpose": "חוק-הרציפות (wave-19.6): כל פעימה מוצלחת משגרת את החוליה הבאה של עצמה — הפעימה מחזרת את עצמה ואינה בת-ערוב של מתזמן GitHub. לוח-הזמנים ורשת-ה-keep-alive נשארים מישורי-גיבוי עצמאיים.",
+      "safety": "משרשר רק אחרי הצלחה (ריצה אדומה שוברת את השרשרת בקול רם); fail-closed עם clean() (הוכח: bogus token → 403 נקי, exit 1); קצב נאכף על-ידי ה-interval-gate הגלובלי (>=55 דק').",
+      "wave": "19.6"
     }
   ]
 }
