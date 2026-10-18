@@ -1,0 +1,68 @@
+name: scout-loop
+
+# scout-loop — the sovereign forage cadence. Discovers external sources, enriches,
+# vets STATICALLY (never executes external code), and commits the ledger.
+# Honesty: a run where every route is blocked exits red — the redboard shows the truth.
+# Laws: docs/SCOUT-PROTOCOL.md
+
+on:
+  schedule:
+    - cron: '41 5 * * *'   # daily, odd minute (off-peak)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scout-loop
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Scan (stdlib only — no deps to trust)
+        env:
+          FLEET_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SCOUT_BUDGET: '80'
+        run: python3 scripts/scout-scan.py
+
+      - name: Publish ledger only if changed (commit + rebase-retry push)
+        run: |
+          git config user.name "roshpinacare-sys"
+          git config user.email "326012154+roshpinacare-sys@users.noreply.github.com"
+          git add state/scout-findings.json state/scout-last-run.json state/scout-sources.json
+          if git diff --cached --quiet; then
+            echo "scout ledger unchanged — nothing to publish"
+            exit 0
+          fi
+          git commit -m "scout-loop: ledger refresh $(date -u +%FT%TZ) [skip ci]"
+          for i in 1 2 3; do
+            if git pull --rebase -X theirs --autostash origin main && git push origin HEAD:main; then exit 0; fi
+            echo "push race, retry ${i}"; sleep 8
+          done
+          echo "could not publish the scout ledger after 3 attempts"
+          exit 1
+
+      - name: Digest to step summary
+        if: always()
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY" || true
+import json
+print("## scout-loop digest")
+print("```")
+try:
+    r = json.load(open('state/scout-last-run.json'))
+    print("run:", r.get('at'))
+    for s in r.get('sources', []):
+        print(f"  {s.get('id')}: route={s.get('route')} discovered={s.get('discovered')}")
+    f = json.load(open('state/scout-findings.json'))
+    print("ledger:", len(f.get('findings', {})), "counts:", json.dumps(f.get('counts', {})))
+except Exception as e:
+    print("digest error:", e)
+print("```")
+PY

@@ -1,0 +1,5891 @@
+{
+ "updated": "2026-10-18T02:19:25Z",
+ "counts": {
+  "CAUTION": 92,
+  "STUDY": 74
+ },
+ "findings": {
+  "CMU-Perceptual-Computing-Lab/openpose": {
+   "repo": "CMU-Perceptual-Computing-Lab/openpose",
+   "first_seen": "2026-10-18T01:58:49Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:58:49Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:12:55Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 34498,
+    "forks": 8038,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "C++",
+    "created": "2017-04-24",
+    "pushed": "2024-08-03",
+    "owner_type": "Organization",
+    "description": "OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation"
+   }
+  },
+  "CorentinJ/Real-Time-Voice-Cloning": {
+   "repo": "CorentinJ/Real-Time-Voice-Cloning",
+   "first_seen": "2026-10-18T01:58:51Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:58:51Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:11Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 60189,
+    "forks": 9369,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "Python",
+    "created": "2019-05-26",
+    "pushed": "2026-03-09",
+    "owner_type": "User",
+    "description": "Clone a voice in 5 seconds to generate arbitrary speech in real-time"
+   }
+  },
+  "CrossRef/rest-api-doc": {
+   "repo": "CrossRef/rest-api-doc",
+   "first_seen": "2026-10-18T01:58:52Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:58:52Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:12Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 804,
+    "forks": 273,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": null,
+    "created": "2013-09-27",
+    "pushed": "2024-09-25",
+    "owner_type": "Organization",
+    "description": "Documentation for Crossref's REST API. For questions or suggestions, see https://community.crossref.org/"
+   }
+  },
+  "Dokploy/dokploy": {
+   "repo": "Dokploy/dokploy",
+   "first_seen": "2026-10-18T01:59:06Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:06Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:19Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 37843,
+    "forks": 3085,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2024-04-19",
+    "pushed": "2026-10-16",
+    "owner_type": "Organization",
+    "description": "Open Source Alternative to Vercel, Netlify and Heroku."
+   }
+  },
+  "EmenstaNougat/ESP32-BlueJammer": {
+   "repo": "EmenstaNougat/ESP32-BlueJammer",
+   "first_seen": "2026-10-18T01:59:11Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:11Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:23Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 8652,
+    "forks": 921,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": null,
+    "created": "2024-07-07",
+    "pushed": "2026-03-29",
+    "owner_type": "User",
+    "description": "The ESP32-BlueJammer (Bluetooth jammer, BLE jammer, WiFi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and nRF24 modules, it generates noise"
+   }
+  },
+  "Faceplugin-ltd/Open-Source-Face-Recognition-SDK": {
+   "repo": "Faceplugin-ltd/Open-Source-Face-Recognition-SDK",
+   "first_seen": "2026-10-18T01:59:12Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:12Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:24Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 2625,
+    "forks": 448,
+    "license": null,
+    "archived": false,
+    "language": "Python",
+    "created": "2025-01-17",
+    "pushed": "2026-10-02",
+    "owner_type": "Organization",
+    "description": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Att"
+   }
+  },
+  "FiloSottile/mkcert": {
+   "repo": "FiloSottile/mkcert",
+   "first_seen": "2026-10-18T01:59:14Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:14Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:25Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 59744,
+    "forks": 3145,
+    "license": "BSD-3-Clause",
+    "archived": false,
+    "language": "Go",
+    "created": "2018-06-25",
+    "pushed": "2024-08-13",
+    "owner_type": "User",
+    "description": "A simple zero-config tool to make locally trusted development certificates with any names you'd like."
+   }
+  },
+  "GorvGoyl/Clone-Wars": {
+   "repo": "GorvGoyl/Clone-Wars",
+   "first_seen": "2026-10-18T01:59:16Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:16Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:28Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 37107,
+    "forks": 3358,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": null,
+    "created": "2020-12-02",
+    "pushed": "2024-08-06",
+    "owner_type": "User",
+    "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stac"
+   }
+  },
+  "HandBrake/HandBrake": {
+   "repo": "HandBrake/HandBrake",
+   "first_seen": "2026-10-18T01:59:27Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:27Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:46Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 24698,
+    "forks": 1723,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "C",
+    "created": "2015-08-22",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "HandBrake's development repository "
+   }
+  },
+  "InlitX/GymMane": {
+   "repo": "InlitX/GymMane",
+   "first_seen": "2026-10-18T01:59:30Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:30Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:49Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "workflows_flagged": [
+     ".github/workflows/crowdin-locale.yml"
+    ]
+   },
+   "meta": {
+    "stars": 968,
+    "forks": 107,
+    "license": "GPL-3.0",
+    "archived": false,
+    "language": "Dart",
+    "created": "2026-08-05",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": " Offline gym log for Android. No account, no ads, no internet."
+   }
+  },
+  "MatrAIx-ai/MatrAIx-Persona-8B": {
+   "repo": "MatrAIx-ai/MatrAIx-Persona-8B",
+   "first_seen": "2026-10-18T01:59:54Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:54Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:19Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "workflows_flagged": [
+     ".github/workflows/pr-labeler.yml"
+    ]
+   },
+   "meta": {
+    "stars": 2059,
+    "forks": 353,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2026-07-31",
+    "pushed": "2026-09-18",
+    "owner_type": "Organization",
+    "description": "Simulate Before Reality. "
+   }
+  },
+  "MengTo/kage": {
+   "repo": "MengTo/kage",
+   "first_seen": "2026-10-18T01:59:55Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:55Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:20Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1725,
+    "forks": 307,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2026-08-08",
+    "pushed": "2026-08-09",
+    "owner_type": "User",
+    "description": "An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js."
+   }
+  },
+  "PinoyFreeCoder/CSS-Animation": {
+   "repo": "PinoyFreeCoder/CSS-Animation",
+   "first_seen": "2026-10-18T02:00:14Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:14Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:45Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "CSS",
+    "created": "2020-06-30",
+    "pushed": "2020-06-30",
+    "owner_type": "User",
+    "description": "CSS Animation lesson material"
+   }
+  },
+  "PinoyFreeCoder/CSSGrid": {
+   "repo": "PinoyFreeCoder/CSSGrid",
+   "first_seen": "2026-10-18T02:00:15Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:15Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:46Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2020-04-14",
+    "pushed": "2020-04-14",
+    "owner_type": "User",
+    "description": "Lesson material for CSS Grid"
+   }
+  },
+  "PinoyFreeCoder/JavaScript-todo-list-localstorage": {
+   "repo": "PinoyFreeCoder/JavaScript-todo-list-localstorage",
+   "first_seen": "2026-10-18T02:00:16Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:16Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:46Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2024-05-30",
+    "pushed": "2024-05-30",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/JavaScriptOOP": {
+   "repo": "PinoyFreeCoder/JavaScriptOOP",
+   "first_seen": "2026-10-18T02:00:17Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:17Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:47Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2020-05-22",
+    "pushed": "2020-05-22",
+    "owner_type": "User",
+    "description": "Lesson Material for JavaScript OOP"
+   }
+  },
+  "PinoyFreeCoder/Jquery_ES6": {
+   "repo": "PinoyFreeCoder/Jquery_ES6",
+   "first_seen": "2026-10-18T02:00:18Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:18Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:48Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2020-04-03",
+    "pushed": "2020-04-03",
+    "owner_type": "User",
+    "description": "Lesson Materials for Jquery vs ES6 Key Function Comparison"
+   }
+  },
+  "PinoyFreeCoder/PHPOOPlesson": {
+   "repo": "PinoyFreeCoder/PHPOOPlesson",
+   "first_seen": "2026-10-18T02:00:19Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:19Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:49Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 3,
+    "forks": 1,
+    "license": null,
+    "archived": false,
+    "language": "PHP",
+    "created": "2020-01-18",
+    "pushed": "2020-01-18",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/PHPupload": {
+   "repo": "PinoyFreeCoder/PHPupload",
+   "first_seen": "2026-10-18T02:00:20Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:20Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:50Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "PHP",
+    "created": "2020-05-22",
+    "pushed": "2020-05-22",
+    "owner_type": "User",
+    "description": "Lesson Material for PHP upload file handling"
+   }
+  },
+  "PinoyFreeCoder/ReactApp": {
+   "repo": "PinoyFreeCoder/ReactApp",
+   "first_seen": "2026-10-18T02:00:21Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:21Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:52Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2019-10-21",
+    "pushed": "2023-01-04",
+    "owner_type": "User",
+    "description": "simple todolist application using ReactJS"
+   }
+  },
+  "PinoyFreeCoder/amsub": {
+   "repo": "PinoyFreeCoder/amsub",
+   "first_seen": "2026-10-18T02:00:22Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:22Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:53Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": null,
+    "created": "2025-10-01",
+    "pushed": "2025-10-01",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/articles": {
+   "repo": "PinoyFreeCoder/articles",
+   "first_seen": "2026-10-18T02:00:23Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:23Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:54Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 3,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": null,
+    "created": "2023-02-05",
+    "pushed": "2023-02-05",
+    "owner_type": "User",
+    "description": "Article section from pinoyfreecoder website"
+   }
+  },
+  "PinoyFreeCoder/bootstrap4Lesson": {
+   "repo": "PinoyFreeCoder/bootstrap4Lesson",
+   "first_seen": "2026-10-18T02:00:24Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:24Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:55Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 1,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2020-04-08",
+    "pushed": "2020-04-08",
+    "owner_type": "User",
+    "description": "Lesson Material for Bootstrap CSS Framework Lesson"
+   }
+  },
+  "PinoyFreeCoder/brainJS": {
+   "repo": "PinoyFreeCoder/brainJS",
+   "first_seen": "2026-10-18T02:00:25Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:25Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:56Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2020-03-18",
+    "pushed": "2020-03-18",
+    "owner_type": "User",
+    "description": "introduction to machine learning"
+   }
+  },
+  "PinoyFreeCoder/copywrite-policy": {
+   "repo": "PinoyFreeCoder/copywrite-policy",
+   "first_seen": "2026-10-18T02:00:26Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:26Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:57Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": null,
+    "created": "2022-03-01",
+    "pushed": "2022-03-01",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/crud-local-storage-javascript": {
+   "repo": "PinoyFreeCoder/crud-local-storage-javascript",
+   "first_seen": "2026-10-18T02:00:27Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:27Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:57Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2024-10-01",
+    "pushed": "2024-10-01",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/css-image-accordion": {
+   "repo": "PinoyFreeCoder/css-image-accordion",
+   "first_seen": "2026-10-18T02:00:28Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:28Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:58Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 1,
+    "license": null,
+    "archived": false,
+    "language": "CSS",
+    "created": "2022-11-19",
+    "pushed": "2022-11-19",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/css-prefers-color-scheme": {
+   "repo": "PinoyFreeCoder/css-prefers-color-scheme",
+   "first_seen": "2026-10-18T02:00:29Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:29Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:59Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "CSS",
+    "created": "2020-04-16",
+    "pushed": "2020-04-16",
+    "owner_type": "User",
+    "description": "Lesson material for CSS css-prefers-color-scheme"
+   }
+  },
+  "PinoyFreeCoder/deployment-checklist": {
+   "repo": "PinoyFreeCoder/deployment-checklist",
+   "first_seen": "2026-10-18T02:00:30Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:30Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:01Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 48,
+    "forks": 8,
+    "license": null,
+    "archived": false,
+    "language": null,
+    "created": "2026-09-26",
+    "pushed": "2026-10-06",
+    "owner_type": "User",
+    "description": "Language-agnostic pre-deployment checklist for web & mobile apps \u2014 security-heavy, with human and AI-agent versions."
+   }
+  },
+  "PinoyFreeCoder/detect-breakpoint": {
+   "repo": "PinoyFreeCoder/detect-breakpoint",
+   "first_seen": "2026-10-18T02:00:31Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:31Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:02Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2024-01-10",
+    "pushed": "2024-01-10",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/digital-persona-web-bridge-connection": {
+   "repo": "PinoyFreeCoder/digital-persona-web-bridge-connection",
+   "first_seen": "2026-10-18T02:00:32Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:32Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:03Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": null,
+    "created": "2025-10-01",
+    "pushed": "2025-10-01",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/display-age": {
+   "repo": "PinoyFreeCoder/display-age",
+   "first_seen": "2026-10-18T02:00:34Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:34Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:05Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 0,
+    "forks": 1,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2024-01-09",
+    "pushed": "2024-01-09",
+    "owner_type": "User",
+    "description": "npm package to display age"
+   }
+  },
+  "PinoyFreeCoder/drawer-menu": {
+   "repo": "PinoyFreeCoder/drawer-menu",
+   "first_seen": "2026-10-18T02:00:35Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:35Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:06Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "CSS",
+    "created": "2020-07-01",
+    "pushed": "2020-07-01",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/expresstutorial": {
+   "repo": "PinoyFreeCoder/expresstutorial",
+   "first_seen": "2026-10-18T02:00:37Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:37Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:07Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 5,
+    "forks": 10,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2020-01-18",
+    "pushed": "2024-03-28",
+    "owner_type": "User",
+    "description": "ExpressJS and MySQL database"
+   }
+  },
+  "PinoyFreeCoder/fetchapi": {
+   "repo": "PinoyFreeCoder/fetchapi",
+   "first_seen": "2026-10-18T02:00:38Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:38Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:08Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 1,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2020-01-24",
+    "pushed": "2020-01-24",
+    "owner_type": "User",
+    "description": "JavaScript Fetch API simple CRUD functions"
+   }
+  },
+  "PinoyFreeCoder/firebase-pinoyfreecoder": {
+   "repo": "PinoyFreeCoder/firebase-pinoyfreecoder",
+   "first_seen": "2026-10-18T02:00:38Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:38Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:09Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 1,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2020-12-23",
+    "pushed": "2020-12-23",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/firebase-storage-lesson": {
+   "repo": "PinoyFreeCoder/firebase-storage-lesson",
+   "first_seen": "2026-10-18T02:00:39Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:39Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:10Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2021-02-19",
+    "pushed": "2021-02-19",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/flexbox": {
+   "repo": "PinoyFreeCoder/flexbox",
+   "first_seen": "2026-10-18T02:00:40Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:40Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:11Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 1,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2020-04-12",
+    "pushed": "2020-04-12",
+    "owner_type": "User",
+    "description": "Lesson material for CSS flexbox lesson"
+   }
+  },
+  "PinoyFreeCoder/fullscreen_search": {
+   "repo": "PinoyFreeCoder/fullscreen_search",
+   "first_seen": "2026-10-18T02:00:41Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:41Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:12Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2023-07-24",
+    "pushed": "2023-07-24",
+    "owner_type": "User",
+    "description": "Fullscreen search overlay using HTML, CSS and JavaScript"
+   }
+  },
+  "PinoyFreeCoder/html-javascript-print": {
+   "repo": "PinoyFreeCoder/html-javascript-print",
+   "first_seen": "2026-10-18T02:00:42Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:42Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:13Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2022-11-12",
+    "pushed": "2022-11-12",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/html-tags": {
+   "repo": "PinoyFreeCoder/html-tags",
+   "first_seen": "2026-10-18T02:00:43Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:43Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:14Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2021-09-25",
+    "pushed": "2021-09-25",
+    "owner_type": "User",
+    "description": "lesson material for HTML tags"
+   }
+  },
+  "PinoyFreeCoder/html-to-google-sheet-tutorial": {
+   "repo": "PinoyFreeCoder/html-to-google-sheet-tutorial",
+   "first_seen": "2026-10-18T02:00:44Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:44Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:15Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 1,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2025-11-18",
+    "pushed": "2025-11-18",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/javascript-snake": {
+   "repo": "PinoyFreeCoder/javascript-snake",
+   "first_seen": "2026-10-18T02:00:45Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:45Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:16Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2020-06-30",
+    "pushed": "2020-06-30",
+    "owner_type": "User",
+    "description": "Lesson material for javascript snake game"
+   }
+  },
+  "PinoyFreeCoder/jquery-lesson": {
+   "repo": "PinoyFreeCoder/jquery-lesson",
+   "first_seen": "2026-10-18T02:00:46Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:46Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:17Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 2,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2020-09-17",
+    "pushed": "2020-09-17",
+    "owner_type": "User",
+    "description": "Lesson Material for Jquery"
+   }
+  },
+  "PinoyFreeCoder/landingpage": {
+   "repo": "PinoyFreeCoder/landingpage",
+   "first_seen": "2026-10-18T02:00:47Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:47Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:17Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 4,
+    "forks": 4,
+    "license": null,
+    "archived": false,
+    "language": "CSS",
+    "created": "2020-07-14",
+    "pushed": "2020-07-14",
+    "owner_type": "User",
+    "description": "This is the lesson material for the landing page lesson"
+   }
+  },
+  "PinoyFreeCoder/mcp-project-planner": {
+   "repo": "PinoyFreeCoder/mcp-project-planner",
+   "first_seen": "2026-10-18T02:00:48Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:48Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:18Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": null,
+    "created": "2026-09-14",
+    "pushed": "2026-09-14",
+    "owner_type": "User",
+    "description": "A remote Model Context Protocol server that lets any MCP client (Claude Desktop, Cursor, and others) plan a project from PinoyFreeCoder's curated catalogs. Desc"
+   }
+  },
+  "PinoyFreeCoder/open-ai-example": {
+   "repo": "PinoyFreeCoder/open-ai-example",
+   "first_seen": "2026-10-18T02:00:49Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:49Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:20Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2023-05-10",
+    "pushed": "2023-05-10",
+    "owner_type": "User",
+    "description": "source code for open ai api youtube lesson"
+   }
+  },
+  "PinoyFreeCoder/paymongo": {
+   "repo": "PinoyFreeCoder/paymongo",
+   "first_seen": "2026-10-18T02:00:51Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:51Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:21Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 2,
+    "forks": 1,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2021-11-23",
+    "pushed": "2021-11-25",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/paypal": {
+   "repo": "PinoyFreeCoder/paypal",
+   "first_seen": "2026-10-18T02:00:51Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:51Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:21Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2021-07-31",
+    "pushed": "2021-07-31",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/php-spreadsheet-import": {
+   "repo": "PinoyFreeCoder/php-spreadsheet-import",
+   "first_seen": "2026-10-18T02:00:52Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:52Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:22Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "PHP",
+    "created": "2023-01-26",
+    "pushed": "2023-01-26",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/php-to-mssql": {
+   "repo": "PinoyFreeCoder/php-to-mssql",
+   "first_seen": "2026-10-18T02:00:53Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:53Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:23Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "PHP",
+    "created": "2025-07-24",
+    "pushed": "2025-07-24",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/phpsendemail": {
+   "repo": "PinoyFreeCoder/phpsendemail",
+   "first_seen": "2026-10-18T02:00:54Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:54Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:24Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "PHP",
+    "created": "2020-03-09",
+    "pushed": "2020-03-09",
+    "owner_type": "User",
+    "description": "Simple php application to send email using PHPmailer"
+   }
+  },
+  "PinoyFreeCoder/pricing-table": {
+   "repo": "PinoyFreeCoder/pricing-table",
+   "first_seen": "2026-10-18T02:00:55Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:55Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:25Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "CSS",
+    "created": "2022-08-20",
+    "pushed": "2022-08-20",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/privacy-policy": {
+   "repo": "PinoyFreeCoder/privacy-policy",
+   "first_seen": "2026-10-18T02:00:57Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:57Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:26Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": null,
+    "created": "2021-11-13",
+    "pushed": "2021-11-13",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/product-system": {
+   "repo": "PinoyFreeCoder/product-system",
+   "first_seen": "2026-10-18T02:00:58Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:58Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:27Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "PHP",
+    "created": "2024-05-07",
+    "pushed": "2024-05-07",
+    "owner_type": "User",
+    "description": "Product Listing using PHP and MySQL"
+   }
+  },
+  "PinoyFreeCoder/profilerapp": {
+   "repo": "PinoyFreeCoder/profilerapp",
+   "first_seen": "2026-10-18T02:00:58Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:58Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:28Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "Python",
+    "created": "2020-07-28",
+    "pushed": "2020-07-28",
+    "owner_type": "User",
+    "description": "Python Django Lesson Material"
+   }
+  },
+  "PinoyFreeCoder/python-flask-opencv-face-detection": {
+   "repo": "PinoyFreeCoder/python-flask-opencv-face-detection",
+   "first_seen": "2026-10-18T02:00:59Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:59Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:29Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "Python",
+    "created": "2024-05-31",
+    "pushed": "2024-05-31",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/python_mysql": {
+   "repo": "PinoyFreeCoder/python_mysql",
+   "first_seen": "2026-10-18T02:01:00Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:00Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:30Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "Python",
+    "created": "2023-06-08",
+    "pushed": "2023-06-08",
+    "owner_type": "User",
+    "description": "python and mysql tutorial materials"
+   }
+  },
+  "PinoyFreeCoder/react-api-backend": {
+   "repo": "PinoyFreeCoder/react-api-backend",
+   "first_seen": "2026-10-18T02:01:01Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:01Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:31Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 3,
+    "forks": 3,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2020-11-12",
+    "pushed": "2022-06-13",
+    "owner_type": "User",
+    "description": "Lesson material for MERN stack @pinoyfreecoder youtube channel "
+   }
+  },
+  "PinoyFreeCoder/react-health-declaration": {
+   "repo": "PinoyFreeCoder/react-health-declaration",
+   "first_seen": "2026-10-18T02:01:03Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:03Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:33Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 0,
+    "forks": 2,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2020-11-12",
+    "pushed": "2020-11-12",
+    "owner_type": "User",
+    "description": "Lesson material for MERN stack @pinoyfreecoder youtube channel"
+   }
+  },
+  "PinoyFreeCoder/react-js-qrgenerator": {
+   "repo": "PinoyFreeCoder/react-js-qrgenerator",
+   "first_seen": "2026-10-18T02:01:04Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:04Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:35Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2022-04-23",
+    "pushed": "2022-04-23",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/sql_tutorial": {
+   "repo": "PinoyFreeCoder/sql_tutorial",
+   "first_seen": "2026-10-18T02:01:05Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:05Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:35Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 6,
+    "forks": 6,
+    "license": null,
+    "archived": false,
+    "language": null,
+    "created": "2021-03-10",
+    "pushed": "2021-05-03",
+    "owner_type": "User",
+    "description": "sql database for lesson materials"
+   }
+  },
+  "PinoyFreeCoder/svelte-todo": {
+   "repo": "PinoyFreeCoder/svelte-todo",
+   "first_seen": "2026-10-18T02:01:06Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:06Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:37Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "Svelte",
+    "created": "2025-07-21",
+    "pushed": "2025-07-21",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/text-to-voice": {
+   "repo": "PinoyFreeCoder/text-to-voice",
+   "first_seen": "2026-10-18T02:01:07Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:07Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:38Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2019-10-10",
+    "pushed": "2019-10-12",
+    "owner_type": "User",
+    "description": "Voice recognition using Artoym.js"
+   }
+  },
+  "PinoyFreeCoder/timeline-gsap": {
+   "repo": "PinoyFreeCoder/timeline-gsap",
+   "first_seen": "2026-10-18T02:01:08Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:08Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:39Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2022-08-27",
+    "pushed": "2022-08-27",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/typescript-lesson": {
+   "repo": "PinoyFreeCoder/typescript-lesson",
+   "first_seen": "2026-10-18T02:01:09Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:09Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:40Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2023-05-04",
+    "pushed": "2023-05-06",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/vue3-todo-app": {
+   "repo": "PinoyFreeCoder/vue3-todo-app",
+   "first_seen": "2026-10-18T02:01:11Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:11Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:41Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "Vue",
+    "created": "2025-07-19",
+    "pushed": "2025-07-19",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/websocket-api-and-nodejs": {
+   "repo": "PinoyFreeCoder/websocket-api-and-nodejs",
+   "first_seen": "2026-10-18T02:01:12Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:12Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:43Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 1,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2024-11-06",
+    "pushed": "2024-11-06",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/wordpressplugin": {
+   "repo": "PinoyFreeCoder/wordpressplugin",
+   "first_seen": "2026-10-18T02:01:13Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:13Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:44Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 0,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "PHP",
+    "created": "2020-02-13",
+    "pushed": "2020-02-13",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "PinoyFreeCoder/wordpresstheme": {
+   "repo": "PinoyFreeCoder/wordpresstheme",
+   "first_seen": "2026-10-18T02:01:14Z",
+   "sources": [
+    "pinoyfreecoder-account"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:14Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:45Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 2,
+    "forks": 0,
+    "license": null,
+    "archived": false,
+    "language": "PHP",
+    "created": "2020-02-08",
+    "pushed": "2020-02-08",
+    "owner_type": "User",
+    "description": "Example of a bootstrap template converted to wordpress theme"
+   }
+  },
+  "Tencent/WeKnora": {
+   "repo": "Tencent/WeKnora",
+   "first_seen": "2026-10-18T02:01:31Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:31Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:04Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 34527,
+    "forks": 4598,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "Go",
+    "created": "2025-07-22",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki."
+   }
+  },
+  "Yousuf-developer/Viscose-carousel": {
+   "repo": "Yousuf-developer/Viscose-carousel",
+   "first_seen": "2026-10-18T02:01:38Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:38Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:10Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 514,
+    "forks": 81,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2026-08-15",
+    "pushed": "2026-10-12",
+    "owner_type": "User",
+    "description": "A wheel of work that never quite sets. Cards fuse as they meet, and draw into threads as they part."
+   }
+  },
+  "alpbahadur/49-IDE": {
+   "repo": "alpbahadur/49-IDE",
+   "first_seen": "2026-10-18T02:02:51Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:51Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:49Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "workflows_flagged": [
+     ".github/workflows/cla.yml"
+    ]
+   },
+   "meta": {
+    "stars": 627,
+    "forks": 68,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2026-02-27",
+    "pushed": "2026-10-01",
+    "owner_type": "Organization",
+    "description": "Open-source 2D IDE for managing AI agents in native CLIs, terminal, gits, beads issues, and files across multiple projects and machines. Self-host on a single m"
+   }
+  },
+  "amarnath3003/IoT-Claw": {
+   "repo": "amarnath3003/IoT-Claw",
+   "first_seen": "2026-10-18T02:02:52Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:52Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:50Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 24,
+    "forks": 7,
+    "license": null,
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2026-04-25",
+    "pushed": "2026-09-06",
+    "owner_type": "User",
+    "description": "OpenClaw but for hardware and IoT devices"
+   }
+  },
+  "anthropics/claude-plugins-official": {
+   "repo": "anthropics/claude-plugins-official",
+   "first_seen": "2026-10-18T02:02:55Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:55Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:59Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "workflows_flagged": [
+     ".github/workflows/close-external-prs.yml"
+    ]
+   },
+   "meta": {
+    "stars": 41820,
+    "forks": 4467,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2025-11-20",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+   }
+  },
+  "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code": {
+   "repo": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+   "first_seen": "2026-10-18T02:03:10Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:10Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:21Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 37308,
+    "forks": 7508,
+    "license": null,
+    "archived": false,
+    "language": null,
+    "created": "2021-01-02",
+    "pushed": "2026-09-26",
+    "owner_type": "User",
+    "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code"
+   }
+  },
+  "bashalarmistalt/decimen-optical-transfer": {
+   "repo": "bashalarmistalt/decimen-optical-transfer",
+   "first_seen": "2026-10-18T02:03:41Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:41Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:24Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "install_scripts": {},
+    "workflows_flagged": [
+     ".github/workflows/cla.yml"
+    ]
+   },
+   "meta": {
+    "stars": 6934,
+    "forks": 828,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-07-30",
+    "pushed": "2026-10-09",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "bregman-arie/devops-exercises": {
+   "repo": "bregman-arie/devops-exercises",
+   "first_seen": "2026-10-18T02:03:45Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:45Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:28Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 84892,
+    "forks": 20394,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "Python",
+    "created": "2019-10-03",
+    "pushed": "2025-12-27",
+    "owner_type": "User",
+    "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualizat"
+   }
+  },
+  "cmccandless/license-api": {
+   "repo": "cmccandless/license-api",
+   "first_seen": "2026-10-18T02:03:47Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:47Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "archived",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:29Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "archived",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 5,
+    "forks": 1,
+    "license": "MIT",
+    "archived": true,
+    "language": "Python",
+    "created": "2018-06-04",
+    "pushed": "2022-12-08",
+    "owner_type": "User",
+    "description": "Unofficial REST API for choosealicense.com"
+   }
+  },
+  "coder/coder": {
+   "repo": "coder/coder",
+   "first_seen": "2026-10-18T02:03:51Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:51Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:34Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "install_scripts": {},
+    "workflows_flagged": [
+     ".github/workflows/backport.yaml"
+    ]
+   },
+   "meta": {
+    "stars": 17074,
+    "forks": 1637,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "Go",
+    "created": "2021-12-22",
+    "pushed": "2026-10-18",
+    "owner_type": "Organization",
+    "description": "Secure environments for developers and their agents"
+   }
+  },
+  "cyberboysumanjay/Inshorts-News-API": {
+   "repo": "cyberboysumanjay/Inshorts-News-API",
+   "first_seen": "2026-10-18T02:03:52Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:52Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:35Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "stale_push_gt_2y"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 288,
+    "forks": 73,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2020-03-16",
+    "pushed": "2023-09-28",
+    "owner_type": "User",
+    "description": "Unofficial API of Inshorts written in Flask"
+   }
+  },
+  "debpalash/VoiceStudio": {
+   "repo": "debpalash/VoiceStudio",
+   "first_seen": "2026-10-18T02:03:59Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:59Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:42Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "install_scripts": {},
+    "workflows_flagged": [
+     ".github/workflows/cla.yml"
+    ]
+   },
+   "meta": {
+    "stars": 73477,
+    "forks": 8042,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2026-04-09",
+    "pushed": "2026-10-18",
+    "owner_type": "User",
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative \u2014 voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation i"
+   }
+  },
+  "fawazahmed0/currency-api": {
+   "repo": "fawazahmed0/currency-api",
+   "first_seen": "2026-10-18T02:04:03Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:03Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:53Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 92,
+    "forks": 29,
+    "license": null,
+    "archived": false,
+    "language": null,
+    "created": "2024-03-03",
+    "pushed": "2025-07-29",
+    "owner_type": "User",
+    "description": "Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits"
+   }
+  },
+  "fawazahmed0/quran-api": {
+   "repo": "fawazahmed0/quran-api",
+   "first_seen": "2026-10-18T02:04:08Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:08Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "tree_truncated_deep_vet_skipped"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:59Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "tree_truncated_deep_vet_skipped"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1195,
+    "forks": 230,
+    "license": "Unlicense",
+    "archived": false,
+    "language": null,
+    "created": "2020-08-06",
+    "pushed": "2026-09-12",
+    "owner_type": "User",
+    "description": "Free Quran API Service with 90+ different languages and 400+ translations"
+   }
+  },
+  "louislam/uptime-kuma": {
+   "repo": "louislam/uptime-kuma",
+   "first_seen": "2026-10-18T02:04:22Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:22Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target",
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:12Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target",
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "install_scripts": {},
+    "workflows_flagged": [
+     ".github/workflows/ai-slop.yml",
+     ".github/workflows/auto-test.yml"
+    ]
+   },
+   "meta": {
+    "stars": 92580,
+    "forks": 8566,
+    "license": "MIT",
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2021-07-03",
+    "pushed": "2026-10-18",
+    "owner_type": "User",
+    "description": "A fancy self-hosted monitoring tool"
+   }
+  },
+  "mathdroid/covid-19-api": {
+   "repo": "mathdroid/covid-19-api",
+   "first_seen": "2026-10-18T02:04:23Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:23Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:13Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 1349,
+    "forks": 273,
+    "license": null,
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2020-03-03",
+    "pushed": "2023-03-27",
+    "owner_type": "User",
+    "description": "COVID-19 global data (from JHU CSSE for now) as-a-service"
+   }
+  },
+  "minimaxir/big-list-of-naughty-strings": {
+   "repo": "minimaxir/big-list-of-naughty-strings",
+   "first_seen": "2026-10-18T02:04:27Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:27Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "stale_push_gt_2y"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:32Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "stale_push_gt_2y"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 47737,
+    "forks": 2149,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2015-08-08",
+    "pushed": "2024-04-18",
+    "owner_type": "User",
+    "description": "The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data."
+   }
+  },
+  "mksglu/context-mode": {
+   "repo": "mksglu/context-mode",
+   "first_seen": "2026-10-18T02:04:44Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:44Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:42Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 30528,
+    "forks": 2211,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-02-23",
+    "pushed": "2026-10-18",
+    "owner_type": "User",
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via"
+   }
+  },
+  "mvt-project/mvt": {
+   "repo": "mvt-project/mvt",
+   "first_seen": "2026-10-18T02:04:47Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:47Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:46Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 15426,
+    "forks": 1488,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "Python",
+    "created": "2021-07-16",
+    "pushed": "2026-10-12",
+    "owner_type": "Organization",
+    "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise."
+   }
+  },
+  "sqlmapproject/sqlmap": {
+   "repo": "sqlmapproject/sqlmap",
+   "first_seen": "2026-10-18T02:05:04Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:05:04Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:19:02Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 38726,
+    "forks": 6404,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "Python",
+    "created": "2012-06-26",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "Automatic SQL injection and database takeover tool"
+   }
+  },
+  "t8y2/dbx": {
+   "repo": "t8y2/dbx",
+   "first_seen": "2026-10-18T02:05:15Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:05:15Z",
+     "was": null,
+     "now": "REJECT",
+     "reasons": [
+      "workflow_curl_pipe_sh"
+     ]
+    },
+    {
+     "at": "2026-10-18T02:19:10Z",
+     "was": "REJECT",
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_curl_pipe_sh"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:19:10Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_curl_pipe_sh"
+   ],
+   "evidence": {
+    "install_scripts": {},
+    "workflows_flagged": [
+     ".github/workflows/agents-release.yml"
+    ]
+   },
+   "meta": {
+    "stars": 27061,
+    "forks": 2451,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Rust",
+    "created": "2026-04-29",
+    "pushed": "2026-10-18",
+    "owner_type": "User",
+    "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-"
+   }
+  },
+  "traefik/traefik": {
+   "repo": "traefik/traefik",
+   "first_seen": "2026-10-18T02:05:17Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:05:17Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:19:20Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "workflows_flagged": [
+     ".github/workflows/close-org-fork-pr.yaml"
+    ]
+   },
+   "meta": {
+    "stars": 65268,
+    "forks": 6252,
+    "license": "MIT",
+    "archived": false,
+    "language": "Go",
+    "created": "2015-09-13",
+    "pushed": "2026-10-15",
+    "owner_type": "Organization",
+    "description": "The Cloud Native Application Proxy"
+   }
+  },
+  "0xGF/boneyard": {
+   "repo": "0xGF/boneyard",
+   "first_seen": "2026-10-18T01:58:37Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:58:37Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:12:44Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 7471,
+    "forks": 295,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-04-01",
+    "pushed": "2026-08-31",
+    "owner_type": "User",
+    "description": "Auto generated skeleton loading framework"
+   }
+  },
+  "2600th/dlss5-video-player": {
+   "repo": "2600th/dlss5-video-player",
+   "first_seen": "2026-10-18T01:58:40Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:58:40Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:12:46Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 200,
+    "forks": 18,
+    "license": "MIT",
+    "archived": false,
+    "language": "C++",
+    "created": "2026-09-01",
+    "pushed": "2026-10-16",
+    "owner_type": "User",
+    "description": "Windows player that runs video, photos or GIFs through NVIDIA's DLSS 5 neural renderer, then compares the result with the original frame by frame. Local files o"
+   }
+  },
+  "AdguardTeam/AdGuardHome": {
+   "repo": "AdguardTeam/AdGuardHome",
+   "first_seen": "2026-10-18T01:58:42Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:58:42Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:12:49Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 37504,
+    "forks": 2550,
+    "license": "GPL-3.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2016-07-06",
+    "pushed": "2026-10-16",
+    "owner_type": "Organization",
+    "description": "Network-wide ads & trackers blocking DNS server"
+   }
+  },
+  "AnmolSaini16/mapcn": {
+   "repo": "AnmolSaini16/mapcn",
+   "first_seen": "2026-10-18T01:58:44Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:58:44Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:12:51Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 12274,
+    "forks": 718,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2025-12-28",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": "Beautiful map components. 100% Free, Zero config, one command setup."
+   }
+  },
+  "BlessedRebuS/Krawl": {
+   "repo": "BlessedRebuS/Krawl",
+   "first_seen": "2026-10-18T01:58:47Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:58:47Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:12:53Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 784,
+    "forks": 75,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2025-12-10",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": "Krawl is a customizable, lightweight, cloud-native web deception server and anti-crawler that creates fake web applications with low-hanging vulnerabilities usi"
+   }
+  },
+  "D4Vinci/Scrapling": {
+   "repo": "D4Vinci/Scrapling",
+   "first_seen": "2026-10-18T01:58:54Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:58:54Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:14Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 88306,
+    "forks": 9095,
+    "license": "BSD-3-Clause",
+    "archived": false,
+    "language": "Python",
+    "created": "2024-10-13",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": "\ud83d\udd77\ufe0f A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and foll"
+   }
+  },
+  "DenverCoder1/readme-typing-svg": {
+   "repo": "DenverCoder1/readme-typing-svg",
+   "first_seen": "2026-10-18T01:58:56Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:58:56Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:17Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 9437,
+    "forks": 1622,
+    "license": "MIT",
+    "archived": false,
+    "language": "PHP",
+    "created": "2021-04-20",
+    "pushed": "2026-10-03",
+    "owner_type": "User",
+    "description": "\u26a1 Dynamically generated, customizable SVG that gives the appearance of typing and deleting text for use on your profile page, repositories, or website."
+   }
+  },
+  "DonkeyCut/Donkey": {
+   "repo": "DonkeyCut/Donkey",
+   "first_seen": "2026-10-18T01:59:10Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:10Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:22Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 313,
+    "forks": 34,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-05-18",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "Open source CapCut alternative."
+   }
+  },
+  "GVCLab/PersonaLive": {
+   "repo": "GVCLab/PersonaLive",
+   "first_seen": "2026-10-18T01:59:15Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:15Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:27Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 4001,
+    "forks": 598,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2025-11-25",
+    "pushed": "2026-08-28",
+    "owner_type": "Organization",
+    "description": "[CVPR 2026] PersonaLive! : Expressive Portrait Image Animation for Live Streaming"
+   }
+  },
+  "GyulyVGC/sniffnet": {
+   "repo": "GyulyVGC/sniffnet",
+   "first_seen": "2026-10-18T01:59:19Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:19Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:37Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 41602,
+    "forks": 1972,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Rust",
+    "created": "2022-07-31",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": "Comfortably monitor your network traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f"
+   }
+  },
+  "HUANGCHIHHUNGLeo/claude-real-video": {
+   "repo": "HUANGCHIHHUNGLeo/claude-real-video",
+   "first_seen": "2026-10-18T01:59:21Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:21Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:39Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 2235,
+    "forks": 201,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2026-06-30",
+    "pushed": "2026-10-08",
+    "owner_type": "User",
+    "description": "Let Claude (or any LLM) actually watch a video \u2014 scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT."
+   }
+  },
+  "Hack-with-Github/Awesome-Hacking": {
+   "repo": "Hack-with-Github/Awesome-Hacking",
+   "first_seen": "2026-10-18T01:59:22Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:22Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:40Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 122898,
+    "forks": 10852,
+    "license": "CC0-1.0",
+    "archived": false,
+    "language": null,
+    "created": "2016-03-30",
+    "pushed": "2026-07-26",
+    "owner_type": "Organization",
+    "description": "A collection of various awesome lists for hackers, pentesters and security researchers"
+   }
+  },
+  "HackUnderway/SearchPhone": {
+   "repo": "HackUnderway/SearchPhone",
+   "first_seen": "2026-10-18T01:59:23Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:23Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:41Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 2040,
+    "forks": 274,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2024-11-12",
+    "pushed": "2026-08-24",
+    "owner_type": "User",
+    "description": "Phone number OSINT toolkit with multi-API search (Google, GitHub, Numverify, Reddit, DuckDuckGo), Hudson Rock infostealer intelligence, and automatic report gen"
+   }
+  },
+  "HackerNews/API": {
+   "repo": "HackerNews/API",
+   "first_seen": "2026-10-18T01:59:24Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:24Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:43Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 13358,
+    "forks": 761,
+    "license": "MIT",
+    "archived": false,
+    "language": null,
+    "created": "2014-10-02",
+    "pushed": "2025-01-01",
+    "owner_type": "Organization",
+    "description": "Documentation and Samples for the Official HN API"
+   }
+  },
+  "HarnessRouter/SystemOneHarness": {
+   "repo": "HarnessRouter/SystemOneHarness",
+   "first_seen": "2026-10-18T01:59:28Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:28Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:47Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 195,
+    "forks": 22,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2026-09-19",
+    "pushed": "2026-09-21",
+    "owner_type": "Organization",
+    "description": "The System One harness for System One models. Run Jev and other System One models locally or directly on HarnessRouter.ai."
+   }
+  },
+  "JaidedAI/EasyOCR": {
+   "repo": "JaidedAI/EasyOCR",
+   "first_seen": "2026-10-18T01:59:32Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:32Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:51Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 30080,
+    "forks": 3618,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2020-03-14",
+    "pushed": "2025-12-05",
+    "owner_type": "Organization",
+    "description": "Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc."
+   }
+  },
+  "JustVugg/colibri": {
+   "repo": "JustVugg/colibri",
+   "first_seen": "2026-10-18T01:59:34Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:34Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:53Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 42608,
+    "forks": 4756,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "C",
+    "created": "2026-07-01",
+    "pushed": "2026-10-18",
+    "owner_type": "User",
+    "description": "Run frontier MoE models on hardware you already own \u2014 pure C, zero deps, experts streamed from disk. Tiny engine, immense model. \ud83d\udc26"
+   }
+  },
+  "Kaliiiiiiiiii-Vinyzu/patchright": {
+   "repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+   "first_seen": "2026-10-18T01:59:37Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:37Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:56Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 4897,
+    "forks": 239,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2023-11-07",
+    "pushed": "2026-10-15",
+    "owner_type": "Organization",
+    "description": "Undetected version of the Playwright testing and automation library."
+   }
+  },
+  "KevinXu02/aha-3d": {
+   "repo": "KevinXu02/aha-3d",
+   "first_seen": "2026-10-18T01:59:39Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:39Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:13:57Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 311,
+    "forks": 15,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2026-09-23",
+    "pushed": "2026-09-29",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "KeygraphHQ/shannon": {
+   "repo": "KeygraphHQ/shannon",
+   "first_seen": "2026-10-18T01:59:41Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:41Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:01Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 49061,
+    "forks": 5622,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2025-09-27",
+    "pushed": "2026-10-15",
+    "owner_type": "Organization",
+    "description": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabi"
+   }
+  },
+  "Lum1104/Understand-Anything": {
+   "repo": "Lum1104/Understand-Anything",
+   "first_seen": "2026-10-18T01:59:45Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:45Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:04Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 86806,
+    "forks": 7320,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-03-15",
+    "pushed": "2026-10-12",
+    "owner_type": "Organization",
+    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude C"
+   }
+  },
+  "LuxAlgo/trade-journal": {
+   "repo": "LuxAlgo/trade-journal",
+   "first_seen": "2026-10-18T01:59:48Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:48Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:07Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 502,
+    "forks": 193,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-08-24",
+    "pushed": "2026-10-15",
+    "owner_type": "Organization",
+    "description": "The open-source trade journal. Broker sync, P&L calendar, deep analytics, and AI reflection. Self-hosted, MIT, free. By LuxAlgo."
+   }
+  },
+  "M-Media-Group/Cartes.io": {
+   "repo": "M-Media-Group/Cartes.io",
+   "first_seen": "2026-10-18T01:59:51Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:51Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:16Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 128,
+    "forks": 7,
+    "license": "GPL-3.0",
+    "archived": false,
+    "language": "PHP",
+    "created": "2019-05-18",
+    "pushed": "2024-12-10",
+    "owner_type": "Organization",
+    "description": "Create live, community-driven, and anonymous maps and markers for anything."
+   }
+  },
+  "MengTo/threeui": {
+   "repo": "MengTo/threeui",
+   "first_seen": "2026-10-18T01:59:58Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T01:59:58Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:23Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 6671,
+    "forks": 625,
+    "license": "MIT",
+    "archived": false,
+    "language": "HTML",
+    "created": "2026-08-21",
+    "pushed": "2026-09-03",
+    "owner_type": "User",
+    "description": "Open-source ThreeUI Community catalog with live interactive components and complete Community source."
+   }
+  },
+  "NVIDIA/OpenShell": {
+   "repo": "NVIDIA/OpenShell",
+   "first_seen": "2026-10-18T02:00:01Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:01Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:26Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 16544,
+    "forks": 1807,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Rust",
+    "created": "2026-02-24",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "OpenShell is the safe, private runtime for autonomous AI agents."
+   }
+  },
+  "NdoleStudio/httpsms": {
+   "repo": "NdoleStudio/httpsms",
+   "first_seen": "2026-10-18T02:00:04Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:04Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:29Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 6042,
+    "forks": 1101,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "Go",
+    "created": "2022-05-29",
+    "pushed": "2026-10-06",
+    "owner_type": "Organization",
+    "description": "Send and receive SMS messages using your Android phone programmatically via a simple HTTP API"
+   }
+  },
+  "Open-Quant/openquant": {
+   "repo": "Open-Quant/openquant",
+   "first_seen": "2026-10-18T02:00:06Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:06Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:31Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 52,
+    "forks": 6,
+    "license": "MIT",
+    "archived": false,
+    "language": "Jupyter Notebook",
+    "created": "2020-08-11",
+    "pushed": "2026-10-16",
+    "owner_type": "Organization",
+    "description": "This is a repository for enabling collaborative and proper practices for financial machine learning. "
+   }
+  },
+  "OpenBMB/VoxCPM": {
+   "repo": "OpenBMB/VoxCPM",
+   "first_seen": "2026-10-18T02:00:08Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:08Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:33Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 39490,
+    "forks": 4480,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2025-09-16",
+    "pushed": "2026-10-08",
+    "owner_type": "Organization",
+    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning"
+   }
+  },
+  "OpenCut-app/OpenCut": {
+   "repo": "OpenCut-app/OpenCut",
+   "first_seen": "2026-10-18T02:00:10Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:10Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:34Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 95117,
+    "forks": 9371,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2025-06-22",
+    "pushed": "2026-09-24",
+    "owner_type": "Organization",
+    "description": "The open-source CapCut alternative"
+   }
+  },
+  "Openpanel-dev/openpanel": {
+   "repo": "Openpanel-dev/openpanel",
+   "first_seen": "2026-10-18T02:00:13Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:00:13Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:14:44Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 7158,
+    "forks": 516,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2024-02-29",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting."
+   }
+  },
+  "Pumpkin-MC/Pumpkin": {
+   "repo": "Pumpkin-MC/Pumpkin",
+   "first_seen": "2026-10-18T02:01:17Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:17Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:48Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 12489,
+    "forks": 930,
+    "license": "GPL-3.0",
+    "archived": false,
+    "language": "Rust",
+    "created": "2024-07-28",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "Empowering everyone to host fast and efficient Minecraft servers"
+   }
+  },
+  "Raphire/Win11Debloat": {
+   "repo": "Raphire/Win11Debloat",
+   "first_seen": "2026-10-18T02:01:19Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:19Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:50Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 59486,
+    "forks": 2584,
+    "license": "MIT",
+    "archived": false,
+    "language": "PowerShell",
+    "created": "2020-10-27",
+    "pushed": "2026-10-18",
+    "owner_type": "User",
+    "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter a"
+   }
+  },
+  "Shubhamsaboo/awesome-llm-apps": {
+   "repo": "Shubhamsaboo/awesome-llm-apps",
+   "first_seen": "2026-10-18T02:01:22Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:22Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:53Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 142143,
+    "forks": 20891,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2024-04-29",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
+   }
+  },
+  "THU-MAIC/OpenMAIC": {
+   "repo": "THU-MAIC/OpenMAIC",
+   "first_seen": "2026-10-18T02:01:26Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:26Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:15:57Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 40941,
+    "forks": 6346,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-03-11",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click"
+   }
+  },
+  "Tencent/BrowserSkill": {
+   "repo": "Tencent/BrowserSkill",
+   "first_seen": "2026-10-18T02:01:29Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:29Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:00Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 9111,
+    "forks": 656,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-06-22",
+    "pushed": "2026-10-15",
+    "owner_type": "Organization",
+    "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent."
+   }
+  },
+  "VigoZhao/AI-Visual-Prompt-Cookbook": {
+   "repo": "VigoZhao/AI-Visual-Prompt-Cookbook",
+   "first_seen": "2026-10-18T02:01:35Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:35Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:07Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 786,
+    "forks": 77,
+    "license": "MIT",
+    "archived": false,
+    "language": "HTML",
+    "created": "2026-05-11",
+    "pushed": "2026-10-15",
+    "owner_type": "User",
+    "description": "Plug-and-play JSON style prompts for Nano Banana Pro, GPT Image & Midjourney. Copy one style.json, get a consistent look. New styles every week."
+   }
+  },
+  "VoltAgent/awesome-design-md": {
+   "repo": "VoltAgent/awesome-design-md",
+   "first_seen": "2026-10-18T02:01:36Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:36Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:08Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 121955,
+    "forks": 13558,
+    "license": "MIT",
+    "archived": false,
+    "language": null,
+    "created": "2026-03-31",
+    "pushed": "2026-10-14",
+    "owner_type": "Organization",
+    "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI."
+   }
+  },
+  "Zackriya-Solutions/meetily": {
+   "repo": "Zackriya-Solutions/meetily",
+   "first_seen": "2026-10-18T02:01:41Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:41Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:13Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 31863,
+    "forks": 3577,
+    "license": "MIT",
+    "archived": false,
+    "language": "Rust",
+    "created": "2024-12-26",
+    "pushed": "2026-09-15",
+    "owner_type": "Organization",
+    "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local "
+   }
+  },
+  "Zie619/n8n-workflows": {
+   "repo": "Zie619/n8n-workflows",
+   "first_seen": "2026-10-18T02:01:44Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:44Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:16Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 57015,
+    "forks": 7680,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2025-05-14",
+    "pushed": "2026-06-24",
+    "owner_type": "User",
+    "description": "all of the workflows of n8n i could find (also from the site itself)"
+   }
+  },
+  "a16z-infra/ai-town": {
+   "repo": "a16z-infra/ai-town",
+   "first_seen": "2026-10-18T02:01:45Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:45Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:17Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 10662,
+    "forks": 1227,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2023-07-16",
+    "pushed": "2026-08-26",
+    "owner_type": "Organization",
+    "description": "A MIT-licensed, deployable starter kit for building and customizing your own version of AI town - a virtual town where AI characters live, chat and socialize."
+   }
+  },
+  "affaan-m/ECC": {
+   "repo": "affaan-m/ECC",
+   "first_seen": "2026-10-18T02:01:49Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:01:49Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:28Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 282553,
+    "forks": 41990,
+    "license": "MIT",
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2026-01-18",
+    "pushed": "2026-10-15",
+    "owner_type": "User",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor "
+   }
+  },
+  "agentscope-ai/QwenPaw": {
+   "repo": "agentscope-ai/QwenPaw",
+   "first_seen": "2026-10-18T02:02:07Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:07Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:31Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 35809,
+    "forks": 3188,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-02-24",
+    "pushed": "2026-10-16",
+    "owner_type": "Organization",
+    "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities."
+   }
+  },
+  "akitaonrails/ai-memory": {
+   "repo": "akitaonrails/ai-memory",
+   "first_seen": "2026-10-18T02:02:09Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:09Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:33Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 9944,
+    "forks": 721,
+    "license": "MIT",
+    "archived": false,
+    "language": "Rust",
+    "created": "2026-05-21",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
+   }
+  },
+  "akullpp/awesome-java": {
+   "repo": "akullpp/awesome-java",
+   "first_seen": "2026-10-18T02:02:11Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:11Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:35Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 49288,
+    "forks": 7737,
+    "license": "CC-BY-SA-4.0",
+    "archived": false,
+    "language": null,
+    "created": "2014-07-09",
+    "pushed": "2026-09-23",
+    "owner_type": "User",
+    "description": "A curated list of awesome frameworks, libraries and software for the Java programming language."
+   }
+  },
+  "alexgreensh/anidoodle": {
+   "repo": "alexgreensh/anidoodle",
+   "first_seen": "2026-10-18T02:02:12Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:12Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:37Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 979,
+    "forks": 79,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-09-22",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render."
+   }
+  },
+  "alibaba/open-code-review": {
+   "repo": "alibaba/open-code-review",
+   "first_seen": "2026-10-18T02:02:23Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:23Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:41Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 47549,
+    "forks": 3471,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Go",
+    "created": "2026-05-18",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comment"
+   }
+  },
+  "alibaba/page-agent": {
+   "repo": "alibaba/page-agent",
+   "first_seen": "2026-10-18T02:02:46Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:46Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:43Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 29472,
+    "forks": 2771,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2025-09-23",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "JavaScript in-page GUI agent. Control web interfaces with natural language."
+   }
+  },
+  "allenai/olmocr": {
+   "repo": "allenai/olmocr",
+   "first_seen": "2026-10-18T02:02:48Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:48Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:16:46Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 19752,
+    "forks": 1647,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2024-09-17",
+    "pushed": "2026-03-25",
+    "owner_type": "Organization",
+    "description": "Toolkit for linearizing PDFs for LLM datasets/training"
+   }
+  },
+  "antirez/ds4": {
+   "repo": "antirez/ds4",
+   "first_seen": "2026-10-18T02:02:57Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:02:57Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:01Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 23911,
+    "forks": 2307,
+    "license": "MIT",
+    "archived": false,
+    "language": "C",
+    "created": "2026-05-06",
+    "pushed": "2026-10-08",
+    "owner_type": "User",
+    "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm"
+   }
+  },
+  "apple/container": {
+   "repo": "apple/container",
+   "first_seen": "2026-10-18T02:03:00Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:00Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:11Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 50768,
+    "forks": 1829,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Swift",
+    "created": "2025-05-30",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. "
+   }
+  },
+  "appsmithorg/appsmith": {
+   "repo": "appsmithorg/appsmith",
+   "first_seen": "2026-10-18T02:03:04Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:04Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:15Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 41079,
+    "forks": 4811,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2020-06-30",
+    "pushed": "2026-10-16",
+    "owner_type": "Organization",
+    "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API."
+   }
+  },
+  "arvids-unavailable/openGym": {
+   "repo": "arvids-unavailable/openGym",
+   "first_seen": "2026-10-18T02:03:06Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:06Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:18Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 7297,
+    "forks": 1194,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2026-08-03",
+    "pushed": "2026-08-03",
+    "owner_type": "User",
+    "description": "https://github.com/DuarteSantos8/openGym"
+   }
+  },
+  "asgeirtj/system_prompts_leaks": {
+   "repo": "asgeirtj/system_prompts_leaks",
+   "first_seen": "2026-10-18T02:03:08Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:08Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:20Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 69815,
+    "forks": 11347,
+    "license": "CC0-1.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2025-05-03",
+    "pushed": "2026-10-16",
+    "owner_type": "User",
+    "description": "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flas"
+   }
+  },
+  "braedonsaunders/codeflow": {
+   "repo": "braedonsaunders/codeflow",
+   "first_seen": "2026-10-18T02:03:43Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:43Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:26Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 5421,
+    "forks": 826,
+    "license": "MIT",
+    "archived": false,
+    "language": "HTML",
+    "created": "2025-12-16",
+    "pushed": "2026-09-22",
+    "owner_type": "User",
+    "description": "Paste any GitHub URL \u2192 interactive architecture map. See how files connect, find what breaks if you change something. No install, no accounts \u2014 runs entirely in"
+   }
+  },
+  "cloudflare/security-audit-skill": {
+   "repo": "cloudflare/security-audit-skill",
+   "first_seen": "2026-10-18T02:03:46Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:46Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:29Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 30735,
+    "forks": 1922,
+    "license": "MIT",
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2026-06-18",
+    "pushed": "2026-09-14",
+    "owner_type": "Organization",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+   }
+  },
+  "danielmiessler/SecLists": {
+   "repo": "danielmiessler/SecLists",
+   "first_seen": "2026-10-18T02:03:55Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:03:55Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:38Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 74173,
+    "forks": 25148,
+    "license": "MIT",
+    "archived": false,
+    "language": "PHP",
+    "created": "2012-02-19",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types i"
+   }
+  },
+  "fatedier/frp": {
+   "repo": "fatedier/frp",
+   "first_seen": "2026-10-18T02:04:02Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:02Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:17:52Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 109968,
+    "forks": 15244,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Go",
+    "created": "2015-12-21",
+    "pushed": "2026-10-15",
+    "owner_type": "User",
+    "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
+   }
+  },
+  "googleanalytics/google-analytics-mcp": {
+   "repo": "googleanalytics/google-analytics-mcp",
+   "first_seen": "2026-10-18T02:04:09Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:09Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:00Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 3492,
+    "forks": 734,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2025-07-16",
+    "pushed": "2026-10-02",
+    "owner_type": "Organization",
+    "description": ""
+   }
+  },
+  "guillaumemeyer/watermarks-remover": {
+   "repo": "guillaumemeyer/watermarks-remover",
+   "first_seen": "2026-10-18T02:04:12Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:12Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:02Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 24331,
+    "forks": 2791,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2026-08-11",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": "A privacy-first app that strips AI watermarks from content you own."
+   }
+  },
+  "juliayxhuang/florida-man-api": {
+   "repo": "juliayxhuang/florida-man-api",
+   "first_seen": "2026-10-18T02:04:13Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:13Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:03Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 4,
+    "forks": 0,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2026-05-04",
+    "pushed": "2026-05-04",
+    "owner_type": "User",
+    "description": ""
+   }
+  },
+  "lfnovo/open-notebook": {
+   "repo": "lfnovo/open-notebook",
+   "first_seen": "2026-10-18T02:04:16Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:16Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:07Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 40300,
+    "forks": 4673,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2024-10-21",
+    "pushed": "2026-10-13",
+    "owner_type": "User",
+    "description": "An Open Source implementation of Notebook LM with more flexibility and features"
+   }
+  },
+  "louis-cfm/coucou": {
+   "repo": "louis-cfm/coucou",
+   "first_seen": "2026-10-18T02:04:19Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:19Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:09Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 5450,
+    "forks": 948,
+    "license": "MIT",
+    "archived": false,
+    "language": "Swift",
+    "created": "2026-09-27",
+    "pushed": "2026-10-17",
+    "owner_type": "User",
+    "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. A"
+   }
+  },
+  "mazipan/graphql-pokeapi": {
+   "repo": "mazipan/graphql-pokeapi",
+   "first_seen": "2026-10-18T02:04:25Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:25Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:31Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 189,
+    "forks": 31,
+    "license": "MIT",
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2020-02-12",
+    "pushed": "2026-09-13",
+    "owner_type": "User",
+    "description": "\ud83d\udd34  The Unofficial GraphQL for PokeAPI"
+   }
+  },
+  "mohit67890/imajev": {
+   "repo": "mohit67890/imajev",
+   "first_seen": "2026-10-18T02:09:32Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:09:32Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:43Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 396,
+    "forks": 47,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2026-09-23",
+    "pushed": "2026-10-10",
+    "owner_type": "User",
+    "description": "Open Jev-style typed-decision model that also takes images: photo + app state + typed questions in, calibrated probabilities out, locally."
+   }
+  },
+  "ni5arga/sightline": {
+   "repo": "ni5arga/sightline",
+   "first_seen": "2026-10-18T02:04:49Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:49Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:48Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 571,
+    "forks": 74,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-01-25",
+    "pushed": "2026-05-10",
+    "owner_type": "User",
+    "description": "An OSINT search engine for mapping real-world infrastructure from OpenStreetMap data"
+   }
+  },
+  "pocket-id/pocket-id": {
+   "repo": "pocket-id/pocket-id",
+   "first_seen": "2026-10-18T02:04:52Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:52Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:51Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 9613,
+    "forks": 339,
+    "license": "BSD-2-Clause",
+    "archived": false,
+    "language": "Go",
+    "created": "2024-08-11",
+    "pushed": "2026-10-16",
+    "owner_type": "Organization",
+    "description": "The most user-friendly OpenID Connect Certified\u2122 and OAuth 2.0 provider that lets users sign in to your applications with passkeys."
+   }
+  },
+  "robertoduessmann/weather-api": {
+   "repo": "robertoduessmann/weather-api",
+   "first_seen": "2026-10-18T02:04:54Z",
+   "sources": [
+    "pinoyfreecoder-public-apis"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:54Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:52Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 485,
+    "forks": 75,
+    "license": "MIT",
+    "archived": false,
+    "language": "Go",
+    "created": "2017-07-26",
+    "pushed": "2026-10-12",
+    "owner_type": "User",
+    "description": "A RESTful API to check the weather"
+   }
+  },
+  "rustdesk/rustdesk": {
+   "repo": "rustdesk/rustdesk",
+   "first_seen": "2026-10-18T02:04:57Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:57Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:55Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 126152,
+    "forks": 19789,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "Rust",
+    "created": "2020-09-28",
+    "pushed": "2026-10-16",
+    "owner_type": "User",
+    "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer."
+   }
+  },
+  "sherlock-project/sherlock": {
+   "repo": "sherlock-project/sherlock",
+   "first_seen": "2026-10-18T02:04:59Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:04:59Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:18:57Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 94381,
+    "forks": 11163,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2018-12-24",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "Hunt down social media accounts by username across social networks"
+   }
+  },
+  "spinabot/brigade": {
+   "repo": "spinabot/brigade",
+   "first_seen": "2026-10-18T02:05:02Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:05:02Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:19:00Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 11342,
+    "forks": 136,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-06-19",
+    "pushed": "2026-10-16",
+    "owner_type": "Organization",
+    "description": "Brigade \u2014 Your personal intelligence, built enterprise-grade"
+   }
+  },
+  "swisskyrepo/PayloadsAllTheThings": {
+   "repo": "swisskyrepo/PayloadsAllTheThings",
+   "first_seen": "2026-10-18T02:05:06Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:05:06Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:19:04Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 81804,
+    "forks": 17476,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2016-10-18",
+    "pushed": "2026-08-27",
+    "owner_type": "User",
+    "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF"
+   }
+  },
+  "syncthing/syncthing": {
+   "repo": "syncthing/syncthing",
+   "first_seen": "2026-10-18T02:05:10Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:05:10Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:19:06Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 89479,
+    "forks": 5529,
+    "license": "MPL-2.0",
+    "archived": false,
+    "language": "Go",
+    "created": "2013-11-26",
+    "pushed": "2026-10-13",
+    "owner_type": "Organization",
+    "description": "Open Source Continuous File Synchronization"
+   }
+  },
+  "usestrix/strix": {
+   "repo": "usestrix/strix",
+   "first_seen": "2026-10-18T02:05:20Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:05:20Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:19:22Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 69247,
+    "forks": 7684,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2025-08-05",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "Open-source AI penetration testing tool to find and fix your app\u2019s vulnerabilities."
+   }
+  },
+  "zeenie-ai/OpenCompany": {
+   "repo": "zeenie-ai/OpenCompany",
+   "first_seen": "2026-10-18T02:05:24Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-18T02:05:24Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-18T02:19:25Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 1009,
+    "forks": 154,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2025-10-13",
+    "pushed": "2026-10-16",
+    "owner_type": "User",
+    "description": "Self-improving AI Employees for everyone"
+   }
+  }
+ }
+}

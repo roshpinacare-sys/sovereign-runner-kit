@@ -1,0 +1,38 @@
+{
+  "updated": "2026-10-18T02:00:00Z",
+  "note": "The scout source registry — base sources + extension types (base+extension pattern, STUDY-001). Each source declares its type + word grid; the scanner owns the fetch routes and rotates a daily slice (politeness: the full grid is covered over runs, never hammered in one). Adding a source = editing this file, never the code.",
+  "sources": [
+    {
+      "id": "pinoyfreecoder-account",
+      "type": "github_user_repos",
+      "user": "PinoyFreeCoder",
+      "enabled": true,
+      "note": "The curator's own GitHub account — the git-origin route. Works from any IP, no CF. Measured 2026-10-17: 58 repos, includes deployment-checklist (★48, STUDY-001) and mcp-project-planner."
+    },
+    {
+      "id": "pinoyfreecoder-github-finds",
+      "type": "mcp_catalog",
+      "endpoint": "https://pinoyfreecoder.com/api/mcp",
+      "tool": "search_github_finds",
+      "categories": ["ai", "security", "devtools", "self-hosted", "learning", "frontend", "productivity", "media", "networking"],
+      "words": ["ai", "api", "web", "data", "server", "app", "security", "code", "git", "tool", "monitor", "cloud"],
+      "limit": 50,
+      "human_page": "https://pinoyfreecoder.com/github-finds",
+      "enabled": true,
+      "note": "The curated GitHub Finds catalog. Measured 2026-10-17: the MCP JSON-RPC data plane ANSWERS 200 with a neutral non-browser UA (browser-like UAs get the CF challenge; single-letter queries score zero — real words required). Grid 12x9=108 combos; recall test returned 189 unique repos. Rotating slice = 36 combos/day -> full coverage in 3 days."
+    },
+    {
+      "id": "pinoyfreecoder-public-apis",
+      "type": "mcp_catalog",
+      "endpoint": "https://pinoyfreecoder.com/api/mcp",
+      "tool": "search_public_apis",
+      "categories": [],
+      "words": ["api", "data", "weather", "maps", "news", "finance", "ai", "text"],
+      "filters": { "auth": "none" },
+      "limit": 50,
+      "human_page": "https://pinoyfreecoder.com/public-apis",
+      "enabled": true,
+      "note": "The Public APIs directory (snapshot of community public-apis), auth=none tier — the cheapest to integrate. Non-git API entries are out of v1 repo-ledger scope by design (the ledger tracks repos)."
+    }
+  ]
+}
