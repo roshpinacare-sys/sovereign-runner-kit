@@ -1,0 +1,53 @@
+{
+  "schema": "saos.capability-gate.selftest/1",
+  "at": "2026-10-18T05:07:36.064640+00:00",
+  "checks": 11,
+  "failed": 0,
+  "results": [
+    {
+      "name": "issue-then-gate allows the issued token",
+      "ok": true
+    },
+    {
+      "name": "wrong token denied (mismatch)",
+      "ok": true
+    },
+    {
+      "name": "unknown route denied (L1)",
+      "ok": true
+    },
+    {
+      "name": "missing token denied (L1)",
+      "ok": true
+    },
+    {
+      "name": "unreadable registry denies (L1)",
+      "ok": true
+    },
+    {
+      "name": "corrupt registry entry denied (L1)",
+      "ok": true
+    },
+    {
+      "name": "registry fingerprint shape (64 hex chars)",
+      "ok": true
+    },
+    {
+      "name": "token material absent from registry",
+      "ok": true
+    },
+    {
+      "name": "denial reason carries no presented token",
+      "ok": true
+    },
+    {
+      "name": "hmac.compare_digest is the comparator (L3)",
+      "ok": true
+    },
+    {
+      "name": "issue refuses unsafe route identifiers",
+      "ok": true
+    }
+  ],
+  "ok": true
+}

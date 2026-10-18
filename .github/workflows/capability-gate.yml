@@ -1,0 +1,54 @@
+name: capability-gate
+
+# capability-gate selftest lane (original SAOS engineering). Lineage: STUDY-003
+# (fatedier/frp) — the authenticated-capability-grant PATTERN studied, re-implemented
+# from zero; zero bytes copied. The gate proves itself daily: 11 fail-closed checks
+# (deny-closed, fingerprints-only, constant-time, issue-once, evidence-clean).
+# Receipt committed BEFORE the eval (order law: evidence lands in git first).
+
+on:
+  schedule:
+    - cron: '53 7 * * *'   # daily, offset from the other lanes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: capability-gate
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Selftest (stdlib only)
+        run: python3 scripts/capability-gate.py --selftest
+
+      - name: Publish receipt only if changed (commit + rebase-retry push)
+        run: |
+          git config user.name "roshpinacare-sys"
+          git config user.email "326012154+roshpinacare-sys@users.noreply.github.com"
+          git add state/capability-gate-last-run.json
+          if git diff --cached --quiet; then
+            echo "capability-gate receipt unchanged — nothing to publish"
+            exit 0
+          fi
+          git commit -m "capability-gate: receipt $(date -u +%FT%TZ) [skip ci]"
+          for i in 1 2 3; do
+            if git pull --rebase -X theirs --autostash origin main && git push origin HEAD:main; then exit 0; fi
+            echo "push race, retry ${i}"; sleep 8
+          done
+          echo "could not publish the capability-gate receipt after 3 attempts"
+          exit 1
+
+      - name: Evaluate gate (fail-closed)
+        run: python3 scripts/capability-gate.py --eval
+
+      - name: Digest to step summary
+        if: always()
+        run: python3 scripts/capability-gate.py --digest >> "$GITHUB_STEP_SUMMARY" || true
