@@ -23,14 +23,31 @@ def api(url):
     with urllib.request.urlopen(req) as r:
         return json.load(r)
 
+# wave-15: the private fleet joins self-measurement — /users/ (public) remains the
+# baseline; /user/repos (token-authenticated) SUPPLEMENTS with private repos,
+# published under stable pseudonyms p-<sha256(name)[:7]> (undecodable without the
+# owner's private name list; the mapping lives nowhere public). With the repo-scoped
+# actions token the supplement is naturally empty — CI behavior unchanged.
 repos = [r['name'] for r in api(f'https://api.github.com/users/{ORG}/repos?per_page=100')]
+private_map = {}
+try:
+    allrepos = api('https://api.github.com/user/repos?per_page=100&type=owner')
+    pubset = set(repos)
+    for r in allrepos:
+        if r.get('private') and r['name'] not in pubset:
+            alias = 'p-' + __import__('hashlib').sha256(r['name'].encode()).hexdigest()[:7]
+            private_map[alias] = r['name']
+            repos.append(alias)
+except Exception:
+    pass  # token without cross-repo scope — public census stands alone (honest)
 census = {}
 tot_a = tot_d = tot_m = 0
 redboard = []
 for repo in repos:
+    real = private_map.get(repo, repo)  # alias → real name for API calls; published keys stay pseudonymous
     try:
-        wfs = api(f'https://api.github.com/repos/{ORG}/{repo}/actions/workflows?per_page=100').get('workflows', [])
-        runs = api(f'https://api.github.com/repos/{ORG}/{repo}/actions/runs?per_page=100').get('workflow_runs', [])
+        wfs = api(f'https://api.github.com/repos/{ORG}/{real}/actions/workflows?per_page=100').get('workflows', [])
+        runs = api(f'https://api.github.com/repos/{ORG}/{real}/actions/runs?per_page=100').get('workflow_runs', [])
     except Exception as e:
         census[repo] = {'error': str(e)[:120]}
         continue
@@ -61,7 +78,9 @@ for repo in repos:
 from datetime import datetime, timezone
 doc = {'capturedAt': datetime.now(timezone.utc).isoformat(),
        'totals': {'repos': len(repos), 'workflows': tot_a + tot_d, 'active': tot_a,
-                  'disabled': tot_d, 'moneyLanes': tot_m, 'activeRed': len(redboard)},
+                  'disabled': tot_d, 'moneyLanes': tot_m, 'activeRed': len(redboard),
+                  'privateRepos': len(private_map)},
+       'privateReposNote': 'private repos measured under stable pseudonyms p-<hash7>; the alias map is owner-side only',
        'redboard': redboard, 'repos': census}
 os.makedirs(os.path.dirname(OUT) or '.', exist_ok=True)
 with open(OUT, 'w') as f:
