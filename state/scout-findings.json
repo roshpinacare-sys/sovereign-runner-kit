@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T03:29:38Z",
+ "updated": "2026-10-18T05:02:19Z",
  "counts": {
   "CAUTION": 103,
   "STUDY": 97
@@ -22,7 +22,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:00Z",
+   "last_seen": "2026-10-18T05:01:23Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -57,7 +57,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:01Z",
+   "last_seen": "2026-10-18T05:01:24Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -92,7 +92,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:01Z",
+   "last_seen": "2026-10-18T05:01:25Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -127,7 +127,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:03Z",
+   "last_seen": "2026-10-18T05:01:28Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -137,7 +137,7 @@
    },
    "meta": {
     "stars": 37843,
-    "forks": 3085,
+    "forks": 3084,
     "license": "NOASSERTION",
     "archived": false,
     "language": "TypeScript",
@@ -163,7 +163,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:05Z",
+   "last_seen": "2026-10-18T05:01:30Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -197,14 +197,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:05Z",
+   "last_seen": "2026-10-18T05:01:31Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 2625,
+    "stars": 2627,
     "forks": 448,
     "license": null,
     "archived": false,
@@ -231,7 +231,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:06Z",
+   "last_seen": "2026-10-18T05:01:31Z",
    "verdict": "CAUTION",
    "reasons": [
     "stale_push_gt_2y"
@@ -265,7 +265,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:07Z",
+   "last_seen": "2026-10-18T05:01:33Z",
    "verdict": "CAUTION",
    "reasons": [
     "stale_push_gt_2y"
@@ -299,14 +299,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:10Z",
+   "last_seen": "2026-10-18T05:01:38Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 24698,
+    "stars": 24700,
     "forks": 1723,
     "license": "NOASSERTION",
     "archived": false,
@@ -333,7 +333,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:11Z",
+   "last_seen": "2026-10-18T05:01:39Z",
    "verdict": "CAUTION",
    "reasons": [
     "workflow_pull_request_target"
@@ -371,7 +371,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:17Z",
+   "last_seen": "2026-10-18T05:01:49Z",
    "verdict": "CAUTION",
    "reasons": [
     "workflow_pull_request_target"
@@ -409,7 +409,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:18Z",
+   "last_seen": "2026-10-18T05:01:49Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -444,7 +444,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:23Z",
+   "last_seen": "2026-10-18T05:01:57Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -480,7 +480,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:23Z",
+   "last_seen": "2026-10-18T05:01:58Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -516,7 +516,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:23Z",
+   "last_seen": "2026-10-18T05:01:58Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -552,7 +552,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:24Z",
+   "last_seen": "2026-10-18T05:01:59Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -588,7 +588,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:24Z",
+   "last_seen": "2026-10-18T05:01:59Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -624,7 +624,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:25Z",
+   "last_seen": "2026-10-18T05:02:00Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -660,7 +660,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:25Z",
+   "last_seen": "2026-10-18T05:02:00Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -696,7 +696,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:26Z",
+   "last_seen": "2026-10-18T05:02:01Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -733,7 +733,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:26Z",
+   "last_seen": "2026-10-18T05:02:02Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -768,7 +768,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:26Z",
+   "last_seen": "2026-10-18T05:02:02Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -804,7 +804,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:27Z",
+   "last_seen": "2026-10-18T05:02:03Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -840,7 +840,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:27Z",
+   "last_seen": "2026-10-18T05:02:04Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -878,7 +878,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:28Z",
+   "last_seen": "2026-10-18T05:02:04Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -914,7 +914,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:28Z",
+   "last_seen": "2026-10-18T05:02:05Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -950,7 +950,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:29Z",
+   "last_seen": "2026-10-18T05:02:05Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -986,7 +986,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:29Z",
+   "last_seen": "2026-10-18T05:02:06Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1021,7 +1021,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:29Z",
+   "last_seen": "2026-10-18T05:02:06Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1056,7 +1056,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:30Z",
+   "last_seen": "2026-10-18T05:02:07Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1093,7 +1093,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:30Z",
+   "last_seen": "2026-10-18T05:02:08Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1128,7 +1128,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:31Z",
+   "last_seen": "2026-10-18T05:02:08Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1166,7 +1166,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:31Z",
+   "last_seen": "2026-10-18T05:02:09Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1202,7 +1202,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:32Z",
+   "last_seen": "2026-10-18T05:02:10Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1240,7 +1240,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:32Z",
+   "last_seen": "2026-10-18T05:02:10Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1276,7 +1276,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:33Z",
+   "last_seen": "2026-10-18T05:02:11Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1312,7 +1312,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:33Z",
+   "last_seen": "2026-10-18T05:02:11Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1348,7 +1348,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:34Z",
+   "last_seen": "2026-10-18T05:02:12Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1384,7 +1384,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:34Z",
+   "last_seen": "2026-10-18T05:02:13Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1420,7 +1420,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:34Z",
+   "last_seen": "2026-10-18T05:02:13Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1456,7 +1456,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:35Z",
+   "last_seen": "2026-10-18T05:02:14Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1491,7 +1491,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:35Z",
+   "last_seen": "2026-10-18T05:02:14Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1526,7 +1526,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:36Z",
+   "last_seen": "2026-10-18T05:02:15Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1562,7 +1562,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:36Z",
+   "last_seen": "2026-10-18T05:02:15Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1598,7 +1598,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:36Z",
+   "last_seen": "2026-10-18T05:02:16Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1633,7 +1633,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:37Z",
+   "last_seen": "2026-10-18T05:02:17Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1668,7 +1668,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:37Z",
+   "last_seen": "2026-10-18T05:02:17Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1706,7 +1706,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:38Z",
+   "last_seen": "2026-10-18T05:02:18Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1742,7 +1742,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:38Z",
+   "last_seen": "2026-10-18T05:02:18Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1778,7 +1778,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:38Z",
+   "last_seen": "2026-10-18T05:02:19Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -3748,7 +3748,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:28:57Z",
+   "last_seen": "2026-10-18T05:01:18Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -3784,7 +3784,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:28:58Z",
+   "last_seen": "2026-10-18T05:01:19Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -3818,7 +3818,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:28:59Z",
+   "last_seen": "2026-10-18T05:01:20Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -3826,7 +3826,7 @@
    "evidence": {},
    "meta": {
     "stars": 37505,
-    "forks": 2550,
+    "forks": 2551,
     "license": "GPL-3.0",
     "archived": false,
     "language": "TypeScript",
@@ -3852,7 +3852,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:28:59Z",
+   "last_seen": "2026-10-18T05:01:21Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -3888,7 +3888,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:00Z",
+   "last_seen": "2026-10-18T05:01:22Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -3922,15 +3922,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:02Z",
+   "last_seen": "2026-10-18T05:01:26Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 88319,
-    "forks": 9097,
+    "stars": 88329,
+    "forks": 9101,
     "license": "BSD-3-Clause",
     "archived": false,
     "language": "Python",
@@ -3956,7 +3956,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:03Z",
+   "last_seen": "2026-10-18T05:01:27Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -3990,7 +3990,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:05Z",
+   "last_seen": "2026-10-18T05:01:29Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4024,15 +4024,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:06Z",
+   "last_seen": "2026-10-18T05:01:32Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 4001,
-    "forks": 598,
+    "stars": 4003,
+    "forks": 599,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -4058,7 +4058,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:07Z",
+   "last_seen": "2026-10-18T05:01:34Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4092,7 +4092,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:08Z",
+   "last_seen": "2026-10-18T05:01:34Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4126,14 +4126,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:09Z",
+   "last_seen": "2026-10-18T05:01:35Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 122904,
+    "stars": 122908,
     "forks": 10852,
     "license": "CC0-1.0",
     "archived": false,
@@ -4160,14 +4160,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:09Z",
+   "last_seen": "2026-10-18T05:01:36Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 2040,
+    "stars": 2041,
     "forks": 274,
     "license": "MIT",
     "archived": false,
@@ -4194,7 +4194,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:10Z",
+   "last_seen": "2026-10-18T05:01:36Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4228,7 +4228,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:11Z",
+   "last_seen": "2026-10-18T05:01:38Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4262,7 +4262,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:12Z",
+   "last_seen": "2026-10-18T05:01:40Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4296,14 +4296,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:13Z",
+   "last_seen": "2026-10-18T05:01:41Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 42615,
+    "stars": 42628,
     "forks": 4756,
     "license": "Apache-2.0",
     "archived": false,
@@ -4330,7 +4330,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:13Z",
+   "last_seen": "2026-10-18T05:01:42Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4339,7 +4339,7 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 4897,
+    "stars": 4898,
     "forks": 239,
     "license": "Apache-2.0",
     "archived": false,
@@ -4366,7 +4366,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:14Z",
+   "last_seen": "2026-10-18T05:01:43Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4400,7 +4400,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:14Z",
+   "last_seen": "2026-10-18T05:01:44Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4409,7 +4409,7 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 49061,
+    "stars": 49063,
     "forks": 5622,
     "license": "AGPL-3.0",
     "archived": false,
@@ -4436,7 +4436,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:15Z",
+   "last_seen": "2026-10-18T05:01:46Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4445,8 +4445,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 86814,
-    "forks": 7321,
+    "stars": 86822,
+    "forks": 7322,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -4472,7 +4472,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:16Z",
+   "last_seen": "2026-10-18T05:01:47Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4508,7 +4508,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:17Z",
+   "last_seen": "2026-10-18T05:01:48Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4542,7 +4542,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:18Z",
+   "last_seen": "2026-10-18T05:01:50Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4578,15 +4578,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:19Z",
+   "last_seen": "2026-10-18T05:01:51Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 16550,
-    "forks": 1807,
+    "stars": 16557,
+    "forks": 1808,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Rust",
@@ -4612,7 +4612,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:20Z",
+   "last_seen": "2026-10-18T05:01:52Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4646,7 +4646,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:20Z",
+   "last_seen": "2026-10-18T05:01:54Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4680,15 +4680,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:21Z",
+   "last_seen": "2026-10-18T05:01:54Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 39492,
-    "forks": 4480,
+    "stars": 39499,
+    "forks": 4479,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -4714,15 +4714,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:22Z",
+   "last_seen": "2026-10-18T05:01:55Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 95124,
-    "forks": 9371,
+    "stars": 95139,
+    "forks": 9372,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -4748,7 +4748,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T03:29:22Z",
+   "last_seen": "2026-10-18T05:01:56Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
