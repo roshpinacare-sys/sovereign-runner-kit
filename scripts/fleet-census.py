@@ -28,6 +28,9 @@ def api(url):
 # published under stable pseudonyms p-<sha256(name)[:7]> (undecodable without the
 # owner's private name list; the mapping lives nowhere public). With the repo-scoped
 # actions token the supplement is naturally empty — CI behavior unchanged.
+# wave-17: repo-level Actions kill-switch joins the measurement (wave-15a residue) —
+# a repo with actions/permissions.enabled=false has NO running lanes at all, whatever
+# the per-workflow states claim. Read-only measurement; nothing is enabled here.
 repos = [r['name'] for r in api(f'https://api.github.com/users/{ORG}/repos?per_page=100')]
 private_map = {}
 try:
@@ -43,9 +46,17 @@ except Exception:
 census = {}
 tot_a = tot_d = tot_m = 0
 redboard = []
+actions_disabled = []
 for repo in repos:
     real = private_map.get(repo, repo)  # alias → real name for API calls; published keys stay pseudonymous
     try:
+        try:
+            perms = api(f'https://api.github.com/repos/{ORG}/{real}/actions/permissions')
+            repo_actions_enabled = bool(perms.get('enabled', True))
+        except Exception:
+            repo_actions_enabled = None  # honest unknown (scope/rate)
+        if repo_actions_enabled is False:
+            actions_disabled.append(repo)
         wfs = api(f'https://api.github.com/repos/{ORG}/{real}/actions/workflows?per_page=100').get('workflows', [])
         runs = api(f'https://api.github.com/repos/{ORG}/{real}/actions/runs?per_page=100').get('workflow_runs', [])
     except Exception as e:
@@ -73,13 +84,17 @@ for repo in repos:
     reds = [{'wf': r['wf'], 'redStreak': r['redStreak']} for r in rows
             if r['state'] == 'active' and r['last'] and r['last']['conclusion'] == 'failure']
     for r in reds: redboard.append({'repo': repo, **r})
-    census[repo] = {'total': len(rows), 'active': a, 'disabled': d, 'moneyLanes': m, 'workflows': rows}
+    census[repo] = {'total': len(rows), 'active': a, 'disabled': d, 'moneyLanes': m,
+                    'repoActionsEnabled': repo_actions_enabled, 'workflows': rows}
 
 from datetime import datetime, timezone
 doc = {'capturedAt': datetime.now(timezone.utc).isoformat(),
        'totals': {'repos': len(repos), 'workflows': tot_a + tot_d, 'active': tot_a,
                   'disabled': tot_d, 'moneyLanes': tot_m, 'activeRed': len(redboard),
-                  'privateRepos': len(private_map)},
+                  'privateRepos': len(private_map),
+                  'repoActionsDisabled': len(actions_disabled)},
+       'repoActionsDisabledNote': 'repos with actions/permissions.enabled=false — nothing runs there regardless of per-workflow state (wave-17 measurement; nothing enabled by the census)',
+       'repoActionsDisabled': actions_disabled,
        'privateReposNote': 'private repos measured under stable pseudonyms p-<hash7>; the alias map is owner-side only',
        'redboard': redboard, 'repos': census}
 os.makedirs(os.path.dirname(OUT) or '.', exist_ok=True)
@@ -87,3 +102,4 @@ with open(OUT, 'w') as f:
     json.dump(doc, f, indent=1)
 print(json.dumps(doc['totals']))
 print('REDBOARD:', json.dumps(redboard)[:400])
+print('REPO-ACTIONS-DISABLED:', json.dumps(actions_disabled))
