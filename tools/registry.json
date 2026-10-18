@@ -1,8 +1,15 @@
 {
   "schema": "saos.tooling-registry/1",
-  "updated": "2026-10-18T11:40:00Z",
+  "updated": "2026-10-18T12:55:00Z",
   "note": "רישום-הכלים של הרשת (wave-19.4, הנחיית הבעלים trace 1a14ec60f8b59e49: 'וודא שהאוטונומיה יודעת להשתמש בכלים שעשית והכל ולחזק עוד'). base+extension pattern (STUDY-001): הוספת כלי = עריכת נתונים, לא קוד. ה-autonomy מגלה ומפעיל כלים דרך הקובץ הזה + docs/TOOLING-REGISTRY.md. registry-verify.yml מוכיח מול המציאות מדי יום (fail-closed): drift = אדום, פרטי-בלתי-נראה = INVISIBLE-PRIVATE כנה.",
-  "kindEnum": ["read-only", "audit", "law", "write-path", "owner-gated", "infra"],
+  "kindEnum": [
+    "read-only",
+    "audit",
+    "law",
+    "write-path",
+    "owner-gated",
+    "infra"
+  ],
   "entries": [
     {
       "id": "fleet-census",
@@ -99,10 +106,11 @@
       "repo": "roshpinacare-sys/sovereign-executor",
       "path": "scripts/beat.py",
       "kind": "read-only",
-      "invoke": "python3 scripts/beat.py  (CI: fleet-beat.yml שעתית + dispatch; בדיקת-חוקים: python3 scripts/beat.py --self-test)",
+      "invoke": "python3 scripts/beat.py  (CI: fleet-beat.yml — cron */15 + interval gate 55min, schedule+dispatch ONLY; בדיקת-חוקים: python3 scripts/beat.py --self-test)",
       "purpose": "מסילת-הביצוע הריבונית על דקות-פומביות חינמיות: private-census (נראות מלאה כולל פרטיים), yield-snapshot (מד-הגשה ל-1000/יום), והחוקים מוכיחים את עצמם כל-ביט (--self-test).",
       "safety": "SOVEREIGN_PAT מוצפן, בזיכרון בלבד; חוק-משטח-סוד: schedule+dispatch בלבד, אין pull_request לעולם; חוק-הדליפה: כל מחרוזת-קבלה עוברת clean(); קבלות פסבדונימיות.",
-      "wave": "19→19.4"
+      "wave": "19→19.4",
+      "updated": "wave-19.4: schedule-density law — measured cron drops (1/7), density x4 + gate keeps slots lean"
     },
     {
       "id": "economy-book-write-path",
