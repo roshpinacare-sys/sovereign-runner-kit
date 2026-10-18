@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "note": "fleet deploy-gate targets — adding a target is a data edit, never a code edit (STUDY-001 base+extension pattern). Types: local_tree (this checkout), org_repos (public repos of an org, API reads only).",
+  "targets": [
+    { "id": "runner-kit-local", "type": "local_tree" },
+    { "id": "roshpinacare-sys-public", "type": "org_repos", "org": "roshpinacare-sys" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+ "at": "2026-10-18T03:37:06Z",
+ "gate": "yellow",
+ "totals": {
+  "blockers": 0,
+  "shoulds": 1,
+  "files": 21
+ },
+ "targets": [
+  {
+   "id": "runner-kit-agent-facing",
+   "degraded": [],
+   "files": 21,
+   "blockers": 0,
+   "shoulds": 1
+  }
+ ],
+ "findings": [
+  {
+   "tier": "SHOULD",
+   "file": "state/scout-findings.json",
+   "pointer": "$.findings.GyulyVGC/sniffnet.meta.description",
+   "line": 0,
+   "rule": "hidden_control_chars",
+   "match": "'\\u200d'"
+  }
+ ]
+}

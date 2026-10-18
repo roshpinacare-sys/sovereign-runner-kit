@@ -76,3 +76,29 @@ edit, never a code edit** (the base+extension pattern, extracted in STUDY-001).
 | `state/scout-findings.json` | the living ledger (dedup by repo, verdict history) |
 | `state/scout-last-run.json` | run receipt (routes, counts, honest failures) |
 | `docs/scout/STUDY-*.md` | architect studies: pattern → original integration proposal |
+
+## Lanes (wave-17 — owner-approved integrations of the studies)
+
+Owner approval recorded 2026-10-18 («מאשר תמשיך ודחוף», IM zai-web, session
+web-16cb7ad8) for the wave-16 open proposals. Both lanes are original engineering,
+stdlib-only, static read-only, fail-closed, evidence-carrying, receipt-committing.
+
+| Lane | Origin study | Guards | Hard signals (gate red) |
+|---|---|---|---|
+| `deploy-gate.yml` → `scripts/deploy-gate.py` | STUDY-001 (tier grammar: BLOCKER/SHOULD/NICE as red/yellow/green) | what we **ship**: manifests + workflows of this repo and every public org repo | install-script network exec; untrusted event data interpolated into run bodies; `pull_request_target` + PR-head checkout (+ secrets in that shape) |
+| `agent-shield.yml` → `scripts/agent-shield.py` | STUDY-002 (the agentshield-class lane) | what our agents **read**: state/*.json, *.tsv, docs — the defensive mirror of exposure-gate (which guards what we write) | injection directives / exfil imperatives / pipe-to-shell inside DATA strings; hidden Unicode & ANSI in docs are SHOULD |
+
+Order inside both lanes: **scan → publish receipt → eval → digest** — a red gate
+shows on the redboard AND its evidence lands in git first (fail-closed, never
+silent). Adding scan targets is a data edit (`state/deploy-gate-targets.json`,
+`state/agent-shield-targets.json`). Calibrations are measured, not guessed, and
+recorded next to the rule they changed (v1.1: bare "PowerShell" is a language name;
+v1.1: workflow `curl|sh` is maintainer-runner, not consumer-side).
+
+### Anti-patterns (what these lanes must never become)
+
+- Never a place to "temporarily" execute external code — static reads only, ours or theirs.
+- Never a silent green: an unreadable receipt is a red (fail-closed), not a skipped check.
+- Never a rumor: every finding carries file:line / JSON-pointer evidence; a verdict
+  without evidence does not exist.
+

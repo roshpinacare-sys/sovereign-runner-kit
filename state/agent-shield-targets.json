@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "note": "agent-shield targets — the files OUR agents read. Adding a target is a data edit, never a code edit (STUDY-001 base+extension pattern). Globs are ROOT-relative.",
+  "targets": [
+    {
+      "id": "runner-kit-agent-facing",
+      "globs": {
+        "data": ["state/*.json", "state/*.tsv"],
+        "docs": ["docs/**/*.md", "*.md", "AGENT-COORDINATION.md"]
+      }
+    }
+  ]
+}

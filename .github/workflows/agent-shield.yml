@@ -1,0 +1,56 @@
+name: agent-shield
+
+# agent-shield — injection-shape scanner for OUR agent-facing files (original SAOS
+# engineering). Lineage: STUDY-002 "agentshield-class audit lane" proposal;
+# owner-approved 2026-10-18 («מאשר תמשיך ודחוף»). Defensive mirror of exposure-gate:
+# exposure-gate guards what we WRITE (identity leaks); agent-shield guards what our
+# agents READ (instructions hidden in data — the scout ledger is machine-fed).
+# Order matters: scan -> publish receipt -> EVAL (fail-closed, evidence lands first).
+# Laws: docs/SCOUT-PROTOCOL.md — Lanes.
+
+on:
+  schedule:
+    - cron: '26 6 * * *'   # daily, off-peak, offset from deploy-gate (06:11)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agent-shield
+  cancel-in-progress: false
+
+jobs:
+  shield:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Shield scan (stdlib only — static, read-only)
+        run: python3 scripts/agent-shield.py
+
+      - name: Publish receipt only if changed (commit + rebase-retry push)
+        run: |
+          git config user.name "roshpinacare-sys"
+          git config user.email "326012154+roshpinacare-sys@users.noreply.github.com"
+          git add state/agent-shield-last-run.json
+          if git diff --cached --quiet; then
+            echo "agent-shield receipt unchanged — nothing to publish"
+            exit 0
+          fi
+          git commit -m "agent-shield: receipt $(date -u +%FT%TZ) [skip ci]"
+          for i in 1 2 3; do
+            if git pull --rebase -X theirs --autostash origin main && git push origin HEAD:main; then exit 0; fi
+            echo "push race, retry ${i}"; sleep 8
+          done
+          echo "could not publish the agent-shield receipt after 3 attempts"
+          exit 1
+
+      - name: Evaluate gate (red = BLOCKER present — fail-closed)
+        run: python3 scripts/agent-shield.py --eval
+
+      - name: Digest to step summary
+        if: always()
+        run: python3 scripts/agent-shield.py --digest >> "$GITHUB_STEP_SUMMARY" || true
