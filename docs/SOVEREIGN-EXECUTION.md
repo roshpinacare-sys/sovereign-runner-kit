@@ -50,3 +50,10 @@ The gap math (why the wall mattered): the engines that could compound toward
 1000/day sit on lanes that could not run. Free execution (this document) removes the
 execution wall; the compounding levers — more voting capital, more engine cycles/day,
 more lanes on free planes — are now unblocked and MEASURED instead of assumed.
+
+## רישום-הכלים — שכבת-הגילוי של האוטונומיה (wave-19.4)
+
+הנחיית הבעלים (trace 1a14ec60f8b59e49): «וודא שהאוטונומיה יודעת להשתמש בכלים שעשית והכל ולחזק עוד».
+מענה מדוד: `tools/registry.json` (מכונה) + `docs/TOOLING-REGISTRY.md` (אנוש) — כל 12 הכלים מהגלים 12-19
+מוצהרים עם invoke וחוזה-בטיחות; `registry-verify.yml` מוכיח את הרישום מול המציאות מדי יום (fail-closed).
+חיזוק-לאחור באותו גל: `beat.py --self-test` — חוק-הדליפה וחוק-סטיית-הרישום מוכיחים את עצמם בכל ביט (4/4).

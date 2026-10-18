@@ -1,0 +1,58 @@
+name: registry-verify
+
+# registry-verify — the tooling registry proves itself against reality (daily, fail-closed).
+# Lineage: wave-19.4, owner directive (trace 1a14ec60f8b59e49): 'וודא שהאוטונומיה יודעת
+# להשתמש בכלים שעשית והכל ולחזק עוד'. The registry (tools/registry.json) is the
+# autonomy's discovery contract for every instrument the network built. If a tool
+# drifts from the registry — moved, renamed, removed — this lane reddens WITH
+# EVIDENCE in state/ BEFORE the eval (fail-closed). A private repo invisible to this
+# plane is recorded honestly (INVISIBLE-PRIVATE) — neither green nor red.
+
+on:
+  schedule:
+    - cron: '23 6 * * *'   # daily, off-peak (scout 05:41, deploy-gate 06:11, shield 06:26)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: registry-verify
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Verify the registry against reality (schema + local paths + API visibility)
+        env:
+          FLEET_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/registry-verify.py
+
+      - name: Publish receipt only if changed (commit + rebase-retry push) — evidence lands even on red
+        if: always()
+        run: |
+          git config user.name "roshpinacare-sys"
+          git config user.email "326012154+roshpinacare-sys@users.noreply.github.com"
+          git add state/tooling-registry-last-run.json
+          if git diff --cached --quiet; then
+            echo "registry receipt unchanged — nothing to publish"
+            exit 0
+          fi
+          git commit -m "registry-verify: receipt $(date -u +%FT%TZ) [skip ci]"
+          for i in 1 2 3; do
+            if git pull --rebase -X theirs --autostash origin main && git push origin HEAD:main; then exit 0; fi
+            echo "push race, retry ${i}"; sleep 8
+          done
+          echo "could not publish the registry receipt after 3 attempts"
+          exit 1
+
+      - name: Evaluate (red = drift or schema violation — fail-closed)
+        run: |
+          RED=$(python3 -c "import json; t=json.load(open('state/tooling-registry-last-run.json'))['totals']; print(t.get('missing',0)+t.get('schema-error',0))")
+          echo "registry RED count: $RED"
+          test "$RED" = "0"
