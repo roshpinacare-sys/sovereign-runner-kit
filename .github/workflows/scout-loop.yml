@@ -50,19 +50,4 @@ jobs:
 
       - name: Digest to step summary
         if: always()
-        run: |
-          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY" || true
-import json
-print("## scout-loop digest")
-print("```")
-try:
-    r = json.load(open('state/scout-last-run.json'))
-    print("run:", r.get('at'))
-    for s in r.get('sources', []):
-        print(f"  {s.get('id')}: route={s.get('route')} discovered={s.get('discovered')}")
-    f = json.load(open('state/scout-findings.json'))
-    print("ledger:", len(f.get('findings', {})), "counts:", json.dumps(f.get('counts', {})))
-except Exception as e:
-    print("digest error:", e)
-print("```")
-PY
+        run: python3 scripts/scout-digest.py >> "$GITHUB_STEP_SUMMARY" || true
