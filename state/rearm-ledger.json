@@ -1,749 +1,1015 @@
 {
- "enabled": [
-  {
-   "repo": "FleetHQ",
-   "wf": "fresh-oracle.yml"
-  },
-  {
-   "repo": "FleetHQ",
-   "wf": "identity-patrol.yml"
-  },
-  {
-   "repo": "FleetHQ",
-   "wf": "office-heartbeat.yml"
-  },
-  {
-   "repo": "FleetHQ",
-   "wf": "opens-closer.yml"
-  },
-  {
-   "repo": "FleetHQ",
-   "wf": "runtime-pacemaker.yml"
-  },
-  {
-   "repo": "FleetHQ",
-   "wf": "self-book.yml"
-  },
-  {
-   "repo": "FleetHQ",
-   "wf": "sovereign-selfscan.yml"
-  },
-  {
-   "repo": "FleetHQ",
-   "wf": "value-scan.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-catchup.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-decision-truth.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-fleet.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-flow.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-grid.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-integrity.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-participation.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-scribe.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-watch.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "compute-rearm.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "evo-windows-staleness.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "federation.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "fleet-yield.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "fresh-oracle.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "hive-probe.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "network-awareness.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "network-self-awareness.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "operator-routing.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "profit-oracle.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "research-lane.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "retro.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "run-score.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "sovereign-state.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "sovereign.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "value-scan.yml"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "verifier.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "agent-verify.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "agents-watch.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "chain-vitals.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "fee-law.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "giants-beat.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "grid-pulse.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "line-agreement.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "money-watch.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "runtime-pacemaker.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "trigger-mesh.yml"
-  },
-  {
-   "repo": "Console",
-   "wf": "weave-census.yml"
-  },
-  {
-   "repo": "saos-dex",
-   "wf": "dex-beat.yml"
-  },
-  {
-   "repo": "saos-dex",
-   "wf": "dex-grid.yml"
-  },
-  {
-   "repo": "saos-dex",
-   "wf": "gitleaks.yml"
-  },
-  {
-   "repo": "saos-dex",
-   "wf": "grid-trigger.yml"
-  },
-  {
-   "repo": "saos-dex",
-   "wf": "identity-guard.yml"
-  },
-  {
-   "repo": "saos-dex",
-   "wf": "llm-bridge.yml"
-  },
-  {
-   "repo": "saos-dex",
-   "wf": "workflow-yaml-guard.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "adsmarket-panel.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "agent-verify.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "artery-integrity-twin.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "audience-analyst.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "book-audit.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "bootstrap-pages.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "canary.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "cloud-heart.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "cloud-pulse.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "cognition-beat.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "content-campaign.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "content-gate.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "content-reviewer.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "content-truth-wave.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "daily-digest.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "dex-activation.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "dex-beat.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "dex-core-cron.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "dex-grid.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "dex-mirror.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "dex-router-cron.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "dex-watchdog.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "dex-xc-cron.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "earn-audit-cron.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "econ-engine.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "economy-engine.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "evo-windows.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "exposure-gate.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "fill-ledger-cron.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "fleet-census-cron.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "fleet-heartbeat.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "foundry-mesh-tests.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "gitleaks.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "grid-doctor.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "grid-sentinel.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "grid-trigger-twin.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "human-cadence.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "identity-guard.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "ladder-refresh.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "market-grid-cron.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "mirror-from-console.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "moment-watch.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "network-census.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "office-artery.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "office-feed.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "office-orders-twin.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "office-pulse-twin.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "office-pulse.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "office-worldbeat.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "operator-console.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "org-gitleaks.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "org-selftests.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "pf-artery-keeper.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "press-bake.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "proof-pipeline.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "public-loops-bake.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "public-pulse.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "published-ledger.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "recruit.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "sandbox-arteries.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "saos-act.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "self-audience.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "site-link-audit.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "social-audit.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "sovereign-pulse.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "sovereign-selftests.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "sovereign-tick-cron.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "steem-posting-repair.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "tick-keeper.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "token-forge.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "tri-bridge.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "twin-audit.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "watchdog.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "weave-ecosystem.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "weave-heart.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "weave-mirror.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "web-publish.yml"
-  },
-  {
-   "repo": "Domain",
-   "wf": "workflow-yaml-guard.yml"
-  },
-  {
-   "repo": "Pulse",
-   "wf": "heartbeat.yml"
-  },
-  {
-   "repo": "sovereign-lighthouse",
-   "wf": "lighthouse-pulse.yml"
-  },
-  {
-   "repo": "sovereign-beacon",
-   "wf": "beacon-pulse.yml"
+  "enabled": [
+    {
+      "repo": "FleetHQ",
+      "wf": "fresh-oracle.yml"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "identity-patrol.yml"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "office-heartbeat.yml"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "opens-closer.yml"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "runtime-pacemaker.yml"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "self-book.yml"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "sovereign-selfscan.yml"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "value-scan.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-catchup.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-decision-truth.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-fleet.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-flow.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-grid.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-integrity.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-participation.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-scribe.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-watch.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "compute-rearm.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "evo-windows-staleness.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "federation.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "fleet-yield.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "fresh-oracle.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "hive-probe.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "network-awareness.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "network-self-awareness.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "operator-routing.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "profit-oracle.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "research-lane.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "retro.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "run-score.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "sovereign-state.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "sovereign.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "value-scan.yml"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "verifier.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "agent-verify.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "agents-watch.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "chain-vitals.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "fee-law.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "giants-beat.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "grid-pulse.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "line-agreement.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "money-watch.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "runtime-pacemaker.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "trigger-mesh.yml"
+    },
+    {
+      "repo": "Console",
+      "wf": "weave-census.yml"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "dex-beat.yml"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "dex-grid.yml"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "gitleaks.yml"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "grid-trigger.yml"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "identity-guard.yml"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "llm-bridge.yml"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "workflow-yaml-guard.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "adsmarket-panel.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "agent-verify.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "artery-integrity-twin.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "audience-analyst.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "book-audit.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "bootstrap-pages.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "canary.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "cloud-heart.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "cloud-pulse.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "cognition-beat.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "content-campaign.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "content-gate.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "content-reviewer.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "content-truth-wave.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "daily-digest.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "dex-activation.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "dex-beat.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "dex-core-cron.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "dex-grid.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "dex-mirror.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "dex-router-cron.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "dex-watchdog.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "dex-xc-cron.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "earn-audit-cron.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "econ-engine.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "economy-engine.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "evo-windows.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "exposure-gate.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "fill-ledger-cron.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "fleet-census-cron.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "fleet-heartbeat.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "foundry-mesh-tests.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "gitleaks.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "grid-doctor.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "grid-sentinel.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "grid-trigger-twin.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "human-cadence.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "identity-guard.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "ladder-refresh.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "market-grid-cron.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "mirror-from-console.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "moment-watch.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "network-census.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "office-artery.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "office-feed.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "office-orders-twin.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "office-pulse-twin.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "office-pulse.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "office-worldbeat.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "operator-console.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "org-gitleaks.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "org-selftests.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "pf-artery-keeper.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "press-bake.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "proof-pipeline.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "public-loops-bake.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "public-pulse.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "published-ledger.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "recruit.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "sandbox-arteries.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "saos-act.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "self-audience.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "site-link-audit.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "social-audit.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "sovereign-pulse.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "sovereign-selftests.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "sovereign-tick-cron.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "steem-posting-repair.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "tick-keeper.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "token-forge.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "tri-bridge.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "twin-audit.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "watchdog.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "weave-ecosystem.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "weave-heart.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "weave-mirror.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "web-publish.yml"
+    },
+    {
+      "repo": "Domain",
+      "wf": "workflow-yaml-guard.yml"
+    },
+    {
+      "repo": "Pulse",
+      "wf": "heartbeat.yml"
+    },
+    {
+      "repo": "sovereign-lighthouse",
+      "wf": "lighthouse-pulse.yml"
+    },
+    {
+      "repo": "sovereign-beacon",
+      "wf": "beacon-pulse.yml"
+    }
+  ],
+  "keptOff": [
+    {
+      "repo": "saos-runtime",
+      "wf": "blurt-revival.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "custody-recover.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "escrow-payroll.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "fleet-rotation-a.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "gen2-rotation.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "treasury-ladder.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "claims-triage.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "sovereign-decider.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-defi.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-wallet.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "claims-intake.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "estate-relay.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "estate-vault.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "fleet-heal.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "key-proof.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "sovereign-decider.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Console",
+      "wf": "estate-scrub.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Console",
+      "wf": "key-verify.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Console",
+      "wf": "pnl-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Console",
+      "wf": "rea-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "arb-scan.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "mm-supremacy.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "anchor-execute.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "arb-mesh-cron.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "blurt-connect.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "daily-claim.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "econ-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "estate-scrub.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "key-verify.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "mm-supremacy.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "seal-adopt.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "soldiers-curate.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "sovereign-decider-twin.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "treasury-arm.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "treasury-route.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "vault-transfer.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "voice-artery.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "weave-anchor-lines.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Domain",
+      "wf": "weave-anchor-ping.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "Pulse",
+      "wf": "sovereign-voice.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    },
+    {
+      "repo": "sovereign-lighthouse",
+      "wf": "estate-redboard.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required"
+    }
+  ],
+  "errors": [],
+  "enabledWave14": [
+    {
+      "repo": "saos-runtime",
+      "wf": "blurt-revival.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 381291528
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "custody-recover.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 382559453
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "escrow-payroll.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 381703287
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "fleet-rotation-a.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 382101096
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "gen2-rotation.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 381648656
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "treasury-ladder.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 381747379
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "claims-triage.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 383733274
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "sovereign-decider.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 381659008
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-defi.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 385305952
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 384992557
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-wallet.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 382546034
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "claims-intake.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 383744689
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "estate-relay.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 383808464
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "estate-vault.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 383808466
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "fleet-heal.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 382546042
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "key-proof.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 382565847
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "sovereign-decider.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 382546048
+    },
+    {
+      "repo": "Console",
+      "wf": "estate-scrub.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 382380272
+    },
+    {
+      "repo": "Console",
+      "wf": "key-verify.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 361014744
+    },
+    {
+      "repo": "Console",
+      "wf": "pnl-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 381344853
+    },
+    {
+      "repo": "Console",
+      "wf": "rea-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 377687290
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "arb-scan.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 374499059
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "mm-supremacy.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 374304622
+    },
+    {
+      "repo": "Domain",
+      "wf": "anchor-execute.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 369193665
+    },
+    {
+      "repo": "Domain",
+      "wf": "arb-mesh-cron.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 374548486
+    },
+    {
+      "repo": "Domain",
+      "wf": "blurt-connect.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 381322749
+    },
+    {
+      "repo": "Domain",
+      "wf": "daily-claim.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 370320309
+    },
+    {
+      "repo": "Domain",
+      "wf": "econ-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 372575136
+    },
+    {
+      "repo": "Domain",
+      "wf": "estate-scrub.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 382396822
+    },
+    {
+      "repo": "Domain",
+      "wf": "key-verify.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 362390627
+    },
+    {
+      "repo": "Domain",
+      "wf": "mm-supremacy.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 384640062
+    },
+    {
+      "repo": "Domain",
+      "wf": "seal-adopt.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 363372140
+    },
+    {
+      "repo": "Domain",
+      "wf": "soldiers-curate.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 373064588
+    },
+    {
+      "repo": "Domain",
+      "wf": "sovereign-decider-twin.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 382282671
+    },
+    {
+      "repo": "Domain",
+      "wf": "treasury-arm.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 381322751
+    },
+    {
+      "repo": "Domain",
+      "wf": "treasury-route.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 371487802
+    },
+    {
+      "repo": "Domain",
+      "wf": "vault-transfer.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 374109402
+    },
+    {
+      "repo": "Domain",
+      "wf": "voice-artery.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 382601088
+    },
+    {
+      "repo": "Domain",
+      "wf": "weave-anchor-lines.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 362949450
+    },
+    {
+      "repo": "Domain",
+      "wf": "weave-anchor-ping.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 373503229
+    },
+    {
+      "repo": "Pulse",
+      "wf": "sovereign-voice.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 384676128
+    },
+    {
+      "repo": "sovereign-lighthouse",
+      "wf": "estate-redboard.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "id": 383762256
+    }
+  ],
+  "approval": {
+    "by": "owner (roshpinacare-sys)",
+    "scope": "blanket — all 42 keptOff money/key/execution lanes",
+    "verbatim": "כן תעשה מאשר הכל תמשיך",
+    "via": "IM gateway zai-web, session web-16cb7ad8-b07d-40c0-bff6-116022a3f2c1",
+    "at": "2026-10-17T23:51:15Z",
+    "standingProhibitionsUnchanged": [
+      "PAT/WIF rotation",
+      "vault contents",
+      "vault-home decoupling"
+    ]
   }
- ],
- "keptOff": [
-  {
-   "repo": "saos-runtime",
-   "wf": "blurt-revival.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "saos-runtime",
-   "wf": "custody-recover.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "saos-runtime",
-   "wf": "escrow-payroll.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "saos-runtime",
-   "wf": "fleet-rotation-a.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "saos-runtime",
-   "wf": "gen2-rotation.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "saos-runtime",
-   "wf": "treasury-ladder.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "FleetHQ",
-   "wf": "claims-triage.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "FleetHQ",
-   "wf": "sovereign-decider.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-defi.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-desk.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "artery-wallet.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "claims-intake.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "estate-relay.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "estate-vault.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "fleet-heal.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "key-proof.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Autonomy",
-   "wf": "sovereign-decider.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Console",
-   "wf": "estate-scrub.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Console",
-   "wf": "key-verify.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Console",
-   "wf": "pnl-desk.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Console",
-   "wf": "rea-desk.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "saos-dex",
-   "wf": "arb-scan.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "saos-dex",
-   "wf": "mm-supremacy.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "anchor-execute.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "arb-mesh-cron.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "blurt-connect.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "daily-claim.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "econ-desk.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "estate-scrub.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "key-verify.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "mm-supremacy.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "seal-adopt.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "soldiers-curate.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "sovereign-decider-twin.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "treasury-arm.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "treasury-route.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "vault-transfer.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "voice-artery.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "weave-anchor-lines.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Domain",
-   "wf": "weave-anchor-ping.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "Pulse",
-   "wf": "sovereign-voice.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  },
-  {
-   "repo": "sovereign-lighthouse",
-   "wf": "estate-redboard.yml",
-   "reason": "money/key/execution lane \u2014 owner approval per-lane required"
-  }
- ],
- "errors": []
 }

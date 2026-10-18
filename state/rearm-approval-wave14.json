@@ -1,0 +1,423 @@
+{
+  "approval": {
+    "by": "owner (roshpinacare-sys)",
+    "scope": "blanket — all 42 keptOff money/key/execution lanes",
+    "verbatim": "כן תעשה מאשר הכל תמשיך",
+    "via": "IM gateway zai-web, session web-16cb7ad8-b07d-40c0-bff6-116022a3f2c1",
+    "at": "2026-10-17T23:51:15Z",
+    "standingProhibitionsUnchanged": [
+      "PAT/WIF rotation",
+      "vault contents",
+      "vault-home decoupling"
+    ]
+  },
+  "summary": {
+    "requested": 42,
+    "verified_active": 42,
+    "failed": 0
+  },
+  "results": [
+    {
+      "repo": "saos-runtime",
+      "wf": "blurt-revival.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 381291528,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "custody-recover.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 382559453,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "escrow-payroll.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 381703287,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "fleet-rotation-a.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 382101096,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "gen2-rotation.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 381648656,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "saos-runtime",
+      "wf": "treasury-ladder.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 381747379,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "claims-triage.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 383733274,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "FleetHQ",
+      "wf": "sovereign-decider.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 381659008,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-defi.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ALREADY_ACTIVE",
+      "id": 385305952,
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ALREADY_ACTIVE",
+      "id": 384992557,
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "artery-wallet.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ALREADY_ACTIVE",
+      "id": 382546034,
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "claims-intake.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ALREADY_ACTIVE",
+      "id": 383744689,
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "estate-relay.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ALREADY_ACTIVE",
+      "id": 383808464,
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "estate-vault.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ALREADY_ACTIVE",
+      "id": 383808466,
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "fleet-heal.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ALREADY_ACTIVE",
+      "id": 382546042,
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "key-proof.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ALREADY_ACTIVE",
+      "id": 382565847,
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Autonomy",
+      "wf": "sovereign-decider.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ALREADY_ACTIVE",
+      "id": 382546048,
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Console",
+      "wf": "estate-scrub.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 382380272,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Console",
+      "wf": "key-verify.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 361014744,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "Console",
+      "wf": "pnl-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 381344853,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Console",
+      "wf": "rea-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 377687290,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "arb-scan.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 374499059,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "saos-dex",
+      "wf": "mm-supremacy.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 374304622,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "anchor-execute.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 369193665,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "arb-mesh-cron.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 374548486,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "blurt-connect.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 381322749,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "daily-claim.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 370320309,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "econ-desk.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 372575136,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "estate-scrub.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 382396822,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "key-verify.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 362390627,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "mm-supremacy.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 384640062,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "seal-adopt.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 363372140,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "soldiers-curate.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 373064588,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "sovereign-decider-twin.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 382282671,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "treasury-arm.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 381322751,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "treasury-route.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 371487802,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch+push"
+    },
+    {
+      "repo": "Domain",
+      "wf": "vault-transfer.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 374109402,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "voice-artery.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 382601088,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "weave-anchor-lines.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 362949450,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Domain",
+      "wf": "weave-anchor-ping.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 373503229,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    },
+    {
+      "repo": "Pulse",
+      "wf": "sovereign-voice.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 384676128,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch+push"
+    },
+    {
+      "repo": "sovereign-lighthouse",
+      "wf": "estate-redboard.yml",
+      "reason": "money/key/execution lane — owner approval per-lane required",
+      "result": "ENABLED_VERIFIED",
+      "id": 383762256,
+      "before": "disabled_manually",
+      "after": "active",
+      "trigger": "schedule+dispatch"
+    }
+  ]
+}
