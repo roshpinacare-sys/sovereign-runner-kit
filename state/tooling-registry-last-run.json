@@ -1,0 +1,86 @@
+{
+  "schema": "saos.tooling-registry.receipt/1",
+  "at": "2026-10-18T11:56:06.746368+00:00",
+  "registrySchema": "saos.tooling-registry/1",
+  "registryEntries": 12,
+  "tokenPlane": "basic-auth-credential-present",
+  "totals": {
+    "verified-local": 9,
+    "verified-api": 3
+  },
+  "entries": [
+    {
+      "id": "fleet-census",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/fleet-census.py"
+    },
+    {
+      "id": "fleet-rearm-approval",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/fleet-rearm-approval.py"
+    },
+    {
+      "id": "fleet-actions-enable",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/fleet-actions-enable.py"
+    },
+    {
+      "id": "scout-scan",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/scout-scan.py"
+    },
+    {
+      "id": "scout-digest",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/scout-digest.py"
+    },
+    {
+      "id": "deploy-gate",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/deploy-gate.py"
+    },
+    {
+      "id": "agent-shield",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/agent-shield.py"
+    },
+    {
+      "id": "capability-gate",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/capability-gate.py"
+    },
+    {
+      "id": "sovereign-runner-register",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/sovereign-runner-register.sh"
+    },
+    {
+      "id": "executor-beat",
+      "repo": "roshpinacare-sys/sovereign-executor",
+      "outcome": "verified-api",
+      "detail": "scripts/beat.py (status=200)"
+    },
+    {
+      "id": "economy-book-write-path",
+      "repo": "roshpinacare-sys/sovereign-executor",
+      "outcome": "verified-api",
+      "detail": "scripts/beat.py (status=200)"
+    },
+    {
+      "id": "fleet-economy-book-runner",
+      "repo": "roshpinacare-sys/fleet-economy",
+      "outcome": "verified-api",
+      "detail": "run-economy-beat.mjs (status=200)"
+    }
+  ],
+  "note": "invisible-private = the repo exists but this plane honestly cannot see it (private + token scope) — neither green nor red; missing/schema-error = RED (fail-closed): the registry drifted from reality"
+}

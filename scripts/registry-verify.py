@@ -92,7 +92,7 @@ def main():
         'at': datetime.now(timezone.utc).isoformat(),
         'registrySchema': d.get('schema'),
         'registryEntries': len(entries),
-        'tokenPlane': 'bearer-token-present' if TOKEN else 'anonymous',
+        'tokenPlane': 'basic-auth-credential-present' if TOKEN else 'anonymous',
         'totals': totals,
         'entries': rows,
         'note': 'invisible-private = the repo exists but this plane honestly cannot see '
