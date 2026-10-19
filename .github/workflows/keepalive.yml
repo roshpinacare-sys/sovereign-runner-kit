@@ -1,22 +1,30 @@
-# beat-keepalive — the cross-repo schedule lottery (wave-19.5)
+# beat-keepalive — the cross-repo schedule lottery, made self-chaining (wave-19.11)
 #
-# MEASURED (2026-10-18): GitHub drops scheduled events under load — the
-# executor's own cron fired 1 slot out of 7, then 6/6 dropped after the */15
-# density change. A single repo's cron is NOT a sovereign trigger. This lane
-# lives in a DIFFERENT repo: its slots draw from an independent drop-lottery
-# and it dispatches the executor's fleet-beat ONLY when the last beat is
-# stale (>=55min — the executor's own interval gate keeps over-wakes harmless:
-# extra slots become green skips at ~zero minutes).
+# MEASURED (2026-10-18, wave-19.4/19.5): GitHub drops scheduled events under
+# load — the executor's own cron fired 1 slot out of 7, then 6/6 dropped after
+# the */15 density change. A single repo's cron is NOT a sovereign trigger.
+#
+# MEASURED (2026-10-19, wave-19.11): THIS lane's own */15 ticket wins only once
+# per ~2h (runs #2->#5: 17:33Z/19:41Z/21:54Z/23:55Z, then a ~3h dead gap) — the
+# lifeline's detection latency was bounded by the lottery. THE DWELL-CHAIN LAW:
+# one run now dwells inside the runner (3 staleness checks, 15min apart = ~30min
+# of continuous cover), then hands the chain to ONE successor (dispatched only
+# if the newest keepalive run is this run — a schedule win during the dwell is
+# newer and carries the chain instead; no chain-splitting). ONE lottery win per
+# hour now sustains a continuous 15-minute heart-watch; the */15 schedule is
+# demoted to bootstrap after outages. Public repo: unlimited free minutes —
+# the dwell costs sleep, not money.
 #
 # SECRET-SURFACE LAW: schedule + workflow_dispatch ONLY — a pull_request
 # trigger is FORBIDDEN in any lane that touches SOVEREIGN_PAT.
-# FAIL-CLOSED: missing credential or API error reddens this lane honestly.
+# FAIL-CLOSED: missing credential, API error, or a failed handoff reddens this
+# lane honestly (exit 1) — the chain dies loudly, never silently.
 
 name: beat-keepalive
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # independent lottery ticket; keep-alive is lean (one API call on the fresh path)
+    - cron: '*/15 * * * *'   # demoted to bootstrap: re-seeds the chain after any outage
   workflow_dispatch:
 
 permissions:
@@ -29,10 +37,12 @@ concurrency:
 jobs:
   keepalive:
     runs-on: ubuntu-latest
+    timeout-minutes: 45   # 3 dwell cycles (2 x 15min sleep) + checkout + API headroom
     steps:
       - uses: actions/checkout@v4
 
-      - name: Keepalive (independent schedule lottery -> wake the beat only if stale)
+      - name: Keepalive (dwell-chain: check x3 @15min, wake if stale, hand the chain to one successor)
         env:
           SOVEREIGN_PAT: ${{ secrets.SOVEREIGN_PAT }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
         run: python3 scripts/beat-keepalive.py
