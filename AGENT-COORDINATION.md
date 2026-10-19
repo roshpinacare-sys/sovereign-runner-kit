@@ -512,3 +512,12 @@ Wave-19 open (owner decisions, one flag each): (1) ~~write-path tasks in the exe
 | 19.30-b | runner-kit keepalive | HANDOFF MEASURED | MEASURED | #35 (44min in flight at last wave) completed SUCCESS at ~49min and handed to #36 (fresh 5min at write) — the 19.21 honest-casualty classification predicted exactly this resolution; newest run never stale; the chain's 38th consecutive successful handoff |
 | 19.30-c | chains | liveness at write time | MEASURED | executor hourly chain in flight (16:42:34Z run, 42min — beat ~17:42Z due, next guard reading imminent; newest receipt 16:42:22Z = 45/45 alreadyOn, reArmed=0, heal ~3.5h); beacon #29 mid-dwell (26min) + #30 pending — 30min cadence holds |
 | 19.30-d | sovereign-executor | owner trace archived verbatim | DONE | 1a15530840c45e5d as CONTINUED entry #26 in state/beat-tasks.json note |
+
+### wave-19.31 claims («תמשיך ודחוף» — owner 2026-10-19, IM zai-web session web-16cb7ad8, trace 1a15534db65061a9: cadence proves itself on both dwell planes)
+
+| Task | Repo | Scope | Status | Note |
+|---|---|---|---|---|
+| 19.31-a | 17 sandbox repos | git-first opener | MEASURED | 6/17 stale (FleetHQ +8, Domain +3, giant +2, saos-dex +1, saos-runtime +1, lighthouse +1), all ff-only re-anchored, exit 0; receipt persisted (staleness history entry 14) |
+| 19.31-b | beacon keepalive | HANDOFF MEASURED | MEASURED | #29 completed SUCCESS → #30 in flight (19min at write); the 12min gap = stacked-run adjudication, honest per the 19.21 audit. Every measured handoff today landed success→success |
+| 19.31-c | chains | liveness at write time | MEASURED | runner-kit #36 mid-dwell fresh (10min, post-handoff); executor hourly chain in flight (46min, beat ~17:42Z imminent — next guard reading; newest receipt 16:42:22Z = 45/45 alreadyOn, reArmed=0, heal ~3h40m) |
+| 19.31-d | sovereign-executor | owner trace archived verbatim | DONE | 1a15534db65061a9 as CONTINUED entry #27 in state/beat-tasks.json note |
