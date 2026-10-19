@@ -1,7 +1,7 @@
 {
  "schema": "saos.git-first/1",
  "scanned": 17,
- "refreshed": 5,
+ "refreshed": 1,
  "blockedDirty": 0,
  "failed": 0,
  "verdict": "ok",
@@ -9,7 +9,7 @@
   {
    "repo": "Autonomy",
    "branch": "main",
-   "behind": 4,
+   "behind": 2,
    "action": "refreshed",
    "detail": ""
   },
@@ -23,15 +23,15 @@
   {
    "repo": "Domain",
    "branch": "main",
-   "behind": 4,
-   "action": "refreshed",
+   "behind": 0,
+   "action": "fresh",
    "detail": ""
   },
   {
    "repo": "FleetHQ",
    "branch": "main",
-   "behind": 1,
-   "action": "refreshed",
+   "behind": 0,
+   "action": "fresh",
    "detail": ""
   },
   {
@@ -93,15 +93,15 @@
   {
    "repo": "saos-runtime",
    "branch": "main",
-   "behind": 1,
-   "action": "refreshed",
+   "behind": 0,
+   "action": "fresh",
    "detail": ""
   },
   {
    "repo": "sovereign-beacon",
    "branch": "main",
-   "behind": 1,
-   "action": "refreshed",
+   "behind": 0,
+   "action": "fresh",
    "detail": ""
   },
   {

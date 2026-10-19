@@ -418,3 +418,13 @@ Wave-19 open (owner decisions, one flag each): (1) ~~write-path tasks in the exe
 | 19.20-c | 17 sandbox repos | git-first opener | MEASURED | 5/17 stale (Autonomy +4, Domain +4, FleetHQ +1, saos-runtime +1, beacon +1), all ff-only re-anchored; receipt persisted to state/git-first-last-run.json (staleness history entry 3) |
 | 19.20-d | chains | liveness at write time | MEASURED | runner-kit keepalive #31 fresh (2min into dwell), beacon pulse #136 fresh (2min), executor #45 queued — all three chains at their designed cadence |
 | 19.20-e | sovereign-executor 94e3319 | owner trace archived verbatim | DONE | 1a154a2444158cb5 as CONTINUED entry #16 in state/beat-tasks.json note |
+
+### wave-19.21 claims («תמשיך ודחוף» — owner 2026-10-19, IM zai-web session web-16cb7ad8, trace 1a154a4d4f62f2b1: the dwell-chain law's report card)
+
+| Task | Repo | Scope | Status | Note |
+|---|---|---|---|---|
+| 19.21-a | runs API | FULL CADENCE AUDIT — runner-kit beat-keepalive, post-law era (18 handoffs since 05:53Z) | MEASURED | gaps: 30min×16, one 18min (the stacked-run gate adjudication doing its job), one 43min (handoff overhang; the newest run stayed in-flight, heart never stale). ZERO non-success conclusions. The chain never died and never failed since the law landed |
+| 19.21-b | runs API | beacon beat-keepalive, post-law era (18 handoffs) | MEASURED | gaps: 30min×16, one 11min (stacked adjudication), one 49min overhang (covered — the run dwells ~30min and watcherPulse never read stale). ZERO non-success. The second observer matched the first stride for stride |
+| 19.21-c | runs API | executor fleet-beat over 24h | MEASURED | 26 success / 13 cancelled / 1 in flight; max gap EXACTLY 60min — the hourly cadence never broke. The 13 cancels are the dispatch+schedule double-trigger race resolving BY DESIGN: every cancelled duplicate had its successor already chained and successful. Honest casualties, zero lost beats |
+| 19.21-d | verdict | the two-plane law held unattended | MEASURED | 36 consecutive successful watcher handoffs at ~30min cadence (32 exact), zero chain deaths, zero failures since the law landed; the hourly guard added 24h of exact-cadence beats on top. This is the measured answer to «הכל עובד כמו שצריך» |
+| 19.21-e | sovereign-executor b64c99b | owner trace archived verbatim | DONE | 1a154a4d4f62f2b1 as CONTINUED entry #17 in state/beat-tasks.json note |
