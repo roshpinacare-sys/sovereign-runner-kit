@@ -1,8 +1,7 @@
 id	repo	title	verify
 q-queue-20261019-16	Sandbox	[P1] ארטיפקט מזדקן — ערוץ-הבעלים	PENDING-DEFINITION
-q-queue-20261016-06	Domain	[P2] אדומים בטיפול GridWatch — Domain	PENDING-DEFINITION
-q-queue-20261019-15	Console	[P2] אדומים בטיפול GridWatch — Console	PENDING-DEFINITION
 q-queue-20261019-17	FleetHQ	[P2] אדומים בטיפול GridWatch — FleetHQ	PENDING-DEFINITION
-q-queue-20261019-14	private-d78a2745	[P2] אדומים בטיפול GridWatch — private-d78a2745	PENDING-DEFINITION
-q-queue-20261019-18	private-7f4f0cfc	[P2] אדומים בטיפול GridWatch — private-7f4f0cfc	PENDING-DEFINITION
+q-queue-20261016-06	Domain	[P2] אדומים בטיפול GridWatch — Domain	PENDING-DEFINITION
+q-queue-20261019-18	private-67fc6249	[P2] אדומים בטיפול GridWatch — private-67fc6249	PENDING-DEFINITION
+q-queue-20261019-19	private-340a4d07	[P2] אדומים בטיפול GridWatch — private-340a4d07	PENDING-DEFINITION
 q-queue-20261014-02	Domain	[P3] אין מידע-גרסה בעמוד — Domain	PENDING-DEFINITION
