@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-19T19:09:03Z",
+  "at": "2026-10-19T19:20:41Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 90.1,
-      "detail": "success 90min ago; run in flight 31min"
+      "lastSuccessAgeMin": 101.7,
+      "detail": "success 102min ago; run in flight 42min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 49.9,
-      "detail": "success 50min ago; run in flight 20min"
+      "lastSuccessAgeMin": 31.3,
+      "detail": "success 31min ago; run in flight 1min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,30 +26,18 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 40.9,
-      "detail": "success 41min ago; run in flight 11min"
+      "lastSuccessAgeMin": 52.5,
+      "detail": "success 52min ago; run in flight 22min"
     }
   ],
-  "censusAgeMin": 358.3,
+  "censusAgeMin": 10.2,
   "censusNote": null,
   "reds": [
-    {
-      "repo": "Console",
-      "workflow": "console-publish.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
     {
       "repo": "Domain",
       "workflow": "daily-digest.yml",
       "redStreak": 1,
       "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "exposure-gate.yml",
-      "redStreak": 6,
-      "class": "recidivist"
     },
     {
       "repo": "Domain",
@@ -64,26 +52,8 @@
       "class": "new"
     },
     {
-      "repo": "FleetHQ",
-      "workflow": "office-ci.yml",
-      "redStreak": 11,
-      "class": "recidivist"
-    },
-    {
-      "repo": "saos-dex",
-      "workflow": "gitleaks.yml",
-      "redStreak": 19,
-      "class": "recidivist"
-    },
-    {
       "repo": "saos-dex",
       "workflow": "hive-heartbeat.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
       "redStreak": 1,
       "class": "new"
     }
