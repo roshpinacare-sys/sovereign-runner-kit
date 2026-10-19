@@ -41,11 +41,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Keepalive (dwell-chain: check x3 @15min, wake if stale, hand the chain to one successor)
+      - name: Keepalive (dwell-chain law — check x3 @15min, wake if stale, hand the chain to one successor)
         env:
           SOVEREIGN_PAT: ${{ secrets.SOVEREIGN_PAT }}
-          # GITHUB_RUN_ID needs NO mapping — it is a default env var on every
-          # step, and OVERRIDING a GITHUB_* default is forbidden: the first
-          # run of the mapped version (run #6, 03:02Z) failed with zero jobs
-          # (workflow-file rejection). The handoff gate reads the default.
+          # GITHUB_RUN_ID needs NO mapping — it is a default env var present on
+          # every step; the handoff gate reads it from the environment.
+          # TRUTH-RECORD (wave-19.11): runs #6 AND #7 (heads 05b98ea, 000911e)
+          # failed with ZERO jobs — the real cause was an UNQUOTED COLON-SPACE
+          # inside this step's name ('dwell-chain: check'), a YAML mapping-
+          # value rejection that kills the whole file and drops every trigger.
+          # Proven locally with a parser (colon-space REJECTED, em-dash OK,
+          # old a79d54a OK) after the first diagnosis (GITHUB_* override) was
+          # disproven by run #7 failing on the mapping-free head. The lesson:
+          # parse the yml LOCALLY before pushing — a workflow file is code too.
         run: python3 scripts/beat-keepalive.py
