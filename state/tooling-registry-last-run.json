@@ -1,12 +1,12 @@
 {
   "schema": "saos.tooling-registry.receipt/1",
-  "at": "2026-10-18T11:56:06.746368+00:00",
+  "at": "2026-10-18T22:38:32.123747+00:00",
   "registrySchema": "saos.tooling-registry/1",
-  "registryEntries": 12,
+  "registryEntries": 16,
   "tokenPlane": "basic-auth-credential-present",
   "totals": {
-    "verified-local": 9,
-    "verified-api": 3
+    "verified-local": 10,
+    "verified-api": 6
   },
   "entries": [
     {
@@ -80,6 +80,30 @@
       "repo": "roshpinacare-sys/fleet-economy",
       "outcome": "verified-api",
       "detail": "run-economy-beat.mjs (status=200)"
+    },
+    {
+      "id": "beat-keepalive",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/beat-keepalive.py"
+    },
+    {
+      "id": "interval-gate",
+      "repo": "roshpinacare-sys/sovereign-executor",
+      "outcome": "verified-api",
+      "detail": "scripts/interval_gate.py (status=200)"
+    },
+    {
+      "id": "chain-link",
+      "repo": "roshpinacare-sys/sovereign-executor",
+      "outcome": "verified-api",
+      "detail": "scripts/chain_link.py (status=200)"
+    },
+    {
+      "id": "fleet-actions-guard",
+      "repo": "roshpinacare-sys/sovereign-executor",
+      "outcome": "verified-api",
+      "detail": "scripts/fleet_actions_guard.py (status=200)"
     }
   ],
   "note": "invisible-private = the repo exists but this plane honestly cannot see it (private + token scope) — neither green nor red; missing/schema-error = RED (fail-closed): the registry drifted from reality"
