@@ -1,8 +1,8 @@
 id	repo	title	verify
-q-queue-20261017-09	Domain	[P1] רצף כשלים בוורקפלו המזין עמוד גלוי — dex-mirror	PENDING-DEFINITION
-q-queue-20261016-06	Domain	[P2] אדומים בטיפול GridWatch — Domain	PENDING-DEFINITION
-q-queue-20261016-07	Console	[P2] אדומים בטיפול GridWatch — Console	PENDING-DEFINITION
+q-queue-20261019-11	saos-runtime	[P1] רצף כשלים בוורקפלו המזין עמוד גלוי — hive-custody-revival	PENDING-DEFINITION
 q-queue-20261017-10	Autonomy	[P2] אדומים בטיפול GridWatch — Autonomy	PENDING-DEFINITION
-q-queue-20261016-08	FleetHQ	[P2] אדומים בטיפול GridWatch — FleetHQ	PENDING-DEFINITION
-q-queue-20261016-04	private-67fc6249	[P2] אדומים בטיפול GridWatch — private-67fc6249	PENDING-DEFINITION
+q-queue-20261019-12	saos-runtime	[P2] אדומים בטיפול GridWatch — saos-runtime	PENDING-DEFINITION
+q-queue-20261016-06	Domain	[P2] אדומים בטיפול GridWatch — Domain	PENDING-DEFINITION
+q-queue-20261019-13	private-d1e4e20a	[P2] אדומים בטיפול GridWatch — private-d1e4e20a	PENDING-DEFINITION
+q-queue-20261019-14	private-d78a2745	[P2] אדומים בטיפול GridWatch — private-d78a2745	PENDING-DEFINITION
 q-queue-20261014-02	Domain	[P3] אין מידע-גרסה בעמוד — Domain	PENDING-DEFINITION
