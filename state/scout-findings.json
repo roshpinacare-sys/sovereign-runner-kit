@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-18T09:54:25Z",
+ "updated": "2026-10-19T11:16:18Z",
  "counts": {
-  "CAUTION": 103,
-  "STUDY": 97
+  "CAUTION": 116,
+  "STUDY": 117
  },
  "findings": {
   "CMU-Perceptual-Computing-Lab/openpose": {
@@ -22,7 +22,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:10Z",
+   "last_seen": "2026-10-19T11:15:25Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -30,7 +30,7 @@
    ],
    "evidence": {},
    "meta": {
-    "stars": 34502,
+    "stars": 34505,
     "forks": 8038,
     "license": "NOASSERTION",
     "archived": false,
@@ -57,15 +57,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:11Z",
+   "last_seen": "2026-10-19T11:15:26Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 60194,
-    "forks": 9368,
+    "stars": 60199,
+    "forks": 9367,
     "license": "NOASSERTION",
     "archived": false,
     "language": "Python",
@@ -92,7 +92,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:12Z",
+   "last_seen": "2026-10-19T11:15:26Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -127,7 +127,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:17Z",
+   "last_seen": "2026-10-19T11:15:31Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -136,8 +136,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 37845,
-    "forks": 3084,
+    "stars": 37862,
+    "forks": 3094,
     "license": "NOASSERTION",
     "archived": false,
     "language": "TypeScript",
@@ -163,15 +163,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:20Z",
+   "last_seen": "2026-10-19T11:15:33Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 8654,
-    "forks": 920,
+    "stars": 8670,
+    "forks": 922,
     "license": "NOASSERTION",
     "archived": false,
     "language": null,
@@ -197,15 +197,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:20Z",
+   "last_seen": "2026-10-19T11:15:34Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 2632,
-    "forks": 449,
+    "stars": 2646,
+    "forks": 451,
     "license": null,
     "archived": false,
     "language": "Python",
@@ -231,15 +231,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:22Z",
+   "last_seen": "2026-10-19T11:15:35Z",
    "verdict": "CAUTION",
    "reasons": [
     "stale_push_gt_2y"
    ],
    "evidence": {},
    "meta": {
-    "stars": 59744,
-    "forks": 3145,
+    "stars": 59745,
+    "forks": 3154,
     "license": "BSD-3-Clause",
     "archived": false,
     "language": "Go",
@@ -265,15 +265,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:23Z",
+   "last_seen": "2026-10-19T11:15:37Z",
    "verdict": "CAUTION",
    "reasons": [
     "stale_push_gt_2y"
    ],
    "evidence": {},
    "meta": {
-    "stars": 37110,
-    "forks": 3359,
+    "stars": 37116,
+    "forks": 3360,
     "license": "AGPL-3.0",
     "archived": false,
     "language": null,
@@ -299,20 +299,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:30Z",
+   "last_seen": "2026-10-19T11:15:44Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 24703,
+    "stars": 24713,
     "forks": 1723,
     "license": "NOASSERTION",
     "archived": false,
     "language": "C",
     "created": "2015-08-22",
-    "pushed": "2026-10-18",
+    "pushed": "2026-10-19",
     "owner_type": "Organization",
     "description": "HandBrake's development repository "
    }
@@ -333,7 +333,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:32Z",
+   "last_seen": "2026-10-19T11:15:46Z",
    "verdict": "CAUTION",
    "reasons": [
     "workflow_pull_request_target"
@@ -344,13 +344,13 @@
     ]
    },
    "meta": {
-    "stars": 970,
-    "forks": 108,
+    "stars": 982,
+    "forks": 110,
     "license": "GPL-3.0",
     "archived": false,
     "language": "Dart",
     "created": "2026-08-05",
-    "pushed": "2026-10-17",
+    "pushed": "2026-10-18",
     "owner_type": "User",
     "description": " Offline gym log for Android. No account, no ads, no internet."
    }
@@ -371,7 +371,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:46Z",
+   "last_seen": "2026-10-19T11:16:03Z",
    "verdict": "CAUTION",
    "reasons": [
     "workflow_pull_request_target"
@@ -382,7 +382,7 @@
     ]
    },
    "meta": {
-    "stars": 2061,
+    "stars": 2063,
     "forks": 354,
     "license": "MIT",
     "archived": false,
@@ -409,14 +409,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:46Z",
+   "last_seen": "2026-10-19T11:16:04Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 1726,
+    "stars": 1731,
     "forks": 308,
     "license": null,
     "archived": false,
@@ -444,7 +444,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:57Z",
+   "last_seen": "2026-10-19T11:16:15Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -480,7 +480,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:57Z",
+   "last_seen": "2026-10-19T11:16:16Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -516,7 +516,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:58Z",
+   "last_seen": "2026-10-19T11:16:17Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -552,7 +552,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:59Z",
+   "last_seen": "2026-10-19T11:16:18Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -2810,6 +2810,80 @@
     "description": ""
    }
   },
+  "bilawalsidhu/gods-eye-view": {
+   "repo": "bilawalsidhu/gods-eye-view",
+   "first_seen": "2026-10-19T11:14:26Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:26Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:26Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 58110,
+    "forks": 11332,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2026-06-22",
+    "pushed": "2026-10-19",
+    "owner_type": "User",
+    "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+   }
+  },
+  "bradtraversy/design-resources-for-developers": {
+   "repo": "bradtraversy/design-resources-for-developers",
+   "first_seen": "2026-10-19T11:14:30Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:30Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:30Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "workflows_flagged": [
+     ".github/workflows/validate-contribution.yml"
+    ]
+   },
+   "meta": {
+    "stars": 67213,
+    "forks": 12272,
+    "license": "MIT",
+    "archived": false,
+    "language": null,
+    "created": "2020-05-06",
+    "pushed": "2026-10-18",
+    "owner_type": "User",
+    "description": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more"
+   }
+  },
   "bregman-arie/devops-exercises": {
    "repo": "bregman-arie/devops-exercises",
    "first_seen": "2026-10-18T02:03:45Z",
@@ -3105,6 +3179,40 @@
     "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative \u2014 voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation i"
    }
   },
+  "donnemartin/system-design-primer": {
+   "repo": "donnemartin/system-design-primer",
+   "first_seen": "2026-10-19T11:14:31Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:31Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:31Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 374721,
+    "forks": 58905,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "Python",
+    "created": "2017-02-26",
+    "pushed": "2026-09-15",
+    "owner_type": "User",
+    "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards."
+   }
+  },
   "fawazahmed0/currency-api": {
    "repo": "fawazahmed0/currency-api",
    "first_seen": "2026-10-18T02:04:03Z",
@@ -3171,6 +3279,42 @@
     "pushed": "2026-09-12",
     "owner_type": "User",
     "description": "Free Quran API Service with 90+ different languages and 400+ translations"
+   }
+  },
+  "fujiDevv/context-aware-browser-pet": {
+   "repo": "fujiDevv/context-aware-browser-pet",
+   "first_seen": "2026-10-19T11:14:39Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:39Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:39Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 38,
+    "forks": 2,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-06-12",
+    "pushed": "2026-09-30",
+    "owner_type": "User",
+    "description": "An interactive, context-aware browser mascot pet companion extension built using the clawd-pet SVG library."
    }
   },
   "growthbook/growthbook": {
@@ -3243,6 +3387,83 @@
     "pushed": "2026-10-15",
     "owner_type": "Organization",
     "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get you"
+   }
+  },
+  "kaybi-gh/K7": {
+   "repo": "kaybi-gh/K7",
+   "first_seen": "2026-10-19T11:14:47Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:47Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:47Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "workflows_flagged": [
+     ".github/workflows/build.yml"
+    ]
+   },
+   "meta": {
+    "stars": 332,
+    "forks": 21,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "C#",
+    "created": "2026-07-05",
+    "pushed": "2026-10-19",
+    "owner_type": "User",
+    "description": "Self-hosted media server for a small circle of family and friends."
+   }
+  },
+  "kgoedecke/doop": {
+   "repo": "kgoedecke/doop",
+   "first_seen": "2026-10-19T11:14:49Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:49Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:49Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "install_scripts": {},
+    "workflows_flagged": [
+     ".github/workflows/cla.yml"
+    ]
+   },
+   "meta": {
+    "stars": 880,
+    "forks": 123,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-08-22",
+    "pushed": "2026-10-19",
+    "owner_type": "User",
+    "description": "The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in."
    }
   },
   "kiln-ai/kiln": {
@@ -3359,6 +3580,40 @@
     "description": "COVID-19 global data (from JHU CSSE for now) as-a-service"
    }
   },
+  "meilisearch/meilisearch": {
+   "repo": "meilisearch/meilisearch",
+   "first_seen": "2026-10-19T11:14:51Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:51Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:51Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 59607,
+    "forks": 2746,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "Rust",
+    "created": "2018-04-23",
+    "pushed": "2026-10-19",
+    "owner_type": "Organization",
+    "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
+   }
+  },
   "microsoft/ai-agents-for-beginners": {
    "repo": "microsoft/ai-agents-for-beginners",
    "first_seen": "2026-10-18T02:24:46Z",
@@ -3395,6 +3650,40 @@
     "pushed": "2026-10-18",
     "owner_type": "Organization",
     "description": "18 Lessons to Get Started Building AI Agents"
+   }
+  },
+  "mikiarlo3/awesome-growth-hacking-skills": {
+   "repo": "mikiarlo3/awesome-growth-hacking-skills",
+   "first_seen": "2026-10-19T11:14:53Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:53Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:53Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 689,
+    "forks": 27,
+    "license": null,
+    "archived": false,
+    "language": "Shell",
+    "created": "2026-08-04",
+    "pushed": "2026-08-04",
+    "owner_type": "User",
+    "description": "Find agentic growth hacking skills for Claude, ChatGPT, Manus | by enso.bot"
    }
   },
   "minimaxir/big-list-of-naughty-strings": {
@@ -3537,6 +3826,119 @@
     "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise."
    }
   },
+  "opendatalab/MinerU": {
+   "repo": "opendatalab/MinerU",
+   "first_seen": "2026-10-19T11:14:59Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:59Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license",
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:59Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license",
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "workflows_flagged": [
+     ".github/workflows/cla.yml"
+    ]
+   },
+   "meta": {
+    "stars": 82037,
+    "forks": 6797,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "Python",
+    "created": "2024-02-29",
+    "pushed": "2026-10-19",
+    "owner_type": "Organization",
+    "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows."
+   }
+  },
+  "opengeos/GeoLibre": {
+   "repo": "opengeos/GeoLibre",
+   "first_seen": "2026-10-19T11:15:01Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:01Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:01Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "install_scripts": {},
+    "workflows_flagged": [
+     ".github/workflows/claude-code-review.yml"
+    ]
+   },
+   "meta": {
+    "stars": 8040,
+    "forks": 901,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-05-27",
+    "pushed": "2026-10-18",
+    "owner_type": "Organization",
+    "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and i"
+   }
+  },
+  "ripienaar/free-for-dev": {
+   "repo": "ripienaar/free-for-dev",
+   "first_seen": "2026-10-19T11:15:03Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:03Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:03Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 139790,
+    "forks": 14818,
+    "license": null,
+    "archived": false,
+    "language": "HTML",
+    "created": "2015-03-18",
+    "pushed": "2026-10-18",
+    "owner_type": "User",
+    "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev"
+   }
+  },
   "safishamsi/graphify": {
    "repo": "safishamsi/graphify",
    "first_seen": "2026-10-18T02:24:52Z",
@@ -3647,6 +4049,40 @@
     "description": "Automatic SQL injection and database takeover tool"
    }
   },
+  "surrealdb/surrealdb": {
+   "repo": "surrealdb/surrealdb",
+   "first_seen": "2026-10-19T11:15:08Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:08Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "no_spdx_license"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:08Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "no_spdx_license"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 33204,
+    "forks": 1457,
+    "license": "NOASSERTION",
+    "archived": false,
+    "language": "Rust",
+    "created": "2021-12-09",
+    "pushed": "2026-10-19",
+    "owner_type": "Organization",
+    "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web"
+   }
+  },
   "t8y2/dbx": {
    "repo": "t8y2/dbx",
    "first_seen": "2026-10-18T02:05:15Z",
@@ -3732,6 +4168,45 @@
     "description": "The Cloud Native Application Proxy"
    }
   },
+  "tt-a1i/archify": {
+   "repo": "tt-a1i/archify",
+   "first_seen": "2026-10-19T11:15:12Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:12Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:12Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "install_scripts": {},
+    "workflows_flagged": [
+     ".github/workflows/contributor-cards.yml"
+    ]
+   },
+   "meta": {
+    "stars": 85639,
+    "forks": 5829,
+    "license": "MIT",
+    "archived": false,
+    "language": "JavaScript",
+    "created": "2026-04-15",
+    "pushed": "2026-10-19",
+    "owner_type": "User",
+    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more."
+   }
+  },
   "0xGF/boneyard": {
    "repo": "0xGF/boneyard",
    "first_seen": "2026-10-18T01:58:37Z",
@@ -3748,7 +4223,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:04Z",
+   "last_seen": "2026-10-19T11:15:18Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -3757,7 +4232,7 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 7471,
+    "stars": 7504,
     "forks": 295,
     "license": "MIT",
     "archived": false,
@@ -3784,7 +4259,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:05Z",
+   "last_seen": "2026-10-19T11:15:19Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -3818,14 +4293,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:07Z",
+   "last_seen": "2026-10-19T11:15:21Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 37511,
+    "stars": 37534,
     "forks": 2551,
     "license": "GPL-3.0",
     "archived": false,
@@ -3852,7 +4327,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:08Z",
+   "last_seen": "2026-10-19T11:15:22Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -3861,13 +4336,13 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 12279,
+    "stars": 12286,
     "forks": 718,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
     "created": "2025-12-28",
-    "pushed": "2026-10-17",
+    "pushed": "2026-10-18",
     "owner_type": "User",
     "description": "Beautiful map components. 100% Free, Zero config, one command setup."
    }
@@ -3888,14 +4363,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:09Z",
+   "last_seen": "2026-10-19T11:15:24Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 784,
+    "stars": 785,
     "forks": 75,
     "license": "MIT",
     "archived": false,
@@ -3922,20 +4397,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:13Z",
+   "last_seen": "2026-10-19T11:15:28Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 88374,
-    "forks": 9109,
+    "stars": 88587,
+    "forks": 9138,
     "license": "BSD-3-Clause",
     "archived": false,
     "language": "Python",
     "created": "2024-10-13",
-    "pushed": "2026-10-17",
+    "pushed": "2026-10-18",
     "owner_type": "User",
     "description": "\ud83d\udd77\ufe0f A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and foll"
    }
@@ -3956,15 +4431,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:15Z",
+   "last_seen": "2026-10-19T11:15:29Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 9437,
-    "forks": 1622,
+    "stars": 9444,
+    "forks": 1623,
     "license": "MIT",
     "archived": false,
     "language": "PHP",
@@ -3990,20 +4465,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:19Z",
+   "last_seen": "2026-10-19T11:15:32Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 314,
+    "stars": 316,
     "forks": 34,
     "license": "Apache-2.0",
     "archived": false,
     "language": "TypeScript",
     "created": "2026-05-18",
-    "pushed": "2026-10-17",
+    "pushed": "2026-10-19",
     "owner_type": "Organization",
     "description": "Open source CapCut alternative."
    }
@@ -4024,15 +4499,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:23Z",
+   "last_seen": "2026-10-19T11:15:36Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 4003,
-    "forks": 599,
+    "stars": 4010,
+    "forks": 600,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -4058,20 +4533,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:25Z",
+   "last_seen": "2026-10-19T11:15:38Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 41607,
+    "stars": 41632,
     "forks": 1972,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Rust",
     "created": "2022-07-31",
-    "pushed": "2026-10-17",
+    "pushed": "2026-10-18",
     "owner_type": "User",
     "description": "Comfortably monitor your network traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f"
    }
@@ -4092,14 +4567,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:26Z",
+   "last_seen": "2026-10-19T11:15:39Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 2237,
+    "stars": 2240,
     "forks": 201,
     "license": "MIT",
     "archived": false,
@@ -4126,15 +4601,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:27Z",
+   "last_seen": "2026-10-19T11:15:40Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 122928,
-    "forks": 10853,
+    "stars": 123025,
+    "forks": 10857,
     "license": "CC0-1.0",
     "archived": false,
     "language": null,
@@ -4160,14 +4635,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:27Z",
+   "last_seen": "2026-10-19T11:15:41Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 2041,
+    "stars": 2042,
     "forks": 274,
     "license": "MIT",
     "archived": false,
@@ -4194,14 +4669,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:28Z",
+   "last_seen": "2026-10-19T11:15:42Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 13358,
+    "stars": 13360,
     "forks": 761,
     "license": "MIT",
     "archived": false,
@@ -4228,15 +4703,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:31Z",
+   "last_seen": "2026-10-19T11:15:45Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 196,
-    "forks": 22,
+    "stars": 197,
+    "forks": 23,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -4262,15 +4737,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:33Z",
+   "last_seen": "2026-10-19T11:15:47Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 30081,
-    "forks": 3618,
+    "stars": 30087,
+    "forks": 3617,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -4296,20 +4771,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:34Z",
+   "last_seen": "2026-10-19T11:15:50Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 42663,
-    "forks": 4761,
+    "stars": 42813,
+    "forks": 4789,
     "license": "Apache-2.0",
     "archived": false,
     "language": "C",
     "created": "2026-07-01",
-    "pushed": "2026-10-18",
+    "pushed": "2026-10-19",
     "owner_type": "User",
     "description": "Run frontier MoE models on hardware you already own \u2014 pure C, zero deps, experts streamed from disk. Tiny engine, immense model. \ud83d\udc26"
    }
@@ -4330,7 +4805,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:36Z",
+   "last_seen": "2026-10-19T11:15:52Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4339,7 +4814,7 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 4901,
+    "stars": 4907,
     "forks": 239,
     "license": "Apache-2.0",
     "archived": false,
@@ -4366,14 +4841,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:37Z",
+   "last_seen": "2026-10-19T11:15:53Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 311,
+    "stars": 314,
     "forks": 15,
     "license": "Apache-2.0",
     "archived": false,
@@ -4400,7 +4875,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:39Z",
+   "last_seen": "2026-10-19T11:15:55Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4409,8 +4884,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 49070,
-    "forks": 5623,
+    "stars": 49105,
+    "forks": 5626,
     "license": "AGPL-3.0",
     "archived": false,
     "language": "TypeScript",
@@ -4436,7 +4911,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:41Z",
+   "last_seen": "2026-10-19T11:15:57Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4445,8 +4920,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 86839,
-    "forks": 7322,
+    "stars": 86940,
+    "forks": 7332,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -4472,7 +4947,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:42Z",
+   "last_seen": "2026-10-19T11:15:59Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4481,8 +4956,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 502,
-    "forks": 193,
+    "stars": 507,
+    "forks": 195,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -4508,7 +4983,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:44Z",
+   "last_seen": "2026-10-19T11:16:01Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4542,7 +5017,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:48Z",
+   "last_seen": "2026-10-19T11:16:05Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4551,8 +5026,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 6679,
-    "forks": 625,
+    "stars": 6707,
+    "forks": 628,
     "license": "MIT",
     "archived": false,
     "language": "HTML",
@@ -4578,20 +5053,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:49Z",
+   "last_seen": "2026-10-19T11:16:07Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 16580,
-    "forks": 1811,
+    "stars": 16669,
+    "forks": 1814,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Rust",
     "created": "2026-02-24",
-    "pushed": "2026-10-17",
+    "pushed": "2026-10-19",
     "owner_type": "Organization",
     "description": "OpenShell is the safe, private runtime for autonomous AI agents."
    }
@@ -4612,14 +5087,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:50Z",
+   "last_seen": "2026-10-19T11:16:08Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 6044,
+    "stars": 6065,
     "forks": 1101,
     "license": "AGPL-3.0",
     "archived": false,
@@ -4646,7 +5121,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:52Z",
+   "last_seen": "2026-10-19T11:16:10Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4680,15 +5155,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:53Z",
+   "last_seen": "2026-10-19T11:16:11Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 39518,
-    "forks": 4480,
+    "stars": 39572,
+    "forks": 4486,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -4714,15 +5189,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:54Z",
+   "last_seen": "2026-10-19T11:16:13Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 95161,
-    "forks": 9377,
+    "stars": 95313,
+    "forks": 9391,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -4748,7 +5223,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-18T09:53:56Z",
+   "last_seen": "2026-10-19T11:16:15Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4757,13 +5232,13 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 7158,
-    "forks": 516,
+    "stars": 7162,
+    "forks": 518,
     "license": "AGPL-3.0",
     "archived": false,
     "language": "TypeScript",
     "created": "2024-02-29",
-    "pushed": "2026-10-18",
+    "pushed": "2026-10-19",
     "owner_type": "Organization",
     "description": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting."
    }
@@ -5562,6 +6037,108 @@
     "description": "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flas"
    }
   },
+  "awesomedata/awesome-public-datasets": {
+   "repo": "awesomedata/awesome-public-datasets",
+   "first_seen": "2026-10-19T11:14:25Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:25Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:25Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 79618,
+    "forks": 11902,
+    "license": "MIT",
+    "archived": false,
+    "language": null,
+    "created": "2014-11-20",
+    "pushed": "2026-10-14",
+    "owner_type": "Organization",
+    "description": "A topic-centric list of HQ open datasets."
+   }
+  },
+  "binwiederhier/ntfy": {
+   "repo": "binwiederhier/ntfy",
+   "first_seen": "2026-10-19T11:14:28Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:28Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:28Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 34907,
+    "forks": 1660,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Go",
+    "created": "2021-10-23",
+    "pushed": "2026-10-19",
+    "owner_type": "User",
+    "description": "Send push notifications to your phone or desktop using PUT/POST"
+   }
+  },
+  "boykopovar/AnyPS5": {
+   "repo": "boykopovar/AnyPS5",
+   "first_seen": "2026-10-19T11:14:29Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:29Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:29Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 43774,
+    "forks": 3981,
+    "license": "GPL-2.0",
+    "archived": false,
+    "language": "C++",
+    "created": "2026-08-03",
+    "pushed": "2026-10-19",
+    "owner_type": "User",
+    "description": "Tool for automatic PS5 executables porting to Linux and Windows"
+   }
+  },
   "braedonsaunders/codeflow": {
    "repo": "braedonsaunders/codeflow",
    "first_seen": "2026-10-18T02:03:43Z",
@@ -5736,6 +6313,42 @@
     "description": "Open source DocuSign alternative. Create, fill, and sign digital documents \u270d\ufe0f"
    }
   },
+  "dream-num/univer": {
+   "repo": "dream-num/univer",
+   "first_seen": "2026-10-19T11:14:33Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:33Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:33Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 22676,
+    "forks": 1896,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2022-09-29",
+    "pushed": "2026-10-19",
+    "owner_type": "Organization",
+    "description": "The Office Harness for AI Agents \u2014 Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime."
+   }
+  },
   "drumih/turbo-fieldfare": {
    "repo": "drumih/turbo-fieldfare",
    "first_seen": "2026-10-18T02:24:28Z",
@@ -5802,6 +6415,76 @@
     "pushed": "2026-10-16",
     "owner_type": "User",
     "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you."
+   }
+  },
+  "elder-plinius/CL4R1T4S": {
+   "repo": "elder-plinius/CL4R1T4S",
+   "first_seen": "2026-10-19T11:14:34Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:34Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:34Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 51367,
+    "forks": 10516,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": null,
+    "created": "2025-03-04",
+    "pushed": "2026-09-22",
+    "owner_type": "User",
+    "description": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! \ud83d\udc50"
+   }
+  },
+  "every-app/open-seo": {
+   "repo": "every-app/open-seo",
+   "first_seen": "2026-10-19T11:14:36Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:36Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:36Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 24099,
+    "forks": 3232,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-02-27",
+    "pushed": "2026-10-14",
+    "owner_type": "Organization",
+    "description": "Open source alternative to Semrush and Ahrefs"
    }
   },
   "excalidraw/excalidraw": {
@@ -5872,6 +6555,42 @@
     "pushed": "2026-10-15",
     "owner_type": "User",
     "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
+   }
+  },
+  "figranium/figranium": {
+   "repo": "figranium/figranium",
+   "first_seen": "2026-10-19T11:14:38Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:38Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:38Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 770,
+    "forks": 46,
+    "license": "GPL-3.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2025-12-25",
+    "pushed": "2026-10-19",
+    "owner_type": "Organization",
+    "description": "Stack blocks visually to build complex browser workflows and execute them via API"
    }
   },
   "fleetbase/fleetbase": {
@@ -6184,6 +6903,40 @@
     "description": "A privacy-first app that strips AI watermarks from content you own."
    }
   },
+  "hacksider/Deep-Live-Cam": {
+   "repo": "hacksider/Deep-Live-Cam",
+   "first_seen": "2026-10-19T11:14:40Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:40Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:40Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 97121,
+    "forks": 14148,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2023-09-24",
+    "pushed": "2026-10-10",
+    "owner_type": "User",
+    "description": "real time face swap and one-click video deepfake with only a single image"
+   }
+  },
   "hoainho/img2threejs": {
    "repo": "hoainho/img2threejs",
    "first_seen": "2026-10-18T02:24:40Z",
@@ -6254,6 +7007,40 @@
     "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, sing"
    }
   },
+  "jellyfin/jellyfin": {
+   "repo": "jellyfin/jellyfin",
+   "first_seen": "2026-10-19T11:14:42Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:42Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:42Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 58240,
+    "forks": 5679,
+    "license": "GPL-2.0",
+    "archived": false,
+    "language": "C#",
+    "created": "2018-12-09",
+    "pushed": "2026-10-18",
+    "owner_type": "Organization",
+    "description": "The Free Software Media System - Server Backend & API"
+   }
+  },
   "juliayxhuang/florida-man-api": {
    "repo": "juliayxhuang/florida-man-api",
    "first_seen": "2026-10-18T02:04:13Z",
@@ -6286,6 +7073,42 @@
     "pushed": "2026-05-04",
     "owner_type": "User",
     "description": ""
+   }
+  },
+  "juspay/hyperswitch": {
+   "repo": "juspay/hyperswitch",
+   "first_seen": "2026-10-19T11:14:45Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:45Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:45Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 45363,
+    "forks": 6449,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Rust",
+    "created": "2022-10-17",
+    "pushed": "2026-10-19",
+    "owner_type": "Organization",
+    "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and toke"
    }
   },
   "kaankiziltug/logo-design-skill": {
@@ -6426,6 +7249,76 @@
     "description": "\ud83d\udd34  The Unofficial GraphQL for PokeAPI"
    }
   },
+  "microsoft/Data-Science-For-Beginners": {
+   "repo": "microsoft/Data-Science-For-Beginners",
+   "first_seen": "2026-10-19T11:14:53Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:53Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:53Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 37651,
+    "forks": 7589,
+    "license": "MIT",
+    "archived": false,
+    "language": "Jupyter Notebook",
+    "created": "2021-03-03",
+    "pushed": "2026-10-18",
+    "owner_type": "Organization",
+    "description": "10 Weeks, 20 Lessons, Data Science for All!"
+   }
+  },
+  "mizorewww/laya-coreml": {
+   "repo": "mizorewww/laya-coreml",
+   "first_seen": "2026-10-19T11:14:54Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:54Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:54Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 1590,
+    "forks": 133,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2026-09-19",
+    "pushed": "2026-10-10",
+    "owner_type": "User",
+    "description": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks."
+   }
+  },
   "mohit67890/imajev": {
    "repo": "mohit67890/imajev",
    "first_seen": "2026-10-18T02:09:32Z",
@@ -6532,6 +7425,40 @@
     "description": "An OSINT search engine for mapping real-world infrastructure from OpenStreetMap data"
    }
   },
+  "nolight132/sonora": {
+   "repo": "nolight132/sonora",
+   "first_seen": "2026-10-19T11:14:57Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:14:57Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:14:57Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 2157,
+    "forks": 178,
+    "license": "GPL-3.0",
+    "archived": false,
+    "language": "Rust",
+    "created": "2026-08-03",
+    "pushed": "2026-10-18",
+    "owner_type": "Organization",
+    "description": "A native music streaming client, built with Rust and GPUI"
+   }
+  },
   "ocrmypdf/OCRmyPDF": {
    "repo": "ocrmypdf/OCRmyPDF",
    "first_seen": "2026-10-18T02:24:49Z",
@@ -6600,6 +7527,40 @@
     "pushed": "2026-10-16",
     "owner_type": "Organization",
     "description": "The most user-friendly OpenID Connect Certified\u2122 and OAuth 2.0 provider that lets users sign in to your applications with passkeys."
+   }
+  },
+  "public-apis/public-apis": {
+   "repo": "public-apis/public-apis",
+   "first_seen": "2026-10-19T11:15:02Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:02Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:02Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 490294,
+    "forks": 54444,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2016-03-20",
+    "pushed": "2026-10-17",
+    "owner_type": "Organization",
+    "description": "A collective list of free APIs"
    }
   },
   "robertoduessmann/weather-api": {
@@ -6702,6 +7663,112 @@
     "pushed": "2026-10-16",
     "owner_type": "User",
     "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer."
+   }
+  },
+  "samasante/liquid-glass": {
+   "repo": "samasante/liquid-glass",
+   "first_seen": "2026-10-19T11:15:04Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:04Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:04Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 642,
+    "forks": 49,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-06-22",
+    "pushed": "2026-06-23",
+    "owner_type": "User",
+    "description": "Apple-style Liquid Glass for the web \u2014 a headless React lens that refracts the live DOM in Safari, Firefox and Chrome. Zero dependencies."
+   }
+  },
+  "sevenevesai/riso-windowseat": {
+   "repo": "sevenevesai/riso-windowseat",
+   "first_seen": "2026-10-19T11:15:05Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:05Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:05Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 297,
+    "forks": 32,
+    "license": "MIT",
+    "archived": false,
+    "language": "HTML",
+    "created": "2026-09-22",
+    "pushed": "2026-09-25",
+    "owner_type": "User",
+    "description": "Procedural risograph films in single HTML files (Window Seat, Roost and more), with the Claude Code skills, docs and tools to make your own."
+   }
+  },
+  "shadcn-labs/pdfcn": {
+   "repo": "shadcn-labs/pdfcn",
+   "first_seen": "2026-10-19T11:15:06Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:06Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:06Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 2950,
+    "forks": 153,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-08-11",
+    "pushed": "2026-10-15",
+    "owner_type": "Organization",
+    "description": "Beautiful pdf components, built on Takumi and Forme. 100% Free, Zero config, one command setup."
    }
   },
   "shanraisshan/claude-code-best-practice": {
@@ -6978,6 +8045,42 @@
     "description": "Open Source Continuous File Synchronization"
    }
   },
+  "thedaviddias/Front-End-Checklist": {
+   "repo": "thedaviddias/Front-End-Checklist",
+   "first_seen": "2026-10-19T11:15:10Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:10Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:10Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 74510,
+    "forks": 6759,
+    "license": "MIT",
+    "archived": false,
+    "language": "MDX",
+    "created": "2017-10-16",
+    "pushed": "2026-10-06",
+    "owner_type": "User",
+    "description": "\ud83d\uddc2 The essential checklist for modern web development, for humans and AI agents"
+   }
+  },
   "usestrix/strix": {
    "repo": "usestrix/strix",
    "first_seen": "2026-10-18T02:05:20Z",
@@ -7044,6 +8147,76 @@
     "pushed": "2026-10-14",
     "owner_type": "User",
     "description": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge."
+   }
+  },
+  "vuestorefront/storefront-ui": {
+   "repo": "vuestorefront/storefront-ui",
+   "first_seen": "2026-10-19T11:15:15Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:15Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:15Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 2786,
+    "forks": 501,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2019-01-24",
+    "pushed": "2026-09-29",
+    "owner_type": "Organization",
+    "description": "A frontend library for React and Vue that helps developers quickly build fast, accessible, and beautiful storefronts. Made with \ud83d\udc9a by Vue Storefront team and con"
+   }
+  },
+  "weave-os/router": {
+   "repo": "weave-os/router",
+   "first_seen": "2026-10-19T11:15:17Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-19T11:15:17Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-19T11:15:17Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 5596,
+    "forks": 159,
+    "license": "Apache-2.0",
+    "archived": false,
+    "language": "Go",
+    "created": "2026-04-27",
+    "pushed": "2026-10-19",
+    "owner_type": "Organization",
+    "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change."
    }
   },
   "zeenie-ai/OpenCompany": {
