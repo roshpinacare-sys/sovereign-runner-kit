@@ -503,3 +503,12 @@ Wave-19 open (owner decisions, one flag each): (1) ~~write-path tasks in the exe
 | 19.29-b | chains | liveness at write time | MEASURED | executor hourly chain: 15:45 + 14:48 both SUCCESS, 16:42:34Z run in flight (31min, beat due ~17:42Z; newest guard receipt 16:42:22Z = 45/45 alreadyOn, reArmed=0, heal ~3.5h held); beacon #29 (16:57, 16min) + #30 pending stacked on the 30min cadence; runner-kit #35 in flight 44min — overhang inside the 19.21-classified honest range, handoff imminent, twin beacon plane covers (two-plane law working) |
 | 19.29-c | sibling lanes | survey cross-check | MEASURED | capability-gate, deploy-gate, agent-shield, netrun-loop all green in the 19.28 fleet survey; the 3 honest reds (Domain/exposure-gate, saos-dex/dex-selftest, saos-dex/gitleaks = known R11) remain sibling-plane, recorded not touched |
 | 19.29-d | sovereign-executor | owner trace archived verbatim | DONE | 1a1552709c80c991 as CONTINUED entry #25 in state/beat-tasks.json note |
+
+### wave-19.30 claims («תמשיך ודחוף» — owner 2026-10-19, IM zai-web session web-16cb7ad8, trace 1a15530840c45e5d: the overhang resolved exactly as classified)
+
+| Task | Repo | Scope | Status | Note |
+|---|---|---|---|---|
+| 19.30-a | 17 sandbox repos | git-first opener | MEASURED | 5/17 stale (Domain +9, Autonomy +6, FleetHQ +3, giant +2, saos-dex +1), all ff-only re-anchored, exit 0; receipt persisted (staleness history entry 13) |
+| 19.30-b | runner-kit keepalive | HANDOFF MEASURED | MEASURED | #35 (44min in flight at last wave) completed SUCCESS at ~49min and handed to #36 (fresh 5min at write) — the 19.21 honest-casualty classification predicted exactly this resolution; newest run never stale; the chain's 38th consecutive successful handoff |
+| 19.30-c | chains | liveness at write time | MEASURED | executor hourly chain in flight (16:42:34Z run, 42min — beat ~17:42Z due, next guard reading imminent; newest receipt 16:42:22Z = 45/45 alreadyOn, reArmed=0, heal ~3.5h); beacon #29 mid-dwell (26min) + #30 pending — 30min cadence holds |
+| 19.30-d | sovereign-executor | owner trace archived verbatim | DONE | 1a15530840c45e5d as CONTINUED entry #26 in state/beat-tasks.json note |
