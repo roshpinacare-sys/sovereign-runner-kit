@@ -98,17 +98,21 @@ def main() -> int:
     refreshed = sum(1 for x in records if x["action"] == "refreshed")
     blocked = sum(1 for x in records if x["action"] == "BLOCKED-DIRTY")
     failed = sum(1 for x in records if x["action"] == "FAILED")
-    for x in records:
-        mark = {"fresh": "fresh", "refreshed": f"REFRESHED (+{x['behind']})",
-                "BLOCKED-DIRTY": "BLOCKED-DIRTY (untouched)",
-                "FAILED": "FAILED"}.get(x["action"], x["action"])
-        print(f"  {x['repo']}: {mark}" +
-              (f" — {x['detail']}" if x["detail"] else ""))
     verdict = "ok" if not FAILURES else "RED"
-    print(f"git-first: scanned={len(records)} refreshed={refreshed} "
-          f"fresh={len(records) - refreshed - blocked - failed} "
-          f"blocked-dirty={blocked} failed={failed} verdict={verdict}")
     if as_json:
+        # machine contract: stdout carries ONLY the JSON receipt (found in the
+        # field, wave-19.17: human+JSON mixed on stdout broke direct parsing);
+        # the human-readable lines move to stderr so terminals keep the view.
+        for x in records:
+            mark = {"fresh": "fresh",
+                    "refreshed": f"REFRESHED (+{x['behind']})",
+                    "BLOCKED-DIRTY": "BLOCKED-DIRTY (untouched)",
+                    "FAILED": "FAILED"}.get(x["action"], x["action"])
+            print(f"  {x['repo']}: {mark}" +
+                  (f" — {x['detail']}" if x["detail"] else ""), file=sys.stderr)
+        print(f"git-first: scanned={len(records)} refreshed={refreshed} "
+              f"blocked-dirty={blocked} failed={failed} verdict={verdict}",
+              file=sys.stderr)
         print(json.dumps({"schema": "saos.git-first/1",
                           "scanned": len(records),
                           "refreshed": refreshed,
@@ -116,6 +120,17 @@ def main() -> int:
                           "failed": failed,
                           "verdict": verdict,
                           "records": records}, ensure_ascii=False, indent=1))
+    else:
+        for x in records:
+            mark = {"fresh": "fresh",
+                    "refreshed": f"REFRESHED (+{x['behind']})",
+                    "BLOCKED-DIRTY": "BLOCKED-DIRTY (untouched)",
+                    "FAILED": "FAILED"}.get(x["action"], x["action"])
+            print(f"  {x['repo']}: {mark}" +
+                  (f" — {x['detail']}" if x["detail"] else ""))
+        print(f"git-first: scanned={len(records)} refreshed={refreshed} "
+              f"fresh={len(records) - refreshed - blocked - failed} "
+              f"blocked-dirty={blocked} failed={failed} verdict={verdict}")
     return 1 if FAILURES else 0
 
 
