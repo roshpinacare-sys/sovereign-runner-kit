@@ -1,0 +1,63 @@
+#
+# night-steward — the night patrol that watches the watchers (wave-19.34).
+#
+# OWNER ORDER (trace 1a1557f9ff40cf6d, evening 2026-10-19): verify yourself,
+# fix comprehensively, and let the owner wake to "התפתחות רצינית של
+# הארכיטקטורה מתוך עצמה". This lane is that development: while the owner
+# sleeps, every 2h it measures the three plane chains against the cadence
+# law, revives a dead chain by the SAME lawful dispatch beat-keepalive has
+# exercised since wave-19.10, records every census red honestly, and writes
+# MORNING-REPORT.md — the architecture's own account of its night.
+#
+# Honesty: reds are DATA (exit 0 — the patrol that records a red succeeded);
+# only an unobservable plane (auth/API breakdown) fails the patrol closed.
+# Cross-repo pushes are forbidden here by doctrine — fixes travel as netrun
+# claims; the steward's write surface is its own repo only.
+#
+# TRUTH-RECORD (keepalive lesson, wave-19.11): a workflow file is code too —
+# this yml was parsed locally with a real parser before pushing; no
+# colon-space inside mapping-value names.
+#
+name: night-steward
+
+on:
+  schedule:
+    - cron: '43 */2 * * *'   # off-collision: fleet-keeper :17, netrun :07/:37
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: night-steward
+  cancel-in-progress: false
+
+jobs:
+  patrol:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Patrol (chains + census reds + lawful revivals + morning report)
+        env:
+          SOVEREIGN_PAT: ${{ secrets.SOVEREIGN_PAT }}
+        run: python3 scripts/night-steward.py
+
+      - name: Publish night artifacts only if changed (commit + rebase-retry push)
+        run: |
+          git config user.name "roshpinacare-sys"
+          git config user.email "326012154+roshpinacare-sys@users.noreply.github.com"
+          git add state/night-steward-last-run.json night-log/ MORNING-REPORT.md
+          if git diff --cached --quiet; then
+            echo "night artifacts unchanged — nothing to publish"
+            exit 0
+          fi
+          git commit -m "night-steward: patrol $(date -u +%FT%TZ) [skip ci]"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then exit 0; fi
+            echo "push race, retry ${i}"; sleep 8
+          done
+          echo "could not publish the night artifacts after 3 attempts"
+          exit 1

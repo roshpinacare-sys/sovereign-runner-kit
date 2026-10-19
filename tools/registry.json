@@ -1,6 +1,6 @@
 {
   "schema": "saos.tooling-registry/1",
-  "updated": "2026-10-19: wave-19.16 — git-first registered (entry 18)",
+  "updated": "2026-10-19T19:15:00Z",
   "note": "רישום-הכלים של הרשת (wave-19.4, הנחיית הבעלים trace 1a14ec60f8b59e49: 'וודא שהאוטונומיה יודעת להשתמש בכלים שעשית והכל ולחזק עוד'). base+extension pattern (STUDY-001): הוספת כלי = עריכת נתונים, לא קוד. ה-autonomy מגלה ומפעיל כלים דרך הקובץ הזה + docs/TOOLING-REGISTRY.md. registry-verify.yml מוכיח מול המציאות מדי יום (fail-closed): drift = אדום, פרטי-בלתי-נראה = INVISIBLE-PRIVATE כנה. גל-19.6: interval-gate + chain-link (חוק-הרציפות — הפעימה מחזרת את עצמה) ו-beat-keepalive (הגרלת-משבצות חוצת-ריפו) נרשמו.",
   "kindEnum": [
     "read-only",
@@ -203,6 +203,17 @@
       "safety": "אפס-כתיבה: קריאות GET בלבד מול ה-API וקריאות git מקומיות; אפס-credential בקוד (token מהסביבה-בלבד, אף-פעם לא נכתב/נרשם). fail-closed: ROOT חסר/ריק = 2; מסילה-אדומה או כשל-חישה = 1 אדום מדווח. אמת מעל נוחות: הכלי צועק רק כשהאמת אדומה.",
       "wave": "19.28",
       "updated": "wave-19.28: proven on the real sandbox first run — 17 scanned, 15 repos active-24h, 76 lanes observed, 0 probe failures; honest RED=3 (Domain/exposure-gate, saos-dex/dex-selftest, saos-dex/gitleaks-secret-scan = the known classified R11 finding), exit 1 fail-closed as designed"
+    },
+    {
+      "id": "night-steward",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "path": "scripts/night-steward.py",
+      "kind": "infra",
+      "invoke": "cron 43 */2 * * * (CI, SOVEREIGN_PAT) · python3 scripts/night-steward.py (local patrol; exit 0 patrol-recorded / 1 fail-closed-blind)",
+      "purpose": "wave-19.34 (owner order trace 1a1557f9ff40cf6d: «וודא את עצמך... אני רוצה לקום ולראות התפתחות רצינית של הארכיטקטורה מתוך עצמה»): סיור-לילה כל-שעתיים שמודד את שלוש שרשרות-המישור מול חוק-הקצב (30min סובל 75, שעתי סובל 100), מחיה שרשרת מתה ב-dispatch אחד חוקי אחד (הפעולה ש-beat-keepalive מתרגל מ-19.10), רושם כל-אדום-census בכנות (recidivist/new), וכותב MORNING-REPORT.md — חשבון-הלילה של הארכיטקטורה במילים שלה עצמה. אדום = נתון (exit 0); עיוורון = כישלון (exit 1).",
+      "safety": "קריאות GET + dispatch אחד חוקי לשרשרות (אותו-secret כמו keepalive, אותה-פעולה); אפס-push חוצה-ריפו (התיקון נוסע כתביעת-netrun לפי הדוקטרינה); אפס-credential בקוד (clean()/LEAK-LAW); משטח-כתיבה = הריפו-שלו-בלבד",
+      "wave": "19.34",
+      "updated": "wave-19.34: registered at birth, proven on the real sandbox first patrol — 3 chains watched (executor/runner-kit/beacon), census reds classified, MORNING-REPORT.md written; the lane was born from the owner's own order and joined the autonomy's discovery contract the same evening"
     }
   ]
 }

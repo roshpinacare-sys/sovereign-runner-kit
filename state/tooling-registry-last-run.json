@@ -1,11 +1,11 @@
 {
   "schema": "saos.tooling-registry.receipt/1",
-  "at": "2026-10-19T16:59:54.048056+00:00",
+  "at": "2026-10-19T19:08:57.456681+00:00",
   "registrySchema": "saos.tooling-registry/1",
-  "registryEntries": 19,
+  "registryEntries": 20,
   "tokenPlane": "basic-auth-credential-present",
   "totals": {
-    "verified-local": 13,
+    "verified-local": 14,
     "verified-api": 6
   },
   "entries": [
@@ -122,6 +122,12 @@
       "repo": "roshpinacare-sys/sovereign-runner-kit",
       "outcome": "verified-local",
       "detail": "scripts/fleet-survey.py"
+    },
+    {
+      "id": "night-steward",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/night-steward.py"
     }
   ],
   "note": "invisible-private = the repo exists but this plane honestly cannot see it (private + token scope) — neither green nor red; missing/schema-error = RED (fail-closed): the registry drifted from reality"
