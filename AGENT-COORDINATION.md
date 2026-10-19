@@ -408,3 +408,13 @@ Wave-19 open (owner decisions, one flag each): (1) ~~write-path tasks in the exe
 | 19.19-c | 17 sandbox repos | git-first opener | MEASURED | 9/17 stale (fleet very active: Autonomy +33, Domain +23, FleetHQ +15, saos-runtime +7, saos-dex +5...), all ff-only re-anchored; receipt persisted to state/git-first-last-run.json (second entry in the staleness history) |
 | 19.19-d | chains | liveness at write time | MEASURED | runner-kit keepalive #30 in flight (26min, mid-dwell), beacon pulse #135 success (12min), executor #44 queued for the next hourly beat — the next receipt will show whether the daily flipper returned after the 13:47:59Z re-arm (window analysis: flips happened ~12:50-13:47Z both days; next beat reads the post-window state) |
 | 19.19-e | sovereign-executor d922ef9 | owner trace archived verbatim | DONE | 1a1549c132052e2d as CONTINUED entry #15 in state/beat-tasks.json note |
+
+### wave-19.20 claims («תמשיך ודחוף» — owner 2026-10-19, IM zai-web session web-16cb7ad8, trace 1a154a2444158cb5: the heal held)
+
+| Task | Repo | Scope | Status | Note |
+|---|---|---|---|---|
+| 19.20-a | sovereign-executor receipt 14:48:30Z | THE HEAL HELD — no flip outside the daily window | MEASURED | the guard's post-re-arm beat read 45/45 alreadyOn, reArmed=0, failed=0 — 60+ minutes after healing the daily flipper's 18 repos, not one switch re-flipped. The daily-window analysis (flips ~12:50-13:47Z) is reinforced from both sides: flips happened INSIDE the window two days running, and nothing flipped outside it |
+| 19.20-b | FALSIFIABLE PREDICTION, recorded in git | checkable tomorrow | PREDICTED | if the daily flipper returns on 2026-10-20, the ~13:50Z beat will read reArmed>0 and heal again (failed=0); if it reads 45/45 alreadyOn, the flipper skipped the day. Either outcome is a bare receipt fact — the prediction converts tomorrow's beat into a clean experiment with the guard as the instrument |
+| 19.20-c | 17 sandbox repos | git-first opener | MEASURED | 5/17 stale (Autonomy +4, Domain +4, FleetHQ +1, saos-runtime +1, beacon +1), all ff-only re-anchored; receipt persisted to state/git-first-last-run.json (staleness history entry 3) |
+| 19.20-d | chains | liveness at write time | MEASURED | runner-kit keepalive #31 fresh (2min into dwell), beacon pulse #136 fresh (2min), executor #45 queued — all three chains at their designed cadence |
+| 19.20-e | sovereign-executor 94e3319 | owner trace archived verbatim | DONE | 1a154a2444158cb5 as CONTINUED entry #16 in state/beat-tasks.json note |
