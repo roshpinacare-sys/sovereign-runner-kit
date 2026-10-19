@@ -1,0 +1,795 @@
+{
+  "schema": "saos.fleet-survey/1",
+  "at": "2026-10-19T16:58:29.312876+00:00",
+  "org": "roshpinacare-sys",
+  "windowHours": 24,
+  "scanned": 17,
+  "reposWithRuns24h": 15,
+  "lanesObserved": 76,
+  "redLaneCount": 3,
+  "probeFailures": 0,
+  "verdict": "RED",
+  "records": [
+    {
+      "repo": "Autonomy",
+      "head": "638b877cc1",
+      "headAt": "2026-10-19T16:55:24Z",
+      "subject": "pacer: beat receipt [run 39289653825]",
+      "lanes": [
+        {
+          "name": "artery-pacer",
+          "runsInWindow": 3,
+          "latestRunId": 39289653825,
+          "status": "in_progress",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:55:17Z"
+        },
+        {
+          "name": "sovereign-tick",
+          "runsInWindow": 1,
+          "latestRunId": 39289342055,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:53:10Z"
+        },
+        {
+          "name": "sovereign-state",
+          "runsInWindow": 4,
+          "latestRunId": 39289322680,
+          "status": "pending",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:53:02Z"
+        },
+        {
+          "name": "artery-builder",
+          "runsInWindow": 1,
+          "latestRunId": 39287642915,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:42:13Z"
+        },
+        {
+          "name": "artery-wallet",
+          "runsInWindow": 1,
+          "latestRunId": 39287638904,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:42:11Z"
+        },
+        {
+          "name": "verifier (truth & quality)",
+          "runsInWindow": 3,
+          "latestRunId": 39287635173,
+          "status": "pending",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:42:10Z"
+        },
+        {
+          "name": "value-scan",
+          "runsInWindow": 1,
+          "latestRunId": 39284082331,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:15:53Z"
+        },
+        {
+          "name": "federation",
+          "runsInWindow": 1,
+          "latestRunId": 39284078900,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:15:51Z"
+        },
+        {
+          "name": "artery-watch",
+          "runsInWindow": 1,
+          "latestRunId": 39284073331,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:15:49Z"
+        },
+        {
+          "name": "artery-catchup",
+          "runsInWindow": 1,
+          "latestRunId": 39284070627,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:15:47Z"
+        },
+        {
+          "name": "artery-fleet",
+          "runsInWindow": 1,
+          "latestRunId": 39284055078,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:15:40Z"
+        },
+        {
+          "name": "artery-decision-truth",
+          "runsInWindow": 1,
+          "latestRunId": 39284051641,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:15:39Z"
+        },
+        {
+          "name": "artery-selfheal",
+          "runsInWindow": 1,
+          "latestRunId": 39284048466,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:15:37Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "Console",
+      "head": "76c552097e",
+      "headAt": "2026-10-19T16:52:17Z",
+      "subject": "saos-fold: live book republished · stateRoot unknown · 2026-10-19T16:5",
+      "lanes": [
+        {
+          "name": "pages build and deployment",
+          "runsInWindow": 10,
+          "latestRunId": 39289215178,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:52:20Z"
+        },
+        {
+          "name": "saos-fold",
+          "runsInWindow": 2,
+          "latestRunId": 39289161216,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:52:00Z"
+        },
+        {
+          "name": "runtime-pacemaker",
+          "runsInWindow": 2,
+          "latestRunId": 39287130610,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:38:43Z"
+        },
+        {
+          "name": "identity-guard",
+          "runsInWindow": 4,
+          "latestRunId": 39286290709,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:32:44Z"
+        },
+        {
+          "name": "agent-verify",
+          "runsInWindow": 1,
+          "latestRunId": 39281435598,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T15:54:23Z"
+        },
+        {
+          "name": "giants-beat",
+          "runsInWindow": 1,
+          "latestRunId": 39278846702,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T15:32:58Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "Domain",
+      "head": "1ccecf5622",
+      "headAt": "2026-10-19T16:53:06Z",
+      "subject": "weave-mirror: 2026-10-19T16:53:06Z · weave books mirrored from the liv",
+      "lanes": [
+        {
+          "name": "weave-mirror",
+          "runsInWindow": 2,
+          "latestRunId": 39289639551,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:55:12Z"
+        },
+        {
+          "name": "pages build and deployment",
+          "runsInWindow": 9,
+          "latestRunId": 39289340218,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:53:09Z"
+        },
+        {
+          "name": "fill-ledger-cron",
+          "runsInWindow": 1,
+          "latestRunId": 39289159231,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:51:59Z"
+        },
+        {
+          "name": "dex-xc",
+          "runsInWindow": 1,
+          "latestRunId": 39289156475,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:51:58Z"
+        },
+        {
+          "name": "grid-sentinel",
+          "runsInWindow": 2,
+          "latestRunId": 39288932446,
+          "status": "in_progress",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:50:32Z"
+        },
+        {
+          "name": "exposure-gate",
+          "runsInWindow": 1,
+          "latestRunId": 39287669231,
+          "status": "completed",
+          "conclusion": "failure",
+          "createdAt": "2026-10-19T16:42:24Z"
+        },
+        {
+          "name": "identity-guard",
+          "runsInWindow": 1,
+          "latestRunId": 39287669657,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:42:24Z"
+        },
+        {
+          "name": "site-link-audit",
+          "runsInWindow": 1,
+          "latestRunId": 39287669202,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:42:24Z"
+        },
+        {
+          "name": "dex-router",
+          "runsInWindow": 1,
+          "latestRunId": 39286951877,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:37:27Z"
+        },
+        {
+          "name": "arb-mesh",
+          "runsInWindow": 1,
+          "latestRunId": 39286949487,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:37:26Z"
+        }
+      ],
+      "redLanes": [
+        "exposure-gate"
+      ],
+      "probe": "ok"
+    },
+    {
+      "repo": "FleetHQ",
+      "head": "fbbf70fc85",
+      "headAt": "2026-10-19T16:34:12Z",
+      "subject": "pacemaker receipt: 2026-10-19T16:34:12Z",
+      "lanes": [
+        {
+          "name": "pages build and deployment",
+          "runsInWindow": 1,
+          "latestRunId": 39287087907,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:38:25Z"
+        },
+        {
+          "name": "office-window",
+          "runsInWindow": 1,
+          "latestRunId": 39287011547,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:37:53Z"
+        },
+        {
+          "name": "runtime-pacemaker",
+          "runsInWindow": 10,
+          "latestRunId": 39286451840,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:33:55Z"
+        },
+        {
+          "name": "sovereign-decider",
+          "runsInWindow": 1,
+          "latestRunId": 39286016046,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:30:44Z"
+        },
+        {
+          "name": "value-scan",
+          "runsInWindow": 2,
+          "latestRunId": 39285968314,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:30:25Z"
+        },
+        {
+          "name": "opens-closer",
+          "runsInWindow": 1,
+          "latestRunId": 39285907910,
+          "status": "in_progress",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:30:01Z"
+        },
+        {
+          "name": "claims-triage",
+          "runsInWindow": 1,
+          "latestRunId": 39284983926,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:22:57Z"
+        },
+        {
+          "name": "sovereign-harness",
+          "runsInWindow": 1,
+          "latestRunId": 39283430363,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:10:55Z"
+        },
+        {
+          "name": "sovereign-identity",
+          "runsInWindow": 1,
+          "latestRunId": 39283426958,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:10:53Z"
+        },
+        {
+          "name": "identity-patrol",
+          "runsInWindow": 1,
+          "latestRunId": 39283423849,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:10:52Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "GridWatch",
+      "head": "e0e121ebcd",
+      "headAt": "2026-10-19T19:25:41+03:00",
+      "subject": "grid-watch: fleet health @ 2026-10-19T16:22:58.802Z",
+      "lanes": [
+        {
+          "name": "identity-guard",
+          "runsInWindow": 7,
+          "latestRunId": 39285349301,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:25:44Z"
+        },
+        {
+          "name": "pages build and deployment",
+          "runsInWindow": 7,
+          "latestRunId": 39285348433,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:25:43Z"
+        },
+        {
+          "name": "grid-watch",
+          "runsInWindow": 6,
+          "latestRunId": 39284967499,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:22:49Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "Pulse",
+      "head": "1eb9bb49ec",
+      "headAt": "2026-10-19T16:30:42Z",
+      "subject": "pulse: 2026-10-19T16:30:42Z [skip ci]",
+      "lanes": [
+        {
+          "name": "pages build and deployment",
+          "runsInWindow": 10,
+          "latestRunId": 39286018644,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:30:45Z"
+        },
+        {
+          "name": "heartbeat",
+          "runsInWindow": 9,
+          "latestRunId": 39285909684,
+          "status": "in_progress",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:30:02Z"
+        },
+        {
+          "name": "sovereign-voice",
+          "runsInWindow": 1,
+          "latestRunId": 39272980018,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T14:53:08Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "Saosmartwallet",
+      "head": "0f5e81230b",
+      "headAt": "2026-10-18T00:37:27Z",
+      "subject": "test: expectVaultError takes VaultErrorCode (the code union, not strin",
+      "lanes": [],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "giant",
+      "head": "b212e329d2",
+      "headAt": "2026-10-19T16:43:58Z",
+      "subject": "trust-heartbeat: autonomous scan (no-sandbox) — 2026-10-19T16:43Z",
+      "lanes": [
+        {
+          "name": "trust-heartbeat",
+          "runsInWindow": 7,
+          "latestRunId": 39287776236,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:43:07Z"
+        },
+        {
+          "name": "ext-audit",
+          "runsInWindow": 1,
+          "latestRunId": 39241313671,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T10:58:54Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "ops-forge",
+      "head": "b00e77624e",
+      "headAt": "2026-10-19T17:54:22+03:00",
+      "subject": "ops-forge: מצב מחזור 26 [skip ci]",
+      "lanes": [
+        {
+          "name": "forge",
+          "runsInWindow": 3,
+          "latestRunId": 39272910541,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T14:52:41Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "ops-intake",
+      "head": "e19cfec067",
+      "headAt": "2026-10-19T16:47:11+03:00",
+      "subject": "ops-intake: receipt verified=true @ 2026-10-19T13:44:04.581Z",
+      "lanes": [
+        {
+          "name": "intake",
+          "runsInWindow": 3,
+          "latestRunId": 39262652133,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T13:43:59Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "roshpinacare-sys.github.io",
+      "head": "1e983a7a65",
+      "headAt": "2026-10-14T23:07:03+03:00",
+      "subject": "ops-forge: בלוק-גרסה מדוד לשער (80b9978, 2026-10-14) [skip ci]",
+      "lanes": [],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "saos-dex",
+      "head": "ae3411f5b7",
+      "headAt": "2026-10-19T16:55:23Z",
+      "subject": "dex-beat: 2026-10-19T16:55:23Z (cloud twin, git-first law)",
+      "lanes": [
+        {
+          "name": "dex-ci",
+          "runsInWindow": 4,
+          "latestRunId": 39289675534,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:55:26Z"
+        },
+        {
+          "name": "dex-selftest",
+          "runsInWindow": 4,
+          "latestRunId": 39289675333,
+          "status": "completed",
+          "conclusion": "failure",
+          "createdAt": "2026-10-19T16:55:26Z"
+        },
+        {
+          "name": "gitleaks-secret-scan",
+          "runsInWindow": 4,
+          "latestRunId": 39289675870,
+          "status": "completed",
+          "conclusion": "failure",
+          "createdAt": "2026-10-19T16:55:26Z"
+        },
+        {
+          "name": "identity-guard",
+          "runsInWindow": 4,
+          "latestRunId": 39289675291,
+          "status": "completed",
+          "conclusion": "skipped",
+          "createdAt": "2026-10-19T16:55:26Z"
+        },
+        {
+          "name": "workflow-yaml-guard",
+          "runsInWindow": 4,
+          "latestRunId": 39289675348,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:55:26Z"
+        }
+      ],
+      "redLanes": [
+        "dex-selftest",
+        "gitleaks-secret-scan"
+      ],
+      "probe": "ok"
+    },
+    {
+      "repo": "saos-runtime",
+      "head": "0f6556ed71",
+      "headAt": "2026-10-19T16:37:48Z",
+      "subject": "[agent-9/t37] insurance worklog sync: pure verification cycle — all t3",
+      "lanes": [
+        {
+          "name": "dex-beat",
+          "runsInWindow": 3,
+          "latestRunId": 39289539767,
+          "status": "in_progress",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:54:31Z"
+        },
+        {
+          "name": "army-ladder",
+          "runsInWindow": 5,
+          "latestRunId": 39287447968,
+          "status": "in_progress",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:40:54Z"
+        },
+        {
+          "name": "sovereign-runtime",
+          "runsInWindow": 4,
+          "latestRunId": 39287189430,
+          "status": "in_progress",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:39:09Z"
+        },
+        {
+          "name": "treasury-ladder",
+          "runsInWindow": 1,
+          "latestRunId": 39287157621,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:38:55Z"
+        },
+        {
+          "name": "grid-watchdog",
+          "runsInWindow": 3,
+          "latestRunId": 39283290004,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:09:51Z"
+        },
+        {
+          "name": "blurt-revival",
+          "runsInWindow": 1,
+          "latestRunId": 39281886179,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T15:58:14Z"
+        },
+        {
+          "name": "fleet-fuel",
+          "runsInWindow": 1,
+          "latestRunId": 39280275176,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T15:44:36Z"
+        },
+        {
+          "name": "organ-pacemaker",
+          "runsInWindow": 1,
+          "latestRunId": 39280182580,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T15:43:50Z"
+        },
+        {
+          "name": "fee-engine",
+          "runsInWindow": 1,
+          "latestRunId": 39279508595,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T15:38:14Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "sovereign-beacon",
+      "head": "b6f91232ca",
+      "headAt": "2026-10-19T16:30:27Z",
+      "subject": "pulse: 2026-10-19T16:30:27Z [skip ci]",
+      "lanes": [
+        {
+          "name": "beat-keepalive",
+          "runsInWindow": 15,
+          "latestRunId": 39290008788,
+          "status": "in_progress",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:57:42Z"
+        },
+        {
+          "name": "beacon-pulse",
+          "runsInWindow": 5,
+          "latestRunId": 39285961228,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:30:22Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "sovereign-executor",
+      "head": "7830eed210",
+      "headAt": "2026-10-19T16:49:39Z",
+      "subject": "wave-19.27: owner trace 1a15509bcbb5346d archived verbatim ('תמשיך ודח",
+      "lanes": [
+        {
+          "name": "fleet-beat",
+          "runsInWindow": 20,
+          "latestRunId": 39287693641,
+          "status": "in_progress",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:42:34Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "sovereign-lighthouse",
+      "head": "ced0014aef",
+      "headAt": "2026-10-19T16:30:29Z",
+      "subject": "pulse: 2026-10-19T16:30:29Z [skip ci]",
+      "lanes": [
+        {
+          "name": "lighthouse-pulse",
+          "runsInWindow": 10,
+          "latestRunId": 39285965256,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:30:24Z"
+        },
+        {
+          "name": "estate-redboard",
+          "runsInWindow": 10,
+          "latestRunId": 39282915187,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T16:06:58Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    },
+    {
+      "repo": "sovereign-runner-kit",
+      "head": "db79be3f11",
+      "headAt": "2026-10-19T16:49:45Z",
+      "subject": "wave-19.27: git-first receipt persisted (10/17 stale — fleet velocity;",
+      "lanes": [
+        {
+          "name": "beat-keepalive",
+          "runsInWindow": 13,
+          "latestRunId": 39285833470,
+          "status": "in_progress",
+          "conclusion": null,
+          "createdAt": "2026-10-19T16:29:27Z"
+        },
+        {
+          "name": "capability-gate",
+          "runsInWindow": 1,
+          "latestRunId": 39274221237,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T15:01:15Z"
+        },
+        {
+          "name": "agent-shield",
+          "runsInWindow": 1,
+          "latestRunId": 39262931030,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T13:45:52Z"
+        },
+        {
+          "name": "registry-verify",
+          "runsInWindow": 1,
+          "latestRunId": 39261544908,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T13:36:04Z"
+        },
+        {
+          "name": "fleet-keeper",
+          "runsInWindow": 1,
+          "latestRunId": 39257845884,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T13:10:05Z"
+        },
+        {
+          "name": "deploy-gate",
+          "runsInWindow": 1,
+          "latestRunId": 39256352588,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T12:59:14Z"
+        },
+        {
+          "name": "scout-loop",
+          "runsInWindow": 1,
+          "latestRunId": 39243109576,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T11:13:42Z"
+        },
+        {
+          "name": "netrun-loop",
+          "runsInWindow": 1,
+          "latestRunId": 39243015223,
+          "status": "completed",
+          "conclusion": "success",
+          "createdAt": "2026-10-19T11:12:57Z"
+        }
+      ],
+      "redLanes": [],
+      "probe": "ok"
+    }
+  ]
+}

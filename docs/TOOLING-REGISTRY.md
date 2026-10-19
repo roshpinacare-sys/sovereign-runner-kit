@@ -25,6 +25,7 @@
 | agent-shield | audit | sovereign-runner-kit | scripts/agent-shield.py | 17 |
 | capability-gate | law | sovereign-runner-kit | scripts/capability-gate.py | 18 |
 | sovereign-runner-register | infra | sovereign-runner-kit | scripts/sovereign-runner-register.sh | 19 |
+| fleet-survey | read-only | sovereign-runner-kit | scripts/fleet-survey.py | 19.28 |
 | executor-beat | read-only | sovereign-executor | scripts/beat.py | 19→19.4 |
 | economy-book-write-path | write-path | sovereign-executor | scripts/beat.py (task economy-book) | 19.2 |
 | fleet-economy-book-runner | write-path | fleet-economy | run-economy-beat.mjs | 19.2 |

@@ -1,13 +1,12 @@
 {
   "schema": "saos.tooling-registry.receipt/1",
-  "at": "2026-10-19T13:36:13.644171+00:00",
+  "at": "2026-10-19T16:59:54.048056+00:00",
   "registrySchema": "saos.tooling-registry/1",
-  "registryEntries": 18,
+  "registryEntries": 19,
   "tokenPlane": "basic-auth-credential-present",
   "totals": {
-    "verified-local": 12,
-    "verified-api": 5,
-    "invisible-private": 1
+    "verified-local": 13,
+    "verified-api": 6
   },
   "entries": [
     {
@@ -79,8 +78,8 @@
     {
       "id": "fleet-economy-book-runner",
       "repo": "roshpinacare-sys/fleet-economy",
-      "outcome": "invisible-private",
-      "detail": "repo exists but is invisible to this plane — honest"
+      "outcome": "verified-api",
+      "detail": "run-economy-beat.mjs (status=200)"
     },
     {
       "id": "beat-keepalive",
@@ -117,6 +116,12 @@
       "repo": "roshpinacare-sys/sovereign-runner-kit",
       "outcome": "verified-local",
       "detail": "scripts/git_first.py"
+    },
+    {
+      "id": "fleet-survey",
+      "repo": "roshpinacare-sys/sovereign-runner-kit",
+      "outcome": "verified-local",
+      "detail": "scripts/fleet-survey.py"
     }
   ],
   "note": "invisible-private = the repo exists but this plane honestly cannot see it (private + token scope) — neither green nor red; missing/schema-error = RED (fail-closed): the registry drifted from reality"
