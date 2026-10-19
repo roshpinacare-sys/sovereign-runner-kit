@@ -1,129 +1,129 @@
 {
- "schema": "saos.git-first/1",
- "scanned": 17,
- "refreshed": 1,
- "blockedDirty": 0,
- "failed": 0,
- "verdict": "ok",
- "records": [
-  {
-   "repo": "Autonomy",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "Console",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "Domain",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "FleetHQ",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "GridWatch",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "Pulse",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "Saosmartwallet",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "giant",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "ops-forge",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "ops-intake",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "roshpinacare-sys.github.io",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "saos-dex",
-   "branch": "main",
-   "behind": 1,
-   "action": "refreshed",
-   "detail": ""
-  },
-  {
-   "repo": "saos-runtime",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "sovereign-beacon",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "sovereign-executor",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "sovereign-lighthouse",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  },
-  {
-   "repo": "sovereign-runner-kit",
-   "branch": "main",
-   "behind": 0,
-   "action": "fresh",
-   "detail": ""
-  }
- ]
+  "schema": "saos.git-first/1",
+  "scanned": 17,
+  "refreshed": 1,
+  "blockedDirty": 0,
+  "failed": 0,
+  "verdict": "ok",
+  "records": [
+    {
+      "repo": "Autonomy",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "Console",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "Domain",
+      "branch": "main",
+      "behind": 1,
+      "action": "refreshed",
+      "detail": ""
+    },
+    {
+      "repo": "FleetHQ",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "GridWatch",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "Pulse",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "Saosmartwallet",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "giant",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "ops-forge",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "ops-intake",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "roshpinacare-sys.github.io",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "saos-dex",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "saos-runtime",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "sovereign-beacon",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "sovereign-executor",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "sovereign-lighthouse",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "sovereign-runner-kit",
+      "branch": "main",
+      "behind": 0,
+      "action": "fresh",
+      "detail": ""
+    }
+  ]
 }

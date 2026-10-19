@@ -456,3 +456,12 @@ Wave-19 open (owner decisions, one flag each): (1) ~~write-path tasks in the exe
 | 19.24-b | runner-kit keepalive | HANDOFF MEASURED LIVE | MEASURED | #31 completed its dwell and handed off between waves — #32 already in flight 3min later. That is the chain's 37th consecutive successful handoff since the law landed; the wave-19.21 audit's zero-failure verdict keeps extending itself |
 | 19.24-c | chains | liveness at write time | MEASURED | beacon #26 mid-dwell (23min), executor #45 in flight (31min, hourly beat imminent — its receipt carries the next guard reading; newest receipt 14:48:30Z reads 45/45 alreadyOn, the heal held) |
 | 19.24-d | sovereign-executor dc0a180 | owner trace archived verbatim | DONE | 1a154be296c38aa5 as CONTINUED entry #20 in state/beat-tasks.json note |
+
+### wave-19.25 claims («תמשיך ודחוף» — owner 2026-10-19, IM zai-web session web-16cb7ad8, trace 1a154c0111e23be1: steady state into the evening)
+
+| Task | Repo | Scope | Status | Note |
+|---|---|---|---|---|
+| 19.25-a | 17 sandbox repos | git-first opener | MEASURED | 1/17 stale (Domain +1), ff-only re-anchored, exit 0; receipt persisted (staleness history entry 9). Fourth consecutive wave at ≤2/17 — the cadence-vs-staleness trend is now a routine: close waves, fresh sandbox |
+| 19.25-b | beacon keepalive | handoff observed at the dwell boundary | MEASURED | #26 reached dwell-end (32min) with successor #27 already queued at write time — the newest-run-is-me gate adjudicates the stack exactly as designed; no split, no death |
+| 19.25-c | chains | liveness at write time | MEASURED | runner-kit #32 mid-dwell (12min), beacon #26→#27 stacking at the boundary, executor #45 in flight (40min — sleeping in the interval gate, hourly beat fires ~15:48Z carrying the next guard reading); newest guard receipt 14:48:30Z = 45/45 alreadyOn, reArmed=0, the heal has held ~100min |
+| 19.25-d | sovereign-executor | owner trace archived verbatim | DONE | 1a154c0111e23be1 as CONTINUED entry #21 in state/beat-tasks.json note |
