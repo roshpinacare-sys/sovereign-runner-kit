@@ -1,186 +1,197 @@
 {
-  "schema": "saos.tooling-registry/1",
-  "updated": "2026-10-19T07:35:00Z",
-  "note": "רישום-הכלים של הרשת (wave-19.4, הנחיית הבעלים trace 1a14ec60f8b59e49: 'וודא שהאוטונומיה יודעת להשתמש בכלים שעשית והכל ולחזק עוד'). base+extension pattern (STUDY-001): הוספת כלי = עריכת נתונים, לא קוד. ה-autonomy מגלה ומפעיל כלים דרך הקובץ הזה + docs/TOOLING-REGISTRY.md. registry-verify.yml מוכיח מול המציאות מדי יום (fail-closed): drift = אדום, פרטי-בלתי-נראה = INVISIBLE-PRIVATE כנה. גל-19.6: interval-gate + chain-link (חוק-הרציפות — הפעימה מחזרת את עצמה) ו-beat-keepalive (הגרלת-משבצות חוצת-ריפו) נרשמו.",
-  "kindEnum": [
-    "read-only",
-    "audit",
-    "law",
-    "write-path",
-    "owner-gated",
-    "infra"
-  ],
-  "entries": [
-    {
-      "id": "fleet-census",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/fleet-census.py",
-      "kind": "read-only",
-      "invoke": "python3 scripts/fleet-census.py  (env: CENSUS_OUT=<path>, GITHUB_TOKEN=<token>)",
-      "purpose": "המפקד המלא של הרשת מדד את עצמו: ריפואים, workflows, מצב-הפעלה, מתגי-Actions ברמת-הריפו. המדידה שהפכה את הרשת למודעת-עצמה (wave-12) ולאחר מכן גילתה את 24 המתגים ואת 28 הפרטיים (wave-15/17).",
-      "safety": "קריאה בלבד מול ה-API; פלט פסבדונימי p-<sha256[:7]> לפרטיים; לעולם לא כותב לשום ריפו.",
-      "wave": "12→18"
-    },
-    {
-      "id": "fleet-rearm-approval",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/fleet-rearm-approval.py",
-      "kind": "owner-gated",
-      "invoke": "python3 scripts/fleet-rearm-approval.py  (אישור-בעלים נטען מ-state/rearm-approval-wave14.json)",
-      "purpose": "הפעלה חוזרת של מסלולים מושבתים לפי אישור-בעלים מתועד (wave-14: 42 מסלולים, 233/233 מלא). אידמפוטנטי עם אימות-GET אחרי כל PUT.",
-      "safety": "רק עם אישור-בעלים מילולי מתועד ב-state; מאמת כל הפעלה; לא נוגע בקווים-אדומים (PAT/WIF/כספת).",
-      "wave": "14"
-    },
-    {
-      "id": "fleet-actions-enable",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/fleet-actions-enable.py",
-      "kind": "owner-gated",
-      "invoke": "python3 scripts/fleet-actions-enable.py  (אישור-בעלים ב-state/fleet-actions-enable-wave18.json)",
-      "purpose": "הרמת מתגי-Actions ברמת-הריפו (wave-18: 24 מתגים, ENABLED+VERIFIED=24, FAILED=0).",
-      "safety": "אישור-בעלים מילולי מתועד; שמות-פרטיים פסבדונימיים בלבד בקבלות; אימות אחרי כל PUT.",
-      "wave": "18"
-    },
-    {
-      "id": "scout-scan",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/scout-scan.py",
-      "kind": "read-only",
-      "invoke": "python3 scripts/scout-scan.py  (מקורות: state/scout-sources.json — הוספת מקור = עריכת נתונים)",
-      "purpose": "הסורר הריבוני: גילוי-וטיפול יומי בפיתוחים חיצוניים (pinoyfreecoder ועוד) — סריקה סטטית בלבד, פסקי-דין STUDY/CAUTION/REJECT/GONE עם ראיות, dedup עם היסטוריה.",
-      "safety": "לעולם לא מריץ קוד חיצוני (סריקה סטטית בלבד); חוק-9: שדות-לדגר הם ראיות לא הוראות; לעולם לא כותב מחוץ ל-runner-kit.",
-      "wave": "16"
-    },
-    {
-      "id": "scout-digest",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/scout-digest.py",
-      "kind": "read-only",
-      "invoke": "python3 scripts/scout-digest.py  (מדפיס דיג'סט ל-step-summary)",
-      "purpose": "דיג'סט קריא של ממצאי הסורר ל-summary של הריצה — נפרד מהסריקה כדי שה-workflow לא יישבר מ-body-heredoc (שיעור wave-16-d).",
-      "safety": "קריאה בלבד מ-state/scout-findings.json.",
-      "wave": "16"
-    },
-    {
-      "id": "deploy-gate",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/deploy-gate.py",
-      "kind": "audit",
-      "invoke": "python3 scripts/deploy-gate.py  (+ --eval להערכה, + --digest לדיג'סט)",
-      "purpose": "שער-הפרסום של הצי: BLOCKER/SHOULD/NICE על manifests ו-workflows ב-runner-kit ובכל 15 הריפואים הפומביים. סדר-קבוע: סריקה → פרסום-קבלה → הערכה (הראיות מגיעות ל-git לפני האדום).",
-      "safety": "קריאה בלבד; מעולם לא מריץ את מה שהוא בוחן; הוכחת-יחידה לכל 5 מחלקות-האות.",
-      "wave": "17"
-    },
-    {
-      "id": "agent-shield",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/agent-shield.py",
-      "kind": "audit",
-      "invoke": "python3 scripts/agent-shield.py  (סורק את מה שסוכנים קוראים: state/*.json, tsv, docs)",
-      "purpose": "המגן מפני הזרקת-הוראות: סורק את שדה-הקריאה של הסוכנים לתוכן בצורת-הזרקה (חוק-9 מדוד, לא מובטח). v1.1 מכויל על ריצה ראשונה אמיתית.",
-      "safety": "קריאה בלבד; מכייל את עצמו על ראיות; ראיות לפני הערכה.",
-      "wave": "17"
-    },
-    {
-      "id": "capability-gate",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/capability-gate.py",
-      "kind": "law",
-      "invoke": "python3 scripts/capability-gate.py --selftest  (11/11; לייב: מנוע היכולות של הרשת)",
-      "purpose": "הענקת-יכולת מאומתת (STUDY-003 מקורי): אימות לפני נתיב; 5 חוקי fail-closed (deny-closed, טביעות-אצבע בלבד, compare_digest בזמן-קבוע, issue-once, ראיות-נקיות).",
-      "safety": "selftest יומי ב-CI (capability-gate.yml); טביעות-אצבע בלבד — אפס חומר-סוד; 11/11 כולל הוכחות שליליות.",
-      "wave": "18"
-    },
-    {
-      "id": "sovereign-runner-register",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/sovereign-runner-register.sh",
-      "kind": "infra",
-      "invoke": "bash scripts/sovereign-runner-register.sh  (על מכונת הבעלים — פקודה אחת)",
-      "purpose": "המסלול המתארח-עצמו (אפס דקות): פקודה אחת הופכת כל מכונת-בעלים ל-runner של הצי (PAT טובע registration token — נבדק 201; labels: sovereign; התקנת שירות). 13 מסלולים פרטיים ממתינים בכנות לחיבור.",
-      "safety": "owner-lane — רץ רק על מכונת הבעלים, בידי הבעלים; ה-PAT טובע token רישום חד-פעמי ולא נחשף.",
-      "wave": "19"
-    },
-    {
-      "id": "executor-beat",
-      "repo": "roshpinacare-sys/sovereign-executor",
-      "path": "scripts/beat.py",
-      "kind": "read-only",
-      "invoke": "python3 scripts/beat.py  (CI: fleet-beat.yml — cron */15 + interval gate 55min, schedule+dispatch ONLY; בדיקת-חוקים: python3 scripts/beat.py --self-test)",
-      "purpose": "מסילת-הביצוע הריבונית על דקות-פומביות חינמיות: private-census (נראות מלאה כולל פרטיים), yield-snapshot (מד-הגשה ל-1000/יום), והחוקים מוכיחים את עצמם כל-ביט (--self-test).",
-      "safety": "SOVEREIGN_PAT מוצפן, בזיכרון בלבד; חוק-משטח-סוד: schedule+dispatch בלבד, אין pull_request לעולם; חוק-הדליפה: כל מחרוזת-קבלה עוברת clean(); קבלות פסבדונימיות.",
-      "wave": "19→19.4",
-      "updated": "wave-19.4: schedule-density law — measured cron drops (1/7), density x4 + gate keeps slots lean"
-    },
-    {
-      "id": "economy-book-write-path",
-      "repo": "roshpinacare-sys/sovereign-executor",
-      "path": "scripts/beat.py",
-      "kind": "write-path",
-      "invoke": "gh workflow run fleet-beat -R roshpinacare-sys/sovereign-executor  (המשימה economy-book בתוך הביט; אישור-בעלים ב-state/beat-tasks.json)",
-      "purpose": "נתיב-הכתיבה המאושר (wave-19.2, אישור-בעלים מילולי trace 1a14dd29d3341489): הספר הכלכלי נושם על דקות-פומביות חינמיות — מחבר-התארח חי → SKIP כנה; המנעול מיושן (סנדבוקס נמחק) → executor מאמץ.",
-      "safety": "מריץ את ה-runner העצמי-של-הספר ללא-שינוי (run-economy-beat.mjs) תחת מנעול-הלב-היחיד של הריפו עצמו; קבלות נושאות מילות-תוצאה בלבד — אפס תוכן-ספר על המישור הפומבי; exit 3 = RACE-LOST כנה (fail-closed).",
-      "wave": "19.2"
-    },
-    {
-      "id": "fleet-economy-book-runner",
-      "repo": "roshpinacare-sys/fleet-economy",
-      "path": "run-economy-beat.mjs",
-      "kind": "write-path",
-      "invoke": "(פנימי לספר — bun run-economy-beat.mjs; לעולם לא מופעל ידנית מחוץ לחוזה-המנעול)",
-      "purpose": "מנוע-הספר הכלכלי עצמו (מקור: agent-2) — הלב שנושם: heartbeat יחיד-כותב, adoption git-first, RACE-LOST fail-closed. אנחנו לעולם לא עורכים אותו — השורש-המשפחתי שלו קדוש.",
-      "safety": "ריבונות agent-2: אפס שינויים מאיתנו, לעולם; השימוש שלנו בו הוא קריאה+הרצה תחת החוזה-העצמי שלו בלבד.",
-      "wave": "19.2"
-    },
-    {
-      "id": "beat-keepalive",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/beat-keepalive.py",
-      "kind": "infra",
-      "invoke": "python3 scripts/beat-keepalive.py  (env: SOVEREIGN_PAT; KEEPALIVE_STALE_MIN=55 ברירת-מחדל) — lane: keepalive.yml (*/15), וגם ב-sovereign-beacon (*/20 מפוזר)",
-      "purpose": "הגרלת-המשבצות חוצת-הריפו (wave-19.5, מדידה: GitHub הפיל 6/6 משבצות */15 אחרי 1/7 בשעתי): כל משבצת קוראת את גיל הפעימה האחרונה במבצע ומעירה אותה רק אם ישנה (>=55 דק') — משבצות-יתר ישנות ביושר.",
-      "safety": "fail-closed (שגיאת API מאדימה, לעולם לא שתיקה); clean() על כל מחרוזת מודפסת (חוק-הדליפה); חוק-משטח-סודות: schedule+dispatch בלבד; שתי קריאות API מקסימום בנתיב הרענן.",
-      "wave": "19.5"
-    },
-    {
-      "id": "interval-gate",
-      "repo": "roshpinacare-sys/sovereign-executor",
-      "path": "scripts/interval_gate.py",
-      "kind": "law",
-      "invoke": "python3 scripts/interval_gate.py  (GITHUB_OUTPUT נדרש ב-CI; GATE_THRESHOLD_MIN=55 ברירת-מחדל)",
-      "purpose": "המטרונום של הפעימה (wave-19.6, מדידה: 17/18 משבצות מתוזמנות נפלו בשלושה ריפואים בצהריים אחד): משבצת רעננה לא יוצאת — היא ישנה עד המועד, בודקת מחדש (מישור אחר הפעים = דילוג כן), ומריצה. קצב הפעימה חי כאן, לא במתזמן של GitHub.",
-      "safety": "fail-open לעבודה-אמיתית על קבלה לא-קריאה (לעולם לא fail-open לשתיקה); ללא כתיבה פרט ל-GITHUB_OUTPUT; הוכח בשלושה ענפים מקומית (ללא-קבלה, שינה-עד-מועד, דילוג-ביושר בשינה).",
-      "wave": "19.6"
-    },
-    {
-      "id": "chain-link",
-      "repo": "roshpinacare-sys/sovereign-executor",
-      "path": "scripts/chain_link.py",
-      "kind": "infra",
-      "invoke": "python3 scripts/chain_link.py  (env: SOVEREIGN_PAT) — צעד Chain ב-fleet-beat.yml, רץ רק אחרי הצלחה מלאה",
-      "purpose": "חוק-הרציפות (wave-19.6): כל פעימה מוצלחת משגרת את החוליה הבאה של עצמה — הפעימה מחזרת את עצמה ואינה בת-ערוב של מתזמן GitHub. לוח-הזמנים ורשת-ה-keep-alive נשארים מישורי-גיבוי עצמאיים.",
-      "safety": "משרשר רק אחרי הצלחה (ריצה אדומה שוברת את השרשרת בקול רם); fail-closed עם clean() (הוכח: bogus token → 403 נקי, exit 1); קצב נאכף על-ידי ה-interval-gate הגלובלי (>=55 דק').",
-      "wave": "19.6"
-    },
-    {
-      "id": "fleet-actions-guard",
-      "repo": "roshpinacare-sys/sovereign-executor",
-      "path": "scripts/fleet_actions_guard.py",
-      "kind": "owner-gated",
-      "invoke": "python3 scripts/fleet_actions_guard.py  (env: SOVEREIGN_PAT; קובץ-אישור: state/fleet-actions-guard-approval.json — טקסט הבעלים מילה-במילה, trace 1a1512554a26f66d)",
-      "purpose": "משמר-המתגים השעתי (wave-19.8): 18 מתגי-Actions ברמת-הריפו נמצאו כבויים בידי שחקן בלתי-ניתן-להוכחה (פורנזיקה: מצבי-workflow פעילים, ריצות תקועות-בתור, audit-log 404). הפעימה מאמתת מדי שעה את הקבוצה המאושרת ומחזירה כל מתג שנמצא כבוי — הצי מחלים-עצמית תוך שעה במקום למות בשקט.",
-      "safety": "היקף-מוגבל: רק הקבוצה המאושרת (saos-dex + 17 פסבדונימים); כיבוי-חדש מחוץ-לקבוצה נמדד ומדווח, לעולם לא מוחזר אוטומטית (החלטת-בעלים עתידית לא תילחם בבוט); אימות-GET אחרי כל PUT עם ניסיון-חוזה על עיכוב-הפצה (נמדד); נוגע רק ב-actions/permissions; קבלות פסבדונימיות.",
-      "wave": "19.8"
-    },
-    {
-      "id": "yml-gate",
-      "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "path": "scripts/yml_gate.py",
-      "kind": "law",
-      "invoke": "python3 scripts/yml_gate.py [repo-root]  (no env, no network — pure local parse)",
-      "purpose": "שער-הפרסה לקבצי-workflow (wave-19.14): הלקח מגל-19.11 הפך לכלי — שני ריצות keepalive מתו עם אפס-jobs בגלל נקודתיים+רווח לא מצוטטים בשם-step ('dwell-chain: check') = דחיית YAML של כל הקובץ, git מקבל את הדחיפה בשקט. השער מפרסר כל .github/workflows/*.yml בפרסר אמיתי ומאדים מקומית לפני הדחיפה, בשם הקובץ ושורת-השגיאה. fail-closed (פרסר חסר = אדום, תיקייה ריקה = אדום), אפס-רשת, אפס-credential. מוכח: 8/8 על runner-kit, דחיית-נקודתיים מדויקת, היקף חוצה-ריפו על ה-beacon",
-      "safety": "read-only gate — no network, no credential, no writes; fails closed on missing parser or empty workflow dir",
-      "wave": "19.14"
-    }
-  ]
+ "schema": "saos.tooling-registry/1",
+ "updated": "2026-10-19: wave-19.16 — git-first registered (entry 18)",
+ "note": "רישום-הכלים של הרשת (wave-19.4, הנחיית הבעלים trace 1a14ec60f8b59e49: 'וודא שהאוטונומיה יודעת להשתמש בכלים שעשית והכל ולחזק עוד'). base+extension pattern (STUDY-001): הוספת כלי = עריכת נתונים, לא קוד. ה-autonomy מגלה ומפעיל כלים דרך הקובץ הזה + docs/TOOLING-REGISTRY.md. registry-verify.yml מוכיח מול המציאות מדי יום (fail-closed): drift = אדום, פרטי-בלתי-נראה = INVISIBLE-PRIVATE כנה. גל-19.6: interval-gate + chain-link (חוק-הרציפות — הפעימה מחזרת את עצמה) ו-beat-keepalive (הגרלת-משבצות חוצת-ריפו) נרשמו.",
+ "kindEnum": [
+  "read-only",
+  "audit",
+  "law",
+  "write-path",
+  "owner-gated",
+  "infra"
+ ],
+ "entries": [
+  {
+   "id": "fleet-census",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/fleet-census.py",
+   "kind": "read-only",
+   "invoke": "python3 scripts/fleet-census.py  (env: CENSUS_OUT=<path>, GITHUB_TOKEN=<token>)",
+   "purpose": "המפקד המלא של הרשת מדד את עצמו: ריפואים, workflows, מצב-הפעלה, מתגי-Actions ברמת-הריפו. המדידה שהפכה את הרשת למודעת-עצמה (wave-12) ולאחר מכן גילתה את 24 המתגים ואת 28 הפרטיים (wave-15/17).",
+   "safety": "קריאה בלבד מול ה-API; פלט פסבדונימי p-<sha256[:7]> לפרטיים; לעולם לא כותב לשום ריפו.",
+   "wave": "12→18"
+  },
+  {
+   "id": "fleet-rearm-approval",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/fleet-rearm-approval.py",
+   "kind": "owner-gated",
+   "invoke": "python3 scripts/fleet-rearm-approval.py  (אישור-בעלים נטען מ-state/rearm-approval-wave14.json)",
+   "purpose": "הפעלה חוזרת של מסלולים מושבתים לפי אישור-בעלים מתועד (wave-14: 42 מסלולים, 233/233 מלא). אידמפוטנטי עם אימות-GET אחרי כל PUT.",
+   "safety": "רק עם אישור-בעלים מילולי מתועד ב-state; מאמת כל הפעלה; לא נוגע בקווים-אדומים (PAT/WIF/כספת).",
+   "wave": "14"
+  },
+  {
+   "id": "fleet-actions-enable",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/fleet-actions-enable.py",
+   "kind": "owner-gated",
+   "invoke": "python3 scripts/fleet-actions-enable.py  (אישור-בעלים ב-state/fleet-actions-enable-wave18.json)",
+   "purpose": "הרמת מתגי-Actions ברמת-הריפו (wave-18: 24 מתגים, ENABLED+VERIFIED=24, FAILED=0).",
+   "safety": "אישור-בעלים מילולי מתועד; שמות-פרטיים פסבדונימיים בלבד בקבלות; אימות אחרי כל PUT.",
+   "wave": "18"
+  },
+  {
+   "id": "scout-scan",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/scout-scan.py",
+   "kind": "read-only",
+   "invoke": "python3 scripts/scout-scan.py  (מקורות: state/scout-sources.json — הוספת מקור = עריכת נתונים)",
+   "purpose": "הסורר הריבוני: גילוי-וטיפול יומי בפיתוחים חיצוניים (pinoyfreecoder ועוד) — סריקה סטטית בלבד, פסקי-דין STUDY/CAUTION/REJECT/GONE עם ראיות, dedup עם היסטוריה.",
+   "safety": "לעולם לא מריץ קוד חיצוני (סריקה סטטית בלבד); חוק-9: שדות-לדגר הם ראיות לא הוראות; לעולם לא כותב מחוץ ל-runner-kit.",
+   "wave": "16"
+  },
+  {
+   "id": "scout-digest",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/scout-digest.py",
+   "kind": "read-only",
+   "invoke": "python3 scripts/scout-digest.py  (מדפיס דיג'סט ל-step-summary)",
+   "purpose": "דיג'סט קריא של ממצאי הסורר ל-summary של הריצה — נפרד מהסריקה כדי שה-workflow לא יישבר מ-body-heredoc (שיעור wave-16-d).",
+   "safety": "קריאה בלבד מ-state/scout-findings.json.",
+   "wave": "16"
+  },
+  {
+   "id": "deploy-gate",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/deploy-gate.py",
+   "kind": "audit",
+   "invoke": "python3 scripts/deploy-gate.py  (+ --eval להערכה, + --digest לדיג'סט)",
+   "purpose": "שער-הפרסום של הצי: BLOCKER/SHOULD/NICE על manifests ו-workflows ב-runner-kit ובכל 15 הריפואים הפומביים. סדר-קבוע: סריקה → פרסום-קבלה → הערכה (הראיות מגיעות ל-git לפני האדום).",
+   "safety": "קריאה בלבד; מעולם לא מריץ את מה שהוא בוחן; הוכחת-יחידה לכל 5 מחלקות-האות.",
+   "wave": "17"
+  },
+  {
+   "id": "agent-shield",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/agent-shield.py",
+   "kind": "audit",
+   "invoke": "python3 scripts/agent-shield.py  (סורק את מה שסוכנים קוראים: state/*.json, tsv, docs)",
+   "purpose": "המגן מפני הזרקת-הוראות: סורק את שדה-הקריאה של הסוכנים לתוכן בצורת-הזרקה (חוק-9 מדוד, לא מובטח). v1.1 מכויל על ריצה ראשונה אמיתית.",
+   "safety": "קריאה בלבד; מכייל את עצמו על ראיות; ראיות לפני הערכה.",
+   "wave": "17"
+  },
+  {
+   "id": "capability-gate",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/capability-gate.py",
+   "kind": "law",
+   "invoke": "python3 scripts/capability-gate.py --selftest  (11/11; לייב: מנוע היכולות של הרשת)",
+   "purpose": "הענקת-יכולת מאומתת (STUDY-003 מקורי): אימות לפני נתיב; 5 חוקי fail-closed (deny-closed, טביעות-אצבע בלבד, compare_digest בזמן-קבוע, issue-once, ראיות-נקיות).",
+   "safety": "selftest יומי ב-CI (capability-gate.yml); טביעות-אצבע בלבד — אפס חומר-סוד; 11/11 כולל הוכחות שליליות.",
+   "wave": "18"
+  },
+  {
+   "id": "sovereign-runner-register",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/sovereign-runner-register.sh",
+   "kind": "infra",
+   "invoke": "bash scripts/sovereign-runner-register.sh  (על מכונת הבעלים — פקודה אחת)",
+   "purpose": "המסלול המתארח-עצמו (אפס דקות): פקודה אחת הופכת כל מכונת-בעלים ל-runner של הצי (PAT טובע registration token — נבדק 201; labels: sovereign; התקנת שירות). 13 מסלולים פרטיים ממתינים בכנות לחיבור.",
+   "safety": "owner-lane — רץ רק על מכונת הבעלים, בידי הבעלים; ה-PAT טובע token רישום חד-פעמי ולא נחשף.",
+   "wave": "19"
+  },
+  {
+   "id": "executor-beat",
+   "repo": "roshpinacare-sys/sovereign-executor",
+   "path": "scripts/beat.py",
+   "kind": "read-only",
+   "invoke": "python3 scripts/beat.py  (CI: fleet-beat.yml — cron */15 + interval gate 55min, schedule+dispatch ONLY; בדיקת-חוקים: python3 scripts/beat.py --self-test)",
+   "purpose": "מסילת-הביצוע הריבונית על דקות-פומביות חינמיות: private-census (נראות מלאה כולל פרטיים), yield-snapshot (מד-הגשה ל-1000/יום), והחוקים מוכיחים את עצמם כל-ביט (--self-test).",
+   "safety": "SOVEREIGN_PAT מוצפן, בזיכרון בלבד; חוק-משטח-סוד: schedule+dispatch בלבד, אין pull_request לעולם; חוק-הדליפה: כל מחרוזת-קבלה עוברת clean(); קבלות פסבדונימיות.",
+   "wave": "19→19.4",
+   "updated": "wave-19.4: schedule-density law — measured cron drops (1/7), density x4 + gate keeps slots lean"
+  },
+  {
+   "id": "economy-book-write-path",
+   "repo": "roshpinacare-sys/sovereign-executor",
+   "path": "scripts/beat.py",
+   "kind": "write-path",
+   "invoke": "gh workflow run fleet-beat -R roshpinacare-sys/sovereign-executor  (המשימה economy-book בתוך הביט; אישור-בעלים ב-state/beat-tasks.json)",
+   "purpose": "נתיב-הכתיבה המאושר (wave-19.2, אישור-בעלים מילולי trace 1a14dd29d3341489): הספר הכלכלי נושם על דקות-פומביות חינמיות — מחבר-התארח חי → SKIP כנה; המנעול מיושן (סנדבוקס נמחק) → executor מאמץ.",
+   "safety": "מריץ את ה-runner העצמי-של-הספר ללא-שינוי (run-economy-beat.mjs) תחת מנעול-הלב-היחיד של הריפו עצמו; קבלות נושאות מילות-תוצאה בלבד — אפס תוכן-ספר על המישור הפומבי; exit 3 = RACE-LOST כנה (fail-closed).",
+   "wave": "19.2"
+  },
+  {
+   "id": "fleet-economy-book-runner",
+   "repo": "roshpinacare-sys/fleet-economy",
+   "path": "run-economy-beat.mjs",
+   "kind": "write-path",
+   "invoke": "(פנימי לספר — bun run-economy-beat.mjs; לעולם לא מופעל ידנית מחוץ לחוזה-המנעול)",
+   "purpose": "מנוע-הספר הכלכלי עצמו (מקור: agent-2) — הלב שנושם: heartbeat יחיד-כותב, adoption git-first, RACE-LOST fail-closed. אנחנו לעולם לא עורכים אותו — השורש-המשפחתי שלו קדוש.",
+   "safety": "ריבונות agent-2: אפס שינויים מאיתנו, לעולם; השימוש שלנו בו הוא קריאה+הרצה תחת החוזה-העצמי שלו בלבד.",
+   "wave": "19.2"
+  },
+  {
+   "id": "beat-keepalive",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/beat-keepalive.py",
+   "kind": "infra",
+   "invoke": "python3 scripts/beat-keepalive.py  (env: SOVEREIGN_PAT; KEEPALIVE_STALE_MIN=55 ברירת-מחדל) — lane: keepalive.yml (*/15), וגם ב-sovereign-beacon (*/20 מפוזר)",
+   "purpose": "הגרלת-המשבצות חוצת-הריפו (wave-19.5, מדידה: GitHub הפיל 6/6 משבצות */15 אחרי 1/7 בשעתי): כל משבצת קוראת את גיל הפעימה האחרונה במבצע ומעירה אותה רק אם ישנה (>=55 דק') — משבצות-יתר ישנות ביושר.",
+   "safety": "fail-closed (שגיאת API מאדימה, לעולם לא שתיקה); clean() על כל מחרוזת מודפסת (חוק-הדליפה); חוק-משטח-סודות: schedule+dispatch בלבד; שתי קריאות API מקסימום בנתיב הרענן.",
+   "wave": "19.5"
+  },
+  {
+   "id": "interval-gate",
+   "repo": "roshpinacare-sys/sovereign-executor",
+   "path": "scripts/interval_gate.py",
+   "kind": "law",
+   "invoke": "python3 scripts/interval_gate.py  (GITHUB_OUTPUT נדרש ב-CI; GATE_THRESHOLD_MIN=55 ברירת-מחדל)",
+   "purpose": "המטרונום של הפעימה (wave-19.6, מדידה: 17/18 משבצות מתוזמנות נפלו בשלושה ריפואים בצהריים אחד): משבצת רעננה לא יוצאת — היא ישנה עד המועד, בודקת מחדש (מישור אחר הפעים = דילוג כן), ומריצה. קצב הפעימה חי כאן, לא במתזמן של GitHub.",
+   "safety": "fail-open לעבודה-אמיתית על קבלה לא-קריאה (לעולם לא fail-open לשתיקה); ללא כתיבה פרט ל-GITHUB_OUTPUT; הוכח בשלושה ענפים מקומית (ללא-קבלה, שינה-עד-מועד, דילוג-ביושר בשינה).",
+   "wave": "19.6"
+  },
+  {
+   "id": "chain-link",
+   "repo": "roshpinacare-sys/sovereign-executor",
+   "path": "scripts/chain_link.py",
+   "kind": "infra",
+   "invoke": "python3 scripts/chain_link.py  (env: SOVEREIGN_PAT) — צעד Chain ב-fleet-beat.yml, רץ רק אחרי הצלחה מלאה",
+   "purpose": "חוק-הרציפות (wave-19.6): כל פעימה מוצלחת משגרת את החוליה הבאה של עצמה — הפעימה מחזרת את עצמה ואינה בת-ערוב של מתזמן GitHub. לוח-הזמנים ורשת-ה-keep-alive נשארים מישורי-גיבוי עצמאיים.",
+   "safety": "משרשר רק אחרי הצלחה (ריצה אדומה שוברת את השרשרת בקול רם); fail-closed עם clean() (הוכח: bogus token → 403 נקי, exit 1); קצב נאכף על-ידי ה-interval-gate הגלובלי (>=55 דק').",
+   "wave": "19.6"
+  },
+  {
+   "id": "fleet-actions-guard",
+   "repo": "roshpinacare-sys/sovereign-executor",
+   "path": "scripts/fleet_actions_guard.py",
+   "kind": "owner-gated",
+   "invoke": "python3 scripts/fleet_actions_guard.py  (env: SOVEREIGN_PAT; קובץ-אישור: state/fleet-actions-guard-approval.json — טקסט הבעלים מילה-במילה, trace 1a1512554a26f66d)",
+   "purpose": "משמר-המתגים השעתי (wave-19.8): 18 מתגי-Actions ברמת-הריפו נמצאו כבויים בידי שחקן בלתי-ניתן-להוכחה (פורנזיקה: מצבי-workflow פעילים, ריצות תקועות-בתור, audit-log 404). הפעימה מאמתת מדי שעה את הקבוצה המאושרת ומחזירה כל מתג שנמצא כבוי — הצי מחלים-עצמית תוך שעה במקום למות בשקט.",
+   "safety": "היקף-מוגבל: רק הקבוצה המאושרת (saos-dex + 17 פסבדונימים); כיבוי-חדש מחוץ-לקבוצה נמדד ומדווח, לעולם לא מוחזר אוטומטית (החלטת-בעלים עתידית לא תילחם בבוט); אימות-GET אחרי כל PUT עם ניסיון-חוזה על עיכוב-הפצה (נמדד); נוגע רק ב-actions/permissions; קבלות פסבדונימיות.",
+   "wave": "19.8"
+  },
+  {
+   "id": "yml-gate",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/yml_gate.py",
+   "kind": "law",
+   "invoke": "python3 scripts/yml_gate.py [repo-root]  (no env, no network — pure local parse)",
+   "purpose": "שער-הפרסה לקבצי-workflow (wave-19.14): הלקח מגל-19.11 הפך לכלי — שני ריצות keepalive מתו עם אפס-jobs בגלל נקודתיים+רווח לא מצוטטים בשם-step ('dwell-chain: check') = דחיית YAML של כל הקובץ, git מקבל את הדחיפה בשקט. השער מפרסר כל .github/workflows/*.yml בפרסר אמיתי ומאדים מקומית לפני הדחיפה, בשם הקובץ ושורת-השגיאה. fail-closed (פרסר חסר = אדום, תיקייה ריקה = אדום), אפס-רשת, אפס-credential. מוכח: 8/8 על runner-kit, דחיית-נקודתיים מדויקת, היקף חוצה-ריפו על ה-beacon",
+   "safety": "read-only gate — no network, no credential, no writes; fails closed on missing parser or empty workflow dir",
+   "wave": "19.14"
+  },
+  {
+   "id": "git-first",
+   "repo": "roshpinacare-sys/sovereign-runner-kit",
+   "path": "scripts/git_first.py",
+   "kind": "infra",
+   "invoke": "python3 scripts/git_first.py [ROOT=/home/z/audit] [--json]  (exit 0 ok / 1 red / 2 fail-closed)",
+   "purpose": "חוק 19.15 ככלי ניתן-להרצה (wave-19.16): הבעלים פקד «תתעדכן מהגיט לא מהסנדבוקס» והמדידה אישרה פעמיים ברצף שהסנדבוקס מתיישן ברמת-הצי (19.15: Domain +646, Autonomy +460, FleetHQ +424; 19.16: שוב 12/17). הכלי סורק כל קלון תחת ROOT: fetch + ספירת-פיגור + ff-only. המצב המקומי הוא מטמון, origin הוא האמת — כל-גל נפתח בו לפני כל קריאה מקומית.",
+   "safety": "אנטי-מחיקה בחוק: אף force/rebase/stash/reset/discard לעולם; עבודה-מקומית מלוכלכת שחוסמת ff-only מדווחת BLOCKED-DIRTY ונשארת בדיוק כפי שנמצאה (המחיקה היא פעולת-מחיקה ודורשת החלטה). fail-closed: ROOT חסר/ריק = 2, כל כישלון = 1 אדום. אפס-credential בקוד; קריאה-בלבד מול הריחוק (fetch/pull ff-only).",
+   "wave": "19.16",
+   "updated": "wave-19.16: proven on the real sandbox — 17 scanned (3 more had gone stale within minutes: Autonomy +3, Console +1, FleetHQ +2), ff-only, exit 0; fail-closed exit 2 on missing/empty ROOT; BLOCKED-DIRTY proof: local file left byte-identical, honest exit 1"
+  }
+ ]
 }
