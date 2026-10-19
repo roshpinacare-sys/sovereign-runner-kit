@@ -447,3 +447,12 @@ Wave-19 open (owner decisions, one flag each): (1) ~~write-path tasks in the exe
 | 19.23-b | flip picture, full day | one flip event, window-bound, healed | MEASURED | exactly ONE flip event today (inside the 12:50-13:47Z window, caught by the 13:47:59Z beat), healed ≤1h, and NO re-flip through the 14:48:30Z beat (45/45 alreadyOn). Two days now show the same shape: one daily flip, one daily heal |
 | 19.23-c | chains | liveness at write time | MEASURED | runner-kit keepalive #31 at dwell-end (30min, handoff imminent), beacon #26 mid-dwell (20min), executor #45 in flight (hourly beat due — receipt imminent); #44 was the dispatch-race honest cancel, #45 its chained successor |
 | 19.23-d | sovereign-executor 003b5ef | owner trace archived verbatim | DONE | 1a154bb911662a21 as CONTINUED entry #19 in state/beat-tasks.json note |
+
+### wave-19.24 claims («תמשיך ודחוף» — owner 2026-10-19, IM zai-web session web-16cb7ad8, trace 1a154be296c38aa5: freshest sandbox yet, handoff measured live)
+
+| Task | Repo | Scope | Status | MEASURED |
+|---|---|---|---|---|
+| 19.24-a | 17 sandbox repos | git-first opener | MEASURED | 1/17 stale (saos-dex +1 only) — the freshest the sandbox has ever been at wave open; receipt persisted (staleness history entry 8). The cadence-vs-staleness trend from 19.23 confirmed: close waves = fresh sandbox |
+| 19.24-b | runner-kit keepalive | HANDOFF MEASURED LIVE | MEASURED | #31 completed its dwell and handed off between waves — #32 already in flight 3min later. That is the chain's 37th consecutive successful handoff since the law landed; the wave-19.21 audit's zero-failure verdict keeps extending itself |
+| 19.24-c | chains | liveness at write time | MEASURED | beacon #26 mid-dwell (23min), executor #45 in flight (31min, hourly beat imminent — its receipt carries the next guard reading; newest receipt 14:48:30Z reads 45/45 alreadyOn, the heal held) |
+| 19.24-d | sovereign-executor dc0a180 | owner trace archived verbatim | DONE | 1a154be296c38aa5 as CONTINUED entry #20 in state/beat-tasks.json note |
