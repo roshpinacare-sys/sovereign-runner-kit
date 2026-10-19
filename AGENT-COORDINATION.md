@@ -438,3 +438,12 @@ Wave-19 open (owner decisions, one flag each): (1) ~~write-path tasks in the exe
 | 19.22-c | 17 sandbox repos | git-first opener | MEASURED | 12/17 stale (giant +12, Domain +11, FleetHQ +7, Autonomy +6, saos-dex +4...), all ff-only re-anchored; receipt persisted (staleness history entry 5) |
 | 19.22-d | chains | liveness at write time | MEASURED | beacon keepalive #26 in flight (8min), executor #45 in flight (16min, hourly beat due — its receipt will carry the next guard reading), runner-kit cadence continues (newest sibling run: capability-gate #3 success 3min prior) |
 | 19.22-e | sovereign-executor 2fcdff7 | owner trace archived verbatim | DONE | 1a154b00d608c939 as CONTINUED entry #18 in state/beat-tasks.json note |
+
+### wave-19.23 claims («תמשיך ודחוף» — owner 2026-10-19, IM zai-web session web-16cb7ad8, trace 1a154bb911662a21: steady-state held)
+
+| Task | Repo | Scope | Status | Note |
+|---|---|---|---|---|
+| 19.23-a | 17 sandbox repos | git-first opener | MEASURED | 2/17 stale (Autonomy +2, Domain +12), all ff-only re-anchored; receipt persisted (staleness history entry 7). Trend insight: staleness tracks wave spacing — when waves arrive close together the sandbox is nearly fresh; the tool made diligence cheap enough that freshness is now a byproduct of the cadence |
+| 19.23-b | flip picture, full day | one flip event, window-bound, healed | MEASURED | exactly ONE flip event today (inside the 12:50-13:47Z window, caught by the 13:47:59Z beat), healed ≤1h, and NO re-flip through the 14:48:30Z beat (45/45 alreadyOn). Two days now show the same shape: one daily flip, one daily heal |
+| 19.23-c | chains | liveness at write time | MEASURED | runner-kit keepalive #31 at dwell-end (30min, handoff imminent), beacon #26 mid-dwell (20min), executor #45 in flight (hourly beat due — receipt imminent); #44 was the dispatch-race honest cancel, #45 its chained successor |
+| 19.23-d | sovereign-executor 003b5ef | owner trace archived verbatim | DONE | 1a154bb911662a21 as CONTINUED entry #19 in state/beat-tasks.json note |
