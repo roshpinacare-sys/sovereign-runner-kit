@@ -1,12 +1,13 @@
 {
   "schema": "saos.tooling-registry.receipt/1",
-  "at": "2026-10-19T11:53:35.170855+00:00",
+  "at": "2026-10-19T13:36:13.644171+00:00",
   "registrySchema": "saos.tooling-registry/1",
   "registryEntries": 18,
   "tokenPlane": "basic-auth-credential-present",
   "totals": {
     "verified-local": 12,
-    "verified-api": 6
+    "verified-api": 5,
+    "invisible-private": 1
   },
   "entries": [
     {
@@ -78,8 +79,8 @@
     {
       "id": "fleet-economy-book-runner",
       "repo": "roshpinacare-sys/fleet-economy",
-      "outcome": "verified-api",
-      "detail": "run-economy-beat.mjs (status=200)"
+      "outcome": "invisible-private",
+      "detail": "repo exists but is invisible to this plane — honest"
     },
     {
       "id": "beat-keepalive",
