@@ -1,14 +1,13 @@
 {
   "schema": "saos.tooling-registry.receipt/1",
-  "at": "2026-10-19T07:31:50.113546+00:00",
+  "at": "2026-10-19T07:35:26.826613+00:00",
   "registrySchema": "saos.tooling-registry/1",
   "registryEntries": 17,
   "tokenPlane": "basic-auth-credential-present",
   "totals": {
-    "verified-local": 10,
+    "verified-local": 11,
     "verified-api": 5,
-    "invisible-private": 1,
-    "schema-error": 1
+    "invisible-private": 1
   },
   "entries": [
     {
@@ -110,11 +109,8 @@
     {
       "id": "yml-gate",
       "repo": "roshpinacare-sys/sovereign-runner-kit",
-      "outcome": "schema-error",
-      "detail": [
-        "safety",
-        "wave"
-      ]
+      "outcome": "verified-local",
+      "detail": "scripts/yml_gate.py"
     }
   ],
   "note": "invisible-private = the repo exists but this plane honestly cannot see it (private + token scope) — neither green nor red; missing/schema-error = RED (fail-closed): the registry drifted from reality"
