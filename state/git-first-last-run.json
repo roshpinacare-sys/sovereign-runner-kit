@@ -1,7 +1,7 @@
 {
   "schema": "saos.git-first/1",
   "scanned": 17,
-  "refreshed": 1,
+  "refreshed": 8,
   "blockedDirty": 0,
   "failed": 0,
   "verdict": "ok",
@@ -9,29 +9,29 @@
     {
       "repo": "Autonomy",
       "branch": "main",
-      "behind": 0,
-      "action": "fresh",
+      "behind": 21,
+      "action": "refreshed",
       "detail": ""
     },
     {
       "repo": "Console",
       "branch": "main",
-      "behind": 0,
-      "action": "fresh",
+      "behind": 7,
+      "action": "refreshed",
       "detail": ""
     },
     {
       "repo": "Domain",
       "branch": "main",
-      "behind": 1,
+      "behind": 28,
       "action": "refreshed",
       "detail": ""
     },
     {
       "repo": "FleetHQ",
       "branch": "main",
-      "behind": 0,
-      "action": "fresh",
+      "behind": 3,
+      "action": "refreshed",
       "detail": ""
     },
     {
@@ -44,8 +44,8 @@
     {
       "repo": "Pulse",
       "branch": "main",
-      "behind": 0,
-      "action": "fresh",
+      "behind": 2,
+      "action": "refreshed",
       "detail": ""
     },
     {
@@ -86,15 +86,15 @@
     {
       "repo": "saos-dex",
       "branch": "main",
-      "behind": 0,
-      "action": "fresh",
+      "behind": 3,
+      "action": "refreshed",
       "detail": ""
     },
     {
       "repo": "saos-runtime",
       "branch": "main",
-      "behind": 0,
-      "action": "fresh",
+      "behind": 4,
+      "action": "refreshed",
       "detail": ""
     },
     {
@@ -107,8 +107,8 @@
     {
       "repo": "sovereign-executor",
       "branch": "main",
-      "behind": 0,
-      "action": "fresh",
+      "behind": 1,
+      "action": "refreshed",
       "detail": ""
     },
     {

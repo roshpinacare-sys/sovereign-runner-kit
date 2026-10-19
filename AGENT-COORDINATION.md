@@ -465,3 +465,12 @@ Wave-19 open (owner decisions, one flag each): (1) ~~write-path tasks in the exe
 | 19.25-b | beacon keepalive | handoff observed at the dwell boundary | MEASURED | #26 reached dwell-end (32min) with successor #27 already queued at write time — the newest-run-is-me gate adjudicates the stack exactly as designed; no split, no death |
 | 19.25-c | chains | liveness at write time | MEASURED | runner-kit #32 mid-dwell (12min), beacon #26→#27 stacking at the boundary, executor #45 in flight (40min — sleeping in the interval gate, hourly beat fires ~15:48Z carrying the next guard reading); newest guard receipt 14:48:30Z = 45/45 alreadyOn, reArmed=0, the heal has held ~100min |
 | 19.25-d | sovereign-executor | owner trace archived verbatim | DONE | 1a154c0111e23be1 as CONTINUED entry #21 in state/beat-tasks.json note |
+
+### wave-19.26 claims («תמשיך ודחוף» — owner 2026-10-19, IM zai-web session web-16cb7ad8, trace 1a154e770036caad: the 15:45Z beat landed, the heal still held)
+
+| Task | Repo | Scope | Status | Note |
+|---|---|---|---|---|
+| 19.26-a | 17 sandbox repos | git-first opener | MEASURED | 8/17 stale (Domain +28, Autonomy +21, saos-runtime +4, saos-dex +3, FleetHQ +3, Console +7, Pulse +2, executor +1), all ff-only re-anchored, exit 0; receipt persisted (staleness history entry 10). The trend inverts honestly: staleness tracks FLEET velocity, not sandbox decay — the sandbox was fresh, the fleet simply commits by the dozens between waves |
+| 19.26-b | executor guard receipt | 15:45Z hourly reading | MEASURED | executedAt 15:45:11Z (commit 5e2952e8): 45/45 alreadyOn, reArmed=0, failed=0, REPO-ACTIONS-DISABLED=[] — the daily flipper's single event stayed healed from 13:47:59Z deep into the evening (~2h), no re-flip. Prediction's penultimate reading on record; adjudication 2026-10-20 ~13:50Z (reArmed>0 = flipper returned / 45/45 = skipped) |
+| 19.26-c | chains | liveness at write time | MEASURED | executor #45 in flight (beat receipt landed 15:45:16Z; chained successor queued 15:45:19Z for the ~16:48Z slot), beacon #27 in flight (41min) with #28 queued, runner-kit #32 in flight (51min) with #33 queued — overhangs classified honest gate-adjudication artifacts by the 19.21 audit, newest run never stale. guard watcherPulse at 15:45:11Z read coverage-ok on both dwell-planes — twin-observer redundancy confirmed by the guarded plane itself |
+| 19.26-d | sovereign-executor | owner trace archived verbatim | DONE | 1a154e770036caad as CONTINUED entry #22 in state/beat-tasks.json note |
