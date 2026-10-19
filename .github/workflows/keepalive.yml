@@ -44,5 +44,8 @@ jobs:
       - name: Keepalive (dwell-chain: check x3 @15min, wake if stale, hand the chain to one successor)
         env:
           SOVEREIGN_PAT: ${{ secrets.SOVEREIGN_PAT }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
+          # GITHUB_RUN_ID needs NO mapping — it is a default env var on every
+          # step, and OVERRIDING a GITHUB_* default is forbidden: the first
+          # run of the mapped version (run #6, 03:02Z) failed with zero jobs
+          # (workflow-file rejection). The handoff gate reads the default.
         run: python3 scripts/beat-keepalive.py
