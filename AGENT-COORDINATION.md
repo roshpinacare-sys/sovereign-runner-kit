@@ -428,3 +428,13 @@ Wave-19 open (owner decisions, one flag each): (1) ~~write-path tasks in the exe
 | 19.21-c | runs API | executor fleet-beat over 24h | MEASURED | 26 success / 13 cancelled / 1 in flight; max gap EXACTLY 60min — the hourly cadence never broke. The 13 cancels are the dispatch+schedule double-trigger race resolving BY DESIGN: every cancelled duplicate had its successor already chained and successful. Honest casualties, zero lost beats |
 | 19.21-d | verdict | the two-plane law held unattended | MEASURED | 36 consecutive successful watcher handoffs at ~30min cadence (32 exact), zero chain deaths, zero failures since the law landed; the hourly guard added 24h of exact-cadence beats on top. This is the measured answer to «הכל עובד כמו שצריך» |
 | 19.21-e | sovereign-executor b64c99b | owner trace archived verbatim | DONE | 1a154a4d4f62f2b1 as CONTINUED entry #17 in state/beat-tasks.json note |
+
+### wave-19.22 claims («תמשיך ודחוף» — owner 2026-10-19, IM zai-web session web-16cb7ad8, trace 1a154b00d608c939: the fleet pulse, measured)
+
+| Task | Repo | Scope | Status | Note |
+|---|---|---|---|---|
+| 19.22-a | 17 sandbox repos | FLEET PULSE: commits/24h measured per repo | MEASURED | total 3,918 commits in 24h across 17 repos: Domain 1,232 / Autonomy 940 / FleetHQ 774 / Console 241 / saos-dex 239 / giant 161 / saos-runtime 101 / runner-kit 48 / executor 43 / lighthouse 39 / Pulse 38 / beacon 17 / GridWatch 20 / ops-intake 15 / ops-forge 10. ~163 commits/hour fleet-wide |
+| 19.22-b | governance plane | the quiet layer above the factory | MEASURED | the same 24h: guard beats on the exact hour (45/45 after the 13:47Z heal, failed=0), two independent 30-min watcher chains with 36 consecutive successful handoffs (19.21 audit), zero missed beats — the governance cadence is invariant to the factory's 163/hour churn underneath |
+| 19.22-c | 17 sandbox repos | git-first opener | MEASURED | 12/17 stale (giant +12, Domain +11, FleetHQ +7, Autonomy +6, saos-dex +4...), all ff-only re-anchored; receipt persisted (staleness history entry 5) |
+| 19.22-d | chains | liveness at write time | MEASURED | beacon keepalive #26 in flight (8min), executor #45 in flight (16min, hourly beat due — its receipt will carry the next guard reading), runner-kit cadence continues (newest sibling run: capability-gate #3 success 3min prior) |
+| 19.22-e | sovereign-executor 2fcdff7 | owner trace archived verbatim | DONE | 1a154b00d608c939 as CONTINUED entry #18 in state/beat-tasks.json note |

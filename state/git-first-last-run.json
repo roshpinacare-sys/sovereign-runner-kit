@@ -1,7 +1,7 @@
 {
  "schema": "saos.git-first/1",
  "scanned": 17,
- "refreshed": 1,
+ "refreshed": 12,
  "blockedDirty": 0,
  "failed": 0,
  "verdict": "ok",
@@ -9,43 +9,43 @@
   {
    "repo": "Autonomy",
    "branch": "main",
-   "behind": 2,
+   "behind": 6,
    "action": "refreshed",
    "detail": ""
   },
   {
    "repo": "Console",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 1,
+   "action": "refreshed",
    "detail": ""
   },
   {
    "repo": "Domain",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 11,
+   "action": "refreshed",
    "detail": ""
   },
   {
    "repo": "FleetHQ",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 7,
+   "action": "refreshed",
    "detail": ""
   },
   {
    "repo": "GridWatch",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 1,
+   "action": "refreshed",
    "detail": ""
   },
   {
    "repo": "Pulse",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 2,
+   "action": "refreshed",
    "detail": ""
   },
   {
@@ -58,15 +58,15 @@
   {
    "repo": "giant",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 12,
+   "action": "refreshed",
    "detail": ""
   },
   {
    "repo": "ops-forge",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 3,
+   "action": "refreshed",
    "detail": ""
   },
   {
@@ -86,15 +86,15 @@
   {
    "repo": "saos-dex",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 4,
+   "action": "refreshed",
    "detail": ""
   },
   {
    "repo": "saos-runtime",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 1,
+   "action": "refreshed",
    "detail": ""
   },
   {
@@ -114,15 +114,15 @@
   {
    "repo": "sovereign-lighthouse",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 1,
+   "action": "refreshed",
    "detail": ""
   },
   {
    "repo": "sovereign-runner-kit",
    "branch": "main",
-   "behind": 0,
-   "action": "fresh",
+   "behind": 1,
+   "action": "refreshed",
    "detail": ""
   }
  ]
