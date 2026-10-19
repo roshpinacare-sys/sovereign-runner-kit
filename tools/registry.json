@@ -178,7 +178,9 @@
       "path": "scripts/yml_gate.py",
       "kind": "law",
       "invoke": "python3 scripts/yml_gate.py [repo-root]  (no env, no network — pure local parse)",
-      "purpose": "שער-הפרסה לקבצי-workflow (wave-19.14): הלקח מגל-19.11 הפך לכלי — שני ריצות keepalive מתו עם אפס-jobs בגלל נקודתיים+רווח לא מצוטטים בשם-step ('dwell-chain: check') = דחיית YAML של כל הקובץ, git מקבל את הדחיפה בשקט. השער מפרסר כל .github/workflows/*.yml בפרסר אמיתי ומאדים מקומית לפני הדחיפה, בשם הקובץ ושורת-השגיאה. fail-closed (פרסר חסר = אדום, תיקייה ריקה = אדום), אפס-רשת, אפס-credential. מוכח: 8/8 על runner-kit, דחיית-נקודתיים מדויקת, היקף חוצה-ריפו על ה-beacon"
+      "purpose": "שער-הפרסה לקבצי-workflow (wave-19.14): הלקח מגל-19.11 הפך לכלי — שני ריצות keepalive מתו עם אפס-jobs בגלל נקודתיים+רווח לא מצוטטים בשם-step ('dwell-chain: check') = דחיית YAML של כל הקובץ, git מקבל את הדחיפה בשקט. השער מפרסר כל .github/workflows/*.yml בפרסר אמיתי ומאדים מקומית לפני הדחיפה, בשם הקובץ ושורת-השגיאה. fail-closed (פרסר חסר = אדום, תיקייה ריקה = אדום), אפס-רשת, אפס-credential. מוכח: 8/8 על runner-kit, דחיית-נקודתיים מדויקת, היקף חוצה-ריפו על ה-beacon",
+      "safety": "read-only gate — no network, no credential, no writes; fails closed on missing parser or empty workflow dir",
+      "wave": "19.14"
     }
   ]
 }
