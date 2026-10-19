@@ -1,7 +1,7 @@
 {
   "schema": "saos.git-first/1",
   "scanned": 17,
-  "refreshed": 8,
+  "refreshed": 10,
   "blockedDirty": 0,
   "failed": 0,
   "verdict": "ok",
@@ -9,42 +9,42 @@
     {
       "repo": "Autonomy",
       "branch": "main",
-      "behind": 21,
+      "behind": 17,
       "action": "refreshed",
       "detail": ""
     },
     {
       "repo": "Console",
       "branch": "main",
-      "behind": 7,
+      "behind": 3,
       "action": "refreshed",
       "detail": ""
     },
     {
       "repo": "Domain",
       "branch": "main",
-      "behind": 28,
+      "behind": 10,
       "action": "refreshed",
       "detail": ""
     },
     {
       "repo": "FleetHQ",
       "branch": "main",
-      "behind": 3,
+      "behind": 22,
       "action": "refreshed",
       "detail": ""
     },
     {
       "repo": "GridWatch",
       "branch": "main",
-      "behind": 0,
-      "action": "fresh",
+      "behind": 1,
+      "action": "refreshed",
       "detail": ""
     },
     {
       "repo": "Pulse",
       "branch": "main",
-      "behind": 2,
+      "behind": 1,
       "action": "refreshed",
       "detail": ""
     },
@@ -93,29 +93,29 @@
     {
       "repo": "saos-runtime",
       "branch": "main",
-      "behind": 4,
+      "behind": 5,
       "action": "refreshed",
       "detail": ""
     },
     {
       "repo": "sovereign-beacon",
       "branch": "main",
-      "behind": 0,
-      "action": "fresh",
-      "detail": ""
-    },
-    {
-      "repo": "sovereign-executor",
-      "branch": "main",
       "behind": 1,
       "action": "refreshed",
       "detail": ""
     },
     {
-      "repo": "sovereign-lighthouse",
+      "repo": "sovereign-executor",
       "branch": "main",
       "behind": 0,
       "action": "fresh",
+      "detail": ""
+    },
+    {
+      "repo": "sovereign-lighthouse",
+      "branch": "main",
+      "behind": 2,
+      "action": "refreshed",
       "detail": ""
     },
     {
