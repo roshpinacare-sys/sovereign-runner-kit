@@ -31,3 +31,17 @@ census: 10min old — 4 red lane(s)
 - RED Domain/org-gitleaks.yml streak=1 (new)
 - RED FleetHQ/office-3d.yml streak=1 (new)
 - RED saos-dex/hive-heartbeat.yml streak=1 (new)
+
+## PATROL 2026-10-19T23:55:52Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | IN-FLIGHT | 87min | success 87min ago; run in flight 27min |
+| sovereign-runner-kit/keepalive.yml | IN-FLIGHT | 34min | success 35min ago; run in flight 4min |
+| sovereign-beacon/keepalive.yml | IN-FLIGHT | 56min | success 56min ago; run in flight 26min |
+
+census: 16min old — 4 red lane(s)
+- RED Autonomy/artery-defi.yml streak=2 (recidivist)
+- RED Domain/artery-integrity-twin.yml streak=2 (recidivist)
+- RED Domain/org-gitleaks.yml streak=1 (new)
+- RED saos-dex/hive-heartbeat.yml streak=1 (new)

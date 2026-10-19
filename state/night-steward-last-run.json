@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-19T19:20:41Z",
+  "at": "2026-10-19T23:55:51Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 101.7,
-      "detail": "success 102min ago; run in flight 42min"
+      "lastSuccessAgeMin": 87.2,
+      "detail": "success 87min ago; run in flight 27min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 31.3,
-      "detail": "success 31min ago; run in flight 1min"
+      "lastSuccessAgeMin": 34.5,
+      "detail": "success 35min ago; run in flight 4min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,28 +26,28 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 52.5,
-      "detail": "success 52min ago; run in flight 22min"
+      "lastSuccessAgeMin": 55.9,
+      "detail": "success 56min ago; run in flight 26min"
     }
   ],
-  "censusAgeMin": 10.2,
+  "censusAgeMin": 16.4,
   "censusNote": null,
   "reds": [
     {
+      "repo": "Autonomy",
+      "workflow": "artery-defi.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
       "repo": "Domain",
-      "workflow": "daily-digest.yml",
-      "redStreak": 1,
-      "class": "new"
+      "workflow": "artery-integrity-twin.yml",
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "Domain",
       "workflow": "org-gitleaks.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "FleetHQ",
-      "workflow": "office-3d.yml",
       "redStreak": 1,
       "class": "new"
     },
