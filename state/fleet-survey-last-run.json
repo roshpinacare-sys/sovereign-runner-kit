@@ -1,12 +1,12 @@
 {
  "schema": "saos.fleet-survey/1",
- "at": "2026-10-20T07:33:41.956355+00:00",
+ "at": "2026-10-20T08:35:55.845471+00:00",
  "org": "roshpinacare-sys",
  "windowHours": 24,
  "scanned": 45,
  "reposWithRuns24h": 34,
- "lanesObserved": 117,
- "redLaneCount": 10,
+ "lanesObserved": 120,
+ "redLaneCount": 6,
  "probeFailures": 1,
  "verdict": "RED",
  "records": [
@@ -16,6 +16,14 @@
    "headAt": "2026-10-20T05:30:08Z",
    "subject": "claims-guard: PASS at 2026-10-20T05:30:08Z",
    "lanes": [
+    {
+     "name": "workflow-yaml-guard",
+     "runsInWindow": 1,
+     "latestRunId": 39388340347,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:42:54Z"
+    },
     {
      "name": "claims-guard",
      "runsInWindow": 2,
@@ -38,155 +46,160 @@
   },
   {
    "repo": "Autonomy",
-   "head": "9c921c736d",
-   "headAt": "2026-10-20T07:24:53Z",
-   "subject": "[tick] sovereign heartbeat: 2026-10-20T07:24:53Z",
+   "head": "90807c251b",
+   "headAt": "2026-10-20T08:29:50Z",
+   "subject": "[tick] sovereign heartbeat: 2026-10-20T08:29:50Z",
    "lanes": [
-    {
-     "name": "sovereign-state",
-     "runsInWindow": 2,
-     "latestRunId": 39387196459,
-     "status": "in_progress",
-     "conclusion": null,
-     "createdAt": "2026-10-20T07:32:37Z"
-    },
-    {
-     "name": "artery-decision-truth",
-     "runsInWindow": 2,
-     "latestRunId": 39387152344,
-     "status": "completed",
-     "conclusion": "failure",
-     "createdAt": "2026-10-20T07:32:13Z"
-    },
-    {
-     "name": "artery-catchup",
-     "runsInWindow": 3,
-     "latestRunId": 39386332585,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:24:46Z"
-    },
     {
      "name": "sovereign-tick",
      "runsInWindow": 2,
-     "latestRunId": 39386331380,
+     "latestRunId": 39393793953,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:24:45Z"
+     "createdAt": "2026-10-20T08:29:41Z"
     },
     {
-     "name": "identity-guard",
-     "runsInWindow": 1,
-     "latestRunId": 39386316554,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:24:37Z"
+     "name": "sovereign-state",
+     "runsInWindow": 4,
+     "latestRunId": 39393764975,
+     "status": "in_progress",
+     "conclusion": null,
+     "createdAt": "2026-10-20T08:29:26Z"
     },
     {
      "name": "artery-pacer",
-     "runsInWindow": 1,
-     "latestRunId": 39386309769,
-     "status": "pending",
+     "runsInWindow": 3,
+     "latestRunId": 39393738393,
+     "status": "in_progress",
      "conclusion": null,
-     "createdAt": "2026-10-20T07:24:33Z"
+     "createdAt": "2026-10-20T08:29:13Z"
     },
     {
-     "name": "floating-builds",
-     "runsInWindow": 1,
-     "latestRunId": 39386249810,
+     "name": "artery-scribe",
+     "runsInWindow": 2,
+     "latestRunId": 39393158967,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:24:00Z"
+     "createdAt": "2026-10-20T08:24:21Z"
     },
     {
-     "name": "network-awareness",
+     "name": "artery-treasury",
      "runsInWindow": 1,
-     "latestRunId": 39386249780,
+     "latestRunId": 39392778925,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:24:00Z"
+     "createdAt": "2026-10-20T08:21:14Z"
+    },
+    {
+     "name": "artery-decision-truth",
+     "runsInWindow": 1,
+     "latestRunId": 39392204886,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:16:25Z"
     },
     {
      "name": "fleet-heal",
      "runsInWindow": 1,
-     "latestRunId": 39386178117,
+     "latestRunId": 39392202343,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:23:20Z"
+     "createdAt": "2026-10-20T08:16:23Z"
     },
     {
      "name": "value-scan",
      "runsInWindow": 1,
-     "latestRunId": 39386175900,
+     "latestRunId": 39392199628,
      "status": "completed",
-     "conclusion": "failure",
-     "createdAt": "2026-10-20T07:23:19Z"
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:16:22Z"
     },
     {
      "name": "federation",
      "runsInWindow": 1,
-     "latestRunId": 39386173660,
+     "latestRunId": 39392196805,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:23:18Z"
+     "createdAt": "2026-10-20T08:16:21Z"
     },
     {
      "name": "artery-watch",
-     "runsInWindow": 2,
-     "latestRunId": 39386171500,
-     "status": "in_progress",
-     "conclusion": null,
-     "createdAt": "2026-10-20T07:23:17Z"
+     "runsInWindow": 1,
+     "latestRunId": 39392194023,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:16:19Z"
     },
     {
      "name": "artery-selfheal",
      "runsInWindow": 1,
-     "latestRunId": 39386154640,
+     "latestRunId": 39392174577,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:23:08Z"
+     "createdAt": "2026-10-20T08:16:09Z"
     },
     {
      "name": "artery-grid",
      "runsInWindow": 1,
-     "latestRunId": 39386150069,
+     "latestRunId": 39392172221,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:23:05Z"
+     "createdAt": "2026-10-20T08:16:08Z"
+    },
+    {
+     "name": "verifier (truth & quality)",
+     "runsInWindow": 1,
+     "latestRunId": 39391997910,
+     "status": "in_progress",
+     "conclusion": null,
+     "createdAt": "2026-10-20T08:14:43Z"
     }
    ],
-   "redLanes": [
-    "artery-decision-truth",
-    "value-scan"
-   ],
+   "redLanes": [],
    "probe": "ok"
   },
   {
    "repo": "Console",
-   "head": "ed98732a41",
-   "headAt": "2026-10-20T06:49:34Z",
-   "subject": "pacemaker receipt: 2026-10-20T06:49:34Z",
+   "head": "9e03663505",
+   "headAt": "2026-10-20T08:28:19Z",
+   "subject": "truth-gate: 2026-10-20T08:28:19Z · ALL-GREEN",
    "lanes": [
-    {
-     "name": "runtime-pacemaker",
-     "runsInWindow": 4,
-     "latestRunId": 39387203465,
-     "status": "pending",
-     "conclusion": null,
-     "createdAt": "2026-10-20T07:32:41Z"
-    },
-    {
-     "name": "identity-guard",
-     "runsInWindow": 3,
-     "latestRunId": 39387034166,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:31:09Z"
-    },
     {
      "name": "pages build and deployment",
      "runsInWindow": 9,
-     "latestRunId": 39387034955,
+     "latestRunId": 39393640007,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:28:22Z"
+    },
+    {
+     "name": "truth-gate",
+     "runsInWindow": 1,
+     "latestRunId": 39393610324,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:28:08Z"
+    },
+    {
+     "name": "runtime-pacemaker",
+     "runsInWindow": 4,
+     "latestRunId": 39393399874,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:26:21Z"
+    },
+    {
+     "name": "grid-pulse",
+     "runsInWindow": 1,
+     "latestRunId": 39393373656,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:26:08Z"
+    },
+    {
+     "name": "identity-guard",
+     "runsInWindow": 2,
+     "latestRunId": 39387034166,
      "status": "completed",
      "conclusion": "success",
      "createdAt": "2026-10-20T07:31:09Z"
@@ -206,14 +219,6 @@
      "status": "completed",
      "conclusion": "success",
      "createdAt": "2026-10-20T06:34:15Z"
-    },
-    {
-     "name": "giants-beat",
-     "runsInWindow": 1,
-     "latestRunId": 39377757571,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T05:58:32Z"
     }
    ],
    "redLanes": [],
@@ -221,10 +226,18 @@
   },
   {
    "repo": "Defi",
-   "head": "bd3542bbbe",
-   "headAt": "2026-10-19T18:04:55Z",
-   "subject": "artery-defi: fleet truth @ 2026-10-19T18:04:55Z (measured verbatim · z",
+   "head": "2a3dd5723d",
+   "headAt": "2026-10-20T07:37:48Z",
+   "subject": "artery-defi: fleet truth @ 2026-10-20T07:37:48Z (measured verbatim · z",
    "lanes": [
+    {
+     "name": "gitleaks-secret-scan",
+     "runsInWindow": 1,
+     "latestRunId": 39388309940,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:42:38Z"
+    },
     {
      "name": "canary",
      "runsInWindow": 1,
@@ -239,73 +252,73 @@
   },
   {
    "repo": "Domain",
-   "head": "1ea3a08ff8",
-   "headAt": "2026-10-20T07:24:29Z",
-   "subject": "office window: ALIVE 2026-10-20T07:24:29Z",
+   "head": "2f5d027413",
+   "headAt": "2026-10-20T08:29:31Z",
+   "subject": "office-worldbeat: advance the persistent world",
    "lanes": [
     {
-     "name": "office-worldbeat",
-     "runsInWindow": 5,
-     "latestRunId": 39387219300,
-     "status": "pending",
+     "name": "grid-sentinel",
+     "runsInWindow": 2,
+     "latestRunId": 39394402788,
+     "status": "in_progress",
      "conclusion": null,
-     "createdAt": "2026-10-20T07:32:50Z"
+     "createdAt": "2026-10-20T08:34:40Z"
     },
     {
      "name": "pages build and deployment",
-     "runsInWindow": 9,
-     "latestRunId": 39386970541,
+     "runsInWindow": 8,
+     "latestRunId": 39394321041,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:30:35Z"
+     "createdAt": "2026-10-20T08:33:58Z"
     },
     {
-     "name": "grid-doctor",
-     "runsInWindow": 1,
-     "latestRunId": 39386944254,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:30:21Z"
-    },
-    {
-     "name": "office-pulse",
-     "runsInWindow": 1,
-     "latestRunId": 39386284000,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:24:19Z"
-    },
-    {
-     "name": "econ-engine",
-     "runsInWindow": 1,
-     "latestRunId": 39386215881,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:23:41Z"
-    },
-    {
-     "name": "grid-sentinel",
-     "runsInWindow": 1,
-     "latestRunId": 39386059544,
+     "name": "office-worldbeat",
+     "runsInWindow": 5,
+     "latestRunId": 39394291848,
      "status": "in_progress",
      "conclusion": null,
-     "createdAt": "2026-10-20T07:22:16Z"
+     "createdAt": "2026-10-20T08:33:44Z"
     },
     {
-     "name": "dex-watchdog",
+     "name": "moment-watch",
      "runsInWindow": 1,
-     "latestRunId": 39385832985,
+     "latestRunId": 39392820916,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:20:11Z"
+     "createdAt": "2026-10-20T08:21:35Z"
     },
     {
-     "name": "network-census",
+     "name": "hive-beat-t21",
      "runsInWindow": 1,
-     "latestRunId": 39385329164,
+     "latestRunId": 39392785989,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:15:26Z"
+     "createdAt": "2026-10-20T08:21:17Z"
+    },
+    {
+     "name": "fleet-heartbeat",
+     "runsInWindow": 1,
+     "latestRunId": 39392783678,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:21:16Z"
+    },
+    {
+     "name": "cloud-pulse",
+     "runsInWindow": 1,
+     "latestRunId": 39392781273,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:21:15Z"
+    },
+    {
+     "name": "office-pulse-twin",
+     "runsInWindow": 1,
+     "latestRunId": 39391698961,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:12:12Z"
     }
    ],
    "redLanes": [],
@@ -313,81 +326,73 @@
   },
   {
    "repo": "FleetHQ",
-   "head": "02e600cac8",
-   "headAt": "2026-10-20T07:23:57Z",
-   "subject": "pacemaker receipt: 2026-10-20T07:23:57Z",
+   "head": "411c21d5d6",
+   "headAt": "2026-10-20T08:30:18Z",
+   "subject": "opens-closer: measured freshness ledger + revival dispatches [skip ci]",
    "lanes": [
+    {
+     "name": "opens-closer",
+     "runsInWindow": 3,
+     "latestRunId": 39393832524,
+     "status": "in_progress",
+     "conclusion": null,
+     "createdAt": "2026-10-20T08:30:01Z"
+    },
+    {
+     "name": "silence-watchdog",
+     "runsInWindow": 2,
+     "latestRunId": 39393426328,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:26:34Z"
+    },
+    {
+     "name": "runtime-pacemaker",
+     "runsInWindow": 8,
+     "latestRunId": 39390276836,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:00:06Z"
+    },
+    {
+     "name": "sovereign-decider",
+     "runsInWindow": 1,
+     "latestRunId": 39389831173,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:56:01Z"
+    },
+    {
+     "name": "identity-guard",
+     "runsInWindow": 2,
+     "latestRunId": 39389401999,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:52:17Z"
+    },
+    {
+     "name": "office-ci",
+     "runsInWindow": 2,
+     "latestRunId": 39389402073,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:52:17Z"
+    },
+    {
+     "name": "fresh-oracle",
+     "runsInWindow": 1,
+     "latestRunId": 39388268085,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:42:16Z"
+    },
     {
      "name": "sovereign-harness",
      "runsInWindow": 1,
      "latestRunId": 39387206304,
-     "status": "in_progress",
-     "conclusion": null,
+     "status": "completed",
+     "conclusion": "success",
      "createdAt": "2026-10-20T07:32:43Z"
-    },
-    {
-     "name": "runtime-pacemaker",
-     "runsInWindow": 6,
-     "latestRunId": 39387176903,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:32:26Z"
-    },
-    {
-     "name": "identity-guard",
-     "runsInWindow": 3,
-     "latestRunId": 39387155139,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:32:14Z"
-    },
-    {
-     "name": "office-ci",
-     "runsInWindow": 3,
-     "latestRunId": 39387155187,
-     "status": "in_progress",
-     "conclusion": null,
-     "createdAt": "2026-10-20T07:32:14Z"
-    },
-    {
-     "name": "self-book",
-     "runsInWindow": 1,
-     "latestRunId": 39387145895,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:32:09Z"
-    },
-    {
-     "name": "sovereign-decider",
-     "runsInWindow": 2,
-     "latestRunId": 39386994919,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:30:47Z"
-    },
-    {
-     "name": "value-scan",
-     "runsInWindow": 1,
-     "latestRunId": 39386941887,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:30:20Z"
-    },
-    {
-     "name": "opens-closer",
-     "runsInWindow": 2,
-     "latestRunId": 39386904197,
-     "status": "pending",
-     "conclusion": null,
-     "createdAt": "2026-10-20T07:30:02Z"
-    },
-    {
-     "name": "identity-patrol",
-     "runsInWindow": 1,
-     "latestRunId": 39386585111,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:27:03Z"
     }
    ],
    "redLanes": [],
@@ -395,9 +400,9 @@
   },
   {
    "repo": "GridWatch",
-   "head": "09bb170ee5",
-   "headAt": "2026-10-20T09:17:56+03:00",
-   "subject": "grid-watch: fleet health @ 2026-10-20T06:15:56.823Z",
+   "head": "22fed0bdb6",
+   "headAt": "2026-10-20T10:29:31+03:00",
+   "subject": "grid-watch: fleet health @ 2026-10-20T07:27:29.643Z",
    "lanes": [
     {
      "name": "identity-guard",
@@ -434,6 +439,14 @@
    "subject": "keeper receipt from public minutes [skip ci]",
    "lanes": [
     {
+     "name": "gitleaks-secret-scan",
+     "runsInWindow": 1,
+     "latestRunId": 39388329635,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:42:49Z"
+    },
+    {
      "name": "workflow-yaml-guard",
      "runsInWindow": 1,
      "latestRunId": 39372500261,
@@ -447,33 +460,25 @@
   },
   {
    "repo": "Pulse",
-   "head": "bb540ea490",
-   "headAt": "2026-10-20T07:00:36Z",
-   "subject": "pulse: 2026-10-20T07:00:36Z [skip ci]",
+   "head": "e7ab6f6463",
+   "headAt": "2026-10-20T08:30:34Z",
+   "subject": "pulse: 2026-10-20T08:30:34Z [skip ci]",
    "lanes": [
     {
      "name": "pages build and deployment",
      "runsInWindow": 10,
-     "latestRunId": 39386963802,
+     "latestRunId": 39393911761,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:30:31Z"
+     "createdAt": "2026-10-20T08:30:37Z"
     },
     {
      "name": "heartbeat",
-     "runsInWindow": 9,
-     "latestRunId": 39386905678,
+     "runsInWindow": 10,
+     "latestRunId": 39393836336,
      "status": "in_progress",
      "conclusion": null,
-     "createdAt": "2026-10-20T07:30:02Z"
-    },
-    {
-     "name": "sovereign-voice",
-     "runsInWindow": 1,
-     "latestRunId": 39366243335,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T03:48:48Z"
+     "createdAt": "2026-10-20T08:30:02Z"
     }
    ],
    "redLanes": [],
@@ -481,130 +486,118 @@
   },
   {
    "repo": "Sandbox",
-   "head": "f1c8fa937a",
-   "headAt": "2026-10-20T07:24:43Z",
-   "subject": "fleet-artery receipts: 2026-10-20T07:24:43Z",
+   "head": "693693faeb",
+   "headAt": "2026-10-20T08:21:41Z",
+   "subject": "[state] tick#290 auto: 2026-10-20T08:21:41Z",
    "lanes": [
-    {
-     "name": "artery-participation",
-     "runsInWindow": 1,
-     "latestRunId": 39386191319,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:23:27Z"
-    },
     {
      "name": "artery-grid",
      "runsInWindow": 1,
-     "latestRunId": 39386189243,
-     "status": "completed",
-     "conclusion": "failure",
-     "createdAt": "2026-10-20T07:23:26Z"
-    },
-    {
-     "name": "artery-flow",
-     "runsInWindow": 1,
-     "latestRunId": 39386187185,
+     "latestRunId": 39394289281,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:23:25Z"
-    },
-    {
-     "name": "artery-fleet",
-     "runsInWindow": 1,
-     "latestRunId": 39386185083,
-     "status": "completed",
-     "conclusion": "failure",
-     "createdAt": "2026-10-20T07:23:24Z"
-    },
-    {
-     "name": "artery-decision-truth",
-     "runsInWindow": 1,
-     "latestRunId": 39386183074,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T07:23:23Z"
-    },
-    {
-     "name": "artery-integrity",
-     "runsInWindow": 1,
-     "latestRunId": 39379298712,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T06:15:02Z"
-    },
-    {
-     "name": "fleet-yield",
-     "runsInWindow": 1,
-     "latestRunId": 39374384867,
-     "status": "completed",
-     "conclusion": "failure",
-     "createdAt": "2026-10-20T05:20:40Z"
+     "createdAt": "2026-10-20T08:33:42Z"
     },
     {
      "name": "federation",
      "runsInWindow": 1,
-     "latestRunId": 39374379204,
+     "latestRunId": 39394287575,
      "status": "completed",
-     "conclusion": "failure",
-     "createdAt": "2026-10-20T05:20:36Z"
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:33:42Z"
     },
     {
      "name": "fleet-heal",
      "runsInWindow": 1,
-     "latestRunId": 39374373726,
-     "status": "completed",
-     "conclusion": "failure",
-     "createdAt": "2026-10-20T05:20:32Z"
-    },
-    {
-     "name": "artery-catchup",
-     "runsInWindow": 2,
-     "latestRunId": 39374349152,
+     "latestRunId": 39394286944,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T05:20:15Z"
+     "createdAt": "2026-10-20T08:33:41Z"
     },
     {
-     "name": "identity-guard",
+     "name": "artery-watch",
      "runsInWindow": 3,
-     "latestRunId": 39374349104,
-     "status": "completed",
-     "conclusion": "skipped",
-     "createdAt": "2026-10-20T05:20:15Z"
+     "latestRunId": 39394256640,
+     "status": "in_progress",
+     "conclusion": null,
+     "createdAt": "2026-10-20T08:33:27Z"
     },
     {
-     "name": "pages-deploy",
-     "runsInWindow": 3,
-     "latestRunId": 39374348986,
+     "name": "sovereign-state",
+     "runsInWindow": 2,
+     "latestRunId": 39392790220,
+     "status": "in_progress",
+     "conclusion": null,
+     "createdAt": "2026-10-20T08:21:20Z"
+    },
+    {
+     "name": "artery-decision-truth",
+     "runsInWindow": 1,
+     "latestRunId": 39392684740,
      "status": "completed",
-     "conclusion": "failure",
-     "createdAt": "2026-10-20T05:20:15Z"
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:20:26Z"
     },
     {
      "name": "sovereign-tick",
-     "runsInWindow": 2,
-     "latestRunId": 39374348945,
+     "runsInWindow": 3,
+     "latestRunId": 39392676804,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T05:20:15Z"
+     "createdAt": "2026-10-20T08:20:23Z"
     },
     {
-     "name": "compute-canary",
+     "name": "fleet-yield",
+     "runsInWindow": 2,
+     "latestRunId": 39391969375,
+     "status": "completed",
+     "conclusion": "failure",
+     "createdAt": "2026-10-20T08:14:29Z"
+    },
+    {
+     "name": "artery-fleet",
+     "runsInWindow": 2,
+     "latestRunId": 39391966426,
+     "status": "completed",
+     "conclusion": "failure",
+     "createdAt": "2026-10-20T08:14:27Z"
+    },
+    {
+     "name": "value-scan",
      "runsInWindow": 1,
-     "latestRunId": 39372545809,
+     "latestRunId": 39391108026,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T05:00:15Z"
+     "createdAt": "2026-10-20T08:07:09Z"
+    },
+    {
+     "name": "artery-integrity",
+     "runsInWindow": 1,
+     "latestRunId": 39391105710,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T08:07:07Z"
+    },
+    {
+     "name": "artery-catchup",
+     "runsInWindow": 1,
+     "latestRunId": 39390148411,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:58:55Z"
+    },
+    {
+     "name": "identity-guard",
+     "runsInWindow": 1,
+     "latestRunId": 39390148179,
+     "status": "completed",
+     "conclusion": "skipped",
+     "createdAt": "2026-10-20T07:58:55Z"
     }
    ],
    "redLanes": [
     "artery-fleet",
-    "artery-grid",
-    "federation",
-    "fleet-heal",
-    "fleet-yield",
-    "pages-deploy"
+    "fleet-yield"
    ],
    "probe": "ok"
   },
@@ -614,6 +607,14 @@
    "headAt": "2026-10-20T04:44:06Z",
    "subject": "wallet-verify: PASS at 2026-10-20T04:42:47Z",
    "lanes": [
+    {
+     "name": "gitleaks-secret-scan",
+     "runsInWindow": 1,
+     "latestRunId": 39388353416,
+     "status": "completed",
+     "conclusion": "failure",
+     "createdAt": "2026-10-20T07:43:01Z"
+    },
     {
      "name": "workflow-yaml-guard",
      "runsInWindow": 1,
@@ -631,7 +632,9 @@
      "createdAt": "2026-10-20T04:42:32Z"
     }
    ],
-   "redLanes": [],
+   "redLanes": [
+    "gitleaks-secret-scan"
+   ],
    "probe": "ok"
   },
   {
@@ -640,6 +643,14 @@
    "headAt": "2026-10-20T04:42:27Z",
    "subject": "sdk-verify: PASS at 2026-10-20T04:42:27Z",
    "lanes": [
+    {
+     "name": "gitleaks-secret-scan",
+     "runsInWindow": 1,
+     "latestRunId": 39388365810,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:43:08Z"
+    },
     {
      "name": "workflow-yaml-guard",
      "runsInWindow": 1,
@@ -662,9 +673,9 @@
   },
   {
    "repo": "SovereignConsole",
-   "head": "f152ce3d9f",
-   "headAt": "2026-10-20T06:40:46Z",
-   "subject": "worklog: T-552 appended (the mortality audit — agents die, sovereignty",
+   "head": "7e4019ed70",
+   "headAt": "2026-10-20T07:50:26Z",
+   "subject": "worklog: T-553 appended (the revived income — orphaned instrument, bro",
    "lanes": [],
    "redLanes": [],
    "probe": "ok"
@@ -689,10 +700,18 @@
   },
   {
    "repo": "Zip",
-   "head": "f40c37775b",
-   "headAt": "2026-10-20T01:55:44Z",
-   "subject": "weave-anchor-zero: 2026-10-20T01:55:33.679Z · cp#1710 · Z Chain 9369 g",
+   "head": "671f5fdf74",
+   "headAt": "2026-10-20T07:45:02Z",
+   "subject": "weave-anchor-zero: 2026-10-20T07:44:57.175Z · cp#1712 · Z Chain 9369 g",
    "lanes": [
+    {
+     "name": "weave-ecosystem",
+     "runsInWindow": 1,
+     "latestRunId": 39388378278,
+     "status": "completed",
+     "conclusion": "failure",
+     "createdAt": "2026-10-20T07:43:15Z"
+    },
     {
      "name": "workflow-yaml-guard",
      "runsInWindow": 1,
@@ -702,15 +721,25 @@
      "createdAt": "2026-10-20T05:01:03Z"
     }
    ],
-   "redLanes": [],
+   "redLanes": [
+    "weave-ecosystem"
+   ],
    "probe": "ok"
   },
   {
    "repo": "anchor-baseline",
-   "head": "a35eaba94d",
-   "headAt": "2026-10-20T04:42:43Z",
-   "subject": "baseline-integrity: PASS at 2026-10-20T04:42:43Z",
+   "head": "0f7836029c",
+   "headAt": "2026-10-20T07:43:25Z",
+   "subject": "conformance-selftest: PASS at 2026-10-20T07:43:25Z",
    "lanes": [
+    {
+     "name": "conformance-selftest",
+     "runsInWindow": 1,
+     "latestRunId": 39388357572,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:43:04Z"
+    },
     {
      "name": "workflow-yaml-guard",
      "runsInWindow": 1,
@@ -733,17 +762,17 @@
   },
   {
    "repo": "execution-fabric",
-   "head": "e940f3bf9d",
-   "headAt": "2026-10-20T07:10:57Z",
-   "subject": "c892aa6e-116c-4f9f-979b-7be8d6458957",
+   "head": "22b9c04f01",
+   "headAt": "2026-10-20T07:52:05Z",
+   "subject": "fabric-heartbeat: auto-pulse — 3 changed files",
    "lanes": [
     {
      "name": "codelint",
-     "runsInWindow": 9,
-     "latestRunId": 39384736356,
+     "runsInWindow": 10,
+     "latestRunId": 39387864687,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:09:52Z"
+     "createdAt": "2026-10-20T07:38:39Z"
     }
    ],
    "redLanes": [],
@@ -751,9 +780,9 @@
   },
   {
    "repo": "fleet-economy",
-   "head": "9f8b5da2c7",
-   "headAt": "2026-10-20T07:31:16Z",
-   "subject": "[builder] acts=0 metrics=12 backlog=0 · צמיחה-ריבונית מאוטמת",
+   "head": "df3f9fed9e",
+   "headAt": "2026-10-20T07:47:01Z",
+   "subject": "vault-seal [seal-host]: 4 files — כלום לא מת עם הסנדבוקס (גל-98)",
    "lanes": [
     {
      "name": "ci-probe",
@@ -777,17 +806,17 @@
   },
   {
    "repo": "giant",
-   "head": "cb61a350dd",
-   "headAt": "2026-10-20T07:23:16Z",
-   "subject": "voice-ops seal [auto] 2026-10-20T07:23",
+   "head": "305125c0a0",
+   "headAt": "2026-10-20T07:57:38Z",
+   "subject": "trust-heartbeat: autonomous scan (no-sandbox) — 2026-10-20T07:57Z",
    "lanes": [
     {
      "name": "trust-heartbeat",
-     "runsInWindow": 6,
-     "latestRunId": 39386202812,
+     "runsInWindow": 9,
+     "latestRunId": 39389916498,
      "status": "completed",
-     "conclusion": "failure",
-     "createdAt": "2026-10-20T07:23:34Z"
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:56:48Z"
     },
     {
      "name": "ext-audit",
@@ -798,9 +827,7 @@
      "createdAt": "2026-10-20T04:59:37Z"
     }
    ],
-   "redLanes": [
-    "trust-heartbeat"
-   ],
+   "redLanes": [],
    "probe": "ok"
   },
   {
@@ -814,9 +841,9 @@
   },
   {
    "repo": "ops-control",
-   "head": "9265e78d57",
-   "headAt": "2026-10-20T06:41:01Z",
-   "subject": "agent-5 claim T-552: the mortality audit (45th claim) — hostile self-v",
+   "head": "44682c89d8",
+   "headAt": "2026-10-20T07:50:42Z",
+   "subject": "agent-5 claim T-553: the revived income (46th claim) — orphaned+broken",
    "lanes": [],
    "redLanes": [],
    "probe": "ok"
@@ -859,13 +886,21 @@
   },
   {
    "repo": "roshpina",
-   "head": "493cabda48",
-   "headAt": "2026-10-20T05:17:22Z",
-   "subject": "live(N5/T-63): kernel-smoke green on the saos-runtime runner - armed->",
+   "head": "2879b6d378",
+   "headAt": "2026-10-20T07:43:54Z",
+   "subject": "controls-audit: PASS at 2026-10-20T07:43:54Z",
    "lanes": [
     {
+     "name": "controls-audit",
+     "runsInWindow": 1,
+     "latestRunId": 39388345585,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:42:57Z"
+    },
+    {
      "name": "sovereign-invariants-i38",
-     "runsInWindow": 6,
+     "runsInWindow": 5,
      "latestRunId": 39375340019,
      "status": "completed",
      "conclusion": "success",
@@ -903,17 +938,17 @@
   },
   {
    "repo": "sandbox-private",
-   "head": "d0da472c6a",
-   "headAt": "2026-10-20T05:00:27Z",
-   "subject": "[heart] sanbox heartbeat: 2026-10-20T05:00:27Z",
+   "head": "f6821dcf64",
+   "headAt": "2026-10-20T07:43:30Z",
+   "subject": "[heart] sanbox heartbeat: 2026-10-20T07:43:30Z",
    "lanes": [
     {
      "name": "sovereign-heart",
-     "runsInWindow": 2,
-     "latestRunId": 39372549579,
+     "runsInWindow": 3,
+     "latestRunId": 39388349499,
      "status": "completed",
      "conclusion": "failure",
-     "createdAt": "2026-10-20T05:00:18Z"
+     "createdAt": "2026-10-20T07:42:59Z"
     }
    ],
    "redLanes": [
@@ -941,19 +976,27 @@
   },
   {
    "repo": "saos-console-zai",
-   "head": "9e8209a048",
-   "headAt": "2026-10-20T07:26:35Z",
-   "subject": "state-snapshot [seal-host]: 2 קבצי-אודיט → קנון (הישרדות-wipe · גל-103",
+   "head": "8e15bcd22e",
+   "headAt": "2026-10-20T08:34:07Z",
+   "subject": "vault-seal [seal-host]: 1 files — כלום לא מת עם הסנדבוקס (גל-98)",
    "lanes": [],
    "redLanes": [],
    "probe": "ok"
   },
   {
    "repo": "saos-control-center",
-   "head": "639527c228",
-   "headAt": "2026-10-20T04:07:49+03:00",
-   "subject": "fabric: תיקון מנגנון זיהוי בקשות פנימיות ב-API למניעת עקיפת rate-limit",
+   "head": "b100b1ee9d",
+   "headAt": "2026-10-20T07:44:03Z",
+   "subject": "control-center-build: FAIL at 2026-10-20T07:43:23Z",
    "lanes": [
+    {
+     "name": "control-center-build",
+     "runsInWindow": 1,
+     "latestRunId": 39388313505,
+     "status": "completed",
+     "conclusion": "failure",
+     "createdAt": "2026-10-20T07:42:40Z"
+    },
     {
      "name": "workflow-yaml-guard",
      "runsInWindow": 1,
@@ -963,7 +1006,9 @@
      "createdAt": "2026-10-20T05:00:26Z"
     }
    ],
-   "redLanes": [],
+   "redLanes": [
+    "control-center-build"
+   ],
    "probe": "ok"
   },
   {
@@ -977,58 +1022,58 @@
   },
   {
    "repo": "saos-desk",
-   "head": "6dcf643e5f",
-   "headAt": "2026-10-20T02:49:27Z",
-   "subject": "artery-desk: state @ 2026-10-20T02:49:27Z (real bars · honest verdicts",
+   "head": "973d746a64",
+   "headAt": "2026-10-20T07:37:56Z",
+   "subject": "artery-desk: state @ 2026-10-20T07:37:56Z (real bars · honest verdicts",
    "lanes": [],
    "redLanes": [],
    "probe": "ok"
   },
   {
    "repo": "saos-dex",
-   "head": "5a2a0f7352",
-   "headAt": "2026-10-20T10:10:24+03:00",
-   "subject": "fabric: יישום מופע התראות מרכזי עם גיבוי באמצעות Redis ב-saos-dex — הצ",
+   "head": "dc4d2e269a",
+   "headAt": "2026-10-20T08:30:48Z",
+   "subject": "army-ladder: canary receipt + verified-vs-chain 2026-10-20T08:30:48Z [",
    "lanes": [
     {
      "name": "dex-ci",
      "runsInWindow": 4,
-     "latestRunId": 39384798795,
+     "latestRunId": 39388693476,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:10:26Z"
+     "createdAt": "2026-10-20T07:45:59Z"
     },
     {
      "name": "dex-selftest",
      "runsInWindow": 4,
-     "latestRunId": 39384798775,
+     "latestRunId": 39388693489,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:10:26Z"
+     "createdAt": "2026-10-20T07:45:59Z"
     },
     {
      "name": "gitleaks-secret-scan",
      "runsInWindow": 4,
-     "latestRunId": 39384798770,
+     "latestRunId": 39388693524,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:10:26Z"
+     "createdAt": "2026-10-20T07:45:59Z"
     },
     {
      "name": "identity-guard",
      "runsInWindow": 4,
-     "latestRunId": 39384798853,
+     "latestRunId": 39388693547,
      "status": "completed",
      "conclusion": "skipped",
-     "createdAt": "2026-10-20T07:10:26Z"
+     "createdAt": "2026-10-20T07:45:59Z"
     },
     {
      "name": "workflow-yaml-guard",
      "runsInWindow": 4,
-     "latestRunId": 39384798812,
+     "latestRunId": 39388693528,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:10:26Z"
+     "createdAt": "2026-10-20T07:45:59Z"
     }
    ],
    "redLanes": [],
@@ -1040,6 +1085,14 @@
    "headAt": "2026-10-20T04:42:36Z",
    "subject": "jumpper-tests: PASS at 2026-10-20T04:42:29Z",
    "lanes": [
+    {
+     "name": "gitleaks-secret-scan",
+     "runsInWindow": 1,
+     "latestRunId": 39388361840,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:43:06Z"
+    },
     {
      "name": "workflow-yaml-guard",
      "runsInWindow": 1,
@@ -1080,41 +1133,49 @@
   },
   {
    "repo": "saos-runtime",
-   "head": "85b0bbf417",
-   "headAt": "2026-10-20T07:21:05Z",
-   "subject": "watchdog: 1 reds @ 2026-10-20T07:21:05Z",
+   "head": "066f1f5a46",
+   "headAt": "2026-10-20T07:56:13Z",
+   "subject": "watchdog: 1 reds @ 2026-10-20T07:56:13Z",
    "lanes": [
     {
-     "name": "army-ladder",
+     "name": "sovereign-runtime",
      "runsInWindow": 5,
-     "latestRunId": 39386765111,
+     "latestRunId": 39393658468,
      "status": "in_progress",
      "conclusion": null,
-     "createdAt": "2026-10-20T07:28:44Z"
+     "createdAt": "2026-10-20T08:28:32Z"
     },
     {
-     "name": "sovereign-runtime",
-     "runsInWindow": 3,
-     "latestRunId": 39386131569,
+     "name": "army-ladder",
+     "runsInWindow": 6,
+     "latestRunId": 39393483364,
      "status": "in_progress",
      "conclusion": null,
-     "createdAt": "2026-10-20T07:22:55Z"
+     "createdAt": "2026-10-20T08:27:02Z"
     },
     {
      "name": "grid-watchdog",
-     "runsInWindow": 2,
-     "latestRunId": 39385912042,
+     "runsInWindow": 3,
+     "latestRunId": 39389834622,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T07:20:54Z"
+     "createdAt": "2026-10-20T07:56:03Z"
     },
     {
      "name": "dex-beat",
-     "runsInWindow": 1,
-     "latestRunId": 39383146775,
+     "runsInWindow": 2,
+     "latestRunId": 39389658418,
      "status": "in_progress",
      "conclusion": null,
-     "createdAt": "2026-10-20T06:54:31Z"
+     "createdAt": "2026-10-20T07:54:31Z"
+    },
+    {
+     "name": "blurt-revival",
+     "runsInWindow": 1,
+     "latestRunId": 39388726835,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:46:17Z"
     },
     {
      "name": "signing-health (runtime-host)",
@@ -1139,54 +1200,6 @@
      "status": "completed",
      "conclusion": "success",
      "createdAt": "2026-10-20T06:15:11Z"
-    },
-    {
-     "name": "directive-now",
-     "runsInWindow": 1,
-     "latestRunId": 39378667487,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T06:08:12Z"
-    },
-    {
-     "name": "escrow-payroll",
-     "runsInWindow": 1,
-     "latestRunId": 39378665351,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T06:08:11Z"
-    },
-    {
-     "name": "self-memory",
-     "runsInWindow": 1,
-     "latestRunId": 39378661664,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T06:08:08Z"
-    },
-    {
-     "name": "fleet-fuel",
-     "runsInWindow": 1,
-     "latestRunId": 39378656196,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T06:08:05Z"
-    },
-    {
-     "name": "organ-pacemaker",
-     "runsInWindow": 1,
-     "latestRunId": 39378649621,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T06:08:00Z"
-    },
-    {
-     "name": "sovereign-pulse",
-     "runsInWindow": 1,
-     "latestRunId": 39377905175,
-     "status": "completed",
-     "conclusion": "success",
-     "createdAt": "2026-10-20T06:00:12Z"
     }
    ],
    "redLanes": [],
@@ -1225,6 +1238,14 @@
    "subject": "fabric: תיקון דיווחים שגויים על דליפות זיכרון במערכת סימולציה — הצעת-ל",
    "lanes": [
     {
+     "name": "gitleaks-secret-scan",
+     "runsInWindow": 1,
+     "latestRunId": 39388374172,
+     "status": "completed",
+     "conclusion": "success",
+     "createdAt": "2026-10-20T07:43:12Z"
+    },
+    {
      "name": "workflow-yaml-guard",
      "runsInWindow": 1,
      "latestRunId": 39372580740,
@@ -1246,25 +1267,25 @@
   },
   {
    "repo": "sovereign-beacon",
-   "head": "225a93414d",
-   "headAt": "2026-10-20T06:09:06Z",
-   "subject": "pulse: 2026-10-20T06:09:06Z [skip ci]",
+   "head": "04ef7d357c",
+   "headAt": "2026-10-20T08:00:31Z",
+   "subject": "pulse: 2026-10-20T08:00:31Z [skip ci]",
    "lanes": [
     {
      "name": "beat-keepalive",
      "runsInWindow": 15,
-     "latestRunId": 39385071439,
+     "latestRunId": 39391863674,
      "status": "in_progress",
      "conclusion": null,
-     "createdAt": "2026-10-20T07:13:03Z"
+     "createdAt": "2026-10-20T08:13:34Z"
     },
     {
      "name": "beacon-pulse",
      "runsInWindow": 5,
-     "latestRunId": 39378740166,
+     "latestRunId": 39390312199,
      "status": "completed",
      "conclusion": "success",
-     "createdAt": "2026-10-20T06:09:00Z"
+     "createdAt": "2026-10-20T08:00:24Z"
     }
    ],
    "redLanes": [],
@@ -1272,17 +1293,17 @@
   },
   {
    "repo": "sovereign-executor",
-   "head": "b75eb92891",
-   "headAt": "2026-10-20T07:09:16Z",
-   "subject": "fleet-beat: receipts 2026-10-20T07:09:16Z [skip ci]",
+   "head": "8dd4376c6d",
+   "headAt": "2026-10-20T08:05:32Z",
+   "subject": "fleet-beat: receipts 2026-10-20T08:05:32Z [skip ci]",
    "lanes": [
     {
      "name": "fleet-beat",
      "runsInWindow": 20,
-     "latestRunId": 39387268537,
-     "status": "pending",
+     "latestRunId": 39390923997,
+     "status": "in_progress",
      "conclusion": null,
-     "createdAt": "2026-10-20T07:33:17Z"
+     "createdAt": "2026-10-20T08:05:35Z"
     }
    ],
    "redLanes": [],
@@ -1290,9 +1311,9 @@
   },
   {
    "repo": "sovereign-lighthouse",
-   "head": "fe7c2a73da",
-   "headAt": "2026-10-20T06:49:40Z",
-   "subject": "redboard: 2026-10-20T06:49:40Z [skip ci]",
+   "head": "6b7fb33f8a",
+   "headAt": "2026-10-20T07:31:43Z",
+   "subject": "redboard: 2026-10-20T07:31:43Z [skip ci]",
    "lanes": [
     {
      "name": "estate-redboard",
@@ -1316,17 +1337,17 @@
   },
   {
    "repo": "sovereign-runner-kit",
-   "head": "bd5fca5646",
-   "headAt": "2026-10-20T06:45:22Z",
-   "subject": "wave-19.37: owner trace 1a157fd40d380521 — THE ADJUDICATION + CURE WAV",
+   "head": "e3dfa7edfd",
+   "headAt": "2026-10-20T08:21:22Z",
+   "subject": "wave-19.38: owner trace 1a15833b52f9c20d — THE CENSUS-CORRECTION + CUR",
    "lanes": [
     {
      "name": "beat-keepalive",
-     "runsInWindow": 14,
-     "latestRunId": 39385067357,
+     "runsInWindow": 15,
+     "latestRunId": 39391864325,
      "status": "in_progress",
      "conclusion": null,
-     "createdAt": "2026-10-20T07:13:01Z"
+     "createdAt": "2026-10-20T08:13:35Z"
     },
     {
      "name": "netrun-loop",
@@ -1338,7 +1359,7 @@
     },
     {
      "name": "night-steward",
-     "runsInWindow": 2,
+     "runsInWindow": 1,
      "latestRunId": 39373975580,
      "status": "completed",
      "conclusion": "success",
@@ -1366,21 +1387,21 @@
   },
   {
    "repo": "steem",
-   "head": "24d2e9913b",
-   "headAt": "2026-10-20T10:20:41+03:00",
-   "subject": "beat verdict: state via API last-mile (survives reconcile races)",
+   "head": "6b7625b536",
+   "headAt": "2026-10-20T08:19:24Z",
+   "subject": "engine hardening: iso() accepts only finite epochs, passes through pre",
    "lanes": [
     {
      "name": "identity-guard",
-     "runsInWindow": 18,
-     "latestRunId": 39386970761,
+     "runsInWindow": 19,
+     "latestRunId": 39389812584,
      "status": "completed",
      "conclusion": "skipped",
-     "createdAt": "2026-10-20T07:30:35Z"
+     "createdAt": "2026-10-20T07:55:51Z"
     },
     {
      "name": "directive-now",
-     "runsInWindow": 2,
+     "runsInWindow": 1,
      "latestRunId": 39380840499,
      "status": "completed",
      "conclusion": "success",
