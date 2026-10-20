@@ -1,129 +1,178 @@
 {
-  "schema": "saos.git-first/1",
-  "scanned": 17,
-  "refreshed": 11,
-  "blockedDirty": 0,
-  "failed": 0,
-  "verdict": "ok",
-  "records": [
-    {
-      "repo": "Autonomy",
-      "branch": "main",
-      "behind": 21,
-      "action": "refreshed",
-      "detail": ""
-    },
-    {
-      "repo": "Console",
-      "branch": "main",
-      "behind": 1,
-      "action": "refreshed",
-      "detail": ""
-    },
-    {
-      "repo": "Domain",
-      "branch": "main",
-      "behind": 26,
-      "action": "refreshed",
-      "detail": ""
-    },
-    {
-      "repo": "FleetHQ",
-      "branch": "main",
-      "behind": 21,
-      "action": "refreshed",
-      "detail": ""
-    },
-    {
-      "repo": "GridWatch",
-      "branch": "main",
-      "behind": 1,
-      "action": "refreshed",
-      "detail": ""
-    },
-    {
-      "repo": "Pulse",
-      "branch": "main",
-      "behind": 1,
-      "action": "refreshed",
-      "detail": ""
-    },
-    {
-      "repo": "Saosmartwallet",
-      "branch": "main",
-      "behind": 0,
-      "action": "fresh",
-      "detail": ""
-    },
-    {
-      "repo": "giant",
-      "branch": "main",
-      "behind": 3,
-      "action": "refreshed",
-      "detail": ""
-    },
-    {
-      "repo": "ops-forge",
-      "branch": "main",
-      "behind": 0,
-      "action": "fresh",
-      "detail": ""
-    },
-    {
-      "repo": "ops-intake",
-      "branch": "main",
-      "behind": 0,
-      "action": "fresh",
-      "detail": ""
-    },
-    {
-      "repo": "roshpinacare-sys.github.io",
-      "branch": "main",
-      "behind": 0,
-      "action": "fresh",
-      "detail": ""
-    },
-    {
-      "repo": "saos-dex",
-      "branch": "main",
-      "behind": 8,
-      "action": "refreshed",
-      "detail": ""
-    },
-    {
-      "repo": "saos-runtime",
-      "branch": "main",
-      "behind": 3,
-      "action": "refreshed",
-      "detail": ""
-    },
-    {
-      "repo": "sovereign-beacon",
-      "branch": "main",
-      "behind": 0,
-      "action": "fresh",
-      "detail": ""
-    },
-    {
-      "repo": "sovereign-executor",
-      "branch": "main",
-      "behind": 0,
-      "action": "fresh",
-      "detail": ""
-    },
-    {
-      "repo": "sovereign-lighthouse",
-      "branch": "main",
-      "behind": 1,
-      "action": "refreshed",
-      "detail": ""
-    },
-    {
-      "repo": "sovereign-runner-kit",
-      "branch": "main",
-      "behind": 1,
-      "action": "refreshed",
-      "detail": ""
-    }
-  ]
+ "schema": "saos.git-first/1",
+ "scanned": 24,
+ "refreshed": 6,
+ "blockedDirty": 0,
+ "failed": 0,
+ "verdict": "ok",
+ "records": [
+  {
+   "repo": "Adsmarket",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "Autonomy",
+   "branch": "main",
+   "behind": 16,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
+   "repo": "Console",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "Defi",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "Domain",
+   "branch": "main",
+   "behind": 10,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
+   "repo": "FleetHQ",
+   "branch": "main",
+   "behind": 2,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
+   "repo": "GridWatch",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "Project-files",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "Pulse",
+   "branch": "main",
+   "behind": 1,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
+   "repo": "Zip",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "giant",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "ops-forge",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "ops-intake",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "roshpina",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "saos-control-center",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "saos-desk",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "saos-dex",
+   "branch": "main",
+   "behind": 1,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
+   "repo": "saos-owner-channel",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "saos-runtime",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "sovereign-beacon",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "sovereign-executor",
+   "branch": "main",
+   "behind": 1,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
+   "repo": "sovereign-lighthouse",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "sovereign-runner-kit",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "steem",
+   "branch": "saos-cockpit",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  }
+ ]
 }
