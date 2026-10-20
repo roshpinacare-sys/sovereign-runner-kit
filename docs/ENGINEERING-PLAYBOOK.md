@@ -170,3 +170,29 @@ The fleet is a living multi-agent organism — know its planes before you touch 
 ---
 *Born in wave 19.43 (trace 1a15999028b7f2c5). Append, never rewrite. The playbook
 itself is a receipt: everything above was measured, not believed.*
+
+---
+
+## §13 · לקחי-19.44 · the identity-restoration lessons (2026-10-20 · trace 1a159f309db70225)
+
+1. **One measured definition for every shared metric** (the 0/14-vs-10/14 wound): two
+   repos computing the same fleet metric with different code = two truths. The cure is
+   the same code (the refs-law engine) in every measuring repo — ported, not re-derived.
+2. **Word-boundary scrubs miss compounds**: `cornerstoneHiveKeys` (camelCase) and
+   `hcsoldier` (bare prefix) sailed through `\b` scans. Scrub case-compounds and bare
+   prefixes too, and never commit `__pycache__` binaries (raw strings inside).
+3. **GITHUB_TOKEN cannot start a workflow_dispatch run** (recursive-workflow guard,
+   measured 422). Self-relays must dispatch via a PAT (CROSS_REVIVE_PAT — the T-63 D1
+   revival writ), never via github.token.
+4. **A state-reconciliation law applied to a CODE tree amputates it** (FleetHQ, 15:39Z:
+   restore-84-final + ours-tree-wins deleted ALL 20 workflows + 3,121 files). #30 is
+   explicit: code/docs stay BLOCKED-DIRTY for triage. Mass restores resolve conflicts by
+   content-union, never by tree-replacement.
+5. **Class A′ (standing material wall)**: a lane that is fail-closed waiting on vault
+   material (saos-dex/hive-heartbeat: both WIFs loaded, neither holds live chain
+   authority) stays loud BY DESIGN and is never a dispatch target until the material
+   exists. Pre-dispatch signature reading (§6) extends to it.
+6. **Territory-scoped gates**: a fail-closed leak gate scans what ITS lane publishes
+   (the verifier territory lesson); whole-tree scans return when every writer is cured.
+7. **The audit gate catching what the scrub missed is the system working** — never
+   weaken the gate to green the run; complete the scrub.

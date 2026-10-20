@@ -82,8 +82,17 @@ def survey_repo(repo: Path, cutoff: datetime) -> dict:
             lines[0][:10], lines[1] if len(lines) > 1 else "", \
             (lines[2][:70] if len(lines) > 2 else "")
     else:
-        rec["probe"] = "FAILED: git-log"
-        PROBE_FAILURES.append(repo.name)
+        # [19.44 hardening] a documented empty repo (sanbox) has an unborn HEAD —
+        # git-log cannot succeed; that is a documented state, not a fleet wound
+        # (mirror of git_first's documented-empty classification, 19.43-n).
+        # Measured: `rev-list --all` exits 0 with no output on a repo with zero
+        # refs (this git), so the unborn-HEAD check is the honest classifier.
+        head_ok = git(repo, "rev-parse", "--verify", "--quiet", "HEAD")
+        if head_ok.returncode != 0:
+            rec["probe"] = "documented-empty (unborn HEAD)"
+        else:
+            rec["probe"] = "FAILED: git-log"
+            PROBE_FAILURES.append(repo.name)
 
     status, body = api(
         f"/repos/{ORG}/{repo.name}/actions/runs?per_page=20")

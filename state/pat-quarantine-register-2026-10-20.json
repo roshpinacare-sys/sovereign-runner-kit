@@ -1,0 +1,104 @@
+{
+ "schema": "PAT-QUARANTINE-REGISTER/1",
+ "openedAt": "2026-10-20T16:45:00Z",
+ "trace": "1a159f309db70225",
+ "doctrine": "saos-dex DECISIONS #33",
+ "earliestDeletion": "2026-10-23T16:00:00Z",
+ "counts": {
+  "vault": 13,
+  "roster": 6,
+  "service": 2
+ },
+ "entries": {
+  "vault": [
+   {
+    "slot": "Domain/ANCHOR_CRED",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "Domain/HEADCORNER",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "Domain/HEADCORNER_CRED",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "Domain/PERSONAS_KEY",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "FleetHQ/VAULT_PASSPHRASE",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "Sandbox/SBX_TREASURY_ACCOUNT",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "Sandbox/STEEM_VAULT_PASSES",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "Zip/HEADCORNER_SEAL_PASSPHRASE",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "Zip/STEEM_ACTIVE_WIF",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "Zip/STEEM_POSTING_WIF",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "saos-dex/BLURT_ACTIVE_WIF",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "saos-dex/STEEM_POSTING_WIF",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "steem/VAULT_PASSES_R33",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   }
+  ],
+  "roster": [
+   {
+    "slot": "Domain/ROT_ROSTER",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "Sandbox/FLEET_ROSTER_MAP",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "TruthRail/FLEET_ROSTER_MAP",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "Zip/FLEET_ROSTER_MAP",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "saos-agents/FLEET_ROSTER_MAP",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "sovereign-beacon/FLEET_ROSTER_MAP",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   }
+  ],
+  "service": [
+   {
+    "slot": "FleetHQ/TAVILY_API_KEY",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   },
+   {
+    "slot": "FleetHQ/ZIP_PAT",
+    "quarantinedAt": "2026-10-20T16:45:00Z"
+   }
+  ]
+ }
+}
