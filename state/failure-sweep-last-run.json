@@ -1,0 +1,182 @@
+{
+ "schema": "saos.failure-sweep/1",
+ "generatedAt": "2026-10-20T14:47:23Z",
+ "windowHours": 3,
+ "windowSince": "2026-10-20T11:45:41Z",
+ "reposScanned": 45,
+ "totalRunsInWindow": 672,
+ "conclusionHistogram": {
+  "success": 502,
+  "in_progress": 16,
+  "cancelled": 82,
+  "failure": 18,
+  "skipped": 54
+ },
+ "failureCount": 18,
+ "probeFailures": [],
+ "wallBreaches": [],
+ "failures": [
+  {
+   "repo": "Autonomy",
+   "run_id": 39437920356,
+   "name": "value-scan",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T14:17:47Z",
+   "head_sha": "b68241775",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39437920356"
+  },
+  {
+   "repo": "Autonomy",
+   "run_id": 39437659447,
+   "name": "artery-decision-truth",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T14:16:03Z",
+   "head_sha": "105c1b271",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39437659447"
+  },
+  {
+   "repo": "Autonomy",
+   "run_id": 39437642663,
+   "name": "value-scan",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T14:15:57Z",
+   "head_sha": "105c1b271",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39437642663"
+  },
+  {
+   "repo": "Autonomy",
+   "run_id": 39433678758,
+   "name": "artery-decision-truth",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T13:49:00Z",
+   "head_sha": "958603d5c",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39433678758"
+  },
+  {
+   "repo": "Autonomy",
+   "run_id": 39433670966,
+   "name": "value-scan",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T13:48:57Z",
+   "head_sha": "958603d5c",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39433670966"
+  },
+  {
+   "repo": "Autonomy",
+   "run_id": 39431457827,
+   "name": "artery-participation",
+   "event": "schedule",
+   "created_at": "2026-10-20T13:33:42Z",
+   "head_sha": "46286c658",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39431457827"
+  },
+  {
+   "repo": "Autonomy",
+   "run_id": 39430543363,
+   "name": "artery-participation",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T13:27:28Z",
+   "head_sha": "e01a7344f",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39430543363"
+  },
+  {
+   "repo": "Autonomy",
+   "run_id": 39429838182,
+   "name": "value-scan",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T13:22:29Z",
+   "head_sha": "dc8b54758",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39429838182"
+  },
+  {
+   "repo": "Autonomy",
+   "run_id": 39429796183,
+   "name": "value-scan",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T13:22:12Z",
+   "head_sha": "96ae72dbd",
+   "url": "https://github.com/roshpinacare-sys/Autonomy/actions/runs/39429796183"
+  },
+  {
+   "repo": "Domain",
+   "run_id": 39436110523,
+   "name": "pages build and deployment",
+   "event": "dynamic",
+   "created_at": "2026-10-20T14:05:41Z",
+   "head_sha": "4d60f46d6",
+   "url": "https://github.com/roshpinacare-sys/Domain/actions/runs/39436110523"
+  },
+  {
+   "repo": "Sandbox",
+   "run_id": 39440490811,
+   "name": "sovereign-tick",
+   "event": "repository_dispatch",
+   "created_at": "2026-10-20T14:34:40Z",
+   "head_sha": "36ce8d41f",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39440490811"
+  },
+  {
+   "repo": "Sandbox",
+   "run_id": 39426715243,
+   "name": "artery-integrity",
+   "event": "repository_dispatch",
+   "created_at": "2026-10-20T13:00:08Z",
+   "head_sha": "03c8d0899",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39426715243"
+  },
+  {
+   "repo": "Sandbox",
+   "run_id": 39418194379,
+   "name": "sovereign-tick",
+   "event": "repository_dispatch",
+   "created_at": "2026-10-20T11:53:27Z",
+   "head_sha": "fe9e51844",
+   "url": "https://github.com/roshpinacare-sys/Sandbox/actions/runs/39418194379"
+  },
+  {
+   "repo": "saos-dex",
+   "run_id": 39434935530,
+   "name": "hive-heartbeat",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T13:57:32Z",
+   "head_sha": "bc1d23050",
+   "url": "https://github.com/roshpinacare-sys/saos-dex/actions/runs/39434935530"
+  },
+  {
+   "repo": "steem",
+   "run_id": 39440682277,
+   "name": "gitleaks-secret-scan",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T14:35:53Z",
+   "head_sha": "f113e8b48",
+   "url": "https://github.com/roshpinacare-sys/steem/actions/runs/39440682277"
+  },
+  {
+   "repo": "steem",
+   "run_id": 39437499390,
+   "name": "gitleaks-secret-scan",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T14:15:03Z",
+   "head_sha": "efbb1a6a0",
+   "url": "https://github.com/roshpinacare-sys/steem/actions/runs/39437499390"
+  },
+  {
+   "repo": "steem",
+   "run_id": 39426827041,
+   "name": "army-active-custody",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T13:00:53Z",
+   "head_sha": "425ff23dd",
+   "url": "https://github.com/roshpinacare-sys/steem/actions/runs/39426827041"
+  },
+  {
+   "repo": "steem",
+   "run_id": 39426298637,
+   "name": "army-active-custody",
+   "event": "workflow_dispatch",
+   "created_at": "2026-10-20T12:57:03Z",
+   "head_sha": "261f11544",
+   "url": "https://github.com/roshpinacare-sys/steem/actions/runs/39426298637"
+  }
+ ]
+}

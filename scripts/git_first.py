@@ -58,6 +58,18 @@ def process_repo(repo: Path) -> dict:
     behind = git(repo, "rev-list", "--count",
                  f"{rec['branch']}..origin/{rec['branch']}")
     if behind.returncode != 0:
+        # [19.43 hardening] an empty repo (documented: sanbox) has an unborn
+        # local branch and no remote counterpart — a tooling gap, not a fleet
+        # wound. classify honestly as documented-empty instead of FAILED, so
+        # the wave opener stays truthful (no manufactured red).
+        unborn = git(repo, "rev-parse", "--verify", "--quiet", rec["branch"])
+        remote = git(repo, "rev-parse", "--verify", "--quiet",
+                     f"origin/{rec['branch']}")
+        if unborn.returncode != 0 and remote.returncode != 0:
+            rec["action"] = "documented-empty"
+            rec["detail"] = ("no commits locally or on origin "
+                             "(documented empty repo)")
+            return rec
         rec["action"] = "FAILED"
         rec["detail"] = f"rev-list: {behind.stderr.strip()[:120]}"
         FAILURES.append(rec["repo"])
