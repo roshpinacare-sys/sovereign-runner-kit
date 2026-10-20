@@ -1,11 +1,11 @@
 {
- "at": "2026-10-19T12:59:54Z",
- "gate": "green",
+ "at": "2026-10-20T11:27:22Z",
+ "gate": "yellow",
  "totals": {
   "blockers": 0,
-  "shoulds": 0,
-  "files": 84,
-  "repos": 17
+  "shoulds": 3,
+  "files": 169,
+  "repos": 39
  },
  "targets": [
   {
@@ -13,7 +13,7 @@
    "type": "local_tree",
    "degraded": [],
    "repos": 1,
-   "files": 8,
+   "files": 9,
    "blockers": 0,
    "shoulds": 0
   },
@@ -21,11 +21,33 @@
    "id": "roshpinacare-sys-public",
    "type": "org_repos",
    "degraded": [],
-   "repos": 16,
-   "files": 76,
+   "repos": 38,
+   "files": 160,
    "blockers": 0,
-   "shoulds": 0
+   "shoulds": 3
   }
  ],
- "findings": []
+ "findings": [
+  {
+   "rule": "third_party_action_not_sha_pinned",
+   "tier": "SHOULD",
+   "file": "saos-agents/.github/workflows/gitleaks.yml",
+   "line": 29,
+   "match": "gitleaks/gitleaks-action@v2"
+  },
+  {
+   "rule": "third_party_action_not_sha_pinned",
+   "tier": "SHOULD",
+   "file": "saos-sovereign-platform/.github/workflows/foundry-tests.yml",
+   "line": 17,
+   "match": "foundry-rs/foundry-toolchain@v1"
+  },
+  {
+   "rule": "third_party_action_not_sha_pinned",
+   "tier": "SHOULD",
+   "file": "steem/.github/workflows/gitleaks.yml",
+   "line": 37,
+   "match": "gitleaks/gitleaks-action@v2"
+  }
+ ]
 }
