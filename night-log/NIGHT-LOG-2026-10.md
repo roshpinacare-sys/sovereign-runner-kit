@@ -134,3 +134,35 @@ census: 28min old — 18 red lane(s)
 - RED Zip/web-probe.yml streak=5 (recidivist)
 - RED Zip/web-probe2.yml streak=5 (recidivist)
 - RED Zip/web-publish.yml streak=5 (recidivist)
+
+## PATROL 2026-10-20T21:52:41Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | REVIVED | — | no success in the recent window ; revival: dispatched (HTTP 204) |
+| sovereign-runner-kit/keepalive.yml | IN-FLIGHT | 34min | success 34min ago; run in flight 4min |
+| sovereign-beacon/keepalive.yml | IN-FLIGHT | 34min | success 34min ago; run in flight 4min |
+
+census: 16min old — 21 red lane(s)
+- RED anchor-baseline/gitleaks.yml streak=2 (recidivist)
+- RED Autonomy/artery-decision-truth.yml streak=7 (recidivist)
+- RED Autonomy/artery-participation.yml streak=1 (new)
+- RED Autonomy/fleet-yield.yml streak=2 (recidivist)
+- RED Autonomy/value-scan.yml streak=8 (recidivist)
+- RED Defi/workflow-yaml-guard.yml streak=29 (recidivist)
+- RED fleet-economy/economy-beat.yml streak=3 (recidivist)
+- RED Project-files/archive-keeper.yml streak=1 (new)
+- RED roshpina/gitleaks.yml streak=2 (recidivist)
+- RED Sandbox/artery-integrity.yml streak=1 (new)
+- RED saos-control-center/gitleaks.yml streak=3 (recidivist)
+- RED saos-dex/hive-heartbeat.yml streak=1 (new)
+- RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
+- RED Zip/fleet-audit.yml streak=4 (recidivist)
+- RED Zip/gitleaks.yml streak=24 (recidivist)
+- RED Zip/weave-anchor-lines.yml streak=13 (recidivist)
+- RED Zip/weave-brain-restore.yml streak=6 (recidivist)
+- RED Zip/weave-heart.yml streak=5 (recidivist)
+- RED Zip/web-probe.yml streak=5 (recidivist)
+- RED Zip/web-probe2.yml streak=5 (recidivist)
+- RED Zip/web-publish.yml streak=5 (recidivist)
+- ACTION sovereign-executor/fleet-beat.yml: revival-dispatch — dispatched (HTTP 204)
