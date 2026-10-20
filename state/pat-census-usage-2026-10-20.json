@@ -1,0 +1,942 @@
+{
+ "schema": "pat-usage-xref/v1",
+ "at": "2026-10-20T11:20:00Z",
+ "sourceCensus": "state/pat-census-2026-10-20.json",
+ "classification": {
+  "ancient_used": [
+   "Autonomy/INV_TOKEN",
+   "Autonomy/NVIDIA_API_KEY",
+   "Autonomy/NVIDIA_BASE_URL",
+   "Autonomy/NVIDIA_MODELS",
+   "Autonomy/NVIDIA_NIM_KEY",
+   "Autonomy/SBX_AI_CONFIG",
+   "Autonomy/ZIP_PAT",
+   "Console/FLEET_ROSTER_MAP",
+   "Console/SAOS_RELAY_WIF",
+   "Console/SAOS_TREASURY_WIF",
+   "Domain/AGENTS_WATCH_TOKEN",
+   "Domain/BLURT_ACTIVE_WIF",
+   "Domain/BLURT_POSTING_WIF",
+   "Domain/EVM_ANCHOR_PK",
+   "Domain/FLEET_ACCOUNT",
+   "Domain/FLEET_ROSTER_MAP",
+   "Domain/HIVE_ACTIVE_WIF",
+   "Domain/HIVE_POSTING_WIF",
+   "Domain/MAIN_KEY",
+   "Domain/ROT2_FLEET_KEYS",
+   "Domain/SA_FLEET_KEYS",
+   "Domain/SA_HEAD_ACTIVE",
+   "Domain/SA_KEEPER_DISPATCH_TOKEN",
+   "Domain/SBX_FLEET_PAT",
+   "Domain/STEEM_ACTIVE_WIF",
+   "Domain/STEEM_POSTING_WIF",
+   "Domain/WEAVE_HIVE_WIF",
+   "Domain/WEAVE_OPS_PAT",
+   "Domain/WEAVE_STEEM_WIF",
+   "FleetHQ/FLEET_ROSTER_MAP",
+   "FleetHQ/JINA_API_KEY",
+   "FleetHQ/NVIDIA_API_KEY",
+   "FleetHQ/NVIDIA_API_KEY_2",
+   "FleetHQ/NVIDIA_BASE_URL",
+   "FleetHQ/NVIDIA_BASE_URL_2",
+   "FleetHQ/NVIDIA_MODELS",
+   "FleetHQ/NVIDIA_MODELS_2",
+   "FleetHQ/OFFICE_GIT_PAT",
+   "FleetHQ/SOVEREIGN_PAT",
+   "FleetHQ/TAVILY_API_KEY_1",
+   "FleetHQ/TAVILY_API_KEY_2",
+   "Pulse/FLEET_ROSTER_MAP",
+   "Pulse/FLEET_TOKEN",
+   "Sandbox/ECO_WALLET_TOKEN",
+   "Sandbox/SBX_AGENT_TOKEN_AGENT1",
+   "Sandbox/SBX_AGENT_TOKEN_AGENT2",
+   "Sandbox/SBX_AGENT_TOKEN_AGENT3",
+   "Sandbox/SBX_AGENT_TOKEN_AGENT4",
+   "Sandbox/SBX_AGENT_TOKEN_AGENT5",
+   "Sandbox/ZIP_PAT",
+   "Zip/BLURT_ACTIVE_WIF",
+   "Zip/HIVE_POSTING_WIF",
+   "Zip/WEAVE_HIVE_WIF",
+   "Zip/WEAVE_OPS_PAT",
+   "Zip/WEAVE_SEAL_PASSPHRASE",
+   "Zip/WEAVE_STEEM_WIF",
+   "saos-dex/CONSOLE_PUSH_TOKEN",
+   "saos-dex/HIVE_ACTIVE_WIF",
+   "saos-dex/HIVE_POSTING_WIF",
+   "saos-dex/STEEM_ACTIVE_WIF",
+   "saos-runtime/CI_ADOPT_WIF_ACTIVE",
+   "saos-runtime/CI_ADOPT_WIF_POSTING",
+   "saos-runtime/CI_DELEGATION_ARMED",
+   "saos-runtime/CI_EXEC_ARMED",
+   "saos-runtime/CI_SOCIAL_ARMED",
+   "saos-runtime/FLEET_ROSTER_MAP",
+   "saos-runtime/ROT2_FLEET_KEYS",
+   "saos-runtime/ROT_ROSTER",
+   "saos-runtime/STEEM_ACTIVE_WIF",
+   "saos-runtime/STEEM_VAULT_PASSES",
+   "saos-runtime/ZIP_PAT",
+   "sovereign-lighthouse/FLEET_ROSTER_MAP",
+   "sovereign-lighthouse/OFFICE_GIT_PAT",
+   "steem/MAIN_KEY",
+   "steem/ROT2_FLEET_KEYS",
+   "steem/ROT_ROSTER",
+   "steem/STEEM_VAULT_PASSES",
+   "steem/ZIP_PAT"
+  ],
+  "ancient_unused": [
+   "Domain/ANCHOR_CRED",
+   "Domain/HEADCORNER",
+   "Domain/HEADCORNER_CRED",
+   "Domain/PERSONAS_KEY",
+   "Domain/ROT_ROSTER",
+   "FleetHQ/TAVILY_API_KEY",
+   "FleetHQ/VAULT_PASSPHRASE",
+   "FleetHQ/ZIP_PAT",
+   "Sandbox/FLEET_ROSTER_MAP",
+   "Sandbox/SBX_TREASURY_ACCOUNT",
+   "Sandbox/STEEM_VAULT_PASSES",
+   "TruthRail/FLEET_ROSTER_MAP",
+   "Zip/FLEET_ROSTER_MAP",
+   "Zip/HEADCORNER_SEAL_PASSPHRASE",
+   "Zip/STEEM_ACTIVE_WIF",
+   "Zip/STEEM_POSTING_WIF",
+   "saos-agents/FLEET_ROSTER_MAP",
+   "saos-dex/BLURT_ACTIVE_WIF",
+   "saos-dex/STEEM_POSTING_WIF",
+   "sovereign-beacon/FLEET_ROSTER_MAP",
+   "steem/VAULT_PASSES_R33"
+  ],
+  "fresh_used": [
+   "Autonomy/ECO_WALLET_TOKEN",
+   "Autonomy/FLEET_PAT",
+   "Autonomy/FLEET_ROSTER_MAP",
+   "Autonomy/NIM_API_KEY",
+   "Autonomy/SBX_FLEET_PAT",
+   "Console/AGENTS_WATCH_TOKEN",
+   "Domain/GH_PAT",
+   "Domain/ZIP_PAT",
+   "FleetHQ/CROSS_REVIVE_PAT",
+   "GridWatch/GH_PAT",
+   "Pulse/GH_PAT",
+   "Sandbox/SBX_FLEET_PAT",
+   "giant/FLEET_PAT",
+   "ops-forge/GH_PAT",
+   "ops-intake/GH_PAT",
+   "saos-runtime/GH_PAT",
+   "sovereign-beacon/SOVEREIGN_PAT",
+   "sovereign-executor/SOVEREIGN_PAT",
+   "sovereign-runner-kit/SOVEREIGN_PAT",
+   "steem/GH_PAT"
+  ],
+  "fresh_unused": [
+   "steem/NIM_API_KEY"
+  ]
+ },
+ "repos": {
+  "Autonomy": [
+   {
+    "name": "ECO_WALLET_TOKEN",
+    "updatedAt": "2026-10-20T06:32:42Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "FLEET_PAT",
+    "updatedAt": "2026-10-20T06:32:41Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-20T06:19:00Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "INV_TOKEN",
+    "updatedAt": "2026-10-13T23:45:03Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NIM_API_KEY",
+    "updatedAt": "2026-10-20T05:39:45Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "NVIDIA_API_KEY",
+    "updatedAt": "2026-10-14T12:11:27Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NVIDIA_BASE_URL",
+    "updatedAt": "2026-10-14T12:11:28Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NVIDIA_MODELS",
+    "updatedAt": "2026-10-14T12:11:28Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NVIDIA_NIM_KEY",
+    "updatedAt": "2026-10-19T03:34:49Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SBX_AI_CONFIG",
+    "updatedAt": "2026-10-13T22:28:40Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SBX_FLEET_PAT",
+    "updatedAt": "2026-10-20T04:40:45Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "ZIP_PAT",
+    "updatedAt": "2026-10-13T23:45:04Z",
+    "ancient": true,
+    "used": true
+   }
+  ],
+  "Console": [
+   {
+    "name": "AGENTS_WATCH_TOKEN",
+    "updatedAt": "2026-10-20T06:32:43Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-16T06:02:35Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SAOS_RELAY_WIF",
+    "updatedAt": "2026-10-19T02:24:29Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SAOS_TREASURY_WIF",
+    "updatedAt": "2026-10-19T02:24:28Z",
+    "ancient": true,
+    "used": true
+   }
+  ],
+  "Domain": [
+   {
+    "name": "AGENTS_WATCH_TOKEN",
+    "updatedAt": "2026-09-20T01:21:14Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "ANCHOR_CRED",
+    "updatedAt": "2026-10-19T01:59:17Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "BLURT_ACTIVE_WIF",
+    "updatedAt": "2026-09-23T08:16:37Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "BLURT_POSTING_WIF",
+    "updatedAt": "2026-10-11T14:25:18Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "EVM_ANCHOR_PK",
+    "updatedAt": "2026-09-29T15:55:43Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "FLEET_ACCOUNT",
+    "updatedAt": "2026-10-12T12:41:34Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-12T17:07:56Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "GH_PAT",
+    "updatedAt": "2026-10-20T05:26:14Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "HEADCORNER",
+    "updatedAt": "2026-10-15T00:21:02Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "HEADCORNER_CRED",
+    "updatedAt": "2026-10-12T11:19:29Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "HIVE_ACTIVE_WIF",
+    "updatedAt": "2026-10-12T01:58:52Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "HIVE_POSTING_WIF",
+    "updatedAt": "2026-10-12T01:58:52Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "MAIN_KEY",
+    "updatedAt": "2026-09-21T12:30:42Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "PERSONAS_KEY",
+    "updatedAt": "2026-10-11T14:52:29Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "ROT2_FLEET_KEYS",
+    "updatedAt": "2026-10-18T01:16:10Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "ROT_ROSTER",
+    "updatedAt": "2026-10-12T15:34:56Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "SA_FLEET_KEYS",
+    "updatedAt": "2026-09-29T19:01:33Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SA_HEAD_ACTIVE",
+    "updatedAt": "2026-10-12T11:19:27Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SA_KEEPER_DISPATCH_TOKEN",
+    "updatedAt": "2026-10-03T22:20:08Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SBX_FLEET_PAT",
+    "updatedAt": "2026-10-09T19:20:16Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "STEEM_ACTIVE_WIF",
+    "updatedAt": "2026-10-12T11:29:07Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "STEEM_POSTING_WIF",
+    "updatedAt": "2026-10-13T12:48:53Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "WEAVE_HIVE_WIF",
+    "updatedAt": "2026-10-08T13:49:56Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "WEAVE_OPS_PAT",
+    "updatedAt": "2026-09-20T23:55:27Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "WEAVE_STEEM_WIF",
+    "updatedAt": "2026-10-14T11:11:46Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "ZIP_PAT",
+    "updatedAt": "2026-10-20T04:40:50Z",
+    "ancient": false,
+    "used": true
+   }
+  ],
+  "FleetHQ": [
+   {
+    "name": "CROSS_REVIVE_PAT",
+    "updatedAt": "2026-10-20T04:40:46Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-12T17:13:05Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "JINA_API_KEY",
+    "updatedAt": "2026-10-14T03:37:29Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NVIDIA_API_KEY",
+    "updatedAt": "2026-10-14T03:37:27Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NVIDIA_API_KEY_2",
+    "updatedAt": "2026-10-18T00:48:42Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NVIDIA_BASE_URL",
+    "updatedAt": "2026-10-14T03:37:27Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NVIDIA_BASE_URL_2",
+    "updatedAt": "2026-10-18T00:48:43Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NVIDIA_MODELS",
+    "updatedAt": "2026-10-14T03:37:28Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NVIDIA_MODELS_2",
+    "updatedAt": "2026-10-18T00:48:44Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "OFFICE_GIT_PAT",
+    "updatedAt": "2026-10-11T19:23:10Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SOVEREIGN_PAT",
+    "updatedAt": "2026-10-13T22:44:38Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "TAVILY_API_KEY",
+    "updatedAt": "2026-10-14T03:37:28Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "TAVILY_API_KEY_1",
+    "updatedAt": "2026-10-14T03:40:05Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "TAVILY_API_KEY_2",
+    "updatedAt": "2026-10-14T03:40:05Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "VAULT_PASSPHRASE",
+    "updatedAt": "2026-10-11T19:23:11Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "ZIP_PAT",
+    "updatedAt": "2026-10-11T21:40:40Z",
+    "ancient": true,
+    "used": false
+   }
+  ],
+  "GridWatch": [
+   {
+    "name": "GH_PAT",
+    "updatedAt": "2026-10-20T05:26:16Z",
+    "ancient": false,
+    "used": true
+   }
+  ],
+  "Pulse": [
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-13T00:29:35Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "FLEET_TOKEN",
+    "updatedAt": "2026-10-12T19:43:48Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "GH_PAT",
+    "updatedAt": "2026-10-20T05:26:21Z",
+    "ancient": false,
+    "used": true
+   }
+  ],
+  "Sandbox": [
+   {
+    "name": "ECO_WALLET_TOKEN",
+    "updatedAt": "2026-10-11T13:15:00Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-12T17:13:08Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "SBX_AGENT_TOKEN_AGENT1",
+    "updatedAt": "2026-10-09T15:44:26Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SBX_AGENT_TOKEN_AGENT2",
+    "updatedAt": "2026-10-09T15:44:27Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SBX_AGENT_TOKEN_AGENT3",
+    "updatedAt": "2026-10-09T15:44:27Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SBX_AGENT_TOKEN_AGENT4",
+    "updatedAt": "2026-10-09T15:44:28Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SBX_AGENT_TOKEN_AGENT5",
+    "updatedAt": "2026-10-09T15:44:28Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "SBX_FLEET_PAT",
+    "updatedAt": "2026-10-20T07:39:04Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "SBX_TREASURY_ACCOUNT",
+    "updatedAt": "2026-10-12T12:22:50Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "STEEM_VAULT_PASSES",
+    "updatedAt": "2026-10-11T23:05:53Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "ZIP_PAT",
+    "updatedAt": "2026-10-11T21:40:39Z",
+    "ancient": true,
+    "used": true
+   }
+  ],
+  "TruthRail": [
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-12T17:13:06Z",
+    "ancient": true,
+    "used": false
+   }
+  ],
+  "Zip": [
+   {
+    "name": "BLURT_ACTIVE_WIF",
+    "updatedAt": "2026-10-03T19:24:59Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-12T17:13:09Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "HEADCORNER_SEAL_PASSPHRASE",
+    "updatedAt": "2026-10-06T10:26:40Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "HIVE_POSTING_WIF",
+    "updatedAt": "2026-10-03T18:54:40Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "STEEM_ACTIVE_WIF",
+    "updatedAt": "2026-10-08T13:51:44Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "STEEM_POSTING_WIF",
+    "updatedAt": "2026-10-08T13:51:43Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "WEAVE_HIVE_WIF",
+    "updatedAt": "2026-10-08T13:49:58Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "WEAVE_OPS_PAT",
+    "updatedAt": "2026-09-15T13:07:28Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "WEAVE_SEAL_PASSPHRASE",
+    "updatedAt": "2026-09-21T16:41:48Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "WEAVE_STEEM_WIF",
+    "updatedAt": "2026-10-08T13:49:57Z",
+    "ancient": true,
+    "used": true
+   }
+  ],
+  "giant": [
+   {
+    "name": "FLEET_PAT",
+    "updatedAt": "2026-10-20T07:39:04Z",
+    "ancient": false,
+    "used": true
+   }
+  ],
+  "ops-forge": [
+   {
+    "name": "GH_PAT",
+    "updatedAt": "2026-10-20T05:26:18Z",
+    "ancient": false,
+    "used": true
+   }
+  ],
+  "ops-intake": [
+   {
+    "name": "GH_PAT",
+    "updatedAt": "2026-10-20T05:26:19Z",
+    "ancient": false,
+    "used": true
+   }
+  ],
+  "saos-agents": [
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-12T17:13:10Z",
+    "ancient": true,
+    "used": false
+   }
+  ],
+  "saos-dex": [
+   {
+    "name": "BLURT_ACTIVE_WIF",
+    "updatedAt": "2026-10-02T22:08:12Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "CONSOLE_PUSH_TOKEN",
+    "updatedAt": "2026-09-16T01:20:40Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "HIVE_ACTIVE_WIF",
+    "updatedAt": "2026-10-12T01:59:26Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "HIVE_POSTING_WIF",
+    "updatedAt": "2026-10-02T22:08:11Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "STEEM_ACTIVE_WIF",
+    "updatedAt": "2026-10-18T00:45:00Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "STEEM_POSTING_WIF",
+    "updatedAt": "2026-10-12T11:19:27Z",
+    "ancient": true,
+    "used": false
+   }
+  ],
+  "saos-runtime": [
+   {
+    "name": "CI_ADOPT_WIF_ACTIVE",
+    "updatedAt": "2026-10-12T11:29:06Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "CI_ADOPT_WIF_POSTING",
+    "updatedAt": "2026-10-12T11:19:30Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "CI_DELEGATION_ARMED",
+    "updatedAt": "2026-10-11T13:42:55Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "CI_EXEC_ARMED",
+    "updatedAt": "2026-10-11T16:16:09Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "CI_SOCIAL_ARMED",
+    "updatedAt": "2026-10-10T14:56:32Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-12T17:13:04Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "GH_PAT",
+    "updatedAt": "2026-10-20T05:26:27Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "ROT2_FLEET_KEYS",
+    "updatedAt": "2026-10-18T01:16:10Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "ROT_ROSTER",
+    "updatedAt": "2026-10-12T15:34:54Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "STEEM_ACTIVE_WIF",
+    "updatedAt": "2026-10-12T11:29:05Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "STEEM_VAULT_PASSES",
+    "updatedAt": "2026-10-18T00:39:46Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "ZIP_PAT",
+    "updatedAt": "2026-10-11T21:40:39Z",
+    "ancient": true,
+    "used": true
+   }
+  ],
+  "sovereign-beacon": [
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-12T17:13:11Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "SOVEREIGN_PAT",
+    "updatedAt": "2026-10-20T04:40:47Z",
+    "ancient": false,
+    "used": true
+   }
+  ],
+  "sovereign-executor": [
+   {
+    "name": "SOVEREIGN_PAT",
+    "updatedAt": "2026-10-20T04:40:48Z",
+    "ancient": false,
+    "used": true
+   }
+  ],
+  "sovereign-lighthouse": [
+   {
+    "name": "FLEET_ROSTER_MAP",
+    "updatedAt": "2026-10-12T17:13:07Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "OFFICE_GIT_PAT",
+    "updatedAt": "2026-10-13T23:26:21Z",
+    "ancient": true,
+    "used": true
+   }
+  ],
+  "sovereign-runner-kit": [
+   {
+    "name": "SOVEREIGN_PAT",
+    "updatedAt": "2026-10-20T04:40:49Z",
+    "ancient": false,
+    "used": true
+   }
+  ],
+  "steem": [
+   {
+    "name": "GH_PAT",
+    "updatedAt": "2026-10-20T05:26:31Z",
+    "ancient": false,
+    "used": true
+   },
+   {
+    "name": "MAIN_KEY",
+    "updatedAt": "2026-10-19T10:14:26Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "NIM_API_KEY",
+    "updatedAt": "2026-10-20T05:39:44Z",
+    "ancient": false,
+    "used": false
+   },
+   {
+    "name": "ROT2_FLEET_KEYS",
+    "updatedAt": "2026-10-18T01:16:09Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "ROT_ROSTER",
+    "updatedAt": "2026-10-12T15:34:55Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "STEEM_VAULT_PASSES",
+    "updatedAt": "2026-10-18T00:39:45Z",
+    "ancient": true,
+    "used": true
+   },
+   {
+    "name": "VAULT_PASSES_R33",
+    "updatedAt": "2026-10-19T17:50:50Z",
+    "ancient": true,
+    "used": false
+   },
+   {
+    "name": "ZIP_PAT",
+    "updatedAt": "2026-10-05T15:56:57Z",
+    "ancient": true,
+    "used": true
+   }
+  ]
+ },
+ "liveCorrections": {
+  "at": "2026-10-20T11:2xZ",
+  "method": "live repo-secrets updatedAt API probes on the PAT/token-class of the ancient_used bucket",
+  "corrections": [
+   {
+    "slot": "Domain/WEAVE_OPS_PAT",
+    "liveUpdatedAt": "2026-10-20T09:45:26Z",
+    "verdict": "ROTATED-TODAY (19.40-e) — leaves ANCIENT set"
+   },
+   {
+    "slot": "Zip/WEAVE_OPS_PAT",
+    "liveUpdatedAt": "2026-10-20T09:45:27Z",
+    "verdict": "ROTATED-TODAY (19.40-e) — leaves ANCIENT set"
+   },
+   {
+    "slot": "Domain/SBX_FLEET_PAT",
+    "liveUpdatedAt": "2026-10-20T08:25:48Z",
+    "verdict": "ROTATED-TODAY (pre-wave sibling op) — leaves ANCIENT set"
+   },
+   {
+    "slot": "saos-dex/CONSOLE_PUSH_TOKEN",
+    "liveUpdatedAt": "2026-09-16T01:20:40Z",
+    "verdict": "ANCIENT(34d)+used, zero failing lanes name it — HONEST-NO-OP standing (19.40-i)"
+   },
+   {
+    "slot": "Domain/AGENTS_WATCH_TOKEN",
+    "liveUpdatedAt": "2026-09-20T01:21:14Z",
+    "verdict": "ANCIENT(30d)+used by key-verify/vault-transfer; key-verify 3 failures 10-18 ROOT-CAUSED = verdict=no-secret (dispatch inputs owner/OPERATOR_MASTER EMPTY — fail-honest design), NOT token evidence — HONEST-NO-OP"
+   },
+   {
+    "slot": "Autonomy|Sandbox|steem ZIP_PAT ×3",
+    "liveUpdatedAt": "2026-10-13/10-11/10-05",
+    "verdict": "ANCIENT-flag-snapshot-only (7-15d real age), lanes green — HONEST-NO-OP"
+   }
+  ],
+  "netAncientUsed": 74,
+  "wifKeyClassNote": "WIF/key-class slots inside ancient_used are vault-owned owner-class — untouched by doctrine (19.38-k); counted but never rotated by the architecture",
+  "deadWeightNote": "21 ancient_unused = dead-weight candidates; grep-workflows evidence is necessary-not-sufficient (dynamic/external consumers invisible) — classified, NOT deleted"
+ },
+ "keyVerifyFinding": {
+  "lane": "Domain/key-verify",
+  "failures": "3× 2026-10-18 (03:28/04:02/05:16Z, workflow_dispatch)",
+  "rootCause": "verdict=no-secret — the secret OPERATOR_MASTER was not provided to the run (owner input empty at dispatch); fail-honest exit-1 by design",
+  "tokenEvidence": "none — AGENTS_WATCH_TOKEN was loaded (masked) and is not implicated"
+ }
+}
