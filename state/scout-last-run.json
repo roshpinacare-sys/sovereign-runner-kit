@@ -1,5 +1,5 @@
 {
- "at": "2026-10-19T11:13:47Z",
+ "at": "2026-10-20T10:23:51Z",
  "sources": [
   {
    "id": "pinoyfreecoder-account",
@@ -25,11 +25,11 @@
    "repo": "AgentsLoop/awesome-opus-5.5-games"
   }
  ],
- "new": 33,
+ "new": 12,
  "changed": 0,
  "seen": 79,
  "vetted": 79,
  "mcp_calls": 32,
  "budget": 80,
- "mcp_empty_calls": 5
+ "mcp_empty_calls": 8
 }
