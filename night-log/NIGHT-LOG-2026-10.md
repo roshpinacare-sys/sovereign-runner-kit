@@ -45,3 +45,38 @@ census: 16min old — 4 red lane(s)
 - RED Domain/artery-integrity-twin.yml streak=2 (recidivist)
 - RED Domain/org-gitleaks.yml streak=1 (new)
 - RED saos-dex/hive-heartbeat.yml streak=1 (new)
+
+## PATROL 2026-10-20T05:16:09Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | IN-FLIGHT | 172min | success 172min ago; run in flight 0min |
+| sovereign-runner-kit/keepalive.yml | IN-FLIGHT | 34min | success 34min ago; run in flight 7min |
+| sovereign-beacon/keepalive.yml | IN-FLIGHT | 34min | success 34min ago; run in flight 4min |
+
+census: 28min old — 25 red lane(s)
+- RED anchor-baseline/conformance-selftest.yml streak=4 (recidivist)
+- RED anchor-baseline/gitleaks.yml streak=2 (recidivist)
+- RED anchor-baseline/workflow-yaml-guard.yml streak=2 (recidivist)
+- RED Autonomy/artery-defi.yml streak=1 (new)
+- RED Autonomy/artery-grid.yml streak=2 (recidivist)
+- RED Autonomy/artery-participation.yml streak=1 (new)
+- RED Console/saos-fold.yml streak=4 (recidivist)
+- RED Domain/anchor-execute.yml streak=1 (new)
+- RED Domain/artery-integrity-twin.yml streak=2 (recidivist)
+- RED Domain/dex-beat.yml streak=1 (new)
+- RED Domain/org-gitleaks.yml streak=1 (new)
+- RED Domain/saos-act.yml streak=1 (new)
+- RED GridWatch/grid-watch.yml streak=2 (recidivist)
+- RED saos-dex/hive-heartbeat.yml streak=1 (new)
+- RED saos-jummper/gitleaks.yml streak=3 (recidivist)
+- RED saos-jummper/workflow-yaml-guard.yml streak=3 (recidivist)
+- RED saos-sovereign-foundry/ci.yml streak=8 (recidivist)
+- RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
+- RED saos-sovereign-foundry/workflow-yaml-guard.yml streak=43 (recidivist)
+- RED saos-sovereign-platform/gitleaks.yml streak=3 (recidivist)
+- RED saos-sovereign-platform/workflow-yaml-guard.yml streak=3 (recidivist)
+- RED Saosmartwallet/gitleaks.yml streak=3 (recidivist)
+- RED Saosmartwallet/workflow-yaml-guard.yml streak=3 (recidivist)
+- RED Sdk/gitleaks.yml streak=2 (recidivist)
+- RED Sdk/workflow-yaml-guard.yml streak=2 (recidivist)

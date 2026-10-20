@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-19T23:55:51Z",
+  "at": "2026-10-20T05:16:08Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 87.2,
-      "detail": "success 87min ago; run in flight 27min"
+      "lastSuccessAgeMin": 171.6,
+      "detail": "success 172min ago; run in flight 0min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 34.5,
-      "detail": "success 35min ago; run in flight 4min"
+      "lastSuccessAgeMin": 33.9,
+      "detail": "success 34min ago; run in flight 7min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,18 +26,60 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 55.9,
-      "detail": "success 56min ago; run in flight 26min"
+      "lastSuccessAgeMin": 33.9,
+      "detail": "success 34min ago; run in flight 4min"
     }
   ],
-  "censusAgeMin": 16.4,
+  "censusAgeMin": 27.6,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Autonomy",
-      "workflow": "artery-defi.yml",
+      "repo": "anchor-baseline",
+      "workflow": "conformance-selftest.yml",
+      "redStreak": 4,
+      "class": "recidivist"
+    },
+    {
+      "repo": "anchor-baseline",
+      "workflow": "gitleaks.yml",
       "redStreak": 2,
       "class": "recidivist"
+    },
+    {
+      "repo": "anchor-baseline",
+      "workflow": "workflow-yaml-guard.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-defi.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-grid.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-participation.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Console",
+      "workflow": "saos-fold.yml",
+      "redStreak": 4,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "anchor-execute.yml",
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "Domain",
@@ -47,15 +89,99 @@
     },
     {
       "repo": "Domain",
+      "workflow": "dex-beat.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
       "workflow": "org-gitleaks.yml",
       "redStreak": 1,
       "class": "new"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "saos-act.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "GridWatch",
+      "workflow": "grid-watch.yml",
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "saos-dex",
       "workflow": "hive-heartbeat.yml",
       "redStreak": 1,
       "class": "new"
+    },
+    {
+      "repo": "saos-jummper",
+      "workflow": "gitleaks.yml",
+      "redStreak": 3,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-jummper",
+      "workflow": "workflow-yaml-guard.yml",
+      "redStreak": 3,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-sovereign-foundry",
+      "workflow": "ci.yml",
+      "redStreak": 8,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-sovereign-foundry",
+      "workflow": "gitleaks.yml",
+      "redStreak": 43,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-sovereign-foundry",
+      "workflow": "workflow-yaml-guard.yml",
+      "redStreak": 43,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-sovereign-platform",
+      "workflow": "gitleaks.yml",
+      "redStreak": 3,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-sovereign-platform",
+      "workflow": "workflow-yaml-guard.yml",
+      "redStreak": 3,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Saosmartwallet",
+      "workflow": "gitleaks.yml",
+      "redStreak": 3,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Saosmartwallet",
+      "workflow": "workflow-yaml-guard.yml",
+      "redStreak": 3,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Sdk",
+      "workflow": "gitleaks.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Sdk",
+      "workflow": "workflow-yaml-guard.yml",
+      "redStreak": 2,
+      "class": "recidivist"
     }
   ],
   "actions": [],
