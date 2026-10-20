@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-20T12:10:33Z",
+  "at": "2026-10-20T17:31:13Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 75.0,
-      "detail": "success 75min ago; run in flight 19min"
+      "lastSuccessAgeMin": 168.2,
+      "detail": "success 168min ago; run in flight 44min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 56.0,
-      "detail": "success 56min ago; run in flight 26min"
+      "lastSuccessAgeMin": 44.2,
+      "detail": "success 44min ago; run in flight 14min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,11 +26,11 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 56.1,
-      "detail": "success 56min ago; run in flight 26min"
+      "lastSuccessAgeMin": 44.4,
+      "detail": "success 44min ago; run in flight 14min"
     }
   ],
-  "censusAgeMin": 35.4,
+  "censusAgeMin": 28.3,
   "censusNote": null,
   "reds": [
     {
@@ -46,10 +46,22 @@
       "class": "new"
     },
     {
+      "repo": "Autonomy",
+      "workflow": "value-scan.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
       "repo": "Defi",
       "workflow": "workflow-yaml-guard.yml",
       "redStreak": 29,
       "class": "recidivist"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "saos-act.yml",
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "Project-files",
@@ -64,16 +76,16 @@
       "class": "recidivist"
     },
     {
-      "repo": "sandbox-private",
-      "workflow": "sovereign-heart.yml",
-      "redStreak": 15,
-      "class": "recidivist"
-    },
-    {
       "repo": "saos-control-center",
       "workflow": "gitleaks.yml",
       "redStreak": 3,
       "class": "recidivist"
+    },
+    {
+      "repo": "saos-dex",
+      "workflow": "hive-heartbeat.yml",
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "saos-sovereign-foundry",
