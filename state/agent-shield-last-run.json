@@ -1,24 +1,24 @@
 {
- "at": "2026-10-20T11:55:37Z",
+ "at": "2026-10-21T12:09:24Z",
  "gate": "yellow",
  "totals": {
   "blockers": 0,
-  "shoulds": 3,
-  "files": 38
+  "shoulds": 4,
+  "files": 42
  },
  "targets": [
   {
    "id": "runner-kit-agent-facing",
    "degraded": [],
-   "files": 38,
+   "files": 42,
    "blockers": 0,
-   "shoulds": 3
+   "shoulds": 4
   }
  ],
  "findings": [
   {
    "tier": "SHOULD",
-   "file": "state/fleet-survey-last-run.json",
+   "file": "state/git-first-last-run.json",
    "pointer": "",
    "line": 0,
    "rule": "json_unreadable",
@@ -39,6 +39,14 @@
    "line": 0,
    "rule": "hidden_control_chars",
    "match": "'\\u200d'"
+  },
+  {
+   "tier": "SHOULD",
+   "file": "state/agent-shield-last-run.json",
+   "pointer": "$.findings[1].match",
+   "line": 0,
+   "rule": "obfuscation_primitive_in_data",
+   "match": "node -e"
   }
  ]
 }
