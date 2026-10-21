@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T10:23:51Z",
+ "at": "2026-10-21T10:33:37Z",
  "sources": [
   {
    "id": "pinoyfreecoder-account",
@@ -10,7 +10,7 @@
   {
    "id": "pinoyfreecoder-github-finds",
    "type": "mcp_catalog",
-   "discovered": 117,
+   "discovered": 115,
    "route": "mcp"
   },
   {
@@ -18,18 +18,13 @@
    "type": "mcp_catalog",
    "discovered": 12,
    "route": "mcp"
-  },
-  {
-   "id": "vet_error",
-   "route": "HTTPError",
-   "repo": "AgentsLoop/awesome-opus-5.5-games"
   }
  ],
- "new": 12,
+ "new": 5,
  "changed": 0,
- "seen": 79,
- "vetted": 79,
+ "seen": 80,
+ "vetted": 80,
  "mcp_calls": 32,
  "budget": 80,
- "mcp_empty_calls": 8
+ "mcp_empty_calls": 4
 }
