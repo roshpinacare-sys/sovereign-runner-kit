@@ -1,10 +1,10 @@
 {
- "at": "2026-10-20T11:27:22Z",
+ "at": "2026-10-21T11:41:21Z",
  "gate": "yellow",
  "totals": {
   "blockers": 0,
   "shoulds": 3,
-  "files": 169,
+  "files": 170,
   "repos": 39
  },
  "targets": [
@@ -13,7 +13,7 @@
    "type": "local_tree",
    "degraded": [],
    "repos": 1,
-   "files": 9,
+   "files": 10,
    "blockers": 0,
    "shoulds": 0
   },
@@ -46,7 +46,7 @@
    "rule": "third_party_action_not_sha_pinned",
    "tier": "SHOULD",
    "file": "steem/.github/workflows/gitleaks.yml",
-   "line": 37,
+   "line": 55,
    "match": "gitleaks/gitleaks-action@v2"
   }
  ]
