@@ -1,0 +1,66 @@
+# device-lane — the kit's own instance runs its lanes on free public minutes.
+# Doctrine alignment (DECISION-BRIEF-actions-minutes.md, option ד — hybrid):
+# the kit's PRODUCT design keeps GitHub minutes out of other devices' critical
+# path; this repo is PUBLIC, so its own scheduled minutes are free and keep the
+# device-fresh-oracle alive after the original device went dark 2026-10-12
+# (flagged DEGRADED by artery-integrity-twin at 211h; revived manually at
+# trace 1a15e3be5329275d). Honest verdicts only — never fake a receipt.
+name: device-lane
+
+on:
+  schedule:
+    - cron: "53 */2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: device-lane
+  cancel-in-progress: false
+
+jobs:
+  run-lanes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: fresh-oracle — 9 feeds vs quotas, measured live
+        env:
+          SOVEREIGN_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: bash lanes/fresh-oracle.sh
+
+      - name: integrity-verify — honest device verdict
+        env:
+          SOVEREIGN_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: bash lanes/integrity-verify.sh
+
+      - name: anchor the foreman measurement as a digest receipt
+        run: node lanes/anchor-receipt.mjs
+
+      - name: Commit (only when the device produced new truth)
+        run: |
+          git config user.name "roshpinacare-sys"
+          git config user.email "326012154+roshpinacare-sys@users.noreply.github.com"
+          git add results/
+          if git diff --cached --quiet; then
+            echo "no delta — device measured the same state"
+          else
+            git commit -m "device-lane: fresh-oracle + integrity + anchored receipt $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]"
+            ok=0
+            for i in 1 2 3; do
+              if git pull --rebase -q origin main && git push -q origin main; then ok=1; break; fi
+              echo "push race #$i — rebasing and retrying"
+              sleep 3
+            done
+            [ "$ok" = "1" ] || { echo "PUSH-FAILED"; exit 1; }
+          fi
