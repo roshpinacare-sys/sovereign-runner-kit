@@ -1,7 +1,53 @@
+  Adsmarket: fresh
+  Autonomy: REFRESHED (+1)
+  Console: fresh
+  Defi: fresh
+  Domain: REFRESHED (+3)
+  FleetHQ: REFRESHED (+5)
+  GridWatch: fresh
+  Project-files: fresh
+  Pulse: fresh
+  Sandbox: fresh
+  Saosmartwallet: fresh
+  Sdk: fresh
+  SovereignConsole: fresh
+  TruthRail: fresh
+  Zip: REFRESHED (+2)
+  anchor-baseline: fresh
+  execution-fabric: fresh
+  fleet-economy: REFRESHED (+1)
+  giant: REFRESHED (+1186)
+  negen: fresh
+  ops-control: fresh
+  ops-forge: fresh
+  ops-intake: fresh
+  roshpina: fresh
+  roshpinacare-sys.github.io: fresh
+  sanbox: documented-empty — no commits locally or on origin (documented empty repo)
+  sandbox-private: fresh
+  saos-agents: fresh
+  saos-console-zai: REFRESHED (+2)
+  saos-control-center: fresh
+  saos-coordination: fresh
+  saos-desk: fresh
+  saos-dex: REFRESHED (+2)
+  saos-jummper: fresh
+  saos-markets: fresh
+  saos-owner-channel: fresh
+  saos-runtime: REFRESHED (+1)
+  saos-sovereign-foundry: fresh
+  saos-sovereign-platform: fresh
+  sovereign-beacon: fresh
+  sovereign-executor: REFRESHED (+1)
+  sovereign-lighthouse: fresh
+  sovereign-runner-kit: fresh
+  steem: fresh
+  vault-home: fresh
+git-first: scanned=45 refreshed=10 blocked-dirty=0 failed=0 verdict=ok
 {
  "schema": "saos.git-first/1",
- "scanned": 24,
- "refreshed": 6,
+ "scanned": 45,
+ "refreshed": 10,
  "blockedDirty": 0,
  "failed": 0,
  "verdict": "ok",
@@ -16,7 +62,7 @@
   {
    "repo": "Autonomy",
    "branch": "main",
-   "behind": 16,
+   "behind": 1,
    "action": "refreshed",
    "detail": ""
   },
@@ -37,14 +83,14 @@
   {
    "repo": "Domain",
    "branch": "main",
-   "behind": 10,
+   "behind": 3,
    "action": "refreshed",
    "detail": ""
   },
   {
    "repo": "FleetHQ",
    "branch": "main",
-   "behind": 2,
+   "behind": 5,
    "action": "refreshed",
    "detail": ""
   },
@@ -65,19 +111,89 @@
   {
    "repo": "Pulse",
    "branch": "main",
-   "behind": 1,
-   "action": "refreshed",
+   "behind": 0,
+   "action": "fresh",
    "detail": ""
   },
   {
-   "repo": "Zip",
+   "repo": "Sandbox",
    "branch": "main",
    "behind": 0,
    "action": "fresh",
    "detail": ""
   },
   {
+   "repo": "Saosmartwallet",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "Sdk",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "SovereignConsole",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "TruthRail",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "Zip",
+   "branch": "main",
+   "behind": 2,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
+   "repo": "anchor-baseline",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "execution-fabric",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "fleet-economy",
+   "branch": "main",
+   "behind": 1,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
    "repo": "giant",
+   "branch": "main",
+   "behind": 1186,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
+   "repo": "negen",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "ops-control",
    "branch": "main",
    "behind": 0,
    "action": "fresh",
@@ -105,7 +221,49 @@
    "detail": ""
   },
   {
+   "repo": "roshpinacare-sys.github.io",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "sanbox",
+   "branch": "main",
+   "behind": 0,
+   "action": "documented-empty",
+   "detail": "no commits locally or on origin (documented empty repo)"
+  },
+  {
+   "repo": "sandbox-private",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "saos-agents",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "saos-console-zai",
+   "branch": "main",
+   "behind": 2,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
    "repo": "saos-control-center",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "saos-coordination",
    "branch": "main",
    "behind": 0,
    "action": "fresh",
@@ -121,8 +279,22 @@
   {
    "repo": "saos-dex",
    "branch": "main",
-   "behind": 1,
+   "behind": 2,
    "action": "refreshed",
+   "detail": ""
+  },
+  {
+   "repo": "saos-jummper",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "saos-markets",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
    "detail": ""
   },
   {
@@ -134,6 +306,20 @@
   },
   {
    "repo": "saos-runtime",
+   "branch": "main",
+   "behind": 1,
+   "action": "refreshed",
+   "detail": ""
+  },
+  {
+   "repo": "saos-sovereign-foundry",
+   "branch": "main",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "saos-sovereign-platform",
    "branch": "main",
    "behind": 0,
    "action": "fresh",
@@ -170,6 +356,13 @@
   {
    "repo": "steem",
    "branch": "saos-cockpit",
+   "behind": 0,
+   "action": "fresh",
+   "detail": ""
+  },
+  {
+   "repo": "vault-home",
+   "branch": "main",
    "behind": 0,
    "action": "fresh",
    "detail": ""
