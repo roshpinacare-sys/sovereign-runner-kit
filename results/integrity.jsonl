@@ -1,2 +1,3 @@
 {"at":"2026-10-12T16:03:35Z","stasis":{"active":"true","mode":"staged"},"domainRuns":{"success10":6,"failure10":2},"verdict":"honest-mixed","by":"device-integrity"}
 {"at":"2026-10-21T11:37:23Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":4,"failure10":0},"verdict":"honest-green","by":"device-integrity"}
+{"at":"2026-10-21T15:59:42Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":5,"failure10":0},"verdict":"honest-green","by":"device-integrity"}
