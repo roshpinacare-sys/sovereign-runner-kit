@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-21T14:07:04Z",
+  "at": "2026-10-21T18:54:57Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 107.3,
-      "detail": "success 107min ago; run in flight 50min"
+      "lastSuccessAgeMin": 100.6,
+      "detail": "success 101min ago; run in flight 43min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 42.3,
-      "detail": "success 42min ago; run in flight 12min"
+      "lastSuccessAgeMin": 58.7,
+      "detail": "success 59min ago; run in flight 28min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,16 +26,16 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 42.3,
-      "detail": "success 42min ago; run in flight 12min"
+      "lastSuccessAgeMin": 58.7,
+      "detail": "success 59min ago; run in flight 29min"
     }
   ],
-  "censusAgeMin": 19.4,
+  "censusAgeMin": 16.4,
   "censusNote": null,
   "reds": [
     {
-      "repo": "execution-fabric",
-      "workflow": "codelint.yml",
+      "repo": "Domain",
+      "workflow": "exposure-gate.yml",
       "redStreak": 4,
       "class": "recidivist"
     },
@@ -43,12 +43,6 @@
       "repo": "roshpina",
       "workflow": "gitleaks.yml",
       "redStreak": 2,
-      "class": "recidivist"
-    },
-    {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
-      "redStreak": 5,
       "class": "recidivist"
     },
     {
