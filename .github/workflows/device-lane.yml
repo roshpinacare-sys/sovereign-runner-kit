@@ -10,6 +10,12 @@ name: device-lane
 on:
   schedule:
     - cron: "53 */2 * * *"
+    # dual offset — measured 2026-10-21T15:59Z: GitHub silently dropped BOTH
+    # prior :53 windows (13:53, 15:53 → 0 runs, nothing in the runs API) while
+    # other scheduled workflows on this same repo fired fine. Two windows on
+    # different halves of the hour halve the drop risk; concurrency keeps it
+    # safe if both land.
+    - cron: "17 1-23/2 * * *"
   workflow_dispatch: {}
 
 permissions:
