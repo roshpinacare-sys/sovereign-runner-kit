@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-21T18:54:57Z",
+  "at": "2026-10-21T23:37:14Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 100.6,
-      "detail": "success 101min ago; run in flight 43min"
+      "lastSuccessAgeMin": 87.0,
+      "detail": "success 87min ago; run in flight 27min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 58.7,
-      "detail": "success 59min ago; run in flight 28min"
+      "lastSuccessAgeMin": 39.0,
+      "detail": "success 39min ago; run in flight 9min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,16 +26,34 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 58.7,
-      "detail": "success 59min ago; run in flight 29min"
+      "lastSuccessAgeMin": 39.2,
+      "detail": "success 39min ago; run in flight 11min"
     }
   ],
-  "censusAgeMin": 16.4,
+  "censusAgeMin": 18.1,
   "censusNote": null,
   "reds": [
     {
+      "repo": "Autonomy",
+      "workflow": "artery-grid.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "fleet-yield.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
       "repo": "Domain",
-      "workflow": "exposure-gate.yml",
+      "workflow": "identity-guard.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "execution-fabric",
+      "workflow": "codelint.yml",
       "redStreak": 4,
       "class": "recidivist"
     },
@@ -46,9 +64,27 @@
       "class": "recidivist"
     },
     {
+      "repo": "Sandbox",
+      "workflow": "artery-grid.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Sandbox",
+      "workflow": "artery-integrity.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
+      "class": "recidivist"
+    },
+    {
+      "repo": "steem",
+      "workflow": "gitleaks.yml",
+      "redStreak": 19,
       "class": "recidivist"
     },
     {
