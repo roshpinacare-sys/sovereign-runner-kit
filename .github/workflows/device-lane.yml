@@ -70,4 +70,4 @@ jobs:
             done
             [ "$ok" = "1" ] || { echo "PUSH-FAILED"; exit 1; }
           fi
-co-commits may use either uid — both attached to key 4C4F7DD8
+# committer identity: roshpinacare@gmail.com (verified primary) — both UIDs attached to key 4C4F7DD8
