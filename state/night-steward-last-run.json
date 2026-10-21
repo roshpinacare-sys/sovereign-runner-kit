@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-20T21:52:39Z",
+  "at": "2026-10-21T00:55:22Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -18,8 +18,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 34.2,
-      "detail": "success 34min ago; run in flight 4min"
+      "lastSuccessAgeMin": 35.9,
+      "detail": "success 36min ago; run in flight 6min"
     },
     {
       "repo": "sovereign-beacon",
@@ -27,11 +27,11 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 34.3,
-      "detail": "success 34min ago; run in flight 4min"
+      "lastSuccessAgeMin": 35.6,
+      "detail": "success 36min ago; run in flight 5min"
     }
   ],
-  "censusAgeMin": 15.5,
+  "censusAgeMin": 17.2,
   "censusNote": null,
   "reds": [
     {
@@ -43,8 +43,14 @@
     {
       "repo": "Autonomy",
       "workflow": "artery-decision-truth.yml",
-      "redStreak": 7,
+      "redStreak": 6,
       "class": "recidivist"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-pacer.yml",
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "Autonomy",
@@ -55,13 +61,19 @@
     {
       "repo": "Autonomy",
       "workflow": "fleet-yield.yml",
-      "redStreak": 2,
-      "class": "recidivist"
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "Autonomy",
       "workflow": "value-scan.yml",
-      "redStreak": 8,
+      "redStreak": 6,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Console",
+      "workflow": "saos-fold.yml",
+      "redStreak": 4,
       "class": "recidivist"
     },
     {
@@ -73,7 +85,7 @@
     {
       "repo": "fleet-economy",
       "workflow": "economy-beat.yml",
-      "redStreak": 3,
+      "redStreak": 5,
       "class": "recidivist"
     },
     {
@@ -89,12 +101,6 @@
       "class": "recidivist"
     },
     {
-      "repo": "Sandbox",
-      "workflow": "artery-integrity.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
       "repo": "saos-control-center",
       "workflow": "gitleaks.yml",
       "redStreak": 3,
@@ -103,8 +109,8 @@
     {
       "repo": "saos-dex",
       "workflow": "hive-heartbeat.yml",
-      "redStreak": 1,
-      "class": "new"
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "saos-sovereign-foundry",
