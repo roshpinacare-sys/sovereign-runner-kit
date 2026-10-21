@@ -1,0 +1,66 @@
+{
+  "protocol": "SAOS-ROLE-CARDS/1",
+  "note": "מניפסט-מכונה של רישום-התפקידים הריבוניים — דפוס-תורם: msitarzewski/agency-agents divisions.json (מניפסט+CI-עקביות, לא-קוד-ריצה; R330/NO-ARMING). scripts/check-role-cards.mjs נכשל-בכנות אם המניפסט ו-ROLE-CARDS.md חורגים-זה-מזה (חוק-האנטי-דריפה). כל-תפקיד חייב מסילה-חיה (אנטי-יתום) ולעבור את מסנן-הריבונות המלא (5-חוקים) ב-ROLE-CARDS.md.",
+  "updatedAt": "2026-10-21T05:15:00Z",
+  "updatedBy": "wave 19.48 (trace 1a15cc5625bc9901) — second role-card wave + anti-drift CI",
+  "roles": [
+    {
+      "ref": "role-01",
+      "name": "בודק-האמת (Reality Checker)",
+      "donor": "agency-agents · research",
+      "liveLanes": ["fleet-survey", "failure-sweep", "LAW-A opener"],
+      "artifacts": ["scripts/fleet-survey.py", "scripts/failure-sweep.py", "state/failure-sweep-last-run.json"]
+    },
+    {
+      "ref": "role-02",
+      "name": "מושל-הסיכון (Risk Governor)",
+      "donor": "AutoHedge Risk-Agent + agency-agents · finance",
+      "liveLanes": ["grid/arb lanes (ladder-side)", "engine-side inventory (Task 107 / execution-fabric — declared sibling layer)"],
+      "artifacts": ["grids/brake.mjs (saos-dex)", "grids/policy.mjs (saos-dex)", "grids/daily-budget.mjs (saos-dex)", "grids/position-sizing.mjs (saos-dex)", "grids/profit-floor.mjs (saos-dex, 19.48)", "mini-services/saos-grid RiskGovernor (execution-fabric)"]
+    },
+    {
+      "ref": "role-03",
+      "name": "העושה-השוק (Market Maker)",
+      "donor": "AutoHedge Execution-Agent (pattern only)",
+      "liveLanes": ["grid-beat", "army-ladder", "arb-scan"],
+      "artifacts": ["grids/army-ladder.mjs (saos-dex)", "grids/counter-grid.mjs (saos-dex)", "grids/arb-scan.mjs (saos-dex)"]
+    },
+    {
+      "ref": "role-04",
+      "name": "שומר-הדלתות (Door Keeper)",
+      "donor": "console W116 + HOT-MARKET-PLAN",
+      "liveLanes": ["keyless-probe", "wrap/relay (funding-gated)"],
+      "artifacts": ["grids/door-* (saos-dex)", "grids/venues/ (saos-dex)", "HOT-MARKET-PLAN.md (saos-dex)"]
+    },
+    {
+      "ref": "role-05",
+      "name": "המשגיח-הלילי (Night Steward)",
+      "donor": "agency-agents · support",
+      "liveLanes": ["night-steward", "sovereign-tick"],
+      "artifacts": ["scripts/night-steward.py", "systemd/"]
+    },
+    {
+      "ref": "role-06",
+      "name": "הסופר-הרשום (Ledger Scribe)",
+      "donor": "agency-agents · engineering",
+      "liveLanes": ["economy-book", "receipts", "anchor-seam"],
+      "artifacts": ["grids/book-law.mjs (saos-dex)", "receipts/*/latest.json"]
+    },
+    {
+      "ref": "role-07",
+      "name": "סגן-רצפת-האוצר (Floor Warden)",
+      "donor": "agent-9 TREASURY-FLOOR-GATE/1 (measured tug-of-war 03:08→03:41Z 2026-10-21)",
+      "liveLanes": ["artery-treasury-floor-watch (Autonomy, hourly read-only)"],
+      "artifacts": ["engine/treasury-floor-gate.mjs (Autonomy)", "receipts/treasury-floor/latest.json (Autonomy)"],
+      "laws": "האצלה-חוצה רק-מעודף-מעל-הרצפה-3000; קריאה-בלבד — לא-חותם-ולא-מפריע; verdict PASS/BREACH/UNMEASURED fail-closed; refs-pseudonym acct-h-sha8 בקבלה (19.48 cure)"
+    },
+    {
+      "ref": "role-08",
+      "name": "יושב-ראש-המועצה (Council Chair)",
+      "donor": "Task 107 / execution-fabric saos-council :3072 (AutoHedge Director→Quant→Sentiment→Risk pipeline + agency-agents finance discipline, sovereignty-adapted)",
+      "liveLanes": ["council cycle (evidence 60s · deliberate 10min)"],
+      "artifacts": ["mini-services/saos-council/council.ts (execution-fabric)", "mini-services/saos-council/governor.ts (execution-fabric)", "src/components/CouncilPanel.tsx (execution-fabric)"],
+      "laws": "פסק-מכני קודם-ל-LLM; ה-LLM ייעוץ-בלבד — אף-פקודה-שידור (אפס-LLM בנתיב-כסף); fail-closed לכל-מקור-ראיות; הסמכות-מחולקת (מנהל-מכני אוכף · מועצה מייעצת · איברים מבצעים)"
+    }
+  ]
+}

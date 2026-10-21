@@ -42,9 +42,11 @@ vibe: אמת-או-אדום — אין-גוון-אפור-בפנקס.
 ## role-02 · מושל-הסיכון (Risk Governor)
 ```yaml
 name: מושל-הסיכון (Risk Governor)
-description: "שישה-שערים על-כל-מסילת-כסף: brake · policy · key-gate · params · daily-budget ·
-  position-sizing. כל-שער fail-closed, observe-first (STASIS-עובר-מדורג), tightens-only.
-  הגודל נגזר-מערך-האחוזה עצמו — לעולם לא ממספר-שרירותי."
+description: "שבעה-שערים על-כל-מסילת-כסף: brake · policy · key-gate · params · daily-budget ·
+  position-sizing · profit-floor. כל-שער fail-closed, observe-first (STASIS-עובר-מדורג),
+  tightens-only. הגודל נגזר-מערך-האחוזה עצמו — לעולם לא ממספר-שרירותי. ארכיטקטורה
+  דו-שכבתית מוכרזת (החלטה #36): שכבת-הסולם כאן, שכבת-המנוע (חשיפת-צד) — אצל
+  execution-fabric (Task 107) — שני-ממדי-סיכון שונים, אין-שכפול."
 color: amber
 emoji: 🛡
 vibe: שום-חתימה בלי-שופט; שום-שופט בלי-selftest.
@@ -53,7 +55,8 @@ vibe: שום-חתימה בלי-שופט; שום-שופט בלי-selftest.
   אין-שער-יתום).
 - **תהליכים**: evaluate → HALT/BLOCK/REDUCE/WOULD-* → קבלה; observe→enforce = שדה-אחד
   + 3-ימים-ירוקים-מדודים + קבלת-__gear__.
-- **דליברבילים**: grids/{brake,policy,daily-budget,position-sizing}.mjs + selftests + CI.
+- **דליברבילים**: grids/{brake,policy,daily-budget,position-sizing,profit-floor}.mjs
+  + selftests + CI.
 - **גבול**: אפס-LLM בנתיב-כסף; מסילה-לא-יכולה-להרפות-עצמה.
 
 ## role-03 · העושה-השוק (Market Maker)
@@ -117,8 +120,52 @@ vibe: הספר-הוא-המציאות; המחיקה לא-קיימת; השרשרת
 - **דליברבילים**: fleet-economy book (48,403-שורות-שמרו-מילה-במילה) · receipts-עצים.
 - **גבול**: כותב-אחד-לספר; כותב-חי-מנצח על-snapshots בלבד.
 
+## role-07 · סגן-רצפת-האוצר (Floor Warden)
+```yaml
+name: סגן-רצפת-האוצר (Floor Warden)
+description: "החוק-המכני-האחד של אוצר-הרשת (agent-9 · TREASURY-FLOOR-GATE/1): האצלה-חוצה
+  מותרת-רק-מהעודף-מעל-הרצפה-3000. מודד-חי את net-SP של-האוצר מדי-שעה, מפרסם פסק-דין
+  כנה PASS/BREACH/UNMEASURED (fail-closed), ולעולם לא חותם ולא מפריע לאף-מכונה.
+  המדידה-שהולידה-אותו: מתיחת-חבל-אמת על-האוצר (איחוד +228-SP אל-הרצפה מול הזנה
+  ~1255-SP החוצה בתוך-33-דקות)."
+color: green
+emoji: ⛰
+vibe: הרצפה-היא-חוק; המדידה-היא-הראיה; העודף הוא-הרשות-היחידה.
+```
+- **שליחות**: כל-מסילת-האצלה נדרשת-לקרוא-את-השער-לפני-חתימה; אין-האצלה-בלי-מדידה-טרייה.
+- **תהליכים**: measure (RPC-קריאה-בלבד) → gateVerdict (pure) → receipt-עם-פסבדונים
+  acct-h-sha8 (חוק-refs 19.48) → commit-כנה.
+- **דליברבילים**: engine/treasury-floor-gate.mjs (Autonomy, selftest 10/10) ·
+  receipts/treasury-floor/latest.json · artery-treasury-floor-watch (שעתית).
+- **גבול**: קריאה-בלבד — השער אינו מבצע; UNMEASURED = אף-מסילה-לא-מאצילה (fail-closed).
+
+## role-08 · יושב-ראש-המועצה (Council Chair)
+```yaml
+name: יושב-ראש-המועצה (Council Chair)
+description: "מועצת-השולחן-הריבונית (Task 107 · execution-fabric :3072, האיבר-השמיני):
+  ראיות-חיות מכל-האיברים (גריד/ארב/דקס/זרימה) בכל-60ש', פסק-מכני-קשיח קודם-ל-LLM
+  (חשיפת-צד 80%/65%, 3-כשלים-רצופים), ואז כרטיס-הכרעה מה-Director-LLM — פסק, ביטחון,
+  תזת-פרי/דוב, שוברי-תזה, פערי-נתונים. ה-LLM ייעוץ-בלבד: אף-פקודה-שידור (אפס-LLM
+  בנתיב-כסף). דונורים: AutoHedge צינור-Director→Quant→Sentiment→Risk + agency-agents
+  משמעת-הפיננסים — מותאם-ריבונות (הסמכות-מחולקת, אין-תלות-חוץ)."
+color: purple
+emoji: 🪑
+vibe: מכניקה-אוכפת, מועצה-מייעצת, איברים-מבצעים — הסמכות-לעולם-לא-מרוכזת.
+```
+- **שליחות**: האורגניזם קורא-את-עצמו; כל-הכרעה נושאת גם-את-הצד-השני וגם-את-שוברי-התזה
+  (אנטי-אקו-צ'מבר מבני).
+- **תהליכים**: evidence (fail-closed לכל-מקור) → governor (מכני) → deliberate (LLM,
+  retry-2) → card → dashboard (/api/council + CouncilPanel, רענון-45ש').
+- **דליברבילים**: mini-services/saos-council/{evidence,governor,council}.ts · roles.json
+  · state/council.db-עמיד.
+- **גבול**: ייעוץ-בלבד — המועצה לעולם לא חותמת, לא משדרת, לא עוקפת-שער; כשל-מקור =
+  דילוג-כנה עם-פער-נתונים-מוצהר.
+
 ---
-**קו-התפר-בין-התורמים-לריבונות**: agency-agents נתן **את-טופס-הכרטיס** (זהות/שליחות/
-דליברבילים); AutoHedge נתן **את-שלב-ה-Risk-Agent** (size-לפני-ביצוע); Vibe-Trading נתן
-**את-התקציב-היומי-המתמיד**. שלושתם: דפוסים-במבנה — לעולם לא-ריצה, לעולם לא-תלות. כל-
-החלטת-כסף כאן = מתמטיקה-דטרמיניסטית-משופטת-בשישה-שערים.
+**קו-התפר-בין-התורמים-לריבונות** (עודכן 19.48): agency-agents נתן **את-טופס-הכרטיס**
+ואת **המניפסט-המכונה+CI-עקביות** (divisions.json → role-cards.json + check-role-cards.mjs,
+אנטי-דריפה); AutoHedge נתן **את-שלב-ה-Risk-Agent** (size-לפני-ביצוע) ואת **רצפת-הרווח**
+(min_profit_threshold → SAOS-PROFIT-FLOOR/1); Vibe-Trading נתן **את-התקציב-היומי-המתמיד**.
+האחים נתנו **שתי-הכרזות-ארכיטקטוניות**: Task 107 (שכבת-מנוע) ו-agent-9 (חוק-הרצפה) —
+שניהם נרשמים כאן כתפקידים-חיים (role-08/role-07) ולא נבנים שנית. ארבעתם: דפוסים-במבנה —
+לעולם לא-ריצה, לעולם לא-תלות. כל-החלטת-כסף כאן = מתמטיקה-דטרמיניסטית-משופטת-בשבעה-שערים.

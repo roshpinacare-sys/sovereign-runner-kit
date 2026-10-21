@@ -33,6 +33,11 @@ jobs:
           FLEET_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/registry-verify.py
 
+      - name: Role-cards anti-drift proof (manifest ↔ doc, 19.48)
+        run: |
+          node scripts/check-role-cards.mjs --selftest
+          node scripts/check-role-cards.mjs
+
       - name: Publish receipt only if changed (commit + rebase-retry push) — evidence lands even on red
         if: always()
         run: |
