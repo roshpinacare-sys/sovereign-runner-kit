@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-21T10:35:38Z",
+ "updated": "2026-10-22T10:38:10Z",
  "counts": {
   "REJECT": 1,
-  "CAUTION": 120,
-  "STUDY": 129
+  "CAUTION": 122,
+  "STUDY": 134
  },
  "findings": {
   "santifer/career-ops": {
@@ -61,7 +61,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:27Z",
+   "last_seen": "2026-10-22T10:37:26Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -69,8 +69,8 @@
    ],
    "evidence": {},
    "meta": {
-    "stars": 34515,
-    "forks": 8037,
+    "stars": 34517,
+    "forks": 8038,
     "license": "NOASSERTION",
     "archived": false,
     "language": "C++",
@@ -96,15 +96,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:28Z",
+   "last_seen": "2026-10-22T10:37:27Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 60208,
-    "forks": 9364,
+    "stars": 60207,
+    "forks": 9365,
     "license": "NOASSERTION",
     "archived": false,
     "language": "Python",
@@ -131,7 +131,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:29Z",
+   "last_seen": "2026-10-22T10:37:27Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -139,7 +139,7 @@
    ],
    "evidence": {},
    "meta": {
-    "stars": 804,
+    "stars": 803,
     "forks": 273,
     "license": "NOASSERTION",
     "archived": false,
@@ -166,7 +166,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:33Z",
+   "last_seen": "2026-10-22T10:37:30Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -175,13 +175,13 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 37896,
-    "forks": 3099,
+    "stars": 37930,
+    "forks": 3108,
     "license": "NOASSERTION",
     "archived": false,
     "language": "TypeScript",
     "created": "2024-04-19",
-    "pushed": "2026-10-21",
+    "pushed": "2026-10-22",
     "owner_type": "Organization",
     "description": "Open Source Alternative to Vercel, Netlify and Heroku."
    }
@@ -202,14 +202,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:35Z",
+   "last_seen": "2026-10-22T10:37:31Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 8694,
+    "stars": 8696,
     "forks": 923,
     "license": "NOASSERTION",
     "archived": false,
@@ -236,15 +236,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:36Z",
+   "last_seen": "2026-10-22T10:37:32Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 2735,
-    "forks": 466,
+    "stars": 2741,
+    "forks": 467,
     "license": null,
     "archived": false,
     "language": "Python",
@@ -270,15 +270,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:37Z",
+   "last_seen": "2026-10-22T10:37:32Z",
    "verdict": "CAUTION",
    "reasons": [
     "stale_push_gt_2y"
    ],
    "evidence": {},
    "meta": {
-    "stars": 59762,
-    "forks": 3169,
+    "stars": 59775,
+    "forks": 3175,
     "license": "BSD-3-Clause",
     "archived": false,
     "language": "Go",
@@ -304,15 +304,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:39Z",
+   "last_seen": "2026-10-22T10:37:33Z",
    "verdict": "CAUTION",
    "reasons": [
     "stale_push_gt_2y"
    ],
    "evidence": {},
    "meta": {
-    "stars": 37135,
-    "forks": 3362,
+    "stars": 37151,
+    "forks": 3361,
     "license": "AGPL-3.0",
     "archived": false,
     "language": null,
@@ -338,15 +338,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:45Z",
+   "last_seen": "2026-10-22T10:37:40Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 24734,
-    "forks": 1723,
+    "stars": 24750,
+    "forks": 1722,
     "license": "NOASSERTION",
     "archived": false,
     "language": "C",
@@ -372,7 +372,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:47Z",
+   "last_seen": "2026-10-22T10:37:41Z",
    "verdict": "CAUTION",
    "reasons": [
     "workflow_pull_request_target"
@@ -383,8 +383,8 @@
     ]
    },
    "meta": {
-    "stars": 1016,
-    "forks": 115,
+    "stars": 1044,
+    "forks": 119,
     "license": "GPL-3.0",
     "archived": false,
     "language": "Dart",
@@ -410,7 +410,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:00Z",
+   "last_seen": "2026-10-22T10:37:48Z",
    "verdict": "CAUTION",
    "reasons": [
     "workflow_pull_request_target"
@@ -421,7 +421,7 @@
     ]
    },
    "meta": {
-    "stars": 2072,
+    "stars": 2075,
     "forks": 356,
     "license": "MIT",
     "archived": false,
@@ -448,14 +448,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:00Z",
+   "last_seen": "2026-10-22T10:37:48Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 1730,
+    "stars": 1736,
     "forks": 309,
     "license": null,
     "archived": false,
@@ -483,7 +483,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:11Z",
+   "last_seen": "2026-10-22T10:37:54Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -519,7 +519,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:12Z",
+   "last_seen": "2026-10-22T10:37:54Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -555,7 +555,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:13Z",
+   "last_seen": "2026-10-22T10:37:55Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -591,7 +591,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:13Z",
+   "last_seen": "2026-10-22T10:37:55Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -627,7 +627,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:14Z",
+   "last_seen": "2026-10-22T10:37:56Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -663,7 +663,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:15Z",
+   "last_seen": "2026-10-22T10:37:56Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -699,7 +699,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:16Z",
+   "last_seen": "2026-10-22T10:37:57Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -735,7 +735,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:17Z",
+   "last_seen": "2026-10-22T10:37:57Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -772,7 +772,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:18Z",
+   "last_seen": "2026-10-22T10:37:58Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -807,7 +807,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:19Z",
+   "last_seen": "2026-10-22T10:37:58Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -843,7 +843,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:19Z",
+   "last_seen": "2026-10-22T10:37:59Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -879,7 +879,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:20Z",
+   "last_seen": "2026-10-22T10:38:00Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -917,7 +917,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:21Z",
+   "last_seen": "2026-10-22T10:38:00Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -953,7 +953,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:22Z",
+   "last_seen": "2026-10-22T10:38:01Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -989,7 +989,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:23Z",
+   "last_seen": "2026-10-22T10:38:01Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1025,7 +1025,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:24Z",
+   "last_seen": "2026-10-22T10:38:02Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1060,7 +1060,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:25Z",
+   "last_seen": "2026-10-22T10:38:02Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1095,7 +1095,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:26Z",
+   "last_seen": "2026-10-22T10:38:03Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1132,7 +1132,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:26Z",
+   "last_seen": "2026-10-22T10:38:04Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1167,7 +1167,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:28Z",
+   "last_seen": "2026-10-22T10:38:04Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1205,7 +1205,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:29Z",
+   "last_seen": "2026-10-22T10:38:05Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1241,7 +1241,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:29Z",
+   "last_seen": "2026-10-22T10:38:06Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1279,7 +1279,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:30Z",
+   "last_seen": "2026-10-22T10:38:06Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1315,7 +1315,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:31Z",
+   "last_seen": "2026-10-22T10:38:07Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1351,7 +1351,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:32Z",
+   "last_seen": "2026-10-22T10:38:07Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1387,7 +1387,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:33Z",
+   "last_seen": "2026-10-22T10:38:08Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1423,7 +1423,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:33Z",
+   "last_seen": "2026-10-22T10:38:08Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1459,7 +1459,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:34Z",
+   "last_seen": "2026-10-22T10:38:09Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1495,7 +1495,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:35Z",
+   "last_seen": "2026-10-22T10:38:09Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1530,7 +1530,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:36Z",
+   "last_seen": "2026-10-22T10:38:10Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1565,7 +1565,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:36Z",
+   "last_seen": "2026-10-22T10:38:10Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -3109,6 +3109,44 @@
     "description": "Secure environments for developers and their agents"
    }
   },
+  "comfy-org/comfyui": {
+   "repo": "comfy-org/comfyui",
+   "first_seen": "2026-10-22T10:37:17Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-22T10:37:17Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-22T10:37:17Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "workflows_flagged": [
+     ".github/workflows/api-node-template.yml"
+    ]
+   },
+   "meta": {
+    "stars": 141846,
+    "forks": 16753,
+    "license": "GPL-3.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2023-01-17",
+    "pushed": "2026-10-22",
+    "owner_type": "Organization",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+   }
+  },
   "cyberboysumanjay/Inshorts-News-API": {
    "repo": "cyberboysumanjay/Inshorts-News-API",
    "first_seen": "2026-10-18T02:03:52Z",
@@ -4360,6 +4398,44 @@
     "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more."
    }
   },
+  "virgiliojr94/book-to-skill": {
+   "repo": "virgiliojr94/book-to-skill",
+   "first_seen": "2026-10-22T10:37:22Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-22T10:37:22Z",
+     "was": null,
+     "now": "CAUTION",
+     "reasons": [
+      "workflow_pull_request_target"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-22T10:37:22Z",
+   "verdict": "CAUTION",
+   "reasons": [
+    "workflow_pull_request_target"
+   ],
+   "evidence": {
+    "workflows_flagged": [
+     ".github/workflows/ci.yml"
+    ]
+   },
+   "meta": {
+    "stars": 35680,
+    "forks": 3767,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2026-05-01",
+    "pushed": "2026-10-18",
+    "owner_type": "User",
+    "description": "Turn any technical book PDF into a Claude Code skill \u2014 ready to study, reference, and use while you work."
+   }
+  },
   "wasp-lang/open-saas": {
    "repo": "wasp-lang/open-saas",
    "first_seen": "2026-10-20T10:24:33Z",
@@ -4415,7 +4491,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:20Z",
+   "last_seen": "2026-10-22T10:37:22Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4424,8 +4500,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 7539,
-    "forks": 296,
+    "stars": 7541,
+    "forks": 298,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -4451,14 +4527,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:22Z",
+   "last_seen": "2026-10-22T10:37:24Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 201,
+    "stars": 202,
     "forks": 18,
     "license": "MIT",
     "archived": false,
@@ -4485,15 +4561,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:23Z",
+   "last_seen": "2026-10-22T10:37:24Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 37580,
-    "forks": 2556,
+    "stars": 37608,
+    "forks": 2559,
     "license": "GPL-3.0",
     "archived": false,
     "language": "TypeScript",
@@ -4519,7 +4595,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:24Z",
+   "last_seen": "2026-10-22T10:37:25Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4528,7 +4604,7 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 12293,
+    "stars": 12303,
     "forks": 717,
     "license": "MIT",
     "archived": false,
@@ -4555,14 +4631,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:26Z",
+   "last_seen": "2026-10-22T10:37:26Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 785,
+    "stars": 786,
     "forks": 77,
     "license": "MIT",
     "archived": false,
@@ -4589,20 +4665,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:30Z",
+   "last_seen": "2026-10-22T10:37:28Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 88947,
-    "forks": 9177,
+    "stars": 89103,
+    "forks": 9189,
     "license": "BSD-3-Clause",
     "archived": false,
     "language": "Python",
     "created": "2024-10-13",
-    "pushed": "2026-10-19",
+    "pushed": "2026-10-21",
     "owner_type": "User",
     "description": "\ud83d\udd77\ufe0f A Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and foll"
    }
@@ -4623,15 +4699,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:31Z",
+   "last_seen": "2026-10-22T10:37:29Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 9450,
-    "forks": 1626,
+    "stars": 9456,
+    "forks": 1627,
     "license": "MIT",
     "archived": false,
     "language": "PHP",
@@ -4657,20 +4733,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:35Z",
+   "last_seen": "2026-10-22T10:37:31Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 317,
+    "stars": 318,
     "forks": 34,
     "license": "Apache-2.0",
     "archived": false,
     "language": "TypeScript",
     "created": "2026-05-18",
-    "pushed": "2026-10-20",
+    "pushed": "2026-10-22",
     "owner_type": "Organization",
     "description": "Open source CapCut alternative."
    }
@@ -4691,14 +4767,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:38Z",
+   "last_seen": "2026-10-22T10:37:33Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 4022,
+    "stars": 4027,
     "forks": 601,
     "license": "Apache-2.0",
     "archived": false,
@@ -4725,20 +4801,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:40Z",
+   "last_seen": "2026-10-22T10:37:34Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 41653,
-    "forks": 1930,
+    "stars": 41663,
+    "forks": 1932,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Rust",
     "created": "2022-07-31",
-    "pushed": "2026-10-20",
+    "pushed": "2026-10-21",
     "owner_type": "User",
     "description": "Comfortably monitor your network traffic \ud83d\udd75\ufe0f\u200d\u2642\ufe0f"
    }
@@ -4759,14 +4835,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:41Z",
+   "last_seen": "2026-10-22T10:37:35Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 2248,
+    "stars": 2250,
     "forks": 202,
     "license": "MIT",
     "archived": false,
@@ -4793,15 +4869,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:42Z",
+   "last_seen": "2026-10-22T10:37:35Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 123209,
-    "forks": 10858,
+    "stars": 123308,
+    "forks": 10861,
     "license": "CC0-1.0",
     "archived": false,
     "language": null,
@@ -4827,14 +4903,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:43Z",
+   "last_seen": "2026-10-22T10:37:36Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 2046,
+    "stars": 2049,
     "forks": 274,
     "license": "MIT",
     "archived": false,
@@ -4861,14 +4937,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:43Z",
+   "last_seen": "2026-10-22T10:37:36Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 13362,
+    "stars": 13363,
     "forks": 761,
     "license": "MIT",
     "archived": false,
@@ -4895,14 +4971,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:46Z",
+   "last_seen": "2026-10-22T10:37:40Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 198,
+    "stars": 199,
     "forks": 23,
     "license": "Apache-2.0",
     "archived": false,
@@ -4929,14 +5005,14 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:48Z",
+   "last_seen": "2026-10-22T10:37:41Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 30095,
+    "stars": 30094,
     "forks": 3616,
     "license": "Apache-2.0",
     "archived": false,
@@ -4963,20 +5039,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:49Z",
+   "last_seen": "2026-10-22T10:37:42Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 43125,
-    "forks": 4841,
+    "stars": 43291,
+    "forks": 4863,
     "license": "Apache-2.0",
     "archived": false,
     "language": "C",
     "created": "2026-07-01",
-    "pushed": "2026-10-21",
+    "pushed": "2026-10-22",
     "owner_type": "User",
     "description": "Run frontier MoE models on hardware you already own \u2014 pure C, zero deps, experts streamed from disk. Tiny engine, immense model. \ud83d\udc26"
    }
@@ -4997,7 +5073,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:51Z",
+   "last_seen": "2026-10-22T10:37:43Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5006,7 +5082,7 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 4930,
+    "stars": 4940,
     "forks": 239,
     "license": "Apache-2.0",
     "archived": false,
@@ -5033,15 +5109,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:52Z",
+   "last_seen": "2026-10-22T10:37:43Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 321,
-    "forks": 16,
+    "stars": 323,
+    "forks": 17,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -5067,7 +5143,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:53Z",
+   "last_seen": "2026-10-22T10:37:44Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5076,8 +5152,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 49171,
-    "forks": 5627,
+    "stars": 49204,
+    "forks": 5632,
     "license": "AGPL-3.0",
     "archived": false,
     "language": "TypeScript",
@@ -5103,7 +5179,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:55Z",
+   "last_seen": "2026-10-22T10:37:45Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5112,8 +5188,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 87351,
-    "forks": 7366,
+    "stars": 87594,
+    "forks": 7390,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -5139,7 +5215,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:57Z",
+   "last_seen": "2026-10-22T10:37:46Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5148,8 +5224,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 512,
-    "forks": 200,
+    "stars": 518,
+    "forks": 201,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -5175,7 +5251,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:34:58Z",
+   "last_seen": "2026-10-22T10:37:47Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5209,7 +5285,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:02Z",
+   "last_seen": "2026-10-22T10:37:49Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5218,8 +5294,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 6756,
-    "forks": 635,
+    "stars": 6775,
+    "forks": 640,
     "license": "MIT",
     "archived": false,
     "language": "HTML",
@@ -5245,20 +5321,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:04Z",
+   "last_seen": "2026-10-22T10:37:50Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 16880,
-    "forks": 1792,
+    "stars": 17098,
+    "forks": 1816,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Rust",
     "created": "2026-02-24",
-    "pushed": "2026-10-21",
+    "pushed": "2026-10-22",
     "owner_type": "Organization",
     "description": "OpenShell is the safe, private runtime for autonomous AI agents."
    }
@@ -5279,20 +5355,20 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:05Z",
+   "last_seen": "2026-10-22T10:37:50Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 6077,
-    "forks": 1109,
+    "stars": 6080,
+    "forks": 1111,
     "license": "AGPL-3.0",
     "archived": false,
     "language": "Go",
     "created": "2022-05-29",
-    "pushed": "2026-10-21",
+    "pushed": "2026-10-22",
     "owner_type": "Organization",
     "description": "Send and receive SMS messages using your Android phone programmatically via a simple HTTP API"
    }
@@ -5313,7 +5389,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:07Z",
+   "last_seen": "2026-10-22T10:37:51Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5347,15 +5423,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:07Z",
+   "last_seen": "2026-10-22T10:37:52Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 39652,
-    "forks": 4500,
+    "stars": 39840,
+    "forks": 4526,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -5381,15 +5457,15 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:09Z",
+   "last_seen": "2026-10-22T10:37:52Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 95537,
-    "forks": 9428,
+    "stars": 95656,
+    "forks": 9450,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -5415,7 +5491,7 @@
      ]
     }
    ],
-   "last_seen": "2026-10-21T10:35:10Z",
+   "last_seen": "2026-10-22T10:37:53Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5424,13 +5500,13 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 7177,
+    "stars": 7183,
     "forks": 523,
     "license": "AGPL-3.0",
     "archived": false,
     "language": "TypeScript",
     "created": "2024-02-29",
-    "pushed": "2026-10-21",
+    "pushed": "2026-10-22",
     "owner_type": "Organization",
     "description": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting."
    }
@@ -6471,6 +6547,40 @@
     "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types i"
    }
   },
+  "deezer/spleeter": {
+   "repo": "deezer/spleeter",
+   "first_seen": "2026-10-22T10:37:17Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-22T10:37:17Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-22T10:37:17Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 28500,
+    "forks": 3052,
+    "license": "MIT",
+    "archived": false,
+    "language": "Python",
+    "created": "2019-09-26",
+    "pushed": "2026-06-18",
+    "owner_type": "Organization",
+    "description": "Deezer source separation library including pretrained models."
+   }
+  },
   "dgtlmoon/changedetection.io": {
    "repo": "dgtlmoon/changedetection.io",
    "first_seen": "2026-10-18T02:24:26Z",
@@ -7337,6 +7447,40 @@
     "description": "The Free Software Media System - Server Backend & API"
    }
   },
+  "jianchang512/pyvideotrans": {
+   "repo": "jianchang512/pyvideotrans",
+   "first_seen": "2026-10-22T10:37:18Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-22T10:37:18Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-22T10:37:18Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {},
+   "meta": {
+    "stars": 19503,
+    "forks": 2411,
+    "license": "GPL-3.0",
+    "archived": false,
+    "language": "Python",
+    "created": "2023-10-02",
+    "pushed": "2026-10-21",
+    "owner_type": "User",
+    "description": "Translate the video from one language to another and embed dubbing & subtitles."
+   }
+  },
   "juliayxhuang/florida-man-api": {
    "repo": "juliayxhuang/florida-man-api",
    "first_seen": "2026-10-18T02:04:13Z",
@@ -7439,6 +7583,42 @@
     "pushed": "2026-09-30",
     "owner_type": "User",
     "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference l"
+   }
+  },
+  "koala73/worldmonitor": {
+   "repo": "koala73/worldmonitor",
+   "first_seen": "2026-10-22T10:37:19Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-22T10:37:19Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-22T10:37:19Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 89164,
+    "forks": 13684,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-01-08",
+    "pushed": "2026-10-22",
+    "owner_type": "User",
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness in"
    }
   },
   "ldbumble/taskuary": {
@@ -8409,6 +8589,42 @@
     "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together \u5f00\u6e90\u3001\u9690\u79c1\u4f18\u5148\u3001\u81ea\u6258\u7ba1\u7684\u77e5\u8bc6\u5de5\u4f5c\u7a7a\u95f4\uff0c\u8ba9\u4eba\u4e0e\u667a\u80fd\u4f53\u5728\u6b64\u534f\u4f5c"
    }
   },
+  "slopus/happy": {
+   "repo": "slopus/happy",
+   "first_seen": "2026-10-22T10:37:20Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-22T10:37:20Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-22T10:37:20Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 24259,
+    "forks": 2077,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2025-07-18",
+    "pushed": "2026-10-21",
+    "owner_type": "Organization",
+    "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for."
+   }
+  },
   "slvDev/esp32-ai": {
    "repo": "slvDev/esp32-ai",
    "first_seen": "2026-10-18T02:24:56Z",
@@ -8617,6 +8833,42 @@
     "pushed": "2026-09-26",
     "owner_type": "Organization",
     "description": "Open-source, self-hosted revenue-first analytics for founders: web analytics, Session Replay, revenue attribution, and customer revenue integrations. datafast a"
+   }
+  },
+  "taruma/SceneFlow": {
+   "repo": "taruma/SceneFlow",
+   "first_seen": "2026-10-22T10:37:21Z",
+   "sources": [
+    "pinoyfreecoder-github-finds"
+   ],
+   "history": [
+    {
+     "at": "2026-10-22T10:37:21Z",
+     "was": null,
+     "now": "STUDY",
+     "reasons": [
+      "baseline_static_vet_clean"
+     ]
+    }
+   ],
+   "last_seen": "2026-10-22T10:37:21Z",
+   "verdict": "STUDY",
+   "reasons": [
+    "baseline_static_vet_clean"
+   ],
+   "evidence": {
+    "install_scripts": {}
+   },
+   "meta": {
+    "stars": 372,
+    "forks": 57,
+    "license": "MIT",
+    "archived": false,
+    "language": "TypeScript",
+    "created": "2026-04-01",
+    "pushed": "2026-10-13",
+    "owner_type": "User",
+    "description": "Sync screenplays with video. Evaluate AI-generated footage. Analyze script-to-screen fidelity."
    }
   },
   "thedaviddias/Front-End-Checklist": {
