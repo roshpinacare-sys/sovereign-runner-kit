@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-22T15:26:59Z",
+  "at": "2026-10-22T17:37:40Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 97.4,
-      "detail": "success 97min ago; run in flight 37min"
+      "lastSuccessAgeMin": 106.1,
+      "detail": "success 106min ago; run in flight 45min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 49.1,
-      "detail": "success 49min ago; run in flight 19min"
+      "lastSuccessAgeMin": 59.1,
+      "detail": "success 59min ago; run in flight 29min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,48 +26,42 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 49.8,
-      "detail": "success 50min ago; run in flight 20min"
+      "lastSuccessAgeMin": 59.7,
+      "detail": "success 60min ago; run in flight 30min"
     }
   ],
-  "censusAgeMin": 216.1,
+  "censusAgeMin": 27.1,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Autonomy",
-      "workflow": "artery-decision-truth.yml",
-      "redStreak": 6,
+      "repo": "Domain",
+      "workflow": "exposure-gate.yml",
+      "redStreak": 4,
       "class": "recidivist"
-    },
-    {
-      "repo": "Autonomy",
-      "workflow": "artery-participation.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Autonomy",
-      "workflow": "fleet-yield.yml",
-      "redStreak": 2,
-      "class": "recidivist"
-    },
-    {
-      "repo": "Autonomy",
-      "workflow": "profit-oracle.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Autonomy",
-      "workflow": "token-watchdog.yml",
-      "redStreak": 1,
-      "class": "new"
     },
     {
       "repo": "Domain",
-      "workflow": "identity-guard.yml",
-      "redStreak": 2,
+      "workflow": "treasury-route.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "fleet-economy",
+      "workflow": "economy-beat.yml",
+      "redStreak": 4,
       "class": "recidivist"
+    },
+    {
+      "repo": "giant",
+      "workflow": "identity-guard.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "giant",
+      "workflow": "trust-heartbeat.yml",
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "roshpina",
@@ -82,15 +76,15 @@
       "class": "recidivist"
     },
     {
-      "repo": "steem",
-      "workflow": "gitleaks.yml",
-      "redStreak": 38,
-      "class": "recidivist"
+      "repo": "Zip",
+      "workflow": "identity-guard.yml",
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "Zip",
       "workflow": "weave-anchor-lines.yml",
-      "redStreak": 11,
+      "redStreak": 9,
       "class": "recidivist"
     },
     {
