@@ -338,3 +338,28 @@ census: 34min old — 15 red lane(s)
 - RED Zip/web-probe.yml streak=5 (recidivist)
 - RED Zip/web-probe2.yml streak=5 (recidivist)
 - RED Zip/web-publish.yml streak=5 (recidivist)
+
+## PATROL 2026-10-22T15:27:00Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | IN-FLIGHT | 97min | success 97min ago; run in flight 37min |
+| sovereign-runner-kit/keepalive.yml | IN-FLIGHT | 49min | success 49min ago; run in flight 19min |
+| sovereign-beacon/keepalive.yml | IN-FLIGHT | 50min | success 50min ago; run in flight 20min |
+
+census: 216min old — 15 red lane(s)
+- RED Autonomy/artery-decision-truth.yml streak=6 (recidivist)
+- RED Autonomy/artery-participation.yml streak=1 (new)
+- RED Autonomy/fleet-yield.yml streak=2 (recidivist)
+- RED Autonomy/profit-oracle.yml streak=1 (new)
+- RED Autonomy/token-watchdog.yml streak=1 (new)
+- RED Domain/identity-guard.yml streak=2 (recidivist)
+- RED roshpina/gitleaks.yml streak=2 (recidivist)
+- RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
+- RED steem/gitleaks.yml streak=38 (recidivist)
+- RED Zip/weave-anchor-lines.yml streak=11 (recidivist)
+- RED Zip/weave-brain-restore.yml streak=6 (recidivist)
+- RED Zip/weave-heart.yml streak=5 (recidivist)
+- RED Zip/web-probe.yml streak=5 (recidivist)
+- RED Zip/web-probe2.yml streak=5 (recidivist)
+- RED Zip/web-publish.yml streak=5 (recidivist)
