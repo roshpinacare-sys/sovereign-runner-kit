@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-22T17:37:40Z",
+  "at": "2026-10-22T21:57:02Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 106.1,
-      "detail": "success 106min ago; run in flight 45min"
+      "lastSuccessAgeMin": 121.2,
+      "detail": "success 121min ago; run in flight 60min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 59.1,
-      "detail": "success 59min ago; run in flight 29min"
+      "lastSuccessAgeMin": 46.3,
+      "detail": "success 46min ago; run in flight 29min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,40 +26,40 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 59.7,
-      "detail": "success 60min ago; run in flight 30min"
+      "lastSuccessAgeMin": 47.0,
+      "detail": "success 47min ago; run in flight 17min"
     }
   ],
-  "censusAgeMin": 27.1,
+  "censusAgeMin": 22.0,
   "censusNote": null,
   "reds": [
     {
       "repo": "Domain",
+      "workflow": "estate-scrub.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
       "workflow": "exposure-gate.yml",
-      "redStreak": 4,
-      "class": "recidivist"
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "Domain",
       "workflow": "treasury-route.yml",
-      "redStreak": 1,
-      "class": "new"
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
-      "repo": "fleet-economy",
-      "workflow": "economy-beat.yml",
-      "redStreak": 4,
-      "class": "recidivist"
+      "repo": "FleetHQ",
+      "workflow": "fresh-oracle.yml",
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "giant",
       "workflow": "identity-guard.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "giant",
-      "workflow": "trust-heartbeat.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -77,14 +77,8 @@
     },
     {
       "repo": "Zip",
-      "workflow": "identity-guard.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Zip",
       "workflow": "weave-anchor-lines.yml",
-      "redStreak": 9,
+      "redStreak": 6,
       "class": "recidivist"
     },
     {
