@@ -1,9 +1,9 @@
 {
  "schema": "identity-guard/deep-sweep/1",
  "law": "deny-by-default/1 (wave 19.64)",
- "at": "2026-10-22T10:44:36Z",
+ "at": "2026-10-22T15:26:36Z",
  "mode": "report-only",
- "forbiddenIdentityCommits": 215,
+ "forbiddenIdentityCommits": 106,
  "allowedClasses": [
   "*@fleet.local",
   "*@agents.roshpinacare-sys",
