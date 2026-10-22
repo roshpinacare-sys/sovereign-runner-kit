@@ -13,3 +13,4 @@
 {"at":"2026-10-22T08:00:01Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":3,"failure10":0},"verdict":"honest-green","by":"device-integrity"}
 {"at":"2026-10-22T10:46:38Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":6,"failure10":1},"verdict":"honest-mixed","by":"device-integrity"}
 {"at":"2026-10-22T13:01:26Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":8,"failure10":0},"verdict":"honest-green","by":"device-integrity"}
+{"at":"2026-10-22T14:13:16Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":0,"failure10":0},"verdict":"honest-mixed","by":"device-integrity"}
