@@ -1,11 +1,11 @@
 {
- "at": "2026-10-21T11:41:21Z",
+ "at": "2026-10-22T11:43:54Z",
  "gate": "yellow",
  "totals": {
   "blockers": 0,
-  "shoulds": 3,
-  "files": 170,
-  "repos": 39
+  "shoulds": 6,
+  "files": 178,
+  "repos": 41
  },
  "targets": [
   {
@@ -13,7 +13,7 @@
    "type": "local_tree",
    "degraded": [],
    "repos": 1,
-   "files": 10,
+   "files": 11,
    "blockers": 0,
    "shoulds": 0
   },
@@ -21,18 +21,46 @@
    "id": "roshpinacare-sys-public",
    "type": "org_repos",
    "degraded": [],
-   "repos": 38,
-   "files": 160,
+   "repos": 40,
+   "files": 167,
    "blockers": 0,
-   "shoulds": 3
+   "shoulds": 6
   }
  ],
  "findings": [
   {
+   "rule": "pull_request_target_present",
+   "tier": "SHOULD",
+   "file": "oss-scanner/.github/workflows/build.yaml",
+   "line": 5,
+   "match": "pull_request_target"
+  },
+  {
+   "rule": "pull_request_target_present",
+   "tier": "SHOULD",
+   "file": "oss-scanner/.github/workflows/cla.yaml",
+   "line": 5,
+   "match": "pull_request_target"
+  },
+  {
+   "rule": "pull_request_target_present",
+   "tier": "SHOULD",
+   "file": "oss-scanner/.github/workflows/terms.yaml",
+   "line": 5,
+   "match": "pull_request_target"
+  },
+  {
+   "rule": "pull_request_target_present",
+   "tier": "SHOULD",
+   "file": "oss-scanner/.github/workflows/triage.yaml",
+   "line": 9,
+   "match": "pull_request_target"
+  },
+  {
    "rule": "third_party_action_not_sha_pinned",
    "tier": "SHOULD",
    "file": "saos-agents/.github/workflows/gitleaks.yml",
-   "line": 29,
+   "line": 31,
    "match": "gitleaks/gitleaks-action@v2"
   },
   {
@@ -41,13 +69,6 @@
    "file": "saos-sovereign-platform/.github/workflows/foundry-tests.yml",
    "line": 17,
    "match": "foundry-rs/foundry-toolchain@v1"
-  },
-  {
-   "rule": "third_party_action_not_sha_pinned",
-   "tier": "SHOULD",
-   "file": "steem/.github/workflows/gitleaks.yml",
-   "line": 55,
-   "match": "gitleaks/gitleaks-action@v2"
   }
  ]
 }
