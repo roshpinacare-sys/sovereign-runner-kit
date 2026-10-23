@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-23T13:51:43Z",
+  "at": "2026-10-23T18:42:48Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 95.6,
-      "detail": "success 96min ago; run in flight 34min"
+      "lastSuccessAgeMin": 79.8,
+      "detail": "success 80min ago; run in flight 19min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 31.0,
-      "detail": "success 31min ago; run in flight 1min"
+      "lastSuccessAgeMin": 46.2,
+      "detail": "success 46min ago; run in flight 16min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,47 +26,23 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 32.0,
-      "detail": "success 32min ago; run in flight 2min"
+      "lastSuccessAgeMin": 51.2,
+      "detail": "success 51min ago; run in flight 20min"
     }
   ],
-  "censusAgeMin": 25.8,
+  "censusAgeMin": 20.7,
   "censusNote": null,
   "reds": [
-    {
-      "repo": "Domain",
-      "workflow": "estate-scrub.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "exposure-gate.yml",
-      "redStreak": 2,
-      "class": "recidivist"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "treasury-route.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "FleetHQ",
-      "workflow": "fresh-oracle.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "giant",
-      "workflow": "identity-guard.yml",
-      "redStreak": 2,
-      "class": "recidivist"
-    },
     {
       "repo": "roshpina",
       "workflow": "gitleaks.yml",
       "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-dex",
+      "workflow": "selftest.yml",
+      "redStreak": 15,
       "class": "recidivist"
     },
     {
@@ -78,38 +54,38 @@
     {
       "repo": "Zip",
       "workflow": "weave-anchor-lines.yml",
-      "redStreak": 3,
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
       "repo": "Zip",
       "workflow": "weave-brain-restore.yml",
-      "redStreak": 3,
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
       "repo": "Zip",
       "workflow": "weave-heart.yml",
-      "redStreak": 3,
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
       "repo": "Zip",
       "workflow": "web-probe.yml",
-      "redStreak": 3,
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
       "repo": "Zip",
       "workflow": "web-probe2.yml",
-      "redStreak": 3,
-      "class": "recidivist"
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "Zip",
       "workflow": "web-publish.yml",
-      "redStreak": 3,
-      "class": "recidivist"
+      "redStreak": 1,
+      "class": "new"
     }
   ],
   "actions": [],
