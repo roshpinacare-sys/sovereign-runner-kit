@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-23T07:56:13Z",
+  "at": "2026-10-23T13:51:43Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 112.1,
-      "detail": "success 112min ago; run in flight 51min"
+      "lastSuccessAgeMin": 95.6,
+      "detail": "success 96min ago; run in flight 34min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 39.0,
-      "detail": "success 39min ago; run in flight 9min"
+      "lastSuccessAgeMin": 31.0,
+      "detail": "success 31min ago; run in flight 1min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,19 +26,13 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 39.4,
-      "detail": "success 39min ago; run in flight 9min"
+      "lastSuccessAgeMin": 32.0,
+      "detail": "success 32min ago; run in flight 2min"
     }
   ],
-  "censusAgeMin": 25.0,
+  "censusAgeMin": 25.8,
   "censusNote": null,
   "reds": [
-    {
-      "repo": "Console",
-      "workflow": "truth-gate.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
     {
       "repo": "Domain",
       "workflow": "estate-scrub.yml",
@@ -48,14 +42,14 @@
     {
       "repo": "Domain",
       "workflow": "exposure-gate.yml",
-      "redStreak": 1,
-      "class": "new"
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "Domain",
       "workflow": "treasury-route.yml",
-      "redStreak": 2,
-      "class": "recidivist"
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "FleetHQ",
@@ -90,7 +84,7 @@
     {
       "repo": "Zip",
       "workflow": "weave-brain-restore.yml",
-      "redStreak": 5,
+      "redStreak": 3,
       "class": "recidivist"
     },
     {
@@ -102,13 +96,13 @@
     {
       "repo": "Zip",
       "workflow": "web-probe.yml",
-      "redStreak": 4,
+      "redStreak": 3,
       "class": "recidivist"
     },
     {
       "repo": "Zip",
       "workflow": "web-probe2.yml",
-      "redStreak": 4,
+      "redStreak": 3,
       "class": "recidivist"
     },
     {
