@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-22T21:57:02Z",
+  "at": "2026-10-23T00:56:57Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 121.2,
-      "detail": "success 121min ago; run in flight 60min"
+      "lastSuccessAgeMin": 117.9,
+      "detail": "success 118min ago; run in flight 57min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 46.3,
-      "detail": "success 46min ago; run in flight 29min"
+      "lastSuccessAgeMin": 49.9,
+      "detail": "success 50min ago; run in flight 13min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,13 +26,19 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 47.0,
-      "detail": "success 47min ago; run in flight 17min"
+      "lastSuccessAgeMin": 45.3,
+      "detail": "success 45min ago; run in flight 29min"
     }
   ],
-  "censusAgeMin": 22.0,
+  "censusAgeMin": 16.1,
   "censusNote": null,
   "reds": [
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-selfheal.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
     {
       "repo": "Domain",
       "workflow": "estate-scrub.yml",
@@ -70,6 +76,12 @@
       "class": "recidivist"
     },
     {
+      "repo": "Sandbox",
+      "workflow": "fleet-heal.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
@@ -78,7 +90,7 @@
     {
       "repo": "Zip",
       "workflow": "weave-anchor-lines.yml",
-      "redStreak": 6,
+      "redStreak": 4,
       "class": "recidivist"
     },
     {
@@ -90,7 +102,7 @@
     {
       "repo": "Zip",
       "workflow": "weave-heart.yml",
-      "redStreak": 5,
+      "redStreak": 4,
       "class": "recidivist"
     },
     {
@@ -108,7 +120,7 @@
     {
       "repo": "Zip",
       "workflow": "web-publish.yml",
-      "redStreak": 5,
+      "redStreak": 4,
       "class": "recidivist"
     }
   ],
