@@ -1,0 +1,39 @@
+# perpetual-host.service — the scheduled-plane answer to sandbox session teardown.
+# The measured lesson (wave 19.85, ledger #75): locally-armed daemons on this box
+# are SESSION-BOUNDED — they die when the sandbox session tears down, no matter
+# how correctly they armed. A persistent host (the owner's device) must carry the
+# 24/7 cadence itself: this unit does exactly that for the self-building organs
+# (§4 MASTER DIRECTIVE — organ-commander :3047, saos-architect-daemon :3049,
+# issue-to-pr §9.3 cycle).
+#
+# Install (on the persistent host):
+#   cp systemd/perpetual-host.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now perpetual-host
+#
+# Falsifiable prediction (recorded G71-2d): once installed on a persistent host,
+# the unit carries the beat across reboots and session teardowns (Restart=always,
+# kernel-flock single-instance), and the receipts chain at
+# /home/z/audit/perpetual-host-receipts.jsonl shows UNBROKEN uptime gaps —
+# unlike the nohup instance which dies with its session. If the unit fails to
+# restart after a reboot, the prediction is falsified and must be re-measured.
+[Unit]
+Description=Sovereign perpetual self-build host — keeps the self-building organs alive (§4 MASTER DIRECTIVE, wave 19.86)
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+# adjust to the device's operator user (this estate: z)
+User=z
+WorkingDirectory=/home/z/runner-kit
+Environment=BEAT_MS=60000
+Environment=GRACE_MS=12000
+ExecStart=/usr/bin/env bun /home/z/runner-kit/scripts/perpetual-host.mjs
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/z/audit/perpetual-host.log
+StandardError=append:/home/z/audit/perpetual-host.log
+
+[Install]
+WantedBy=multi-user.target
