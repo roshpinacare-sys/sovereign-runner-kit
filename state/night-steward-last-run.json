@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-24T17:47:25Z",
+  "at": "2026-10-24T21:11:59Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 183.1,
-      "detail": "success 183min ago; run in flight 52min"
+      "lastSuccessAgeMin": 77.7,
+      "detail": "success 78min ago; run in flight 17min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 63.0,
-      "detail": "success 63min ago; run in flight 47min"
+      "lastSuccessAgeMin": 42.5,
+      "detail": "success 42min ago; run in flight 12min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,22 +26,22 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 33.1,
-      "detail": "success 33min ago; run in flight 11min"
+      "lastSuccessAgeMin": 44.0,
+      "detail": "success 44min ago; run in flight 14min"
     }
   ],
-  "censusAgeMin": 109.0,
+  "censusAgeMin": 143.4,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Domain",
-      "workflow": "market-grid-cron.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
       "repo": "FleetHQ",
       "workflow": "fresh-oracle.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "giant",
+      "workflow": "trust-heartbeat.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -52,9 +52,33 @@
       "class": "recidivist"
     },
     {
+      "repo": "saos-dex",
+      "workflow": "gitleaks.yml",
+      "redStreak": 13,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-dex",
+      "workflow": "selftest.yml",
+      "redStreak": 7,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-runtime",
+      "workflow": "escrow-payroll.yml",
+      "redStreak": 3,
+      "class": "recidivist"
+    },
+    {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
+      "class": "recidivist"
+    },
+    {
+      "repo": "steem",
+      "workflow": "gitleaks.yml",
+      "redStreak": 3,
       "class": "recidivist"
     }
   ],
