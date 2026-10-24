@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-24T12:55:00Z",
+  "at": "2026-10-24T17:47:25Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 74.3,
-      "detail": "success 74min ago; run in flight 13min"
+      "lastSuccessAgeMin": 183.1,
+      "detail": "success 183min ago; run in flight 52min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 43.1,
-      "detail": "success 43min ago; run in flight 13min"
+      "lastSuccessAgeMin": 63.0,
+      "detail": "success 63min ago; run in flight 47min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,16 +26,16 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 46.4,
-      "detail": "success 46min ago; run in flight 16min"
+      "lastSuccessAgeMin": 33.1,
+      "detail": "success 33min ago; run in flight 11min"
     }
   ],
-  "censusAgeMin": 117.8,
+  "censusAgeMin": 109.0,
   "censusNote": null,
   "reds": [
     {
       "repo": "Domain",
-      "workflow": "fill-ledger-cron.yml",
+      "workflow": "market-grid-cron.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -52,21 +52,9 @@
       "class": "recidivist"
     },
     {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
-      "redStreak": 7,
-      "class": "recidivist"
-    },
-    {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
-      "class": "recidivist"
-    },
-    {
-      "repo": "steem",
-      "workflow": "gitleaks.yml",
-      "redStreak": 35,
       "class": "recidivist"
     }
   ],
