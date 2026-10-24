@@ -7,7 +7,7 @@
 import { mkdirSync, rmSync, appendFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
-const PORT = 3020;
+const PORT = Number(process.env.RUNNER_PORT) || 3020;  // T-594 ENV mobility: :3020 is the platform's own ZAI service (T-539) — runners boot on RUNNER_PORT, default preserved
 const WORKROOT = '/home/z/runner-work';
 const RECEIPTS = join(WORKROOT, 'receipts.jsonl');
 const OWNER = 'roshpinacare-sys';
