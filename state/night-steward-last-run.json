@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-24T01:03:45Z",
+  "at": "2026-10-24T07:35:34Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 94.7,
-      "detail": "success 95min ago; run in flight 33min"
+      "lastSuccessAgeMin": 120.5,
+      "detail": "success 120min ago; run in flight 60min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 33.0,
-      "detail": "success 33min ago; run in flight 3min"
+      "lastSuccessAgeMin": 59.1,
+      "detail": "success 59min ago; run in flight 29min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,11 +26,11 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 34.2,
-      "detail": "success 34min ago; run in flight 4min"
+      "lastSuccessAgeMin": 60.1,
+      "detail": "success 60min ago; run in flight 30min"
     }
   ],
-  "censusAgeMin": 114.1,
+  "censusAgeMin": 180.6,
   "censusNote": null,
   "reds": [
     {
@@ -46,16 +46,10 @@
       "class": "recidivist"
     },
     {
-      "repo": "Sandbox",
-      "workflow": "artery-integrity.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
       "repo": "saos-dex",
       "workflow": "selftest.yml",
-      "redStreak": 1,
-      "class": "new"
+      "redStreak": 19,
+      "class": "recidivist"
     },
     {
       "repo": "saos-sovereign-foundry",
@@ -66,32 +60,8 @@
     {
       "repo": "steem",
       "workflow": "gitleaks.yml",
-      "redStreak": 23,
+      "redStreak": 38,
       "class": "recidivist"
-    },
-    {
-      "repo": "Zip",
-      "workflow": "weave-anchor-lines.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Zip",
-      "workflow": "weave-brain-restore.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Zip",
-      "workflow": "weave-heart.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Zip",
-      "workflow": "web-probe.yml",
-      "redStreak": 1,
-      "class": "new"
     }
   ],
   "actions": [],
