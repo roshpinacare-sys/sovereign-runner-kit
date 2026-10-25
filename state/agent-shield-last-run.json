@@ -1,9 +1,9 @@
 {
- "at": "2026-10-24T11:22:44Z",
+ "at": "2026-10-25T11:54:30Z",
  "gate": "yellow",
  "totals": {
   "blockers": 0,
-  "shoulds": 8,
+  "shoulds": 9,
   "files": 42
  },
  "targets": [
@@ -12,34 +12,10 @@
    "degraded": [],
    "files": 42,
    "blockers": 0,
-   "shoulds": 8
+   "shoulds": 9
   }
  ],
  "findings": [
-  {
-   "tier": "SHOULD",
-   "file": "state/scout-findings.json",
-   "pointer": "$.findings.santifer/career-ops.evidence.install_scripts.postinstall",
-   "line": 0,
-   "rule": "obfuscation_primitive_in_data",
-   "match": "node -e"
-  },
-  {
-   "tier": "SHOULD",
-   "file": "state/scout-findings.json",
-   "pointer": "$.findings.GyulyVGC/sniffnet.meta.description",
-   "line": 0,
-   "rule": "hidden_control_chars",
-   "match": "'\\u200d'"
-  },
-  {
-   "tier": "SHOULD",
-   "file": "state/git-first-last-run.json",
-   "pointer": "",
-   "line": 0,
-   "rule": "json_unreadable",
-   "match": "Expecting value: line 1 column 3 (char 2)"
-  },
   {
    "tier": "SHOULD",
    "file": "state/agent-shield-last-run.json",
@@ -79,6 +55,38 @@
    "line": 0,
    "rule": "obfuscation_primitive_in_data",
    "match": "node -e"
+  },
+  {
+   "tier": "SHOULD",
+   "file": "state/agent-shield-last-run.json",
+   "pointer": "$.findings[7].match",
+   "line": 0,
+   "rule": "obfuscation_primitive_in_data",
+   "match": "node -e"
+  },
+  {
+   "tier": "SHOULD",
+   "file": "state/scout-findings.json",
+   "pointer": "$.findings.santifer/career-ops.evidence.install_scripts.postinstall",
+   "line": 0,
+   "rule": "obfuscation_primitive_in_data",
+   "match": "node -e"
+  },
+  {
+   "tier": "SHOULD",
+   "file": "state/scout-findings.json",
+   "pointer": "$.findings.GyulyVGC/sniffnet.meta.description",
+   "line": 0,
+   "rule": "hidden_control_chars",
+   "match": "'\\u200d'"
+  },
+  {
+   "tier": "SHOULD",
+   "file": "state/git-first-last-run.json",
+   "pointer": "",
+   "line": 0,
+   "rule": "json_unreadable",
+   "match": "Expecting value: line 1 column 3 (char 2)"
   }
  ]
 }
