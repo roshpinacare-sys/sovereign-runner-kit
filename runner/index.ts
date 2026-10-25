@@ -4,8 +4,9 @@
 // Trust boundary (honest): runs fleet-owned code on the fleet's own machine, same trust
 // domain as the agents themselves. Command whitelist + denylist below; no push, no secrets.
 
-import { mkdirSync, rmSync, appendFileSync, existsSync } from 'fs';
+import { mkdirSync, rmSync, appendFileSync, existsSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
+import { createHash, timingSafeEqual, randomBytes } from 'crypto';
 
 const PORT = Number(process.env.RUNNER_PORT) || 3020;  // T-594 ENV mobility: :3020 is the platform's own ZAI service (T-539) — runners boot on RUNNER_PORT, default preserved
 const WORKROOT = '/home/z/runner-work';
@@ -42,7 +43,9 @@ const ALLOW: RegExp[] = [
   /^git (status|log --oneline( -n \d+)?|rev-parse HEAD)$/,
   /^node --check [\w./-]+$/,
   /^node --version$/,
-  /^bun install$/,
+  // bun install removed (directive 1a173c6ac120ccb1 §1): postinstall scripts = arbitrary code
+  // execution from any anonymous job submitter. Install once, supervised, at runner boot —
+  // not from the request plane.
   /^bun test( [\w./@-]*)?$/,
   /^bun run lint$/,
   /^bunx? tsc --noEmit( [\w./@-]*)?$/,
@@ -81,7 +84,8 @@ function processJob(job: Job): void {
         : `https://github.com/${OWNER}/${job.repo}.git`;
       const clone = await run(`git clone --depth 1 --branch ${job.ref} ${url} src`, dir, 90_000);
       if (clone.exit !== 0) {
-        job.cloneError = clone.out.slice(0, 2000);
+        // PAT redaction: never echo clone output verbatim — it embeds the token URL on failure
+        job.cloneError = clone.out.replace(/x-access-token:[^@]*@/g, 'x-access-token:REDACTED@').slice(0, 2000);
         job.status = 'failed'; job.finishedAt = new Date().toISOString();
       } else {
         const src = join(dir, 'src');
@@ -117,14 +121,51 @@ function json(data: unknown, status = 200): Response {
   return new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json' } });
 }
 
+// ---- §1 hardening (directive 1a173c6ac120ccb1): runner token gate — fail-closed ----
+// POST /api/jobs executes repo code; the request plane MUST authenticate. Law:
+//  · env RUNNER_TOKEN, else file /home/z/coord-work/vault/operator-token (vault-auth
+//    custody file, shared with giant lib/vault-auth.ts), else self-minted 0600 (fail-closed
+//    by construction: the caller cannot know it, every mutation 401s until custody sets it).
+//  · header x-runner-token OR x-saos-operator; sha256+timingSafeEqual (no length/timing leak).
+//  · GET /api/health stays open (transparency is the product); job listing requires token too
+//    (job metadata + output echo is not public material).
+function runnerToken(): string {
+  const env = (process.env.RUNNER_TOKEN || '').trim();
+  if (env) return env;
+  try {
+    const t = readFileSync('/home/z/coord-work/vault/operator-token', 'utf8').trim();
+    if (t) return t;
+  } catch { /* absent — self-mint below */ }
+  const t = randomBytes(32).toString('hex');
+  try {
+    mkdirSync('/home/z/coord-work/vault', { recursive: true });
+    writeFileSync('/home/z/coord-work/vault/operator-token', t + '\n', { mode: 0o600 });
+  } catch { /* read-only fs — token lives only in this process's memory (still fail-closed) */ }
+  console.error('[runner] RUNNER_TOKEN self-minted (0600 /home/z/coord-work/vault/operator-token) — set custody to operate remotely');
+  return t;
+}
+const RT = runnerToken();
+function runnerAuth(req: Request): Response | null {
+  const provided = req.headers.get('x-runner-token') ?? req.headers.get('x-saos-operator') ?? '';
+  if (!provided || !RT) return json({ ok: false, error: 'runner-token-required (x-runner-token; fail-closed)' }, 401);
+  const a = createHash('sha256').update(provided, 'utf8').digest();
+  const b = createHash('sha256').update(RT, 'utf8').digest();
+  return timingSafeEqual(a, b) ? null : json({ ok: false, error: 'runner-unauthorized' }, 401);
+}
+
 Bun.serve({
   port: PORT,
+  hostname: '127.0.0.1', // directive 1a173c6ac120ccb1 §1 — loopback bind; gateway-borne traffic still reaches via Caddy, which is why the token gate exists
   async fetch(req) {
     const url = new URL(req.url);
     const p = url.pathname;
     if (p === '/api/health') {
       const active = [...jobs.values()].filter((j) => !j.finishedAt).length;
-      return json({ ok: true, service: 'sovereign-runner', v: 1, started, active, total: jobs.size, machine: 'sandbox', law: 'machine=runtime, GitHub=state' });
+      return json({ ok: true, service: 'sovereign-runner', v: 1, started, active, total: jobs.size, machine: 'sandbox', law: 'machine=runtime, GitHub=state', gate: 'x-runner-token (fail-closed on mutations + job reads)' });
+    }
+    if ((p === '/api/jobs' || !!p.match(/^\/api\/jobs\/[\w-]+$/))) {
+      const deny = runnerAuth(req);
+      if (deny) return deny;
     }
     if (p === '/api/jobs' && req.method === 'POST') {
       try {
