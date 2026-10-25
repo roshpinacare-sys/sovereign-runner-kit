@@ -50,3 +50,4 @@
 {"at":"2026-10-25T17:05:03Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":4,"failure10":2},"verdict":"honest-mixed","by":"device-integrity"}
 {"at":"2026-10-25T19:26:16Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":6,"failure10":1},"verdict":"honest-mixed","by":"device-integrity"}
 {"at":"2026-10-25T19:42:49Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":7,"failure10":0},"verdict":"honest-green","by":"device-integrity"}
+{"at":"2026-10-25T22:54:44Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":4,"failure10":0},"verdict":"honest-green","by":"device-integrity"}
