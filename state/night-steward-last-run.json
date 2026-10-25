@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-24T21:11:59Z",
+  "at": "2026-10-25T00:31:03Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 77.7,
-      "detail": "success 78min ago; run in flight 17min"
+      "lastSuccessAgeMin": 93.8,
+      "detail": "success 94min ago; run in flight 33min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 42.5,
-      "detail": "success 42min ago; run in flight 12min"
+      "lastSuccessAgeMin": 59.8,
+      "detail": "success 60min ago; run in flight 29min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,13 +26,55 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 44.0,
-      "detail": "success 44min ago; run in flight 14min"
+      "lastSuccessAgeMin": 59.4,
+      "detail": "success 59min ago; run in flight 28min"
     }
   ],
-  "censusAgeMin": 143.4,
+  "censusAgeMin": 118.8,
   "censusNote": null,
   "reds": [
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-fleet.yml",
+      "redStreak": 4,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-grid.yml",
+      "redStreak": 7,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "fleet-yield.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "estate-scrub.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "exposure-gate.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "hive-beat-t21.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "saos-act.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
     {
       "repo": "FleetHQ",
       "workflow": "fresh-oracle.yml",
@@ -41,7 +83,7 @@
     },
     {
       "repo": "giant",
-      "workflow": "trust-heartbeat.yml",
+      "workflow": "fleet-rail-guardian.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -52,33 +94,33 @@
       "class": "recidivist"
     },
     {
-      "repo": "saos-dex",
-      "workflow": "gitleaks.yml",
-      "redStreak": 13,
+      "repo": "Sandbox",
+      "workflow": "artery-fleet.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Sandbox",
+      "workflow": "artery-grid.yml",
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
-      "redStreak": 7,
+      "repo": "Sandbox",
+      "workflow": "fleet-yield.yml",
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
       "repo": "saos-runtime",
       "workflow": "escrow-payroll.yml",
-      "redStreak": 3,
+      "redStreak": 4,
       "class": "recidivist"
     },
     {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
-      "class": "recidivist"
-    },
-    {
-      "repo": "steem",
-      "workflow": "gitleaks.yml",
-      "redStreak": 3,
       "class": "recidivist"
     }
   ],
