@@ -1,0 +1,4 @@
+{"at":"2026-10-26T15:45:44Z","service":"hsm-runtime","port":3057,"health":200,"denyByDefault":"measured","auth":"measured","state":"unauthenticated","detail":"health=200 deny=503 token=absent","by":"device-hsm-probe"}
+{"at":"2026-10-26T15:46:29Z","service":"hsm-runtime","port":3057,"health":200,"denyByDefault":"measured","auth":"measured","state":"healthy","detail":"health=200 deny=503 auth=200 auditChain=true","by":"device-hsm-probe"}
+{"at":"2026-10-26T15:46:29Z","service":"hsm-runtime","port":3057,"health":200,"denyByDefault":"measured","auth":"measured","state":"healthy","detail":"health=200 deny=503 auth=200 auditChain=true","by":"device-hsm-probe"}
+{"at":"2026-10-26T15:46:29Z","service":"hsm-runtime","probe":"sign","http":200,"fingerprint":"sha256:e6153feedd7d…","by":"device-hsm-probe"}

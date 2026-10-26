@@ -32,6 +32,7 @@
 
 | Repo | Agent | Scope | Status |
 |---|---|---|---|
+| sovereign-runner-kit | [G77-d] | lanes/hsm-probe.sh (NEW) + results/hsm-runtime.jsonl (NEW) + this row | DONE — device-lane probe of the Saosmartwallet HSM runtime :3057; Forge-cron wiring is Instance-0 (fail-honest note in lane header); branch feat/hsm-device-registration |
 | sovereign-runner-kit | [phase0-zai] | this file + SECURITY-INCIDENT doc | DONE (hash-verified) |
 | saos-control-center | [phase0-zai] | vault login route parse fix (stray open-bracket) | DONE |
 | Saosmartwallet | [phase0-zai] | untrack live db/custom.db from main | DONE (deleted via API) |
