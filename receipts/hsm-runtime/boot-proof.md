@@ -51,3 +51,10 @@ machine-checkable receipt is `boot-proof.json` (same directory).
    master key lives in `SAOS_VAULT_MASTER_KEY` (read by packages/vault), the
    API token in `HSM_SIGNING_TOKEN`, both owner-provisioned in a 0600 env file
    (path in the unit file, never in git).
+
+4. **Estate port alignment (post-boot, same wave):** the sibling device-lane
+   registered its `hsm-probe` measurement against **:3057**
+   (lanes/hsm-probe.sh + results/hsm-runtime.jsonl) while this boot proof ran
+   the package default **:3155**. The persistent-host unit PINS :3057 so the
+   installed service and the probe lane measure the same instance; the :3155
+   numbers above remain the verbatim measured boot.

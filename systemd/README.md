@@ -13,7 +13,7 @@ answer: `Restart=always` + kernel-flock single-instance + hash-linked receipts.
 |---|---|---|
 | `forge.service` | the estate execution engine (existing) | 3100 |
 | `perpetual-host.service` | the self-building organs supervisor (§4 MASTER DIRECTIVE): organ-commander, saos-architect-daemon (fail-soft), issue-to-pr §9.3 cycle | 3047 / 3049 |
-| `saos-hsm-runtime.service` | the production HSM signing runtime (§3.1, wave 20.1 — Saosmartwallet packages/hsm-runtime): token-gated SIGN-ONLY signing API, vault-path-only, deny-by-default, no broadcast route | 3155 |
+| `saos-hsm-runtime.service` | the production HSM signing runtime (§3.1, wave 20.1 — Saosmartwallet packages/hsm-runtime): token-gated SIGN-ONLY signing API, vault-path-only, deny-by-default, no broadcast route | 3057 (pinned to the registered `lanes/hsm-probe.sh` target; package default 3155) |
 
 ## Install (persistent host)
 

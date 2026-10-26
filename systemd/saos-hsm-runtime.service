@@ -20,8 +20,8 @@
 #   self-generated FIXTURE keys only — receipts/hsm-runtime/boot-proof.json.
 #
 # Honest verdicts after install:
-#   curl -s http://127.0.0.1:3155/health                      # bare liveness
-#   curl -s -H "Authorization: Bearer $TOKEN" http://127.0.0.1:3155/status
+#   curl -s http://127.0.0.1:3057/health                      # bare liveness
+#   curl -s -H "Authorization: Bearer $TOKEN" http://127.0.0.1:3057/status
 #     → vault OPEN|SEALED · signing READY|NO-KEYS|BLOCKED-AUTH|BLOCKED-VAULT
 [Unit]
 Description=SAOS production HSM signing runtime — SIGN-ONLY, vault-backed, deny-by-default (§3.1, wave 20.1)
@@ -35,8 +35,11 @@ WorkingDirectory=/home/z/audit/repos/Saosmartwallet
 # Dash prefix = OPTIONAL env file: absent ⇒ the runtime boots SEALED and the
 # gated API refuses every request (deny-by-default) — liveness stays honest.
 EnvironmentFile=-/home/z/coord-work/vaults/hsm-runtime/env
-Environment=HSM_PORT=3155
-ExecStart=/usr/bin/env bun packages/hsm-runtime/bin/hsm-runtime.ts --serve --port 3155
+# Port 3057 = the estate-registered probe target (lanes/hsm-probe.sh measures :3057;
+# the package default is 3155 — the unit PINS the estate port so service and
+# probe measure the same instance).
+Environment=HSM_PORT=3057
+ExecStart=/usr/bin/env bun packages/hsm-runtime/bin/hsm-runtime.ts --serve --port 3057
 Restart=always
 RestartSec=10
 StandardOutput=append:/home/z/audit/logs/saos-hsm-runtime.log
