@@ -1,9 +1,9 @@
 id	repo	title	verify
-q-queue-20261026-21	Domain	[P1] רצף כשלים בוורקפלו המזין עמוד גלוי — treasury-route	PENDING-DEFINITION
+q-queue-20261026-16	Domain	[P1] רצף כשלים בוורקפלו המזין עמוד גלוי — estate-scrub	PENDING-DEFINITION
+q-queue-20261026-17	FleetHQ	[P1] רצף כשלים בוורקפלו המזין עמוד גלוי — fresh-oracle	PENDING-DEFINITION
 q-queue-20261022-10	FleetHQ	[P1] רצף כשלים בוורקפלו המזין עמוד גלוי — office-retro	PENDING-DEFINITION
-q-queue-20261025-18	saos-runtime	[P1] רצף כשלים בוורקפלו המזין עמוד גלוי — directive-now	PENDING-DEFINITION
-q-queue-20261023-12	FleetHQ	[P2] אדומים בטיפול GridWatch — FleetHQ	PENDING-DEFINITION
+q-queue-20261026-18	saos-runtime	[P1] רצף כשלים בוורקפלו המזין עמוד גלוי — sovereign-pulse	PENDING-DEFINITION
 q-queue-20261016-06	Domain	[P2] אדומים בטיפול GridWatch — Domain	PENDING-DEFINITION
+q-queue-20261023-12	FleetHQ	[P2] אדומים בטיפול GridWatch — FleetHQ	PENDING-DEFINITION
 q-queue-20261024-15	Autonomy	[P2] אדומים בטיפול GridWatch — Autonomy	PENDING-DEFINITION
-q-queue-20261025-20	saos-runtime	[P2] אדומים בטיפול GridWatch — saos-runtime	PENDING-DEFINITION
 q-queue-20261014-02	Domain	[P3] אין מידע-גרסה בעמוד — Domain	PENDING-DEFINITION
