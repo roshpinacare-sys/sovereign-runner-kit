@@ -1275,5 +1275,5 @@ WAVE RECEIPT (same entry #76, post-close evidence): the guardian's custody is PR
 
 | Task | Repo | Scope (files) | Status | Note |
 |---|---|---|---|---|
-| G77-d | Saosmartwallet | packages/hsm-runtime/** (NEW package), README.md (ROLE status line + packages table), .github/workflows/ci.yml (additive lane) | IN-PROGRESS | production HSM signing runtime (SIGN-ONLY, zero broadcast path) — branch feat/hsm-production; vault-path-only, fixture-key proofs |
-| G77-d | sovereign-runner-kit | systemd/saos-hsm-runtime.service (NEW), systemd/README.md (Units table row), receipts/hsm-runtime/** (NEW), this claim | IN-PROGRESS | service install per the systemd pattern; local boot proof receipts (nohup session-bounded, honest); kit holds PATHS+receipts only, never keys |
+| G77-d | Saosmartwallet | packages/hsm-runtime/** (NEW package), README.md (ROLE status line + packages table), .github/workflows/ci.yml (additive lane) | DONE | production HSM signing runtime (SIGN-ONLY, zero broadcast path) — pushed feat/hsm-production (ad4607e/accd2d1/1028af4); suite 46/46, repo tsc clean; sibling device-lane :3057 registration acknowledged as the estate probe target |
+| G77-d | sovereign-runner-kit | systemd/saos-hsm-runtime.service (NEW), systemd/README.md (Units table row), receipts/hsm-runtime/** (NEW), this claim | DONE | pushed main (aa714ea + 8acefeb port-alignment); measured boot-proof receipts (auth matrix 401/403/404, armed status OPEN+READY on fixture keys, steem+ed25519 sign receipts, --once exit 0/2/3/4); kit holds PATHS+receipts only, never keys |
