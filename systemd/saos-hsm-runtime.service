@@ -1,0 +1,46 @@
+# saos-hsm-runtime.service — the production HSM signing runtime (SIGN-ONLY).
+# Carries Saosmartwallet · packages/hsm-runtime (owner directive §3.1) on the
+# persistent host: a token-gated, deny-by-default signing API whose keys live
+# ONLY inside the packages/vault AES-256-GCM store. There is NO broadcast
+# route — the side-effect law is structural, not a flag.
+#
+# Install (on the persistent host):
+#   cp systemd/saos-hsm-runtime.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now saos-hsm-runtime
+#
+# Owner custody (before the unit can ARM — without it the service boots
+# honestly SEALED + deny-by-default; /health stays live either way):
+#   create /home/z/coord-work/vaults/hsm-runtime/env (0600, never in git):
+#     SAOS_VAULT_MASTER_KEY=<64 hex — vault master key>
+#     HSM_SIGNING_TOKEN=<gated-API Bearer token>
+#     HSM_VAULT_DIR=/home/z/coord-work/vaults/hsm-runtime   (vault store dir)
+#   Key loading into the vault = the owner's custody flow (packages/vault
+#   sealKey with meta.role), never agent hands. The G77-d boot proof used
+#   self-generated FIXTURE keys only — receipts/hsm-runtime/boot-proof.json.
+#
+# Honest verdicts after install:
+#   curl -s http://127.0.0.1:3155/health                      # bare liveness
+#   curl -s -H "Authorization: Bearer $TOKEN" http://127.0.0.1:3155/status
+#     → vault OPEN|SEALED · signing READY|NO-KEYS|BLOCKED-AUTH|BLOCKED-VAULT
+[Unit]
+Description=SAOS production HSM signing runtime — SIGN-ONLY, vault-backed, deny-by-default (§3.1, wave 20.1)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=z
+WorkingDirectory=/home/z/audit/repos/Saosmartwallet
+# Dash prefix = OPTIONAL env file: absent ⇒ the runtime boots SEALED and the
+# gated API refuses every request (deny-by-default) — liveness stays honest.
+EnvironmentFile=-/home/z/coord-work/vaults/hsm-runtime/env
+Environment=HSM_PORT=3155
+ExecStart=/usr/bin/env bun packages/hsm-runtime/bin/hsm-runtime.ts --serve --port 3155
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/z/audit/logs/saos-hsm-runtime.log
+StandardError=append:/home/z/audit/logs/saos-hsm-runtime.err.log
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,180 @@
+{
+ "schema": "hsm-runtime/boot-proof/1",
+ "law": "SIGN-ONLY/1 — no broadcast path exists; signing proofs use self-generated fixture keys",
+ "task": "G77-d",
+ "at": "2026-10-26T16:01:10.730Z",
+ "service": "saos-hsm-runtime/1",
+ "package": "Saosmartwallet · packages/hsm-runtime",
+ "boot": {
+  "runner": "sovereign-runner-kit (local nohup boot — session-bounded on the sandbox box, measured)",
+  "command": "bun packages/hsm-runtime/bin/hsm-runtime.ts --serve --port 3155",
+  "port": 3155,
+  "armed": true,
+  "vaultDirKind": "path-only (fixture vault, self-generated keys)",
+  "listeningLine": {
+   "event": "listening",
+   "service": "saos-hsm-runtime/1",
+   "mode": "SIGN-ONLY",
+   "broadcast": "DISABLED",
+   "port": 3155,
+   "armed": true,
+   "vaultDir": "/home/z/coord-work/vaults/hsm-fixture"
+  }
+ },
+ "measured": {
+  "healthBare": {
+   "http": "200",
+   "body": {
+    "ok": true,
+    "service": "saos-hsm-runtime/1",
+    "mode": "SIGN-ONLY",
+    "broadcast": "DISABLED",
+    "time": "2026-10-26T15:59:45.513Z",
+    "uptimeSeconds": 0
+   }
+  },
+  "authMatrix": {
+   "GET /status without credential": {
+    "http": "401",
+    "body": {
+     "error": {
+      "code": "HSM_E_AUTH_MISSING",
+      "message": "missing Authorization credential"
+     }
+    }
+   },
+   "GET /status with wrong token": {
+    "http": "403",
+    "body": {
+     "error": {
+      "code": "HSM_E_AUTH_INVALID",
+      "message": "authorization refused"
+     }
+    }
+   }
+  },
+  "structuralLaw": {
+   "POST /broadcast": {
+    "http": "404",
+    "body": {
+     "error": {
+      "code": "HSM_E_NOT_FOUND",
+      "message": "no route POST /broadcast — this runtime signs only (mode SIGN-ONLY, broadcast DISABLED) and never broadcasts"
+     }
+    }
+   }
+  },
+  "statusArmed": {
+   "http": "200",
+   "body": {
+    "service": "saos-hsm-runtime/1",
+    "mode": "SIGN-ONLY",
+    "broadcast": "DISABLED",
+    "time": "2026-10-26T15:59:45.545Z",
+    "uptimeSeconds": 0,
+    "vault": "OPEN",
+    "vaultReason": null,
+    "signing": "READY",
+    "token": "SET",
+    "keys": {
+     "total": 2,
+     "byType": {
+      "ed25519": 1,
+      "secp256k1-wif": 1
+     }
+    },
+    "reasons": []
+   }
+  },
+  "keysMetadata": {
+   "http": "200",
+   "note": "ids/types/meta only — never envelopes; fixture provenance carried in meta",
+   "body": {
+    "keys": [
+     {
+      "id": "fixture.boot/ed25519",
+      "type": "ed25519",
+      "meta": {
+       "account": "fixture.hsm.boot",
+       "role": "posting",
+       "provenance": "self-generated fixture key minted in-session for the G77-d boot proof — not real custody"
+      },
+      "createdAt": "2026-10-26T15:58:51.403Z"
+     },
+     {
+      "id": "fixture.boot/posting",
+      "type": "secp256k1-wif",
+      "meta": {
+       "account": "fixture.hsm.boot",
+       "role": "posting",
+       "provenance": "self-generated fixture key minted in-session for the G77-d boot proof — not real custody"
+      },
+      "createdAt": "2026-10-26T15:58:51.406Z"
+     }
+    ]
+   }
+  },
+  "signingProofs": {
+   "steemFamily": {
+    "http": "200",
+    "receiptId": "ef9fb668d4d6b74dd22f971c471797a3d26d5ca6ee4053e4db494b82b86b6d49",
+    "keyId": "fixture.boot/posting",
+    "digest": "904386ccdcb2da2a5de58171c883d077580615c08390eec8dcca69650bee264c",
+    "txId": "110611e4799811aeaad07dd1876256e0556ebb60",
+    "wireSha256": "5bc2b1731b9dbb5c6b2060689314e85741f23744075d7998c017e1a761360360",
+    "artifactSha256": "d381607212853da72208f158bebd43501ae2582d0167b7a79b9a53b875cca5a7"
+   },
+   "ed25519": {
+    "http": "200",
+    "receiptId": "1c0daa7fb8325c7e6de86b3909f483fd710eb17dbd0b661a3f3296d75cd4425d",
+    "keyId": "fixture.boot/ed25519",
+    "digest": "38bebd4b1b27159b7d63f79c482744a6e4e3fd0dac0f57f6299ff96defcf7ec7",
+    "wireSha256": "7169b63d81e121fb7eae20addecf8efd6d64aac47ee7e12b13ac1819700bcc43",
+    "artifactSha256": "5d4611f86682e89ad11cb76d0d9984655a718e8029871240d6f3cf0f5d04e782"
+   }
+  },
+  "policyRefusals": {
+   "posting key × transfer op": {
+    "http": "422",
+    "body": {
+     "error": {
+      "code": "HSM_E_ROLE_POLICY",
+      "message": "operation \"transfer\" moves funds and cannot be signed with a posting key (role \"posting\")"
+     }
+    }
+   },
+   "oversized body": {
+    "http": "413",
+    "body": {
+     "error": {
+      "code": "HSM_E_BODY_TOO_LARGE",
+      "message": "body exceeds 262144 bytes"
+     }
+    }
+   }
+  },
+  "onceExitMatrix": {
+   "armed + fixture vault (READY)": {
+    "exit": 0,
+    "receiptId": "27f92c89309c384224711b01e8359597ee06a0ac82033f675b7ebf559be512ca",
+    "health": "READY",
+    "artifactSha256": "c9872d4611c37e8bc33f918bfb660869ccdb51407aa09bd980528853e63a8377"
+   },
+   "open vault + no token (BLOCKED-AUTH)": {
+    "exit": 4
+   },
+   "open vault + token + zero keys (NO-KEYS)": {
+    "exit": 3
+   },
+   "no vault + no token (SEALED)": {
+    "exit": 2
+   }
+  }
+ },
+ "honestLimits": [
+  "the signing verdict READY above is measured against SELF-GENERATED FIXTURE keys (provenance in vault meta) — zero soldier/real custody keys are loaded; owner key-loading is a custody-flow decision",
+  "the sandbox boot is session-bounded (measured fleet lesson): the nohup instance serves the proof then stops; the persistent host runs the systemd unit (systemd/saos-hsm-runtime.service)",
+  "the runtime holds PATHS and VERDICTS only — key material exists solely inside the packages/vault AES-256-GCM store; the kit holds no keys (zero-exposure law)",
+  "exit 5 (PROOF-BLOCKED) and exit 1 (config) are pinned by the package test suite, not by this boot (no such fixture here)"
+ ]
+}
