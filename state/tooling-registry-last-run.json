@@ -1,6 +1,6 @@
 {
   "schema": "saos.tooling-registry.receipt/1",
-  "at": "2026-10-26T13:17:42.226600+00:00",
+  "at": "2026-10-27T12:25:35.667989+00:00",
   "registrySchema": "saos.tooling-registry/1",
   "registryEntries": 20,
   "tokenPlane": "basic-auth-credential-present",
