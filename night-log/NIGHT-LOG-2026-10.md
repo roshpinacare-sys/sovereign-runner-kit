@@ -878,3 +878,33 @@ census: 11min old — 21 red lane(s)
 - RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
 - RED Saosmartwallet/ci.yml streak=1 (new)
 - RED Saosmartwallet/wallet-verify.yml streak=3 (recidivist)
+
+## PATROL 2026-10-27T00:05:52Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | IN-FLIGHT | 71min | success 71min ago; run in flight 11min |
+| sovereign-runner-kit/keepalive.yml | IN-FLIGHT | 37min | success 37min ago; run in flight 7min |
+| sovereign-beacon/keepalive.yml | IN-FLIGHT | 46min | success 46min ago; run in flight 14min |
+
+census: 13min old — 20 red lane(s)
+- RED Autonomy/artery-fleet.yml streak=3 (recidivist)
+- RED Autonomy/artery-wallet.yml streak=5 (recidivist)
+- RED Domain/estate-scrub.yml streak=1 (new)
+- RED Domain/exposure-gate.yml streak=1 (new)
+- RED Domain/treasury-route.yml streak=2 (recidivist)
+- RED fleet-economy/receipts-guard.yml streak=4 (recidivist)
+- RED FleetHQ/fresh-oracle.yml streak=1 (new)
+- RED roshpina/gitleaks.yml streak=2 (recidivist)
+- RED Sandbox/artery-fleet.yml streak=3 (recidivist)
+- RED Sandbox/artery-grid.yml streak=5 (recidivist)
+- RED Sandbox/artery-integrity.yml streak=2 (recidivist)
+- RED Sandbox/artery-wallet.yml streak=3 (recidivist)
+- RED saos-dex/ci.yml streak=19 (recidivist)
+- RED saos-dex/gitleaks.yml streak=19 (recidivist)
+- RED saos-dex/selftest.yml streak=20 (recidivist)
+- RED saos-runtime/escrow-payroll.yml streak=1 (new)
+- RED saos-runtime/sovereign-pulse.yml streak=5 (recidivist)
+- RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
+- RED Saosmartwallet/ci.yml streak=1 (new)
+- RED Saosmartwallet/wallet-verify.yml streak=4 (recidivist)
