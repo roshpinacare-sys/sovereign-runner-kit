@@ -6,7 +6,7 @@
  * sovereign-runner-kit).
  *
  * What it does, every beat (BEAT_MS, default 60s):
- *   1. probe each organ: commander :3047, architect :3049 (GET /health,
+ *   1. probe each organ: commander :3047, architect :3051 (GET /health,
  *      short timeout, loopback) — a dead organ is a FACT, never an exception.
  *   2. decideAction (pure, tested): alive→skip · entry-absent→pending
  *      (fail-soft) · our-live-pid-inside-grace→grace · our-live-pid-past-
@@ -60,8 +60,32 @@ export const LOCK_FILE = `${AUDIT_DIR}/perpetual-host.lock`;
 export const PID_FILE = `${AUDIT_DIR}/perpetual-host.pid`;
 export const CYCLE_LOCK_FILE = `${AUDIT_DIR}/issue-to-pr.cycle.lock`;
 
+/* ── G78-i (trace 1a17d85ab0537c95): GIANT_ROOT discovery law ─────────────
+ * Measured class: sandbox resets erase the old default root (/home/z/g70/giant)
+ * and every organ port dies at session teardown. The supervisor must DISCOVER
+ * a lawful organ worktree instead of trusting one dead constant: env first,
+ * then the estate convention, then the g70 legacy path, then the audit clone.
+ * Fail-honest null when NO candidate carries the commander entry — the loop
+ * records "pending" and never spawns from a root that cannot run organs. */
+export function giantRootCandidates(env = process.env) {
+  const cands = [
+    env.GIANT_ROOT || null,
+    "/home/z/estate/giant",
+    "/home/z/g70/giant",
+    "/home/z/audit/giant",
+  ].filter(Boolean);
+  return [...new Set(cands)];
+}
+
+export function discoverGiantRoot(exists = existsSync, env = process.env) {
+  for (const root of giantRootCandidates(env)) {
+    if (exists(`${root}/mini-services/organ-commander/index.ts`)) return root;
+  }
+  return null;
+}
+
 /** daemon organs under supervision (entry-file gated → architect is fail-soft) */
-export function daemonOrgans(giantRoot = GIANT_ROOT) {
+export function daemonOrgans(giantRoot = discoverGiantRoot() ?? GIANT_ROOT) {
   return [
     {
       organ: "commander", port: 3047, healthPath: "/health",
@@ -73,7 +97,7 @@ export function daemonOrgans(giantRoot = GIANT_ROOT) {
       graceMs: Number(process.env.GRACE_MS || 12_000),
     },
     {
-      organ: "architect", port: 3049, healthPath: "/health",
+      organ: "architect", port: 3051, healthPath: "/health", // G78-i cure: operative bind is :3051 (cycle.ts PORT — live-measured; :3049 was stale drift → infinite respawn)
       entry: `${giantRoot}/mini-services/saos-architect-daemon/index.ts`,
       cwd: giantRoot,
       cmd: [BUN, "mini-services/saos-architect-daemon/index.ts", "beat"],
@@ -84,15 +108,19 @@ export function daemonOrgans(giantRoot = GIANT_ROOT) {
   ];
 }
 
-/** the §9.3 self-building worker — not a daemon: one lawful cycle per beat */
-export const ISSUE_ORGAN = {
-  organ: "issue-to-pr",
-  entry: `${GIANT_ROOT}/mini-services/issue-to-pr/index.ts`,
-  cwd: GIANT_ROOT,
-  lock: CYCLE_LOCK_FILE,
-  log: `${AUDIT_DIR}/issue-to-pr.log`,
-  timeoutMs: 300_000,
-};
+/** the §9.3 self-building worker — not a daemon: one lawful cycle per beat.
+ *  G78-i: root resolved at CALL time (sandbox resets erase module-load roots). */
+export function issueOrgan() {
+  const giantRoot = discoverGiantRoot() ?? GIANT_ROOT;
+  return {
+    organ: "issue-to-pr",
+    entry: `${giantRoot}/mini-services/issue-to-pr/index.ts`,
+    cwd: giantRoot,
+    lock: CYCLE_LOCK_FILE,
+    log: `${AUDIT_DIR}/issue-to-pr.log`,
+    timeoutMs: 300_000,
+  };
+}
 
 /* ══ PURE CORE (deterministic, offline-tested — zero io) ═════════════════ */
 
@@ -367,20 +395,21 @@ async function superviseIssueCycle(st, receipts, minGapMs) {
   const o = st.organs.issueToPr;
   const gapOk = decideIssueCycle({ lockFree: true, now: nowMs(), lastAt: o.lastAtMs ?? 0, minGapMs });
   if (!gapOk.run) { o.verdict = gapOk.verdict; o.detail = gapOk.reason; return; }
-  if (!existsSync(ISSUE_ORGAN.entry)) { o.verdict = "pending"; o.detail = "runner entry absent — fail-soft pending"; return; }
+  const organ = issueOrgan(); // G78-i: root resolved at call time
+  if (!existsSync(organ.entry)) { o.verdict = "pending"; o.detail = "runner entry absent — fail-soft pending"; return; }
 
-  mkdirSync(dirname(ISSUE_ORGAN.log), { recursive: true });
-  const logFd = openSync(ISSUE_ORGAN.log, "a");
+  mkdirSync(dirname(organ.log), { recursive: true });
+  const logFd = openSync(organ.log, "a");
   appendFileSync(logFd, `\n[perpetual-host] cycle dispatch ${nowIso()}\n`);
   // the flock wrapper IS the own-lock respect: exit code 1 = someone else owns it
-  const child = nodeSpawn("flock", ["-n", ISSUE_ORGAN.lock, BUN, "mini-services/issue-to-pr/index.ts", "once"], {
-    cwd: ISSUE_ORGAN.cwd, stdio: ["ignore", logFd, logFd],
+  const child = nodeSpawn("flock", ["-n", organ.lock, BUN, "mini-services/issue-to-pr/index.ts", "once"], {
+    cwd: organ.cwd, stdio: ["ignore", logFd, logFd],
   });
   closeSync(logFd);
   let done = false;
   const timer = setTimeout(() => {
     if (!done) { try { child.kill("SIGKILL"); } catch { /* already gone */ } }
-  }, ISSUE_ORGAN.timeoutMs);
+  }, organ.timeoutMs);
   const exit = await new Promise((resolve) => {
     child.once("exit", (code, signal) => { done = true; resolve({ code, signal }); });
     child.once("error", (err) => { done = true; resolve({ code: -1, error: err.message }); });
@@ -390,9 +419,9 @@ async function superviseIssueCycle(st, receipts, minGapMs) {
   if (exit.code === 1) {
     o.verdict = "busy"; o.detail = "cycle lock held — another worker owns the §9.3 loop";
   } else if (exit.signal) {
-    o.verdict = "timeout"; o.detail = `cycle exceeded ${ISSUE_ORGAN.timeoutMs}ms — killed our own spawn (signal ${exit.signal})`;
+    o.verdict = "timeout"; o.detail = `cycle exceeded ${organ.timeoutMs}ms — killed our own spawn (signal ${exit.signal})`;
   } else if (exit.code === 0) {
-    const status = readLastCycleStatus(ISSUE_ORGAN.log);
+    const status = readLastCycleStatus(organ.log);
     o.verdict = status ?? "done";
     o.lastStatus = status;
     o.detail = "one §9.3 cycle completed — status in log";

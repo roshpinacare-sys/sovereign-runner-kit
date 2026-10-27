@@ -17,6 +17,9 @@
  */
 import { describe, test, expect } from "bun:test";
 import {
+  giantRootCandidates,
+  discoverGiantRoot,
+  daemonOrgans,
   CRASH_THRESHOLD,
   decideAction,
   updateCrash,
@@ -295,5 +298,79 @@ describe("buildHeartbeat", () => {
     expect(hb.lastVerdict).toBe("alive");
     expect(Object.keys(hb.organs).sort()).toEqual(["architect", "commander", "issueToPr"]);
     expect(hb.organs.architect.verdict).toBe("pending");
+  });
+});
+
+/* ── G78-i (trace 1a17d85ab0537c95): GIANT_ROOT discovery law ──────────────
+ * Measured class (sandbox reset #7): the default GIANT_ROOT /home/z/g70/giant
+ * is GONE and every organ port died at session teardown. The supervisor must
+ * DISCOVER the organ worktree from lawful candidates (env first, then the
+ * estate convention, then the audit clone) and fail-honest null when none
+ * carries the commander entry — never spawn from a root that cannot run. */
+describe("giantRootCandidates + discoverGiantRoot (G78-i)", () => {
+  test("env override is first candidate, duplicates removed, order lawful", () => {
+    const cands = giantRootCandidates({ GIANT_ROOT: "/x/one" });
+    expect(cands[0]).toBe("/x/one");
+    expect(cands).toContain("/home/z/estate/giant");
+    expect(cands).toContain("/home/z/g70/giant");
+    expect(cands).toContain("/home/z/audit/giant");
+    const uniq = new Set(cands);
+    expect(uniq.size).toBe(cands.length);
+  });
+
+  test("no env → estate convention first (organ worktree is estate law)", () => {
+    const cands = giantRootCandidates({});
+    expect(cands[0]).toBe("/home/z/estate/giant");
+  });
+
+  test("discoverGiantRoot: first candidate WITH the commander entry wins", () => {
+    const exists = (p) => p === "/b/mini-services/organ-commander/index.ts";
+    const root = discoverGiantRoot(exists, { GIANT_ROOT: "" });
+    // /b is not a lawful candidate — with empty env the real candidates are
+    // estate/g70/audit; simulate estate carrying the entry:
+    expect(root).toBe(null); // none of the real candidates exist in this fixture
+    const root2 = discoverGiantRoot(
+      (p) => p === "/home/z/g70/giant/mini-services/organ-commander/index.ts",
+      {}
+    );
+    expect(root2).toBe("/home/z/g70/giant"); // estate absent → g70 discovered
+  });
+
+  test("discoverGiantRoot: env override wins over all conventions", () => {
+    const exists = (p) => p.endsWith("/mini-services/organ-commander/index.ts");
+    const root = discoverGiantRoot(exists, { GIANT_ROOT: "/custom/root" });
+    expect(root).toBe("/custom/root");
+  });
+
+  test("discoverGiantRoot: null when no candidate has the entry (fail-honest)", () => {
+    const root = discoverGiantRoot(() => false, { GIANT_ROOT: "" });
+    expect(root).toBe(null);
+  });
+
+  test("daemonOrgans: discovered root feeds organ entry/cwd paths", () => {
+    const organs = daemonOrgans("/fake/root");
+    expect(organs.length).toBe(2);
+    expect(organs[0].entry).toBe("/fake/root/mini-services/organ-commander/index.ts");
+    expect(organs[1].entry).toBe("/fake/root/mini-services/saos-architect-daemon/index.ts");
+    expect(organs.every((o) => o.cwd === "/fake/root")).toBe(true);
+  });
+});
+
+/* ── G78-i: organ port truth law (measured drift cure) ─────────────────────
+ * Measured live: the architect daemon binds :3051 (cycle.ts PORT=3051 — the
+ * operative port, live health measured) while the supervisor spec said :3049
+ * → port-first authority could NEVER see the organ alive → infinite respawn
+ * (EADDRINUSE honest exits) = supervision lie. New law: the spec's port MUST
+ * equal the organ's actual bind — asserted by contract, cured once. */
+describe("daemonOrgans port truth (G78-i)", () => {
+  test("architect spec supervises the operative :3051 (cycle.ts PORT)", () => {
+    const organs = daemonOrgans("/fake/root");
+    const architect = organs.find((o) => o.organ === "architect");
+    expect(architect.port).toBe(3051);
+  });
+  test("commander spec supervises :3047 (README + measured live)", () => {
+    const organs = daemonOrgans("/fake/root");
+    const commander = organs.find((o) => o.organ === "commander");
+    expect(commander.port).toBe(3047);
   });
 });
