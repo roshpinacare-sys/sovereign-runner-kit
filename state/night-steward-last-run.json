@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-10-27T05:35:10Z",
+  "at": "2026-10-27T12:40:03Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 95.6,
-      "detail": "success 96min ago; run in flight 35min"
+      "lastSuccessAgeMin": 91.6,
+      "detail": "success 92min ago; run in flight 30min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 60.2,
-      "detail": "success 60min ago; run in flight 30min"
+      "lastSuccessAgeMin": 59.0,
+      "detail": "success 59min ago; run in flight 29min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,13 +26,19 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 40.3,
-      "detail": "success 40min ago; run in flight 10min"
+      "lastSuccessAgeMin": 41.8,
+      "detail": "success 42min ago; run in flight 12min"
     }
   ],
-  "censusAgeMin": 33.3,
+  "censusAgeMin": 28.8,
   "censusNote": null,
   "reds": [
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-autotrade-hedge-gate.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
     {
       "repo": "Autonomy",
       "workflow": "artery-fleet.yml",
@@ -40,33 +46,27 @@
       "class": "recidivist"
     },
     {
-      "repo": "Autonomy",
-      "workflow": "artery-wallet.yml",
-      "redStreak": 6,
+      "repo": "Domain",
+      "workflow": "exposure-gate.yml",
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
       "repo": "Domain",
-      "workflow": "exposure-gate.yml",
+      "workflow": "fill-ledger-cron.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
       "repo": "Domain",
       "workflow": "treasury-route.yml",
-      "redStreak": 2,
-      "class": "recidivist"
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "fleet-economy",
       "workflow": "receipts-guard.yml",
-      "redStreak": 5,
-      "class": "recidivist"
-    },
-    {
-      "repo": "FleetHQ",
-      "workflow": "fresh-oracle.yml",
-      "redStreak": 3,
+      "redStreak": 6,
       "class": "recidivist"
     },
     {
@@ -84,7 +84,7 @@
     {
       "repo": "Sandbox",
       "workflow": "artery-grid.yml",
-      "redStreak": 6,
+      "redStreak": 5,
       "class": "recidivist"
     },
     {
@@ -102,7 +102,7 @@
     {
       "repo": "saos-dex",
       "workflow": "ci.yml",
-      "redStreak": 6,
+      "redStreak": 20,
       "class": "recidivist"
     },
     {
@@ -112,16 +112,10 @@
       "class": "recidivist"
     },
     {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
-      "redStreak": 6,
-      "class": "recidivist"
-    },
-    {
       "repo": "saos-runtime",
       "workflow": "escrow-payroll.yml",
-      "redStreak": 2,
-      "class": "recidivist"
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "saos-runtime",
@@ -140,12 +134,6 @@
       "workflow": "ci.yml",
       "redStreak": 1,
       "class": "new"
-    },
-    {
-      "repo": "Saosmartwallet",
-      "workflow": "wallet-verify.yml",
-      "redStreak": 4,
-      "class": "recidivist"
     }
   ],
   "actions": [],
