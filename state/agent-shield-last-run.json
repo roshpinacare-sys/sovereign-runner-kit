@@ -1,9 +1,9 @@
 {
- "at": "2026-10-28T13:21:32Z",
+ "at": "2026-10-29T13:28:31Z",
  "gate": "yellow",
  "totals": {
   "blockers": 0,
-  "shoulds": 12,
+  "shoulds": 13,
   "files": 42
  },
  "targets": [
@@ -12,7 +12,7 @@
    "degraded": [],
    "files": 42,
    "blockers": 0,
-   "shoulds": 12
+   "shoulds": 13
   }
  ],
  "findings": [
@@ -90,6 +90,22 @@
   },
   {
    "tier": "SHOULD",
+   "file": "state/agent-shield-last-run.json",
+   "pointer": "$.findings[9].match",
+   "line": 0,
+   "rule": "obfuscation_primitive_in_data",
+   "match": "node -e"
+  },
+  {
+   "tier": "SHOULD",
+   "file": "state/git-first-last-run.json",
+   "pointer": "",
+   "line": 0,
+   "rule": "json_unreadable",
+   "match": "Expecting value: line 1 column 3 (char 2)"
+  },
+  {
+   "tier": "SHOULD",
    "file": "state/scout-findings.json",
    "pointer": "$.findings.santifer/career-ops.evidence.install_scripts.postinstall",
    "line": 0,
@@ -103,14 +119,6 @@
    "line": 0,
    "rule": "hidden_control_chars",
    "match": "'\\u200d'"
-  },
-  {
-   "tier": "SHOULD",
-   "file": "state/git-first-last-run.json",
-   "pointer": "",
-   "line": 0,
-   "rule": "json_unreadable",
-   "match": "Expecting value: line 1 column 3 (char 2)"
   }
  ]
 }
