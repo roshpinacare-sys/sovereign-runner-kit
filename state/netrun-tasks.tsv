@@ -1,7 +1,8 @@
 id	repo	title	verify
 q-queue-20261029-28	FleetHQ	[P0] פיד מת המזין ממשק גלוי — מצב-משרד מאוחד	PENDING-DEFINITION
+q-queue-20261029-30	Domain	[P1] רצף כשלים בוורקפלו המזין עמוד גלוי — economy-engine	PENDING-DEFINITION
 q-queue-20261029-29	saos-runtime	[P1] רצף כשלים בוורקפלו המזין עמוד גלוי — escrow-payroll	PENDING-DEFINITION
-q-queue-20261016-06	Domain	[P2] אדומים בטיפול GridWatch — Domain	PENDING-DEFINITION
 q-queue-20261027-19	Autonomy	[P2] אדומים בטיפול GridWatch — Autonomy	PENDING-DEFINITION
+q-queue-20261016-06	Domain	[P2] אדומים בטיפול GridWatch — Domain	PENDING-DEFINITION
 q-queue-20261028-27	saos-runtime	[P2] אדומים בטיפול GridWatch — saos-runtime	PENDING-DEFINITION
 q-queue-20261014-02	Domain	[P3] אין מידע-גרסה בעמוד — Domain	PENDING-DEFINITION
