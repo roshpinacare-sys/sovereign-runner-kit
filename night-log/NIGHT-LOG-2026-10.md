@@ -1148,3 +1148,40 @@ census: 41min old — 14 red lane(s)
 - RED Saosmartwallet/ci.yml streak=2 (recidivist)
 - RED steem/gitleaks.yml streak=3 (recidivist)
 - RED steem/workflow-yaml-guard.yml streak=1 (new)
+
+## PATROL 2026-10-29T13:42:41Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | IN-FLIGHT | 81min | success 81min ago; run in flight 19min |
+| sovereign-runner-kit/keepalive.yml | IN-FLIGHT | 60min | success 60min ago; run in flight 30min |
+| sovereign-beacon/keepalive.yml | IN-FLIGHT | 41min | success 41min ago; run in flight 11min |
+
+census: 44min old — 27 red lane(s)
+- RED Autonomy/artery-decision-truth.yml streak=7 (recidivist)
+- RED Autonomy/artery-fleet.yml streak=5 (recidivist)
+- RED Autonomy/artery-participation.yml streak=1 (new)
+- RED Autonomy/fleet-yield.yml streak=2 (recidivist)
+- RED Autonomy/profit-oracle.yml streak=1 (new)
+- RED Autonomy/value-scan.yml streak=8 (recidivist)
+- RED Console/key-census-relay-v2.yml streak=1 (new)
+- RED Domain/estate-scrub.yml streak=1 (new)
+- RED Domain/exposure-gate.yml streak=2 (recidivist)
+- RED Domain/treasury-route.yml streak=1 (new)
+- RED fleet-economy/receipts-guard.yml streak=20 (recidivist)
+- RED FleetHQ/office-3d.yml streak=8 (recidivist)
+- RED FleetHQ/key-census-relay-v2.yml streak=1 (new)
+- RED giant/architect-daemon.yml streak=13 (recidivist)
+- RED roshpina/gitleaks.yml streak=2 (recidivist)
+- RED Sandbox/artery-fleet.yml streak=2 (recidivist)
+- RED Sandbox/artery-grid.yml streak=5 (recidivist)
+- RED Sandbox/artery-integrity.yml streak=3 (recidivist)
+- RED Sandbox/key-census-relay-v2.yml streak=1 (new)
+- RED Sandbox/value-scan.yml streak=1 (new)
+- RED saos-dex/key-census-relay-v2.yml streak=1 (new)
+- RED saos-runtime/escrow-payroll.yml streak=3 (recidivist)
+- RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
+- RED Saosmartwallet/ci.yml streak=2 (recidivist)
+- RED steem/gitleaks.yml streak=3 (recidivist)
+- RED steem/workflow-yaml-guard.yml streak=1 (new)
+- RED Zip/identity-guard.yml streak=3 (recidivist)
