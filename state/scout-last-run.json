@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29T11:43:30Z",
+ "at": "2026-10-30T11:36:16Z",
  "sources": [
   {
    "id": "pinoyfreecoder-account",
@@ -10,13 +10,13 @@
   {
    "id": "pinoyfreecoder-github-finds",
    "type": "mcp_catalog",
-   "discovered": 127,
+   "discovered": 110,
    "route": "mcp"
   },
   {
    "id": "pinoyfreecoder-public-apis",
    "type": "mcp_catalog",
-   "discovered": 12,
+   "discovered": 9,
    "route": "mcp"
   },
   {
