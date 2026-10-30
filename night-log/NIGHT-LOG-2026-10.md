@@ -1217,3 +1217,34 @@ census: 12min old — 22 red lane(s)
 - RED Saosmartwallet/ci.yml streak=2 (recidivist)
 - RED steem/gitleaks.yml streak=3 (recidivist)
 - RED steem/workflow-yaml-guard.yml streak=1 (new)
+
+## PATROL 2026-10-30T00:21:01Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | IN-FLIGHT | 104min | success 104min ago; run in flight 43min |
+| sovereign-runner-kit/keepalive.yml | IN-FLIGHT | 35min | success 35min ago; run in flight 4min |
+| sovereign-beacon/keepalive.yml | IN-FLIGHT | 46min | success 46min ago; run in flight 15min |
+
+census: 24min old — 21 red lane(s)
+- RED Autonomy/artery-decision-truth.yml streak=5 (recidivist)
+- RED Autonomy/artery-fleet.yml streak=3 (recidivist)
+- RED Autonomy/artery-participation.yml streak=1 (new)
+- RED Autonomy/fleet-yield.yml streak=2 (recidivist)
+- RED Autonomy/value-scan.yml streak=5 (recidivist)
+- RED Domain/dex-mirror.yml streak=1 (new)
+- RED Domain/estate-scrub.yml streak=1 (new)
+- RED Domain/exposure-gate.yml streak=1 (new)
+- RED Domain/treasury-route.yml streak=2 (recidivist)
+- RED fleet-economy/receipts-guard.yml streak=24 (recidivist)
+- RED FleetHQ/office-3d.yml streak=9 (recidivist)
+- RED FleetHQ/key-census-relay-v2.yml streak=1 (new)
+- RED giant/architect-daemon.yml streak=17 (recidivist)
+- RED roshpina/gitleaks.yml streak=2 (recidivist)
+- RED Sandbox/artery-fleet.yml streak=2 (recidivist)
+- RED Sandbox/artery-grid.yml streak=5 (recidivist)
+- RED Sandbox/artery-integrity.yml streak=4 (recidivist)
+- RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
+- RED Saosmartwallet/ci.yml streak=2 (recidivist)
+- RED steem/gitleaks.yml streak=3 (recidivist)
+- RED steem/workflow-yaml-guard.yml streak=1 (new)
