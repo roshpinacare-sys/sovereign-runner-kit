@@ -1,35 +1,35 @@
 # MORNING REPORT — the night, in the architecture's own words
 
-_generated 2026-10-31T06:16:29Z by night-steward (wave-19.34, owner order trace 1a1557f9ff40cf6d: "וודא את עצמך... התפתחות רצינית של הארכיטקטורה מתוך עצמה")_
+_generated 2026-10-31T13:03:29Z by night-steward (wave-19.34, owner order trace 1a1557f9ff40cf6d: "וודא את עצמך... התפתחות רצינית של הארכיטקטורה מתוך עצמה")_
 
 ## The three hearts (dispatch-chain planes)
 
 | plane | lane | state | last success | note |
 |---|---|---|---|---|
-| sovereign-executor | `fleet-beat.yml` | **IN-FLIGHT** | 110min ago | success 110min ago; run in flight 49min |
-| sovereign-runner-kit | `keepalive.yml` | **IN-FLIGHT** | 48min ago | success 48min ago; run in flight 31min |
-| sovereign-beacon | `keepalive.yml` | **IN-FLIGHT** | 58min ago | success 58min ago; run in flight 28min |
+| sovereign-executor | `fleet-beat.yml` | **IN-FLIGHT** | 88min ago | success 88min ago; run in flight 27min |
+| sovereign-runner-kit | `keepalive.yml` | **IN-FLIGHT** | 32min ago | success 32min ago; run in flight 2min |
+| sovereign-beacon | `keepalive.yml` | **IN-FLIGHT** | 42min ago | success 42min ago; run in flight 12min |
 
 ## Red lanes (data, recorded — fixes travel as netrun claims per doctrine)
 
-_as-of census `capturedAt` 2026-10-31T05:38:36.421876+00:00 (38min old at patrol time) — recidivist streaks shrink as the fixes from tonight's waves land their next green runs_
+_as-of census `capturedAt` 2026-10-31T12:25:45.465160+00:00 (38min old at patrol time) — recidivist streaks shrink as the fixes from tonight's waves land their next green runs_
 
 | repo | lane | red streak | class |
 |---|---|---|---|
-| Autonomy | `artery-decision-truth.yml` | 6 | recidivist |
-| Autonomy | `artery-fleet.yml` | 4 | recidivist |
-| Autonomy | `fleet-yield.yml` | 1 | new |
-| Autonomy | `value-scan.yml` | 7 | recidivist |
+| Autonomy | `artery-decision-truth.yml` | 7 | recidivist |
+| Autonomy | `artery-fleet.yml` | 3 | recidivist |
+| Autonomy | `artery-participation.yml` | 1 | new |
+| Autonomy | `fleet-yield.yml` | 2 | recidivist |
+| Autonomy | `profit-oracle.yml` | 1 | new |
+| Autonomy | `value-scan.yml` | 6 | recidivist |
 | Domain | `treasury-route.yml` | 1 | new |
-| fleet-economy | `receipts-guard.yml` | 32 | recidivist |
-| FleetHQ | `office-3d.yml` | 13 | recidivist |
+| FleetHQ | `office-3d.yml` | 14 | recidivist |
 | FleetHQ | `key-census-relay-v2.yml` | 1 | new |
-| giant | `architect-daemon.yml` | 25 | recidivist |
 | roshpina | `gitleaks.yml` | 2 | recidivist |
 | Sandbox | `artery-fleet.yml` | 2 | recidivist |
 | Sandbox | `artery-grid.yml` | 5 | recidivist |
 | Sandbox | `artery-integrity.yml` | 3 | recidivist |
-| saos-dex | `selftest.yml` | 2 | recidivist |
+| saos-dex | `selftest.yml` | 14 | recidivist |
 | saos-sovereign-foundry | `gitleaks.yml` | 43 | recidivist |
 | Saosmartwallet | `ci.yml` | 2 | recidivist |
 | steem | `gitleaks.yml` | 3 | recidivist |
