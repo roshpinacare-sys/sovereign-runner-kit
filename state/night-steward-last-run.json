@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-01T15:27:00Z",
+  "at": "2026-11-01T20:50:03Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 20.0,
-      "detail": "success 20min ago; run in flight 9min"
+      "lastSuccessAgeMin": 85.9,
+      "detail": "success 86min ago; run in flight 25min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 41.7,
-      "detail": "success 42min ago; run in flight 11min"
+      "lastSuccessAgeMin": 31.9,
+      "detail": "success 32min ago; run in flight 2min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,11 +26,11 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 54.5,
-      "detail": "success 54min ago; run in flight 24min"
+      "lastSuccessAgeMin": 44.8,
+      "detail": "success 45min ago; run in flight 15min"
     }
   ],
-  "censusAgeMin": 127.5,
+  "censusAgeMin": 113.2,
   "censusNote": null,
   "reds": [
     {
@@ -38,6 +38,12 @@
       "workflow": "artery-fleet.yml",
       "redStreak": 4,
       "class": "recidivist"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "fill-ledger-cron.yml",
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "FleetHQ",
@@ -58,27 +64,9 @@
       "class": "recidivist"
     },
     {
-      "repo": "Sandbox",
-      "workflow": "artery-integrity.yml",
-      "redStreak": 3,
-      "class": "recidivist"
-    },
-    {
-      "repo": "Sandbox",
-      "workflow": "fleet-heal.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
-      "class": "recidivist"
-    },
-    {
-      "repo": "Saosmartwallet",
-      "workflow": "ci.yml",
-      "redStreak": 2,
       "class": "recidivist"
     },
     {
