@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-03T18:04:08Z",
+  "at": "2026-11-03T23:39:53Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 83.3,
-      "detail": "success 83min ago; run in flight 16min"
+      "lastSuccessAgeMin": 96.1,
+      "detail": "success 96min ago; run in flight 34min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 42.8,
-      "detail": "success 43min ago; run in flight 13min"
+      "lastSuccessAgeMin": 36.2,
+      "detail": "success 36min ago; run in flight 6min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,11 +26,11 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 61.4,
-      "detail": "success 61min ago; run in flight 55min"
+      "lastSuccessAgeMin": 77.0,
+      "detail": "success 77min ago; run in flight 28min"
     }
   ],
-  "censusAgeMin": 106.7,
+  "censusAgeMin": 111.3,
   "censusNote": null,
   "reds": [
     {
@@ -52,6 +52,18 @@
       "class": "new"
     },
     {
+      "repo": "FleetHQ",
+      "workflow": "dependabot-updates",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "giant",
+      "workflow": "dependabot-updates",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
       "repo": "roshpina",
       "workflow": "gitleaks.yml",
       "redStreak": 2,
@@ -61,6 +73,18 @@
       "repo": "Sandbox",
       "workflow": "artery-fleet.yml",
       "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Sandbox",
+      "workflow": "fleet-heal.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-dex",
+      "workflow": "selftest.yml",
+      "redStreak": 19,
       "class": "recidivist"
     },
     {
