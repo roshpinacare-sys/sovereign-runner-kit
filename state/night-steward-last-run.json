@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-03T10:04:00Z",
+  "at": "2026-11-03T18:04:08Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 95.6,
-      "detail": "success 96min ago; run in flight 34min"
+      "lastSuccessAgeMin": 83.3,
+      "detail": "success 83min ago; run in flight 16min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 48.4,
-      "detail": "success 48min ago; run in flight 18min"
+      "lastSuccessAgeMin": 42.8,
+      "detail": "success 43min ago; run in flight 13min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,13 +26,25 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 51.5,
-      "detail": "success 51min ago; run in flight 6min"
+      "lastSuccessAgeMin": 61.4,
+      "detail": "success 61min ago; run in flight 55min"
     }
   ],
-  "censusAgeMin": 197.6,
+  "censusAgeMin": 106.7,
   "censusNote": null,
   "reds": [
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-autotrade-hedge-gate.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "identity-guard.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
     {
       "repo": "FleetHQ",
       "workflow": "key-census-relay-v2.yml",
@@ -52,15 +64,9 @@
       "class": "recidivist"
     },
     {
-      "repo": "Sandbox",
-      "workflow": "artery-integrity.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
-      "redStreak": 7,
+      "repo": "saos-runtime",
+      "workflow": "escrow-payroll.yml",
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
