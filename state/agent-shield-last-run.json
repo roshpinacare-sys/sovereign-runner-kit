@@ -1,9 +1,9 @@
 {
- "at": "2026-11-03T14:30:24Z",
+ "at": "2026-11-04T14:45:23Z",
  "gate": "yellow",
  "totals": {
   "blockers": 0,
-  "shoulds": 18,
+  "shoulds": 19,
   "files": 42
  },
  "targets": [
@@ -12,7 +12,7 @@
    "degraded": [],
    "files": 42,
    "blockers": 0,
-   "shoulds": 18
+   "shoulds": 19
   }
  ],
  "findings": [
@@ -131,18 +131,18 @@
   {
    "tier": "SHOULD",
    "file": "state/agent-shield-last-run.json",
-   "pointer": "$.findings[15].match",
+   "pointer": "$.findings[14].match",
    "line": 0,
    "rule": "obfuscation_primitive_in_data",
    "match": "node -e"
   },
   {
    "tier": "SHOULD",
-   "file": "state/git-first-last-run.json",
-   "pointer": "",
+   "file": "state/agent-shield-last-run.json",
+   "pointer": "$.findings[16].match",
    "line": 0,
-   "rule": "json_unreadable",
-   "match": "Expecting value: line 1 column 3 (char 2)"
+   "rule": "obfuscation_primitive_in_data",
+   "match": "node -e"
   },
   {
    "tier": "SHOULD",
@@ -159,6 +159,14 @@
    "line": 0,
    "rule": "hidden_control_chars",
    "match": "'\\u200d'"
+  },
+  {
+   "tier": "SHOULD",
+   "file": "state/git-first-last-run.json",
+   "pointer": "",
+   "line": 0,
+   "rule": "json_unreadable",
+   "match": "Expecting value: line 1 column 3 (char 2)"
   }
  ]
 }
