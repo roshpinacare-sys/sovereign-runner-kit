@@ -219,3 +219,29 @@ census: 278min old — 13 red lane(s)
 - RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
 - RED steem/gitleaks.yml streak=3 (recidivist)
 - RED steem/workflow-yaml-guard.yml streak=1 (new)
+
+## PATROL 2026-11-04T16:34:11Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | IN-FLIGHT | 121min | success 121min ago; run in flight 60min |
+| sovereign-runner-kit/keepalive.yml | IN-FLIGHT | 61min | success 61min ago; run in flight 0min |
+| sovereign-beacon/keepalive.yml | IN-FLIGHT | 63min | success 63min ago; run in flight 2min |
+
+census: 266min old — 16 red lane(s)
+- RED Autonomy/artery-autotrade-hedge-gate.yml streak=1 (new)
+- RED Autonomy/artery-flow.yml streak=1 (new)
+- RED Domain/economy-engine.yml streak=1 (new)
+- RED Domain/identity-guard.yml streak=3 (recidivist)
+- RED Domain/org-selftests.yml streak=1 (new)
+- RED Domain/stale-watchdog.yml streak=1 (new)
+- RED FleetHQ/key-census-relay-v2.yml streak=1 (new)
+- RED FleetHQ/dependabot-updates streak=2 (recidivist)
+- RED giant/dependabot-updates streak=1 (new)
+- RED roshpina/gitleaks.yml streak=2 (recidivist)
+- RED Sandbox/artery-fleet.yml streak=3 (recidivist)
+- RED Sandbox/artery-integrity.yml streak=1 (new)
+- RED saos-dex/selftest.yml streak=20 (recidivist)
+- RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
+- RED steem/gitleaks.yml streak=3 (recidivist)
+- RED steem/workflow-yaml-guard.yml streak=1 (new)
