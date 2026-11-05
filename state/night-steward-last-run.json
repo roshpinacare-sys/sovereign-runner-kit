@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-05T12:44:03Z",
+  "at": "2026-11-05T21:13:09Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 101.4,
-      "detail": "success 101min ago; run in flight 40min"
+      "lastSuccessAgeMin": 112.0,
+      "detail": "success 112min ago; run in flight 50min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 58.0,
-      "detail": "success 58min ago; run in flight 28min"
+      "lastSuccessAgeMin": 52.7,
+      "detail": "success 53min ago; run in flight 23min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,11 +26,11 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 58.5,
-      "detail": "success 59min ago; run in flight 28min"
+      "lastSuccessAgeMin": 48.1,
+      "detail": "success 48min ago; run in flight 18min"
     }
   ],
-  "censusAgeMin": 195.1,
+  "censusAgeMin": 191.2,
   "censusNote": null,
   "reds": [
     {
@@ -41,13 +41,13 @@
     },
     {
       "repo": "Domain",
-      "workflow": "fill-ledger-cron.yml",
+      "workflow": "identity-guard.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
       "repo": "Domain",
-      "workflow": "identity-guard.yml",
+      "workflow": "press-bake.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -80,24 +80,6 @@
       "workflow": "artery-fleet.yml",
       "redStreak": 1,
       "class": "new"
-    },
-    {
-      "repo": "Sandbox",
-      "workflow": "artery-integrity.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
-      "redStreak": 7,
-      "class": "recidivist"
-    },
-    {
-      "repo": "saos-runtime",
-      "workflow": "escrow-payroll.yml",
-      "redStreak": 3,
-      "class": "recidivist"
     },
     {
       "repo": "saos-sovereign-foundry",
