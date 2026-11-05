@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-04T22:12:36Z",
+  "at": "2026-11-05T02:46:12Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 89.3,
-      "detail": "success 89min ago; run in flight 28min"
+      "lastSuccessAgeMin": 117.4,
+      "detail": "success 117min ago; run in flight 56min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 65.2,
-      "detail": "success 65min ago; run in flight 5min"
+      "lastSuccessAgeMin": 36.3,
+      "detail": "success 36min ago; run in flight 6min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,13 +26,19 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 35.0,
-      "detail": "success 35min ago; run in flight 5min"
+      "lastSuccessAgeMin": 36.7,
+      "detail": "success 37min ago; run in flight 7min"
     }
   ],
-  "censusAgeMin": 146.7,
+  "censusAgeMin": 110.9,
   "censusNote": null,
   "reds": [
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-autotrade-hedge-gate.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
     {
       "repo": "Domain",
       "workflow": "bridge-keeper.yml",
@@ -42,7 +48,13 @@
     {
       "repo": "Domain",
       "workflow": "exposure-gate.yml",
-      "redStreak": 4,
+      "redStreak": 7,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "identity-guard.yml",
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
@@ -76,10 +88,10 @@
       "class": "new"
     },
     {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
-      "redStreak": 1,
-      "class": "new"
+      "repo": "saos-runtime",
+      "workflow": "escrow-payroll.yml",
+      "redStreak": 3,
+      "class": "recidivist"
     },
     {
       "repo": "saos-sovereign-foundry",
@@ -98,12 +110,6 @@
       "workflow": "workflow-yaml-guard.yml",
       "redStreak": 1,
       "class": "new"
-    },
-    {
-      "repo": "Zip",
-      "workflow": "identity-guard.yml",
-      "redStreak": 3,
-      "class": "recidivist"
     }
   ],
   "actions": [],
