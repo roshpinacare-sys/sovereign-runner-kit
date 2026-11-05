@@ -1,11 +1,11 @@
 {
- "at": "2026-11-04T14:24:00Z",
+ "at": "2026-11-05T14:33:36Z",
  "gate": "yellow",
  "totals": {
   "blockers": 0,
   "shoulds": 6,
-  "files": 179,
-  "repos": 41
+  "files": 184,
+  "repos": 42
  },
  "targets": [
   {
@@ -21,8 +21,8 @@
    "id": "roshpinacare-sys-public",
    "type": "org_repos",
    "degraded": [],
-   "repos": 40,
-   "files": 167,
+   "repos": 41,
+   "files": 172,
    "blockers": 0,
    "shoulds": 6
   }
