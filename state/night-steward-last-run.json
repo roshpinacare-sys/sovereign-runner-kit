@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-05T02:46:12Z",
+  "at": "2026-11-05T12:44:03Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 117.4,
-      "detail": "success 117min ago; run in flight 56min"
+      "lastSuccessAgeMin": 101.4,
+      "detail": "success 101min ago; run in flight 40min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 36.3,
-      "detail": "success 36min ago; run in flight 6min"
+      "lastSuccessAgeMin": 58.0,
+      "detail": "success 58min ago; run in flight 28min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,36 +26,30 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 36.7,
-      "detail": "success 37min ago; run in flight 7min"
+      "lastSuccessAgeMin": 58.5,
+      "detail": "success 59min ago; run in flight 28min"
     }
   ],
-  "censusAgeMin": 110.9,
+  "censusAgeMin": 195.1,
   "censusNote": null,
   "reds": [
     {
       "repo": "Autonomy",
       "workflow": "artery-autotrade-hedge-gate.yml",
-      "redStreak": 2,
-      "class": "recidivist"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "bridge-keeper.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
       "repo": "Domain",
-      "workflow": "exposure-gate.yml",
-      "redStreak": 7,
-      "class": "recidivist"
+      "workflow": "fill-ledger-cron.yml",
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "Domain",
       "workflow": "identity-guard.yml",
-      "redStreak": 2,
-      "class": "recidivist"
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "FleetHQ",
@@ -86,6 +80,18 @@
       "workflow": "artery-fleet.yml",
       "redStreak": 1,
       "class": "new"
+    },
+    {
+      "repo": "Sandbox",
+      "workflow": "artery-integrity.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "saos-dex",
+      "workflow": "selftest.yml",
+      "redStreak": 7,
+      "class": "recidivist"
     },
     {
       "repo": "saos-runtime",
