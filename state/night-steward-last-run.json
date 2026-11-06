@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-06T02:49:01Z",
+  "at": "2026-11-06T12:27:46Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 79.7,
-      "detail": "success 80min ago; run in flight 18min"
+      "lastSuccessAgeMin": 99.5,
+      "detail": "success 100min ago; run in flight 38min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 39.5,
-      "detail": "success 40min ago; run in flight 8min"
+      "lastSuccessAgeMin": 38.9,
+      "detail": "success 39min ago; run in flight 9min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,28 +26,22 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 70.8,
-      "detail": "success 71min ago; run in flight 21min"
+      "lastSuccessAgeMin": 55.9,
+      "detail": "success 56min ago; run in flight 26min"
     }
   ],
-  "censusAgeMin": 189.9,
+  "censusAgeMin": 346.1,
   "censusNote": null,
   "reds": [
     {
       "repo": "Autonomy",
-      "workflow": "artery-flow.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Autonomy",
       "workflow": "artery-grid.yml",
-      "redStreak": 1,
-      "class": "new"
+      "redStreak": 6,
+      "class": "recidivist"
     },
     {
-      "repo": "Autonomy",
-      "workflow": "artery-pacer.yml",
+      "repo": "Domain",
+      "workflow": "fill-ledger-cron.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -56,12 +50,6 @@
       "workflow": "identity-guard.yml",
       "redStreak": 1,
       "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "office-worldbeat.yml",
-      "redStreak": 2,
-      "class": "recidivist"
     },
     {
       "repo": "FleetHQ",
@@ -90,8 +78,14 @@
     {
       "repo": "Sandbox",
       "workflow": "artery-fleet.yml",
-      "redStreak": 1,
-      "class": "new"
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Sandbox",
+      "workflow": "artery-grid.yml",
+      "redStreak": 5,
+      "class": "recidivist"
     },
     {
       "repo": "saos-sovereign-foundry",
