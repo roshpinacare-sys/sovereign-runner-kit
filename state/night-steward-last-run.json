@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-05T21:13:09Z",
+  "at": "2026-11-06T02:49:01Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 112.0,
-      "detail": "success 112min ago; run in flight 50min"
+      "lastSuccessAgeMin": 79.7,
+      "detail": "success 80min ago; run in flight 18min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 52.7,
-      "detail": "success 53min ago; run in flight 23min"
+      "lastSuccessAgeMin": 39.5,
+      "detail": "success 40min ago; run in flight 8min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,16 +26,28 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 48.1,
-      "detail": "success 48min ago; run in flight 18min"
+      "lastSuccessAgeMin": 70.8,
+      "detail": "success 71min ago; run in flight 21min"
     }
   ],
-  "censusAgeMin": 191.2,
+  "censusAgeMin": 189.9,
   "censusNote": null,
   "reds": [
     {
       "repo": "Autonomy",
-      "workflow": "artery-autotrade-hedge-gate.yml",
+      "workflow": "artery-flow.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-grid.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-pacer.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -47,9 +59,9 @@
     },
     {
       "repo": "Domain",
-      "workflow": "press-bake.yml",
-      "redStreak": 1,
-      "class": "new"
+      "workflow": "office-worldbeat.yml",
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "FleetHQ",
