@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-07T06:35:17Z",
+  "at": "2026-11-07T13:32:00Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 79.5,
-      "detail": "success 79min ago; run in flight 18min"
+      "lastSuccessAgeMin": 68.1,
+      "detail": "success 68min ago; run in flight 7min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 60.3,
-      "detail": "success 60min ago; run in flight 30min"
+      "lastSuccessAgeMin": 49.2,
+      "detail": "success 49min ago; run in flight 19min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,25 +26,13 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 45.5,
-      "detail": "success 46min ago; run in flight 15min"
+      "lastSuccessAgeMin": 37.6,
+      "detail": "success 38min ago; run in flight 7min"
     }
   ],
-  "censusAgeMin": 279.4,
+  "censusAgeMin": 285.5,
   "censusNote": null,
   "reds": [
-    {
-      "repo": "Autonomy",
-      "workflow": "selfhood.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "economy-engine.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
     {
       "repo": "Domain",
       "workflow": "identity-guard.yml",
