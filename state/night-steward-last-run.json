@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-07T13:32:00Z",
+  "at": "2026-11-07T19:03:22Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 68.1,
-      "detail": "success 68min ago; run in flight 7min"
+      "lastSuccessAgeMin": 93.8,
+      "detail": "success 94min ago; run in flight 32min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,25 +17,43 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 49.2,
-      "detail": "success 49min ago; run in flight 19min"
+      "lastSuccessAgeMin": 46.3,
+      "detail": "success 46min ago; run in flight 16min"
     },
     {
       "repo": "sovereign-beacon",
       "workflow": "keepalive.yml",
       "cadenceMin": 30,
       "tolerateMin": 75,
-      "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 37.6,
-      "detail": "success 38min ago; run in flight 7min"
+      "state": "ALIVE",
+      "lastSuccessAgeMin": 31.4,
+      "detail": "last success 31min ago (tolerate 75)"
     }
   ],
-  "censusAgeMin": 285.5,
+  "censusAgeMin": 155.7,
   "censusNote": null,
   "reds": [
     {
+      "repo": "Autonomy",
+      "workflow": "artery-autotrade-hedge-gate.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-grid.yml",
+      "redStreak": 7,
+      "class": "recidivist"
+    },
+    {
       "repo": "Domain",
       "workflow": "identity-guard.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "ladder-refresh.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -67,6 +85,12 @@
       "repo": "Sandbox",
       "workflow": "artery-fleet.yml",
       "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Sandbox",
+      "workflow": "artery-grid.yml",
+      "redStreak": 5,
       "class": "recidivist"
     },
     {
