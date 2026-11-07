@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-06T19:40:51Z",
+  "at": "2026-11-07T00:19:29Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 100.5,
-      "detail": "success 100min ago; run in flight 39min"
+      "lastSuccessAgeMin": 71.6,
+      "detail": "success 72min ago; run in flight 10min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 45.1,
-      "detail": "success 45min ago; run in flight 15min"
+      "lastSuccessAgeMin": 50.0,
+      "detail": "success 50min ago; run in flight 18min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,11 +26,11 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 32.4,
-      "detail": "success 32min ago; run in flight 2min"
+      "lastSuccessAgeMin": 35.2,
+      "detail": "success 35min ago; run in flight 5min"
     }
   ],
-  "censusAgeMin": 225.1,
+  "censusAgeMin": 167.6,
   "censusNote": null,
   "reds": [
     {
@@ -44,18 +44,6 @@
       "workflow": "selfhood.yml",
       "redStreak": 1,
       "class": "new"
-    },
-    {
-      "repo": "Console",
-      "workflow": "pages-deploy.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Console",
-      "workflow": "truth-gate.yml",
-      "redStreak": 2,
-      "class": "recidivist"
     },
     {
       "repo": "FleetHQ",
@@ -84,13 +72,7 @@
     {
       "repo": "Sandbox",
       "workflow": "artery-fleet.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "saos-runtime",
-      "workflow": "escrow-payroll.yml",
-      "redStreak": 4,
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
