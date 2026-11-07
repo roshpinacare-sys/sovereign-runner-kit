@@ -145,3 +145,4 @@
 {"at":"2026-11-06T22:10:20Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":3,"failure10":0},"verdict":"honest-green","by":"device-integrity"}
 {"at":"2026-11-06T23:34:02Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":7,"failure10":0},"verdict":"honest-green","by":"device-integrity"}
 {"at":"2026-11-07T02:54:59Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":1,"failure10":0},"verdict":"honest-green","by":"device-integrity"}
+{"at":"2026-11-07T06:40:51Z","stasis":{"active":"false","mode":"staged"},"domainRuns":{"success10":6,"failure10":0},"verdict":"honest-green","by":"device-integrity"}

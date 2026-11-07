@@ -1321,3 +1321,12 @@
 {"at":"2026-11-07T02:54:55Z","feed":"orders","repo":"Sandbox","ageMin":37220,"capMin":35,"state":"stale","by":"device-fresh-oracle"}
 {"at":"2026-11-07T02:54:55Z","feed":"integrity","repo":"Sandbox","ageMin":37,"capMin":95,"state":"fresh","by":"device-fresh-oracle"}
 {"at":"2026-11-07T02:54:55Z","feed":"products","repo":"Domain","ageMin":877,"capMin":2880,"state":"fresh","by":"device-fresh-oracle"}
+{"at":"2026-11-07T06:40:47Z","feed":"foreman","repo":"FleetHQ","ageMin":13879,"capMin":130,"state":"stale","by":"device-fresh-oracle"}
+{"at":"2026-11-07T06:40:47Z","feed":"pulse","repo":"Domain","ageMin":20,"capMin":30,"state":"fresh","by":"device-fresh-oracle"}
+{"at":"2026-11-07T06:40:47Z","feed":"live","repo":"Domain","ageMin":76,"capMin":150,"state":"fresh","by":"device-fresh-oracle"}
+{"at":"2026-11-07T06:40:47Z","feed":"grid","repo":"Domain","ageMin":27,"capMin":95,"state":"fresh","by":"device-fresh-oracle"}
+{"at":"2026-11-07T06:40:47Z","feed":"recruit","repo":"Domain","ageMin":6826,"capMin":1600,"state":"stale","by":"device-fresh-oracle"}
+{"at":"2026-11-07T06:40:47Z","feed":"ventures","repo":"Domain","ageMin":6826,"capMin":1600,"state":"stale","by":"device-fresh-oracle"}
+{"at":"2026-11-07T06:40:47Z","feed":"orders","repo":"Sandbox","ageMin":37446,"capMin":35,"state":"stale","by":"device-fresh-oracle"}
+{"at":"2026-11-07T06:40:47Z","feed":"integrity","repo":"Sandbox","ageMin":74,"capMin":95,"state":"fresh","by":"device-fresh-oracle"}
+{"at":"2026-11-07T06:40:47Z","feed":"products","repo":"Domain","ageMin":1103,"capMin":2880,"state":"fresh","by":"device-fresh-oracle"}
