@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-08T13:54:38Z",
+  "at": "2026-11-08T19:09:14Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 121.3,
-      "detail": "success 121min ago; run in flight 60min"
+      "lastSuccessAgeMin": 67.3,
+      "detail": "success 67min ago; run in flight 6min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 52.6,
-      "detail": "success 53min ago; run in flight 22min"
+      "lastSuccessAgeMin": 34.4,
+      "detail": "success 34min ago; run in flight 4min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,34 +26,28 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 40.4,
-      "detail": "success 40min ago; run in flight 10min"
+      "lastSuccessAgeMin": 51.0,
+      "detail": "success 51min ago; run in flight 20min"
     }
   ],
-  "censusAgeMin": 293.5,
+  "censusAgeMin": 148.4,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Autonomy",
-      "workflow": "selfhood.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Console",
-      "workflow": "gitleaks.yml",
+      "repo": "Domain",
+      "workflow": "fill-ledger-cron.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
       "repo": "Domain",
-      "workflow": "gitleaks.yml",
+      "workflow": "identity-guard.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
       "repo": "Domain",
-      "workflow": "saos-act.yml",
+      "workflow": "ladder-refresh.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -84,12 +78,12 @@
     {
       "repo": "Sandbox",
       "workflow": "artery-fleet.yml",
-      "redStreak": 2,
-      "class": "recidivist"
+      "redStreak": 1,
+      "class": "new"
     },
     {
-      "repo": "Sandbox",
-      "workflow": "artery-grid.yml",
+      "repo": "saos-runtime",
+      "workflow": "steem-hand-revival.yml",
       "redStreak": 1,
       "class": "new"
     },
