@@ -1,7 +1,7 @@
 {
  "schema": "identity-guard/deep-sweep/1",
  "law": "deny-by-default/1 (wave 19.64)",
- "at": "2026-11-02T17:05:03Z",
+ "at": "2026-11-09T17:29:55Z",
  "mode": "report-only",
  "forbiddenIdentityCommits": 114,
  "allowedClasses": [
