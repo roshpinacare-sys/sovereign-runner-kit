@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-09T07:10:33Z",
+  "at": "2026-11-09T19:06:58Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 114.0,
-      "detail": "success 114min ago; run in flight 53min"
+      "lastSuccessAgeMin": 93.5,
+      "detail": "success 94min ago; run in flight 31min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,31 +17,31 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 56.1,
-      "detail": "success 56min ago; run in flight 34min"
+      "lastSuccessAgeMin": 44.0,
+      "detail": "success 44min ago; run in flight 14min"
     },
     {
       "repo": "sovereign-beacon",
       "workflow": "keepalive.yml",
       "cadenceMin": 30,
       "tolerateMin": 75,
-      "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 41.1,
-      "detail": "success 41min ago; run in flight 11min"
+      "state": "ALIVE",
+      "lastSuccessAgeMin": 30.4,
+      "detail": "last success 30min ago (tolerate 75)"
     }
   ],
-  "censusAgeMin": 324.8,
+  "censusAgeMin": 559.2,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Domain",
-      "workflow": "economy-engine.yml",
-      "redStreak": 1,
-      "class": "new"
+      "repo": "Autonomy",
+      "workflow": "artery-autotrade-hedge-gate.yml",
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "Domain",
-      "workflow": "fill-ledger-cron.yml",
+      "workflow": "identity-guard.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -58,12 +58,6 @@
       "class": "recidivist"
     },
     {
-      "repo": "giant",
-      "workflow": "dependabot-updates",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
       "repo": "roshpina",
       "workflow": "gitleaks.yml",
       "redStreak": 2,
@@ -76,9 +70,15 @@
       "class": "recidivist"
     },
     {
+      "repo": "saos-dex",
+      "workflow": "arb-scan.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
       "repo": "saos-runtime",
       "workflow": "escrow-payroll.yml",
-      "redStreak": 3,
+      "redStreak": 2,
       "class": "recidivist"
     },
     {
