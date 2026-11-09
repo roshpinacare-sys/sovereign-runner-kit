@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-08T19:09:14Z",
+  "at": "2026-11-09T00:00:30Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 67.3,
-      "detail": "success 67min ago; run in flight 6min"
+      "lastSuccessAgeMin": 113.4,
+      "detail": "success 113min ago; run in flight 51min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 34.4,
-      "detail": "success 34min ago; run in flight 4min"
+      "lastSuccessAgeMin": 51.8,
+      "detail": "success 52min ago; run in flight 21min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,28 +26,16 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 51.0,
-      "detail": "success 51min ago; run in flight 20min"
+      "lastSuccessAgeMin": 36.6,
+      "detail": "success 37min ago; run in flight 11min"
     }
   ],
-  "censusAgeMin": 148.4,
+  "censusAgeMin": 118.2,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Domain",
-      "workflow": "fill-ledger-cron.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
+      "repo": "Console",
       "workflow": "identity-guard.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "ladder-refresh.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -78,12 +66,6 @@
     {
       "repo": "Sandbox",
       "workflow": "artery-fleet.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "saos-runtime",
-      "workflow": "steem-hand-revival.yml",
       "redStreak": 1,
       "class": "new"
     },
