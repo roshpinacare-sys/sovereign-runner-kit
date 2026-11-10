@@ -1,9 +1,9 @@
 {
- "at": "2026-11-09T16:43:29Z",
+ "at": "2026-11-10T15:06:32Z",
  "gate": "yellow",
  "totals": {
   "blockers": 0,
-  "shoulds": 24,
+  "shoulds": 25,
   "files": 42
  },
  "targets": [
@@ -12,7 +12,7 @@
    "degraded": [],
    "files": 42,
    "blockers": 0,
-   "shoulds": 24
+   "shoulds": 25
   }
  ],
  "findings": [
@@ -180,6 +180,14 @@
    "tier": "SHOULD",
    "file": "state/agent-shield-last-run.json",
    "pointer": "$.findings[20].match",
+   "line": 0,
+   "rule": "obfuscation_primitive_in_data",
+   "match": "node -e"
+  },
+  {
+   "tier": "SHOULD",
+   "file": "state/agent-shield-last-run.json",
+   "pointer": "$.findings[21].match",
    "line": 0,
    "rule": "obfuscation_primitive_in_data",
    "match": "node -e"
