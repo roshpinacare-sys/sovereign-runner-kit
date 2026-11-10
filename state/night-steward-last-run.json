@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-10T02:54:50Z",
+  "at": "2026-11-10T12:58:51Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 68.7,
-      "detail": "success 69min ago; run in flight 7min"
+      "lastSuccessAgeMin": 119.1,
+      "detail": "success 119min ago; run in flight 57min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 56.7,
-      "detail": "success 57min ago; run in flight 26min"
+      "lastSuccessAgeMin": 60.5,
+      "detail": "success 60min ago; run in flight 30min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,30 +26,18 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 39.6,
-      "detail": "success 40min ago; run in flight 9min"
+      "lastSuccessAgeMin": 37.9,
+      "detail": "success 38min ago; run in flight 8min"
     }
   ],
-  "censusAgeMin": 370.2,
+  "censusAgeMin": 19.7,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Console",
-      "workflow": "truth-gate.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "identity-guard.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "ladder-refresh.yml",
-      "redStreak": 1,
-      "class": "new"
+      "repo": "Autonomy",
+      "workflow": "selfhood.yml",
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "FleetHQ",
@@ -61,12 +49,6 @@
       "repo": "FleetHQ",
       "workflow": "dependabot-updates",
       "redStreak": 2,
-      "class": "recidivist"
-    },
-    {
-      "repo": "giant",
-      "workflow": "identity-guard.yml",
-      "redStreak": 3,
       "class": "recidivist"
     },
     {
@@ -82,21 +64,15 @@
       "class": "new"
     },
     {
-      "repo": "Sandbox",
-      "workflow": "fleet-yield.yml",
-      "redStreak": 1,
-      "class": "new"
+      "repo": "saos-runtime",
+      "workflow": "escrow-payroll.yml",
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
-      "class": "recidivist"
-    },
-    {
-      "repo": "steem",
-      "workflow": "vault-onekey-verify.yml",
-      "redStreak": 3,
       "class": "recidivist"
     }
   ],
