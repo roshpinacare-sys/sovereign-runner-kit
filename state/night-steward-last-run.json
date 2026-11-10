@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-10T12:58:51Z",
+  "at": "2026-11-10T21:01:34Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 119.1,
-      "detail": "success 119min ago; run in flight 57min"
+      "lastSuccessAgeMin": 108.5,
+      "detail": "success 109min ago; run in flight 47min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 60.5,
-      "detail": "success 60min ago; run in flight 30min"
+      "lastSuccessAgeMin": 58.2,
+      "detail": "success 58min ago; run in flight 27min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,22 +26,22 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 37.9,
-      "detail": "success 38min ago; run in flight 8min"
+      "lastSuccessAgeMin": 37.2,
+      "detail": "success 37min ago; run in flight 31min"
     }
   ],
-  "censusAgeMin": 19.7,
+  "censusAgeMin": 11.7,
   "censusNote": null,
   "reds": [
     {
       "repo": "Autonomy",
       "workflow": "selfhood.yml",
-      "redStreak": 2,
-      "class": "recidivist"
+      "redStreak": 1,
+      "class": "new"
     },
     {
-      "repo": "FleetHQ",
-      "workflow": "key-census-relay-v2.yml",
+      "repo": "Domain",
+      "workflow": "fill-ledger-cron.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -64,16 +64,16 @@
       "class": "new"
     },
     {
-      "repo": "saos-runtime",
-      "workflow": "escrow-payroll.yml",
-      "redStreak": 2,
-      "class": "recidivist"
-    },
-    {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
       "class": "recidivist"
+    },
+    {
+      "repo": "steem",
+      "workflow": "vault-onekey-verify.yml",
+      "redStreak": 1,
+      "class": "new"
     }
   ],
   "actions": [],
