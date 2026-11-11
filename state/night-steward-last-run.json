@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-10T21:01:34Z",
+  "at": "2026-11-11T02:14:22Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 108.5,
-      "detail": "success 109min ago; run in flight 47min"
+      "lastSuccessAgeMin": 113.0,
+      "detail": "success 113min ago; run in flight 51min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 58.2,
-      "detail": "success 58min ago; run in flight 27min"
+      "lastSuccessAgeMin": 35.2,
+      "detail": "success 35min ago; run in flight 29min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,22 +26,16 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 37.2,
-      "detail": "success 37min ago; run in flight 31min"
+      "lastSuccessAgeMin": 47.2,
+      "detail": "success 47min ago; run in flight 17min"
     }
   ],
-  "censusAgeMin": 11.7,
+  "censusAgeMin": 17.7,
   "censusNote": null,
   "reds": [
     {
       "repo": "Autonomy",
       "workflow": "selfhood.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "fill-ledger-cron.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -60,8 +54,8 @@
     {
       "repo": "Sandbox",
       "workflow": "artery-fleet.yml",
-      "redStreak": 1,
-      "class": "new"
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "saos-sovereign-foundry",
