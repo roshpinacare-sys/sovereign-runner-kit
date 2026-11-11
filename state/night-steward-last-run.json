@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-11T09:50:01Z",
+  "at": "2026-11-11T18:02:30Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 63.5,
-      "detail": "success 63min ago; run in flight 2min"
+      "lastSuccessAgeMin": 62.8,
+      "detail": "success 63min ago; run in flight 1min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 48.5,
-      "detail": "success 49min ago; run in flight 7min"
+      "lastSuccessAgeMin": 52.4,
+      "detail": "success 52min ago; run in flight 17min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,16 +26,28 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 49.7,
-      "detail": "success 50min ago; run in flight 20min"
+      "lastSuccessAgeMin": 58.5,
+      "detail": "success 59min ago; run in flight 28min"
     }
   ],
-  "censusAgeMin": 26.6,
+  "censusAgeMin": 8.2,
   "censusNote": null,
   "reds": [
     {
       "repo": "Domain",
+      "workflow": "economy-engine.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
       "workflow": "estate-scrub.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "ladder-refresh.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -58,8 +70,8 @@
       "class": "recidivist"
     },
     {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
+      "repo": "saos-runtime",
+      "workflow": "escrow-payroll.yml",
       "redStreak": 3,
       "class": "recidivist"
     },
@@ -72,8 +84,8 @@
     {
       "repo": "steem",
       "workflow": "vault-onekey-verify.yml",
-      "redStreak": 1,
-      "class": "new"
+      "redStreak": 3,
+      "class": "recidivist"
     }
   ],
   "actions": [],

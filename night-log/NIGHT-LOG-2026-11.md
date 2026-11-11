@@ -702,3 +702,22 @@ census: 27min old — 7 red lane(s)
 - RED saos-dex/selftest.yml streak=3 (recidivist)
 - RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
 - RED steem/vault-onekey-verify.yml streak=1 (new)
+
+## PATROL 2026-11-11T18:02:31Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | IN-FLIGHT | 63min | success 63min ago; run in flight 1min |
+| sovereign-runner-kit/keepalive.yml | IN-FLIGHT | 52min | success 52min ago; run in flight 17min |
+| sovereign-beacon/keepalive.yml | IN-FLIGHT | 58min | success 59min ago; run in flight 28min |
+
+census: 8min old — 9 red lane(s)
+- RED Domain/economy-engine.yml streak=1 (new)
+- RED Domain/estate-scrub.yml streak=1 (new)
+- RED Domain/ladder-refresh.yml streak=1 (new)
+- RED FleetHQ/dependabot-updates streak=2 (recidivist)
+- RED roshpina/gitleaks.yml streak=2 (recidivist)
+- RED Sandbox/artery-fleet.yml streak=3 (recidivist)
+- RED saos-runtime/escrow-payroll.yml streak=3 (recidivist)
+- RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
+- RED steem/vault-onekey-verify.yml streak=3 (recidivist)
