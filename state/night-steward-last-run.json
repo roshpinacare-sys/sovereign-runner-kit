@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-12T18:35:20Z",
+  "at": "2026-11-12T23:52:33Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 117.6,
-      "detail": "success 118min ago; run in flight 55min"
+      "lastSuccessAgeMin": 65.1,
+      "detail": "success 65min ago; run in flight 4min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 59.6,
-      "detail": "success 60min ago; run in flight 29min"
+      "lastSuccessAgeMin": 44.3,
+      "detail": "success 44min ago; run in flight 14min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,11 +26,11 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 31.1,
-      "detail": "success 31min ago; run in flight 1min"
+      "lastSuccessAgeMin": 46.5,
+      "detail": "success 47min ago; run in flight 16min"
     }
   ],
-  "censusAgeMin": 14.9,
+  "censusAgeMin": 332.1,
   "censusNote": null,
   "reds": [
     {
