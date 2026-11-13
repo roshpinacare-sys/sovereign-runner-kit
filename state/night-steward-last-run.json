@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-13T07:17:11Z",
+  "at": "2026-11-13T16:43:21Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 79.2,
-      "detail": "success 79min ago; run in flight 18min"
+      "lastSuccessAgeMin": 90.0,
+      "detail": "success 90min ago; run in flight 29min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 36.5,
-      "detail": "success 36min ago; run in flight 6min"
+      "lastSuccessAgeMin": 58.6,
+      "detail": "success 59min ago; run in flight 28min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,19 +26,13 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 38.2,
-      "detail": "success 38min ago; run in flight 8min"
+      "lastSuccessAgeMin": 30.3,
+      "detail": "success 30min ago; run in flight 0min"
     }
   ],
-  "censusAgeMin": 372.2,
+  "censusAgeMin": 432.9,
   "censusNote": null,
   "reds": [
-    {
-      "repo": "Autonomy",
-      "workflow": "selfhood.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
     {
       "repo": "FleetHQ",
       "workflow": "dependabot-updates",
@@ -56,18 +50,6 @@
       "workflow": "artery-fleet.yml",
       "redStreak": 1,
       "class": "new"
-    },
-    {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "saos-runtime",
-      "workflow": "escrow-payroll.yml",
-      "redStreak": 2,
-      "class": "recidivist"
     },
     {
       "repo": "saos-sovereign-foundry",
