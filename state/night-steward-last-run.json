@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-14T07:00:03Z",
+  "at": "2026-11-14T15:20:26Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 85.4,
-      "detail": "success 85min ago; run in flight 24min"
+      "lastSuccessAgeMin": 94.8,
+      "detail": "success 95min ago; run in flight 33min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 40.0,
-      "detail": "success 40min ago; run in flight 10min"
+      "lastSuccessAgeMin": 57.8,
+      "detail": "success 58min ago; run in flight 28min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,13 +26,19 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 40.5,
-      "detail": "success 41min ago; run in flight 10min"
+      "lastSuccessAgeMin": 57.8,
+      "detail": "success 58min ago; run in flight 28min"
     }
   ],
-  "censusAgeMin": 40.2,
+  "censusAgeMin": 16.4,
   "censusNote": null,
   "reds": [
+    {
+      "repo": "Domain",
+      "workflow": "fill-ledger-cron.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
     {
       "repo": "FleetHQ",
       "workflow": "dependabot-updates",
@@ -52,9 +58,21 @@
       "class": "new"
     },
     {
+      "repo": "saos-runtime",
+      "workflow": "escrow-payroll.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
+      "class": "recidivist"
+    },
+    {
+      "repo": "steem",
+      "workflow": "vault-onekey-verify.yml",
+      "redStreak": 2,
       "class": "recidivist"
     }
   ],
