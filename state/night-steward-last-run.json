@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-15T02:07:07Z",
+  "at": "2026-11-15T09:53:55Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 121.4,
-      "detail": "success 121min ago; run in flight 60min"
+      "lastSuccessAgeMin": 97.5,
+      "detail": "success 97min ago; run in flight 36min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 41.1,
-      "detail": "success 41min ago; run in flight 11min"
+      "lastSuccessAgeMin": 55.2,
+      "detail": "success 55min ago; run in flight 25min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,22 +26,22 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 41.1,
-      "detail": "success 41min ago; run in flight 11min"
+      "lastSuccessAgeMin": 55.3,
+      "detail": "success 55min ago; run in flight 25min"
     }
   ],
-  "censusAgeMin": 12.7,
+  "censusAgeMin": 30.9,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Domain",
-      "workflow": "fill-ledger-cron.yml",
+      "repo": "Autonomy",
+      "workflow": "artery-autotrade-hedge-gate.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
       "repo": "Domain",
-      "workflow": "ladder-refresh.yml",
+      "workflow": "fill-ledger-cron.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -64,21 +64,9 @@
       "class": "new"
     },
     {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
-      "redStreak": 7,
-      "class": "recidivist"
-    },
-    {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
-      "class": "recidivist"
-    },
-    {
-      "repo": "steem",
-      "workflow": "vault-onekey-verify.yml",
-      "redStreak": 2,
       "class": "recidivist"
     }
   ],
