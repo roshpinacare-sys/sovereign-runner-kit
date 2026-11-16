@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-15T23:10:53Z",
+  "at": "2026-11-16T07:15:36Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 97.6,
-      "detail": "success 98min ago; run in flight 36min"
+      "lastSuccessAgeMin": 91.0,
+      "detail": "success 91min ago; run in flight 29min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 41.6,
-      "detail": "success 42min ago; run in flight 11min"
+      "lastSuccessAgeMin": 43.7,
+      "detail": "success 44min ago; run in flight 14min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,16 +26,52 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 49.5,
-      "detail": "success 49min ago; run in flight 19min"
+      "lastSuccessAgeMin": 49.9,
+      "detail": "success 50min ago; run in flight 20min"
     }
   ],
-  "censusAgeMin": 22.3,
+  "censusAgeMin": 50.0,
   "censusNote": null,
   "reds": [
     {
+      "repo": "Autonomy",
+      "workflow": "selfhood.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Console",
+      "workflow": "identity-guard.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "artery-integrity-twin.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "fleet-census-cron.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
       "repo": "Domain",
       "workflow": "identity-guard.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "market-grid-cron.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "office-worldbeat.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -58,10 +94,16 @@
       "class": "new"
     },
     {
-      "repo": "saos-owner-channel",
-      "workflow": "dependabot-updates",
+      "repo": "saos-dex",
+      "workflow": "curate.yml",
       "redStreak": 1,
       "class": "new"
+    },
+    {
+      "repo": "saos-dex",
+      "workflow": "selftest.yml",
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "saos-sovereign-foundry",
