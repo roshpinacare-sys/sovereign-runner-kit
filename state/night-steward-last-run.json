@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-16T07:15:36Z",
+  "at": "2026-11-16T18:53:55Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 91.0,
-      "detail": "success 91min ago; run in flight 29min"
+      "lastSuccessAgeMin": 108.5,
+      "detail": "success 108min ago; run in flight 47min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 43.7,
-      "detail": "success 44min ago; run in flight 14min"
+      "lastSuccessAgeMin": 56.8,
+      "detail": "success 57min ago; run in flight 27min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,52 +26,28 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 49.9,
-      "detail": "success 50min ago; run in flight 20min"
+      "lastSuccessAgeMin": 38.6,
+      "detail": "success 39min ago; run in flight 8min"
     }
   ],
-  "censusAgeMin": 50.0,
+  "censusAgeMin": 22.1,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Autonomy",
-      "workflow": "selfhood.yml",
-      "redStreak": 2,
+      "repo": "Domain",
+      "workflow": "exposure-gate.yml",
+      "redStreak": 3,
       "class": "recidivist"
     },
     {
-      "repo": "Console",
+      "repo": "Domain",
       "workflow": "identity-guard.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
-      "repo": "Domain",
-      "workflow": "artery-integrity-twin.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "fleet-census-cron.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "identity-guard.yml",
-      "redStreak": 2,
-      "class": "recidivist"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "market-grid-cron.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "office-worldbeat.yml",
+      "repo": "dynamis",
+      "workflow": "sample-refresh.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -94,21 +70,15 @@
       "class": "new"
     },
     {
-      "repo": "saos-dex",
-      "workflow": "curate.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
-      "redStreak": 2,
-      "class": "recidivist"
-    },
-    {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
+      "class": "recidivist"
+    },
+    {
+      "repo": "steem",
+      "workflow": "vault-onekey-verify.yml",
+      "redStreak": 2,
       "class": "recidivist"
     }
   ],
