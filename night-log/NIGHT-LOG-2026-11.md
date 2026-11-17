@@ -1019,3 +1019,24 @@ census: 13min old — 8 red lane(s)
 - RED saos-dex/selftest.yml streak=2 (recidivist)
 - RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
 - RED saos-sovereign-foundry/dependabot-updates streak=1 (new)
+
+## PATROL 2026-11-17T13:50:44Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | IN-FLIGHT | 70min | success 71min ago; run in flight 9min |
+| sovereign-runner-kit/keepalive.yml | IN-FLIGHT | 48min | success 48min ago; run in flight 18min |
+| sovereign-beacon/keepalive.yml | REVIVED | 359min | last success 359min ago > tolerate 75min ; revival: dispatched (HTTP 204) |
+
+census: 28min old — 10 red lane(s)
+- RED Autonomy/artery-participation.yml streak=1 (new)
+- RED Console/saos-fold.yml streak=1 (new)
+- RED Domain/cloud-pulse.yml streak=1 (new)
+- RED dynamis/fill-watcher.yml streak=2 (recidivist)
+- RED FleetHQ/dependabot-updates streak=2 (recidivist)
+- RED roshpina/gitleaks.yml streak=2 (recidivist)
+- RED Sandbox/fleet-yield.yml streak=3 (recidivist)
+- RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
+- RED saos-sovereign-foundry/dependabot-updates streak=1 (new)
+- RED sovereign-beacon/keepalive.yml streak=2 (recidivist)
+- ACTION sovereign-beacon/keepalive.yml: revival-dispatch — dispatched (HTTP 204)

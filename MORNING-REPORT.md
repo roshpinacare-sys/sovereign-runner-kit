@@ -1,33 +1,37 @@
 # MORNING REPORT — the night, in the architecture's own words
 
-_generated 2026-11-17T03:09:03Z by night-steward (wave-19.34, owner order trace 1a1557f9ff40cf6d: "וודא את עצמך... התפתחות רצינית של הארכיטקטורה מתוך עצמה")_
+_generated 2026-11-17T13:50:44Z by night-steward (wave-19.34, owner order trace 1a1557f9ff40cf6d: "וודא את עצמך... התפתחות רצינית של הארכיטקטורה מתוך עצמה")_
 
 ## The three hearts (dispatch-chain planes)
 
 | plane | lane | state | last success | note |
 |---|---|---|---|---|
-| sovereign-executor | `fleet-beat.yml` | **IN-FLIGHT** | 102min ago | success 102min ago; run in flight 40min |
-| sovereign-runner-kit | `keepalive.yml` | **IN-FLIGHT** | 38min ago | success 38min ago; run in flight 7min |
-| sovereign-beacon | `keepalive.yml` | **IN-FLIGHT** | 49min ago | success 49min ago; run in flight 19min |
+| sovereign-executor | `fleet-beat.yml` | **IN-FLIGHT** | 70min ago | success 71min ago; run in flight 9min |
+| sovereign-runner-kit | `keepalive.yml` | **IN-FLIGHT** | 48min ago | success 48min ago; run in flight 18min |
+| sovereign-beacon | `keepalive.yml` | **REVIVED** | 359min ago | last success 359min ago > tolerate 75min ; **revival: dispatched (HTTP 204)** |
+
+**The architecture healed itself 1 time(s) tonight** (revival dispatches above) — each revival is the same lawful operation beat-keepalive has exercised since wave-19.10.
 
 ## Red lanes (data, recorded — fixes travel as netrun claims per doctrine)
 
-_as-of census `capturedAt` 2026-11-17T02:55:57.974013+00:00 (13min old at patrol time) — recidivist streaks shrink as the fixes from tonight's waves land their next green runs_
+_as-of census `capturedAt` 2026-11-17T13:22:49.707754+00:00 (28min old at patrol time) — recidivist streaks shrink as the fixes from tonight's waves land their next green runs_
 
 | repo | lane | red streak | class |
 |---|---|---|---|
-| Domain | `fill-ledger-cron.yml` | 1 | new |
-| dynamis | `sample-refresh.yml` | 1 | new |
+| Autonomy | `artery-participation.yml` | 1 | new |
+| Console | `saos-fold.yml` | 1 | new |
+| Domain | `cloud-pulse.yml` | 1 | new |
+| dynamis | `fill-watcher.yml` | 2 | recidivist |
 | FleetHQ | `dependabot-updates` | 2 | recidivist |
 | roshpina | `gitleaks.yml` | 2 | recidivist |
-| Sandbox | `artery-fleet.yml` | 1 | new |
-| saos-dex | `selftest.yml` | 2 | recidivist |
+| Sandbox | `fleet-yield.yml` | 3 | recidivist |
 | saos-sovereign-foundry | `gitleaks.yml` | 43 | recidivist |
 | saos-sovereign-foundry | `dependabot-updates` | 1 | new |
+| sovereign-beacon | `keepalive.yml` | 2 | recidivist |
 
 ## Census freshness (the measured GitHub schedule-jitter witness)
 
-fleet-keeper's census is 13 minutes old at patrol time. Measured tonight (wave-19.34): GitHub schedule jitter on this org runs to hours (netrun-loop declared 30min — gaps to 6.5h; fleet-keeper declared 2h — gaps to 9h). This is exactly why the plane chains are dispatch-chains and why this patrol exists.
+fleet-keeper's census is 28 minutes old at patrol time. Measured tonight (wave-19.34): GitHub schedule jitter on this org runs to hours (netrun-loop declared 30min — gaps to 6.5h; fleet-keeper declared 2h — gaps to 9h). This is exactly why the plane chains are dispatch-chains and why this patrol exists.
 
 ## Standing falsifiable prediction (owns tomorrow)
 
