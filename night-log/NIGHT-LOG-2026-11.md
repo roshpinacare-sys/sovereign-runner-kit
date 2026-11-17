@@ -1040,3 +1040,35 @@ census: 28min old — 10 red lane(s)
 - RED saos-sovereign-foundry/dependabot-updates streak=1 (new)
 - RED sovereign-beacon/keepalive.yml streak=2 (recidivist)
 - ACTION sovereign-beacon/keepalive.yml: revival-dispatch — dispatched (HTTP 204)
+
+## PATROL 2026-11-17T22:38:14Z
+
+| plane | state | last success | detail |
+|---|---|---|---|
+| sovereign-executor/fleet-beat.yml | REVIVED | 168min | last success 168min ago > tolerate 100min ; revival: dispatched (HTTP 204) |
+| sovereign-runner-kit/keepalive.yml | REVIVED | 92min | last success 92min ago > tolerate 75min ; revival: dispatched (HTTP 204) |
+| sovereign-beacon/keepalive.yml | REVIVED | 105min | last success 105min ago > tolerate 75min ; revival: dispatched (HTTP 204) |
+
+census: 16min old — 19 red lane(s)
+- RED Autonomy/federation.yml streak=1 (new)
+- RED Console/identity-guard.yml streak=1 (new)
+- RED Console/saos-fold.yml streak=1 (new)
+- RED Domain/cloud-pulse.yml streak=1 (new)
+- RED Domain/grid-trigger-twin.yml streak=1 (new)
+- RED Domain/identity-guard.yml streak=1 (new)
+- RED Domain/network-census.yml streak=1 (new)
+- RED dynamis/fill-watcher.yml streak=2 (recidivist)
+- RED FleetHQ/dependabot-updates streak=2 (recidivist)
+- RED roshpina/gitleaks.yml streak=2 (recidivist)
+- RED Sandbox/artery-fleet.yml streak=1 (new)
+- RED Sandbox/fleet-yield.yml streak=3 (recidivist)
+- RED saos-dex/curate.yml streak=4 (recidivist)
+- RED saos-owner-channel/channel-guard.yml streak=1 (new)
+- RED saos-sovereign-foundry/gitleaks.yml streak=43 (recidivist)
+- RED saos-sovereign-foundry/dependabot-updates streak=1 (new)
+- RED sovereign-beacon/keepalive.yml streak=1 (new)
+- RED sovereign-executor/fleet-beat.yml streak=1 (new)
+- RED sovereign-runner-kit/keepalive.yml streak=1 (new)
+- ACTION sovereign-executor/fleet-beat.yml: revival-dispatch — dispatched (HTTP 204)
+- ACTION sovereign-runner-kit/keepalive.yml: revival-dispatch — dispatched (HTTP 204)
+- ACTION sovereign-beacon/keepalive.yml: revival-dispatch — dispatched (HTTP 204)
