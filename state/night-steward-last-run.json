@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-16T18:53:55Z",
+  "at": "2026-11-17T03:09:01Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 108.5,
-      "detail": "success 108min ago; run in flight 47min"
+      "lastSuccessAgeMin": 101.6,
+      "detail": "success 102min ago; run in flight 40min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 56.8,
-      "detail": "success 57min ago; run in flight 27min"
+      "lastSuccessAgeMin": 37.5,
+      "detail": "success 38min ago; run in flight 7min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,22 +26,16 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 38.6,
-      "detail": "success 39min ago; run in flight 8min"
+      "lastSuccessAgeMin": 49.4,
+      "detail": "success 49min ago; run in flight 19min"
     }
   ],
-  "censusAgeMin": 22.1,
+  "censusAgeMin": 13.1,
   "censusNote": null,
   "reds": [
     {
       "repo": "Domain",
-      "workflow": "exposure-gate.yml",
-      "redStreak": 3,
-      "class": "recidivist"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "identity-guard.yml",
+      "workflow": "fill-ledger-cron.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -70,16 +64,22 @@
       "class": "new"
     },
     {
+      "repo": "saos-dex",
+      "workflow": "selftest.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
       "repo": "saos-sovereign-foundry",
       "workflow": "gitleaks.yml",
       "redStreak": 43,
       "class": "recidivist"
     },
     {
-      "repo": "steem",
-      "workflow": "vault-onekey-verify.yml",
-      "redStreak": 2,
-      "class": "recidivist"
+      "repo": "saos-sovereign-foundry",
+      "workflow": "dependabot-updates",
+      "redStreak": 1,
+      "class": "new"
     }
   ],
   "actions": [],
