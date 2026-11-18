@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-18T03:50:59Z",
+  "at": "2026-11-18T13:26:04Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 113.8,
-      "detail": "success 114min ago; run in flight 53min"
+      "lastSuccessAgeMin": 76.0,
+      "detail": "success 76min ago; run in flight 15min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 40.8,
-      "detail": "success 41min ago; run in flight 11min"
+      "lastSuccessAgeMin": 42.4,
+      "detail": "success 42min ago; run in flight 38min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,30 +26,36 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 40.8,
-      "detail": "success 41min ago; run in flight 11min"
+      "lastSuccessAgeMin": 41.9,
+      "detail": "success 42min ago; run in flight 14min"
     }
   ],
-  "censusAgeMin": 329.2,
+  "censusAgeMin": 360.2,
   "censusNote": null,
   "reds": [
     {
       "repo": "Autonomy",
-      "workflow": "federation.yml",
+      "workflow": "fleet-yield.yml",
+      "redStreak": 3,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Autonomy",
+      "workflow": "selfhood.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
       "repo": "Console",
-      "workflow": "identity-guard.yml",
-      "redStreak": 1,
-      "class": "new"
+      "workflow": "truth-gate.yml",
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "Console",
-      "workflow": "saos-fold.yml",
-      "redStreak": 1,
-      "class": "new"
+      "workflow": "weave-census.yml",
+      "redStreak": 2,
+      "class": "recidivist"
     },
     {
       "repo": "Domain",
@@ -59,7 +65,7 @@
     },
     {
       "repo": "Domain",
-      "workflow": "grid-trigger-twin.yml",
+      "workflow": "fill-ledger-cron.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -71,13 +77,7 @@
     },
     {
       "repo": "Domain",
-      "workflow": "network-census.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "dynamis",
-      "workflow": "fill-watcher.yml",
+      "workflow": "saos-act.yml",
       "redStreak": 2,
       "class": "recidivist"
     },
@@ -102,7 +102,7 @@
     {
       "repo": "Sandbox",
       "workflow": "fleet-yield.yml",
-      "redStreak": 3,
+      "redStreak": 4,
       "class": "recidivist"
     },
     {
@@ -110,12 +110,6 @@
       "workflow": "curate.yml",
       "redStreak": 4,
       "class": "recidivist"
-    },
-    {
-      "repo": "saos-owner-channel",
-      "workflow": "channel-guard.yml",
-      "redStreak": 1,
-      "class": "new"
     },
     {
       "repo": "saos-sovereign-foundry",
@@ -126,24 +120,6 @@
     {
       "repo": "saos-sovereign-foundry",
       "workflow": "dependabot-updates",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "sovereign-beacon",
-      "workflow": "keepalive.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "sovereign-executor",
-      "workflow": "fleet-beat.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "sovereign-runner-kit",
-      "workflow": "keepalive.yml",
       "redStreak": 1,
       "class": "new"
     }
