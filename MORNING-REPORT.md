@@ -1,20 +1,18 @@
 # MORNING REPORT — the night, in the architecture's own words
 
-_generated 2026-11-17T22:38:14Z by night-steward (wave-19.34, owner order trace 1a1557f9ff40cf6d: "וודא את עצמך... התפתחות רצינית של הארכיטקטורה מתוך עצמה")_
+_generated 2026-11-18T03:51:00Z by night-steward (wave-19.34, owner order trace 1a1557f9ff40cf6d: "וודא את עצמך... התפתחות רצינית של הארכיטקטורה מתוך עצמה")_
 
 ## The three hearts (dispatch-chain planes)
 
 | plane | lane | state | last success | note |
 |---|---|---|---|---|
-| sovereign-executor | `fleet-beat.yml` | **REVIVED** | 168min ago | last success 168min ago > tolerate 100min ; **revival: dispatched (HTTP 204)** |
-| sovereign-runner-kit | `keepalive.yml` | **REVIVED** | 92min ago | last success 92min ago > tolerate 75min ; **revival: dispatched (HTTP 204)** |
-| sovereign-beacon | `keepalive.yml` | **REVIVED** | 105min ago | last success 105min ago > tolerate 75min ; **revival: dispatched (HTTP 204)** |
-
-**The architecture healed itself 3 time(s) tonight** (revival dispatches above) — each revival is the same lawful operation beat-keepalive has exercised since wave-19.10.
+| sovereign-executor | `fleet-beat.yml` | **IN-FLIGHT** | 114min ago | success 114min ago; run in flight 53min |
+| sovereign-runner-kit | `keepalive.yml` | **IN-FLIGHT** | 41min ago | success 41min ago; run in flight 11min |
+| sovereign-beacon | `keepalive.yml` | **IN-FLIGHT** | 41min ago | success 41min ago; run in flight 11min |
 
 ## Red lanes (data, recorded — fixes travel as netrun claims per doctrine)
 
-_as-of census `capturedAt` 2026-11-17T22:21:50.051420+00:00 (16min old at patrol time) — recidivist streaks shrink as the fixes from tonight's waves land their next green runs_
+_as-of census `capturedAt` 2026-11-17T22:21:50.051420+00:00 (329min old at patrol time) — recidivist streaks shrink as the fixes from tonight's waves land their next green runs_
 
 | repo | lane | red streak | class |
 |---|---|---|---|
@@ -40,7 +38,7 @@ _as-of census `capturedAt` 2026-11-17T22:21:50.051420+00:00 (16min old at patrol
 
 ## Census freshness (the measured GitHub schedule-jitter witness)
 
-fleet-keeper's census is 16 minutes old at patrol time. Measured tonight (wave-19.34): GitHub schedule jitter on this org runs to hours (netrun-loop declared 30min — gaps to 6.5h; fleet-keeper declared 2h — gaps to 9h). This is exactly why the plane chains are dispatch-chains and why this patrol exists.
+fleet-keeper's census is 329 minutes old at patrol time. Measured tonight (wave-19.34): GitHub schedule jitter on this org runs to hours (netrun-loop declared 30min — gaps to 6.5h; fleet-keeper declared 2h — gaps to 9h). This is exactly why the plane chains are dispatch-chains and why this patrol exists.
 
 ## Standing falsifiable prediction (owns tomorrow)
 

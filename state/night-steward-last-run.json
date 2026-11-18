@@ -1,39 +1,36 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-17T22:38:09Z",
+  "at": "2026-11-18T03:50:59Z",
   "chains": [
     {
       "repo": "sovereign-executor",
       "workflow": "fleet-beat.yml",
       "cadenceMin": 60,
       "tolerateMin": 100,
-      "state": "REVIVED",
-      "lastSuccessAgeMin": 167.6,
-      "detail": "last success 168min ago > tolerate 100min",
-      "revival": "dispatched (HTTP 204)"
+      "state": "IN-FLIGHT",
+      "lastSuccessAgeMin": 113.8,
+      "detail": "success 114min ago; run in flight 53min"
     },
     {
       "repo": "sovereign-runner-kit",
       "workflow": "keepalive.yml",
       "cadenceMin": 30,
       "tolerateMin": 75,
-      "state": "REVIVED",
-      "lastSuccessAgeMin": 91.9,
-      "detail": "last success 92min ago > tolerate 75min",
-      "revival": "dispatched (HTTP 204)"
+      "state": "IN-FLIGHT",
+      "lastSuccessAgeMin": 40.8,
+      "detail": "success 41min ago; run in flight 11min"
     },
     {
       "repo": "sovereign-beacon",
       "workflow": "keepalive.yml",
       "cadenceMin": 30,
       "tolerateMin": 75,
-      "state": "REVIVED",
-      "lastSuccessAgeMin": 104.8,
-      "detail": "last success 105min ago > tolerate 75min",
-      "revival": "dispatched (HTTP 204)"
+      "state": "IN-FLIGHT",
+      "lastSuccessAgeMin": 40.8,
+      "detail": "success 41min ago; run in flight 11min"
     }
   ],
-  "censusAgeMin": 16.4,
+  "censusAgeMin": 329.2,
   "censusNote": null,
   "reds": [
     {
@@ -151,22 +148,6 @@
       "class": "new"
     }
   ],
-  "actions": [
-    {
-      "target": "sovereign-executor/fleet-beat.yml",
-      "action": "revival-dispatch",
-      "result": "dispatched (HTTP 204)"
-    },
-    {
-      "target": "sovereign-runner-kit/keepalive.yml",
-      "action": "revival-dispatch",
-      "result": "dispatched (HTTP 204)"
-    },
-    {
-      "target": "sovereign-beacon/keepalive.yml",
-      "action": "revival-dispatch",
-      "result": "dispatched (HTTP 204)"
-    }
-  ],
+  "actions": [],
   "verdict": "patrol-recorded"
 }
