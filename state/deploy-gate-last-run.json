@@ -1,10 +1,10 @@
 {
- "at": "2026-11-18T15:32:50Z",
+ "at": "2026-11-19T15:40:16Z",
  "gate": "yellow",
  "totals": {
   "blockers": 0,
   "shoulds": 6,
-  "files": 195,
+  "files": 196,
   "repos": 46
  },
  "targets": [
@@ -22,7 +22,7 @@
    "type": "org_repos",
    "degraded": [],
    "repos": 45,
-   "files": 183,
+   "files": 184,
    "blockers": 0,
    "shoulds": 6
   }
