@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-18T22:20:01Z",
+  "at": "2026-11-19T03:50:29Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 117.6,
-      "detail": "success 118min ago; run in flight 56min"
+      "lastSuccessAgeMin": 80.6,
+      "detail": "success 81min ago; run in flight 19min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 33.1,
-      "detail": "success 33min ago; run in flight 3min"
+      "lastSuccessAgeMin": 30.5,
+      "detail": "success 31min ago; run in flight 0min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,16 +26,22 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 51.9,
-      "detail": "success 52min ago; run in flight 2min"
+      "lastSuccessAgeMin": 62.4,
+      "detail": "success 62min ago; run in flight 30min"
     }
   ],
-  "censusAgeMin": 304.0,
+  "censusAgeMin": 207.9,
   "censusNote": null,
   "reds": [
     {
       "repo": "Autonomy",
       "workflow": "selfhood.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Console",
+      "workflow": "console-publish.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -66,18 +72,6 @@
     {
       "repo": "roshpina",
       "workflow": "gitleaks.yml",
-      "redStreak": 2,
-      "class": "recidivist"
-    },
-    {
-      "repo": "saos-dex",
-      "workflow": "curate.yml",
-      "redStreak": 4,
-      "class": "recidivist"
-    },
-    {
-      "repo": "saos-dex",
-      "workflow": "selftest.yml",
       "redStreak": 2,
       "class": "recidivist"
     },
