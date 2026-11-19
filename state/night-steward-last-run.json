@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-19T03:50:29Z",
+  "at": "2026-11-19T13:52:59Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 80.6,
-      "detail": "success 81min ago; run in flight 19min"
+      "lastSuccessAgeMin": 69.6,
+      "detail": "success 70min ago; run in flight 8min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 30.5,
-      "detail": "success 31min ago; run in flight 0min"
+      "lastSuccessAgeMin": 58.3,
+      "detail": "success 58min ago; run in flight 28min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,34 +26,16 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 62.4,
-      "detail": "success 62min ago; run in flight 30min"
+      "lastSuccessAgeMin": 58.0,
+      "detail": "success 58min ago; run in flight 28min"
     }
   ],
-  "censusAgeMin": 207.9,
+  "censusAgeMin": 214.0,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Autonomy",
-      "workflow": "selfhood.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Console",
-      "workflow": "console-publish.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
       "repo": "Console",
       "workflow": "weave-census.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Domain",
-      "workflow": "saos-act.yml",
       "redStreak": 1,
       "class": "new"
     },
