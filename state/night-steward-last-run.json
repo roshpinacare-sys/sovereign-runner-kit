@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-19T13:52:59Z",
+  "at": "2026-11-19T22:26:08Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 69.6,
-      "detail": "success 70min ago; run in flight 8min"
+      "lastSuccessAgeMin": 91.0,
+      "detail": "success 91min ago; run in flight 29min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,7 +17,7 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 58.3,
+      "lastSuccessAgeMin": 58.2,
       "detail": "success 58min ago; run in flight 28min"
     },
     {
@@ -26,24 +26,36 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 58.0,
+      "lastSuccessAgeMin": 57.8,
       "detail": "success 58min ago; run in flight 28min"
     }
   ],
-  "censusAgeMin": 214.0,
+  "censusAgeMin": 111.8,
   "censusNote": null,
   "reds": [
     {
       "repo": "Console",
-      "workflow": "weave-census.yml",
+      "workflow": "truth-gate.yml",
+      "redStreak": 17,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Domain",
+      "workflow": "saos-act.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
-      "repo": "FleetHQ",
-      "workflow": "dependabot-updates",
-      "redStreak": 2,
-      "class": "recidivist"
+      "repo": "Domain",
+      "workflow": "site-link-audit.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "giant",
+      "workflow": "identity-guard.yml",
+      "redStreak": 1,
+      "class": "new"
     },
     {
       "repo": "giant",
