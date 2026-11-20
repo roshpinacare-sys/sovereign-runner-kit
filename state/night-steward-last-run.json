@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-20T13:35:44Z",
+  "at": "2026-11-20T21:58:31Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 79.8,
-      "detail": "success 80min ago; run in flight 19min"
+      "lastSuccessAgeMin": 89.5,
+      "detail": "success 90min ago; run in flight 28min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 30.8,
-      "detail": "success 31min ago; run in flight 0min"
+      "lastSuccessAgeMin": 49.7,
+      "detail": "success 50min ago; run in flight 19min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,46 +26,46 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 59.9,
-      "detail": "success 60min ago; run in flight 30min"
+      "lastSuccessAgeMin": 49.7,
+      "detail": "success 50min ago; run in flight 19min"
     }
   ],
-  "censusAgeMin": 43.1,
+  "censusAgeMin": 9.0,
   "censusNote": null,
   "reds": [
     {
-      "repo": "Autonomy",
-      "workflow": "artery-builder.yml",
-      "redStreak": 1,
-      "class": "new"
-    },
-    {
-      "repo": "Autonomy",
-      "workflow": "selfhood.yml",
+      "repo": "Console",
+      "workflow": "console-publish.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
       "repo": "Console",
       "workflow": "truth-gate.yml",
-      "redStreak": 6,
+      "redStreak": 14,
       "class": "recidivist"
     },
     {
       "repo": "Domain",
-      "workflow": "economy-engine.yml",
+      "workflow": "operator-console.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
       "repo": "Domain",
-      "workflow": "site-link-audit.yml",
+      "workflow": "saos-act.yml",
       "redStreak": 1,
       "class": "new"
     },
     {
       "repo": "giant",
       "workflow": "dependabot-updates",
+      "redStreak": 1,
+      "class": "new"
+    },
+    {
+      "repo": "Pulse",
+      "workflow": "pages-deploy.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -79,6 +79,12 @@
       "repo": "Sandbox",
       "workflow": "artery-grid.yml",
       "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "saos-dex",
+      "workflow": "selftest.yml",
+      "redStreak": 3,
       "class": "recidivist"
     },
     {
