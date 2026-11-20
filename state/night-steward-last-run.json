@@ -1,6 +1,6 @@
 {
   "schema": "saos.night-steward/1",
-  "at": "2026-11-20T03:43:09Z",
+  "at": "2026-11-20T13:35:44Z",
   "chains": [
     {
       "repo": "sovereign-executor",
@@ -8,8 +8,8 @@
       "cadenceMin": 60,
       "tolerateMin": 100,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 101.4,
-      "detail": "success 101min ago; run in flight 39min"
+      "lastSuccessAgeMin": 79.8,
+      "detail": "success 80min ago; run in flight 19min"
     },
     {
       "repo": "sovereign-runner-kit",
@@ -17,8 +17,8 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 42.1,
-      "detail": "success 42min ago; run in flight 12min"
+      "lastSuccessAgeMin": 30.8,
+      "detail": "success 31min ago; run in flight 0min"
     },
     {
       "repo": "sovereign-beacon",
@@ -26,13 +26,19 @@
       "cadenceMin": 30,
       "tolerateMin": 75,
       "state": "IN-FLIGHT",
-      "lastSuccessAgeMin": 42.1,
-      "detail": "success 42min ago; run in flight 12min"
+      "lastSuccessAgeMin": 59.9,
+      "detail": "success 60min ago; run in flight 30min"
     }
   ],
-  "censusAgeMin": 30.6,
+  "censusAgeMin": 43.1,
   "censusNote": null,
   "reds": [
+    {
+      "repo": "Autonomy",
+      "workflow": "artery-builder.yml",
+      "redStreak": 1,
+      "class": "new"
+    },
     {
       "repo": "Autonomy",
       "workflow": "selfhood.yml",
@@ -42,7 +48,7 @@
     {
       "repo": "Console",
       "workflow": "truth-gate.yml",
-      "redStreak": 15,
+      "redStreak": 6,
       "class": "recidivist"
     },
     {
@@ -53,7 +59,7 @@
     },
     {
       "repo": "Domain",
-      "workflow": "saos-act.yml",
+      "workflow": "site-link-audit.yml",
       "redStreak": 1,
       "class": "new"
     },
@@ -66,6 +72,12 @@
     {
       "repo": "roshpina",
       "workflow": "gitleaks.yml",
+      "redStreak": 2,
+      "class": "recidivist"
+    },
+    {
+      "repo": "Sandbox",
+      "workflow": "artery-grid.yml",
       "redStreak": 2,
       "class": "recidivist"
     },
