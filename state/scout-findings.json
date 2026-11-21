@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:21:46Z",
+ "updated": "2026-11-21T13:43:47Z",
  "counts": {
   "REJECT": 1,
   "CAUTION": 121,
@@ -61,7 +61,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:42Z",
+   "last_seen": "2026-11-21T13:42:25Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -69,8 +69,8 @@
    ],
    "evidence": {},
    "meta": {
-    "stars": 34602,
-    "forks": 8039,
+    "stars": 34607,
+    "forks": 8038,
     "license": "NOASSERTION",
     "archived": false,
     "language": "C++",
@@ -96,15 +96,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:43Z",
+   "last_seen": "2026-11-21T13:42:26Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 60246,
-    "forks": 9376,
+    "stars": 60249,
+    "forks": 9360,
     "license": "NOASSERTION",
     "archived": false,
     "language": "Python",
@@ -131,7 +131,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:43Z",
+   "last_seen": "2026-11-21T13:42:27Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -139,7 +139,7 @@
    ],
    "evidence": {},
    "meta": {
-    "stars": 805,
+    "stars": 806,
     "forks": 273,
     "license": "NOASSERTION",
     "archived": false,
@@ -166,7 +166,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:51Z",
+   "last_seen": "2026-11-21T13:42:32Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -175,13 +175,13 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 38623,
+    "stars": 38633,
     "forks": 3184,
     "license": "NOASSERTION",
     "archived": false,
     "language": "TypeScript",
     "created": "2024-04-19",
-    "pushed": "2026-11-20",
+    "pushed": "2026-11-21",
     "owner_type": "Organization",
     "description": "Open Source Alternative to Vercel, Netlify and Heroku."
    }
@@ -202,14 +202,14 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:53Z",
+   "last_seen": "2026-11-21T13:42:36Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 8960,
+    "stars": 8968,
     "forks": 938,
     "license": "NOASSERTION",
     "archived": false,
@@ -236,7 +236,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:54Z",
+   "last_seen": "2026-11-21T13:42:37Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -249,7 +249,7 @@
     "archived": false,
     "language": "Python",
     "created": "2025-01-17",
-    "pushed": "2026-10-02",
+    "pushed": "2026-11-21",
     "owner_type": "Organization",
     "description": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Att"
    }
@@ -270,15 +270,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:55Z",
+   "last_seen": "2026-11-21T13:42:38Z",
    "verdict": "CAUTION",
    "reasons": [
     "stale_push_gt_2y"
    ],
    "evidence": {},
    "meta": {
-    "stars": 59886,
-    "forks": 3260,
+    "stars": 59891,
+    "forks": 3182,
     "license": "BSD-3-Clause",
     "archived": false,
     "language": "Go",
@@ -304,14 +304,14 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:56Z",
+   "last_seen": "2026-11-21T13:42:39Z",
    "verdict": "CAUTION",
    "reasons": [
     "stale_push_gt_2y"
    ],
    "evidence": {},
    "meta": {
-    "stars": 37299,
+    "stars": 37303,
     "forks": 3368,
     "license": "AGPL-3.0",
     "archived": false,
@@ -338,20 +338,20 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:01Z",
+   "last_seen": "2026-11-21T13:42:47Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
    ],
    "evidence": {},
    "meta": {
-    "stars": 25070,
+    "stars": 25081,
     "forks": 1760,
     "license": "NOASSERTION",
     "archived": false,
     "language": "C",
     "created": "2015-08-22",
-    "pushed": "2026-11-20",
+    "pushed": "2026-11-21",
     "owner_type": "Organization",
     "description": "HandBrake's development repository "
    }
@@ -372,7 +372,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:13Z",
+   "last_seen": "2026-11-21T13:43:05Z",
    "verdict": "CAUTION",
    "reasons": [
     "workflow_pull_request_target"
@@ -383,7 +383,7 @@
     ]
    },
    "meta": {
-    "stars": 2119,
+    "stars": 2118,
     "forks": 364,
     "license": "MIT",
     "archived": false,
@@ -410,7 +410,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:13Z",
+   "last_seen": "2026-11-21T13:43:05Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -445,7 +445,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:22Z",
+   "last_seen": "2026-11-21T13:43:18Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -481,7 +481,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:23Z",
+   "last_seen": "2026-11-21T13:43:19Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -517,7 +517,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:24Z",
+   "last_seen": "2026-11-21T13:43:20Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -553,7 +553,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:24Z",
+   "last_seen": "2026-11-21T13:43:20Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -589,7 +589,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:25Z",
+   "last_seen": "2026-11-21T13:43:21Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -625,7 +625,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:25Z",
+   "last_seen": "2026-11-21T13:43:22Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -661,7 +661,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:26Z",
+   "last_seen": "2026-11-21T13:43:23Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -697,7 +697,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:27Z",
+   "last_seen": "2026-11-21T13:43:24Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -734,7 +734,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:27Z",
+   "last_seen": "2026-11-21T13:43:25Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -769,7 +769,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:28Z",
+   "last_seen": "2026-11-21T13:43:25Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -805,7 +805,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:29Z",
+   "last_seen": "2026-11-21T13:43:26Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -841,7 +841,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:29Z",
+   "last_seen": "2026-11-21T13:43:27Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -879,7 +879,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:30Z",
+   "last_seen": "2026-11-21T13:43:28Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -915,7 +915,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:30Z",
+   "last_seen": "2026-11-21T13:43:28Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -951,7 +951,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:31Z",
+   "last_seen": "2026-11-21T13:43:29Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -987,7 +987,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:32Z",
+   "last_seen": "2026-11-21T13:43:30Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1022,7 +1022,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:32Z",
+   "last_seen": "2026-11-21T13:43:31Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1057,7 +1057,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:33Z",
+   "last_seen": "2026-11-21T13:43:32Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1094,7 +1094,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:34Z",
+   "last_seen": "2026-11-21T13:43:32Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1129,7 +1129,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:35Z",
+   "last_seen": "2026-11-21T13:43:34Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1167,7 +1167,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:35Z",
+   "last_seen": "2026-11-21T13:43:34Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1203,7 +1203,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:36Z",
+   "last_seen": "2026-11-21T13:43:35Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1241,7 +1241,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:37Z",
+   "last_seen": "2026-11-21T13:43:36Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1277,7 +1277,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:37Z",
+   "last_seen": "2026-11-21T13:43:37Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1313,7 +1313,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:38Z",
+   "last_seen": "2026-11-21T13:43:38Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1349,7 +1349,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:39Z",
+   "last_seen": "2026-11-21T13:43:38Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1385,7 +1385,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:39Z",
+   "last_seen": "2026-11-21T13:43:39Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1421,7 +1421,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:40Z",
+   "last_seen": "2026-11-21T13:43:40Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1457,7 +1457,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:40Z",
+   "last_seen": "2026-11-21T13:43:41Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1492,7 +1492,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:41Z",
+   "last_seen": "2026-11-21T13:43:41Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1527,7 +1527,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:41Z",
+   "last_seen": "2026-11-21T13:43:42Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1563,7 +1563,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:42Z",
+   "last_seen": "2026-11-21T13:43:43Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1599,7 +1599,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:43Z",
+   "last_seen": "2026-11-21T13:43:44Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1634,7 +1634,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:43Z",
+   "last_seen": "2026-11-21T13:43:44Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license"
@@ -1669,7 +1669,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:44Z",
+   "last_seen": "2026-11-21T13:43:46Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1707,7 +1707,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:45Z",
+   "last_seen": "2026-11-21T13:43:46Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -1743,7 +1743,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:45Z",
+   "last_seen": "2026-11-21T13:43:47Z",
    "verdict": "CAUTION",
    "reasons": [
     "no_spdx_license",
@@ -4453,7 +4453,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:37Z",
+   "last_seen": "2026-11-21T13:42:17Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4462,7 +4462,7 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 7618,
+    "stars": 7620,
     "forks": 304,
     "license": "MIT",
     "archived": false,
@@ -4489,7 +4489,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:38Z",
+   "last_seen": "2026-11-21T13:42:19Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4523,15 +4523,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:39Z",
+   "last_seen": "2026-11-21T13:42:21Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 38640,
-    "forks": 2622,
+    "stars": 38690,
+    "forks": 2627,
     "license": "GPL-3.0",
     "archived": false,
     "language": "TypeScript",
@@ -4557,7 +4557,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:40Z",
+   "last_seen": "2026-11-21T13:42:22Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4566,7 +4566,7 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 12403,
+    "stars": 12404,
     "forks": 724,
     "license": "MIT",
     "archived": false,
@@ -4593,7 +4593,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:41Z",
+   "last_seen": "2026-11-21T13:42:24Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4606,7 +4606,7 @@
     "archived": false,
     "language": "Python",
     "created": "2025-12-10",
-    "pushed": "2026-11-14",
+    "pushed": "2026-11-20",
     "owner_type": "User",
     "description": "Krawl is a customizable, lightweight, cloud-native web deception server and anti-crawler that creates fake web applications with low-hanging vulnerabilities usi"
    }
@@ -4627,15 +4627,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:46Z",
+   "last_seen": "2026-11-21T13:42:29Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 104585,
-    "forks": 10940,
+    "stars": 104765,
+    "forks": 10950,
     "license": "BSD-3-Clause",
     "archived": false,
     "language": "Python",
@@ -4661,15 +4661,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:49Z",
+   "last_seen": "2026-11-21T13:42:30Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 9533,
-    "forks": 1633,
+    "stars": 9534,
+    "forks": 1634,
     "license": "MIT",
     "archived": false,
     "language": "PHP",
@@ -4695,7 +4695,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:53Z",
+   "last_seen": "2026-11-21T13:42:35Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4729,15 +4729,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:55Z",
+   "last_seen": "2026-11-21T13:42:39Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 4178,
-    "forks": 626,
+    "stars": 4183,
+    "forks": 625,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -4763,14 +4763,14 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:57Z",
+   "last_seen": "2026-11-21T13:42:41Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 43157,
+    "stars": 43178,
     "forks": 2024,
     "license": "Apache-2.0",
     "archived": false,
@@ -4797,14 +4797,14 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:58Z",
+   "last_seen": "2026-11-21T13:42:42Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 2327,
+    "stars": 2329,
     "forks": 208,
     "license": "MIT",
     "archived": false,
@@ -4831,15 +4831,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:59Z",
+   "last_seen": "2026-11-21T13:42:43Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 126057,
-    "forks": 11039,
+    "stars": 126151,
+    "forks": 11032,
     "license": "CC0-1.0",
     "archived": false,
     "language": null,
@@ -4865,15 +4865,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:20:59Z",
+   "last_seen": "2026-11-21T13:42:44Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 2172,
-    "forks": 289,
+    "stars": 2173,
+    "forks": 290,
     "license": "MIT",
     "archived": false,
     "language": "Python",
@@ -4899,15 +4899,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:00Z",
+   "last_seen": "2026-11-21T13:42:45Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 13448,
-    "forks": 774,
+    "stars": 13451,
+    "forks": 775,
     "license": "MIT",
     "archived": false,
     "language": null,
@@ -4933,7 +4933,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:02Z",
+   "last_seen": "2026-11-21T13:42:48Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -4941,7 +4941,7 @@
    "evidence": {},
    "meta": {
     "stars": 211,
-    "forks": 24,
+    "forks": 25,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -4975,14 +4975,14 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:03Z",
+   "last_seen": "2026-11-21T13:42:50Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 1909,
+    "stars": 1926,
     "forks": 214,
     "license": "GPL-3.0",
     "archived": false,
@@ -5009,15 +5009,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:04Z",
+   "last_seen": "2026-11-21T13:42:51Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 30157,
-    "forks": 3625,
+    "stars": 30160,
+    "forks": 3628,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -5043,20 +5043,20 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:05Z",
+   "last_seen": "2026-11-21T13:42:52Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 52374,
-    "forks": 6343,
+    "stars": 52595,
+    "forks": 6373,
     "license": "Apache-2.0",
     "archived": false,
     "language": "C",
     "created": "2026-07-01",
-    "pushed": "2026-11-20",
+    "pushed": "2026-11-21",
     "owner_type": "User",
     "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, ru"
    }
@@ -5077,7 +5077,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:06Z",
+   "last_seen": "2026-11-21T13:42:54Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5086,7 +5086,7 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 5221,
+    "stars": 5227,
     "forks": 251,
     "license": "Apache-2.0",
     "archived": false,
@@ -5113,7 +5113,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:07Z",
+   "last_seen": "2026-11-21T13:42:55Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5147,7 +5147,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:08Z",
+   "last_seen": "2026-11-21T13:42:57Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5156,8 +5156,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 52123,
-    "forks": 6100,
+    "stars": 52158,
+    "forks": 6106,
     "license": "AGPL-3.0",
     "archived": false,
     "language": "TypeScript",
@@ -5183,7 +5183,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:09Z",
+   "last_seen": "2026-11-21T13:42:59Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5192,8 +5192,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 93412,
-    "forks": 7969,
+    "stars": 93509,
+    "forks": 7960,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -5219,7 +5219,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:11Z",
+   "last_seen": "2026-11-21T13:43:01Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5255,7 +5255,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:12Z",
+   "last_seen": "2026-11-21T13:43:03Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5289,7 +5289,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:14Z",
+   "last_seen": "2026-11-21T13:43:07Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5298,7 +5298,7 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 7367,
+    "stars": 7387,
     "forks": 689,
     "license": "MIT",
     "archived": false,
@@ -5325,20 +5325,20 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:16Z",
+   "last_seen": "2026-11-21T13:43:10Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 21829,
-    "forks": 2146,
+    "stars": 21847,
+    "forks": 2152,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Rust",
     "created": "2026-02-24",
-    "pushed": "2026-11-20",
+    "pushed": "2026-11-21",
     "owner_type": "Organization",
     "description": "OpenShell is the safe, private runtime for autonomous AI agents."
    }
@@ -5359,14 +5359,14 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:17Z",
+   "last_seen": "2026-11-21T13:43:11Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 6363,
+    "stars": 6364,
     "forks": 1173,
     "license": "AGPL-3.0",
     "archived": false,
@@ -5393,7 +5393,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:19Z",
+   "last_seen": "2026-11-21T13:43:14Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5427,15 +5427,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:19Z",
+   "last_seen": "2026-11-21T13:43:14Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 42761,
-    "forks": 4891,
+    "stars": 42850,
+    "forks": 4899,
     "license": "Apache-2.0",
     "archived": false,
     "language": "Python",
@@ -5461,15 +5461,15 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:20Z",
+   "last_seen": "2026-11-21T13:43:16Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
    ],
    "evidence": {},
    "meta": {
-    "stars": 99007,
-    "forks": 9920,
+    "stars": 99075,
+    "forks": 9912,
     "license": "MIT",
     "archived": false,
     "language": "TypeScript",
@@ -5495,7 +5495,7 @@
      ]
     }
    ],
-   "last_seen": "2026-11-20T14:21:22Z",
+   "last_seen": "2026-11-21T13:43:17Z",
    "verdict": "STUDY",
    "reasons": [
     "baseline_static_vet_clean"
@@ -5504,8 +5504,8 @@
     "install_scripts": {}
    },
    "meta": {
-    "stars": 7313,
-    "forks": 545,
+    "stars": 7315,
+    "forks": 547,
     "license": "AGPL-3.0",
     "archived": false,
     "language": "TypeScript",
